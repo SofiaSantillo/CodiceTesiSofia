@@ -1,4 +1,4 @@
-DATASET:
+## DATASET:
 I dati DLS sono i dati in tabella nell'articolo "Microfluidic manufacturing of liposomes: Development and
 optimization by design of experiment and machine learning."
 Ho riportati questi ultimi in un file .csv tramite extraction_data_DLS in "Extraction_dataset".
@@ -6,7 +6,7 @@ Ho applicato a questi dati l'IQR (codice in Extraction_dataset/IQR_data_DLS.py).
 salva in un file .png i grafici delle distribuzioni di ogni signola colonna prima e dopo l'applicazione dell'IQR; salva il nuovo dataset ripulito 
 (elimato delle righe che avevano outlier per qualche features) nel file Data_DLS/data_DLS_cleaned.csv
 
-COSTRUZIONE DAG: Possibili metodi da implentare analizzati:
+## COSTRUZIONE DAG: Possibili metodi da implentare analizzati:
 - CasualNex + NOTEARS: CausalNex è uno strumento utile se vuoi partire dai dati e costruire una rete causale, cioè un grafo che ti dice chi influenza chi. 
 È pensato per chi lavora con dati tabellari (come CSV) e vuole capire le relazioni di causa-effetto in modo automatico.
 Il cuore del processo è l’algoritmo NOTEARS, che è intelligente perché non prova tutte le combinazioni possibili, ma impara direttamente la struttura del grafo risolvendo un problema di ottimizzazione matematica. 
@@ -18,7 +18,7 @@ Usa metodi solidi come il PC algorithm, FCI, GES e altri. Questi algoritmi ti pe
 
 SCELTA MODELLO COSTRUZIONE DAG: CausalNex + NOTEARS --> Ottimi trade-off tra semplicità e potenza
 
-VALIDAZIONE DAG:
+## VALIDAZIONE DAG:
 - Cross validation causale
 - Simulazione di dati casuali (interventi) 
 - Testing statistico delle dipendenza casuali- Stima della probabilità condizionale
