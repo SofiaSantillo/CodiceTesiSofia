@@ -1,0 +1,30 @@
+# Ambiente virtuale Python
+venv/
+
+# File Python compilati
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# File di log
+*.log
+
+# Notebook checkpoint
+.ipynb_checkpoints/
+
+# File di configurazione locali
+.env
+*.env
+
+# File grandi o generati
+*.dll
+*.lib
+*.so
+*.exe
+
+# VSCode settings locali
+.vscode/
