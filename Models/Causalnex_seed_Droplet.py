@@ -11,7 +11,7 @@ df_numeric = df.select_dtypes(include=['number'])
 df_numeric = df_numeric.dropna()
 
 # Build the DAG with NOTEARS
-dag = from_pandas(df_numeric) #provato fino a 10k iter -> non converge
+dag = from_pandas(df_numeric) ### provato fino a 10k iter -> non converge
 
 G = nx.DiGraph()
 G.add_nodes_from(dag.nodes)

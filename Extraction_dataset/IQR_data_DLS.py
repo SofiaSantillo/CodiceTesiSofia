@@ -3,14 +3,14 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-# Carica il file CSV originale
+
 df = pd.read_csv("Data_DLS/data_DLS.csv")
 
-# Crea una directory per i grafici se non esiste
+
 output_dir = "Plots"
 os.makedirs(output_dir, exist_ok=True)
 
-# Forza la conversione delle colonne a tipo numerico, impostando errori a NaN
+
 df = df.apply(pd.to_numeric, errors='coerce')
 
 # Rimozione outlier tramite IQR su tutte le colonne numeriche
@@ -46,11 +46,9 @@ for col_name in df.select_dtypes(include=[float, int]).columns:
 
     print(f"Processed column: {col_name}, plot saved to {plot_path}")
 
-# Rimuovi le righe che contengono valori mancanti in colonne diverse dalla prima
-columns_to_check = df.columns[1:]  # tutte tranne la prima
+columns_to_check = df.columns[1:]  
 df_final = df.dropna(subset=columns_to_check)
 
-# Salva il DataFrame finale in un nuovo CSV
 df_final.to_csv("Data_DLS/data_DLS_cleaned.csv", index=False)
 
 print("Elaborazione completa. File finale salvato in data_DLS_final_cleaned.csv")
