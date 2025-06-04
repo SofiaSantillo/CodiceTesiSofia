@@ -1,0 +1,39 @@
+STEP1: COSTRUZIONE DAG GENERICO 
+vedere grafico draw.io
+
+STEP2: SELEZIONE DELLE VARIABILI PER IL PROTOTIPO
+    VAR. OSSERVATE | VAR. LATENTI/NON OSSERVABILI    | VAR. DI TRATTAMENTO | VAR. TARGET
+        CHIP       | Micro-turbolenze nel chip (mt)  |                     |    SIZE
+        SIZE       |                                 |                     |                    
+
+STEP 3/4: COSTRUZIONE DAG PER PROTOTIPO
+vedere grafuco draw.io -> riferimento "Primo DAG" - Articolo 2
+
+STEP 5: IDFENTIFICAZIONE BACK-DOOR PATH
+    FRR:
+        FRR-> SIZE: percorso causale diretto
+        FRR-> CHIP-> SIZE: percorso causale indiretto (non è back-door path perch+ inizia da FRR con una freccia entrante in CHIP, quindi è parte del suo meccanismo causale)
+        FRR-> mt-> SIZE: percorso causale indiretto
+        FRR-> CHIP-> mt-> SIZE: percorso causale più lungo (nessuna freccia entra in chip da una variabile indipendente da chip)
+    CHIP:
+        CHIP-> SIZE: percorso causale diretto
+        CHIP-> mt-> SIZE: percorso causale indiretto
+n.b.: l'unico nodo che causa CHIP è FRR che però è una variabile osservata, quidni possiamo condizionare su FRR se serve bloccare percorsi confondenti
+
+STEP 6: FORCHETTE, COLLIDER, CATENE
+    CHIP -> mt -> SIZE: catena
+    FRR -> CHIP -> mt: catena
+    FRR -> mt -> SIZE: catena
+    SIZE <- CHIP -> mt: forchetta
+    CHIP <- FRR -> mt: forchetta
+    FRR -> mt <- CHIP: collider
+    CHIP -> SIZE <- mt: collider
+    FRR -> CHIP -> SIZE: catena
+    CHIP -> SIZE <- FRR: collider
+    CHIP <- FRR -> SIZE: forchetta
+    mt <- FRR -> SIZE: forchetta
+    mt -> SIZE <- FRR: collider
+
+STEP 7: COSTRUZIONE EQ STRUTTURALI -> codice
+### STEP 8: CALCOLO CON DO-CALCOLUS O MODELLAZIONE ---> modello interventista ###
+STEP 9: VALIDAZIONE
