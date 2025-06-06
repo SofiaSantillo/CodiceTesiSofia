@@ -1,0 +1,179 @@
+2025-06-06 08:32:46,909 - Inizio esecuzione script di regressione bayesiana.
+2025-06-06 08:32:46,909 - Dataset caricato con colonne: ['TFR', 'FRR', 'SIZE', 'PDI']
+2025-06-06 08:32:46,909 - Distribuzioni a priori caricate correttamente.
+2025-06-06 08:32:46,909 - Modeling P(FRR | TFR)
+2025-06-06 08:32:47,407 - Initializing NUTS using jitter+adapt_diag...
+2025-06-06 08:32:49,220 - Multiprocess sampling (4 chains in 4 jobs)
+2025-06-06 08:32:49,221 - NUTS: [alpha, beta, sigma, xi_prior, y_obs_unobserved]
+2025-06-06 08:32:49,257 - Errore nella modellazione di P(FRR | TFR): 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2025-06-06 08:32:49,265 - Modeling P(SIZE | TFR)
+2025-06-06 08:32:49,624 - Initializing NUTS using jitter+adapt_diag...
+2025-06-06 08:32:50,704 - Multiprocess sampling (4 chains in 4 jobs)
+2025-06-06 08:32:50,711 - NUTS: [alpha, beta, sigma, xi_prior, y_obs_unobserved]
+2025-06-06 08:32:50,741 - Errore nella modellazione di P(SIZE | TFR): 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2025-06-06 08:32:50,741 - Modeling P(PDI | TFR)
+2025-06-06 08:32:50,913 - Initializing NUTS using jitter+adapt_diag...
+2025-06-06 08:32:51,812 - Multiprocess sampling (4 chains in 4 jobs)
+2025-06-06 08:32:51,812 - NUTS: [alpha, beta, sigma, xi_prior]
+2025-06-06 08:32:51,856 - Errore nella modellazione di P(PDI | TFR): 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2025-06-06 08:32:51,856 - Modeling P(TFR | FRR)
+2025-06-06 08:32:52,104 - Initializing NUTS using jitter+adapt_diag...
+2025-06-06 08:32:53,000 - Errore nella modellazione di P(TFR | FRR): Initial evaluation of model at starting point failed!
+Starting values:
+{'alpha': array(-0.16932964), 'beta': array(0.24603585), 'sigma_log__': array(-0.33679142), 'xi_prior_log__': array(1.93559715)}
+
+Logp initial evaluation results:
+{'alpha': -3.22, 'beta': -3.22, 'sigma': -0.82, 'xi_prior': -1.01, 'y_obs': nan}
+You can call `model.debug()` for more details.
+2025-06-06 08:32:53,000 - Modeling P(SIZE | FRR)
+2025-06-06 08:59:29,786 - INFO - Dataset caricato con colonne: ['TFR', 'FRR', 'SIZE', 'PDI']
+2025-06-06 08:59:29,786 - INFO - Distribuzioni a priori caricate correttamente.
+2025-06-06 08:59:29,786 - INFO - 
+
+
+START
+
+
+2025-06-06 08:59:29,786 - INFO - 
+Calcolando la probabilità congiunta e condizionata per TFR e FRR
+2025-06-06 08:59:29,801 - INFO - Probabilità congiunta P(TFR, FRR): 0.06294883879501986
+2025-06-06 08:59:29,804 - INFO - Probabilità condizionata P(TFR | FRR): 0.007494869747945502
+2025-06-06 08:59:29,804 - INFO - 
+Calcolando la probabilità congiunta e condizionata per TFR e SIZE
+2025-06-06 08:59:29,806 - INFO - Probabilità congiunta P(TFR, SIZE): 0.0
+2025-06-06 08:59:29,807 - INFO - Probabilità condizionata P(TFR | SIZE): 0.0
+2025-06-06 08:59:29,808 - INFO - 
+Calcolando la probabilità congiunta e condizionata per TFR e PDI
+2025-06-06 08:59:29,810 - INFO - Probabilità congiunta P(TFR, PDI): 0.5285412262156448
+2025-06-06 08:59:29,811 - INFO - Probabilità condizionata P(TFR | PDI): 0.004999999999999999
+2025-06-06 08:59:29,813 - INFO - 
+Calcolando la probabilità congiunta e condizionata per FRR e TFR
+2025-06-06 08:59:29,814 - INFO - Probabilità congiunta P(FRR, TFR): 0.06294883879501986
+2025-06-06 08:59:29,815 - INFO - Probabilità condizionata P(FRR | TFR): 0.0012589767759003973
+2025-06-06 08:59:29,816 - INFO - 
+Calcolando la probabilità congiunta e condizionata per FRR e SIZE
+2025-06-06 08:59:29,818 - INFO - Probabilità congiunta P(FRR, SIZE): 0.0
+2025-06-06 08:59:29,820 - INFO - Probabilità condizionata P(FRR | SIZE): 0.0
+2025-06-06 08:59:29,821 - INFO - 
+Calcolando la probabilità congiunta e condizionata per FRR e PDI
+2025-06-06 08:59:29,823 - INFO - Probabilità congiunta P(FRR, PDI): 0.13308422578228302
+2025-06-06 08:59:29,825 - INFO - Probabilità condizionata P(FRR | PDI): 0.001258976775900397
+2025-06-06 08:59:29,826 - INFO - 
+Calcolando la probabilità congiunta e condizionata per SIZE e TFR
+2025-06-06 08:59:29,827 - INFO - Probabilità congiunta P(SIZE, TFR): 0.0
+2025-06-06 08:59:29,829 - INFO - Probabilità condizionata P(SIZE | TFR): 0.0
+2025-06-06 08:59:29,829 - INFO - 
+Calcolando la probabilità congiunta e condizionata per SIZE e FRR
+2025-06-06 08:59:29,831 - INFO - Probabilità congiunta P(SIZE, FRR): 0.0
+2025-06-06 08:59:29,831 - INFO - Probabilità condizionata P(SIZE | FRR): 0.0
+2025-06-06 08:59:29,831 - INFO - 
+Calcolando la probabilità congiunta e condizionata per SIZE e PDI
+2025-06-06 08:59:29,835 - INFO - Probabilità congiunta P(SIZE, PDI): 0.0
+2025-06-06 08:59:29,838 - INFO - Probabilità condizionata P(SIZE | PDI): 0.0
+2025-06-06 08:59:29,838 - INFO - 
+Calcolando la probabilità congiunta e condizionata per PDI e TFR
+2025-06-06 08:59:29,840 - INFO - Probabilità congiunta P(PDI, TFR): 0.5285412262156448
+2025-06-06 08:59:29,843 - INFO - Probabilità condizionata P(PDI | TFR): 0.010570824524312896
+2025-06-06 08:59:29,843 - INFO - 
+Calcolando la probabilità congiunta e condizionata per PDI e FRR
+2025-06-06 08:59:29,845 - INFO - Probabilità congiunta P(PDI, FRR): 0.13308422578228302
+2025-06-06 08:59:29,847 - INFO - Probabilità condizionata P(PDI | FRR): 0.015845390587622625
+2025-06-06 08:59:29,848 - INFO - 
+Calcolando la probabilità congiunta e condizionata per PDI e SIZE
+2025-06-06 08:59:29,849 - INFO - Probabilità congiunta P(PDI, SIZE): 0.0
+2025-06-06 08:59:29,853 - INFO - Probabilità condizionata P(PDI | SIZE): 0.0
+2025-06-06 09:23:00,861 - INFO - Dataset loaded with columns: ['TFR', 'FRR', 'SIZE', 'PDI']
+2025-06-06 09:23:00,862 - INFO - Prior distributions loaded successfully.
+2025-06-06 09:23:00,862 - INFO - 
+
+
+START
+
+
+2025-06-06 09:23:00,862 - INFO - 
+Calculating joint and conditional probability for TFR and FRR
+2025-06-06 09:23:00,862 - INFO - Joint probability P(TFR, FRR): 0.06294883879501986
+2025-06-06 09:23:00,862 - INFO - Conditional probability P(TFR | FRR): 0.007494869747945502
+2025-06-06 09:23:00,862 - INFO - 
+Calculating joint and conditional probability for TFR and SIZE
+2025-06-06 09:23:00,876 - INFO - Joint probability P(TFR, SIZE): 0.0
+2025-06-06 09:23:00,878 - INFO - Conditional probability P(TFR | SIZE): 0.0
+2025-06-06 09:23:00,878 - INFO - 
+Calculating joint and conditional probability for TFR and PDI
+2025-06-06 09:23:00,878 - INFO - Joint probability P(TFR, PDI): 0.5285412262156448
+2025-06-06 09:23:00,878 - INFO - Conditional probability P(TFR | PDI): 0.004999999999999999
+2025-06-06 09:23:00,878 - INFO - 
+Calculating joint and conditional probability for FRR and TFR
+2025-06-06 09:23:00,878 - INFO - Joint probability P(FRR, TFR): 0.06294883879501986
+2025-06-06 09:23:00,878 - INFO - Conditional probability P(FRR | TFR): 0.0012589767759003973
+2025-06-06 09:23:00,878 - INFO - 
+Calculating joint and conditional probability for FRR and SIZE
+2025-06-06 09:23:00,878 - INFO - Joint probability P(FRR, SIZE): 0.0
+2025-06-06 09:23:00,878 - INFO - Conditional probability P(FRR | SIZE): 0.0
+2025-06-06 09:23:00,878 - INFO - 
+Calculating joint and conditional probability for FRR and PDI
+2025-06-06 09:23:00,878 - INFO - Joint probability P(FRR, PDI): 0.13308422578228302
+2025-06-06 09:23:00,878 - INFO - Conditional probability P(FRR | PDI): 0.001258976775900397
+2025-06-06 09:23:00,878 - INFO - 
+Calculating joint and conditional probability for SIZE and TFR
+2025-06-06 09:23:00,878 - INFO - Joint probability P(SIZE, TFR): 0.0
+2025-06-06 09:23:00,878 - INFO - Conditional probability P(SIZE | TFR): 0.0
+2025-06-06 09:23:00,878 - INFO - 
+Calculating joint and conditional probability for SIZE and FRR
+2025-06-06 09:23:00,878 - INFO - Joint probability P(SIZE, FRR): 0.0
+2025-06-06 09:23:00,893 - INFO - Conditional probability P(SIZE | FRR): 0.0
+2025-06-06 09:23:00,893 - INFO - 
+Calculating joint and conditional probability for SIZE and PDI
+2025-06-06 09:23:00,895 - INFO - Joint probability P(SIZE, PDI): 0.0
+2025-06-06 09:23:00,896 - INFO - Conditional probability P(SIZE | PDI): 0.0
+2025-06-06 09:23:00,896 - INFO - 
+Calculating joint and conditional probability for PDI and TFR
+2025-06-06 09:23:00,896 - INFO - Joint probability P(PDI, TFR): 0.5285412262156448
+2025-06-06 09:23:00,896 - INFO - Conditional probability P(PDI | TFR): 0.010570824524312896
+2025-06-06 09:23:00,896 - INFO - 
+Calculating joint and conditional probability for PDI and FRR
+2025-06-06 09:23:00,896 - INFO - Joint probability P(PDI, FRR): 0.13308422578228302
+2025-06-06 09:23:00,896 - INFO - Conditional probability P(PDI | FRR): 0.015845390587622625
+2025-06-06 09:23:00,896 - INFO - 
+Calculating joint and conditional probability for PDI and SIZE
+2025-06-06 09:23:00,896 - INFO - Joint probability P(PDI, SIZE): 0.0
+2025-06-06 09:23:00,896 - INFO - Conditional probability P(PDI | SIZE): 0.0
