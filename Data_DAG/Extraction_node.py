@@ -4,7 +4,7 @@ input_file = 'Data_Droplet/seed.csv'
 
 # Read the CSV file
 df = pd.read_csv(input_file)
-columns_to_extract = ['FRR', 'CHIP', 'SIZE', 'PDI', 'TFR']
+columns_to_extract = ['TFR', 'FRR', 'SIZE', 'PDI']
 df_selected = df[columns_to_extract]
 
 # Write to a new CSV file 

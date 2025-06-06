@@ -96,10 +96,6 @@ def build_linear_model(dag, dataset):
     for arc in dag.arcs:
         G.add_edge(*arc)
 
-    # One-hot encoding for 'CHIP'
-    if 'CHIP' in dataset.columns:
-        dataset = pd.get_dummies(dataset, columns=['CHIP'], drop_first=True)
-
     imputer = SimpleImputer(strategy='mean')
 
     for node in G.nodes:
@@ -132,13 +128,29 @@ def build_linear_model(dag, dataset):
 def build_nonlinear_model(dag, dataset):
     nonlinear_models = {}
     G = nx.DiGraph()
+    """
+    Converts a causaldag.DAG object into a NetworkX directed graph.
+
+    Parameters:
+        dag (causaldag.DAG): The DAG object containing arcs.
+
+    Returns:
+        networkx.DiGraph: Directed graph with the same structure as the DAG.
+    """
 
     for arc in dag.arcs:
         G.add_edge(*arc)
+    """
+    Aggiunge tutti gli archi da un oggetto DAG a un oggetto networkx.DiGraph.
 
-    # One-hot encoding for 'CHIP'
-    if 'CHIP' in dataset.columns:
-        dataset = pd.get_dummies(dataset, columns=['CHIP'], drop_first=True)
+    Parametri:
+        dag: oggetto con attributo .arcs (es. causaldag.DAG)
+        G (nx.DiGraph): grafo esistente a cui aggiungere gli archi (opzionale).
+                        Se None, viene creato un nuovo DiGraph.
+
+    Ritorna:
+        nx.DiGraph: grafo con gli archi del DAG.
+    """
 
     imputer = SimpleImputer(strategy='mean')
 
@@ -214,8 +226,6 @@ column_names = df.columns.tolist()
 column_names.append("mt")
 
 dag = DAG(set(column_names))
-dag.add_arc('CHIP', 'SIZE')
-dag.add_arc('CHIP', 'PDI')
 dag.add_arc('FRR', 'SIZE')
 dag.add_arc('FRR', 'PDI')
 dag.add_arc('TFR', 'SIZE')

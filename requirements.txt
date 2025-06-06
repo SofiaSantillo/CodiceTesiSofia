@@ -6,4 +6,8 @@ scikit-learn
 os
 networkx
 seaborn
+tabulate
+pickle
+logging
+scipy
 
