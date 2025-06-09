@@ -1,0 +1,14 @@
+DAG1.1 STRUCTURE:
+
+
+Colliders (A → B ← C):
+FRR → PDI ← SIZE
+
+Forks (A ← B → C):
+PDI ← FRR → SIZE
+
+Chains (A → B → C):
+FRR → SIZE → PDI
+
+Backdoor paths (A ⇒ B):
+None

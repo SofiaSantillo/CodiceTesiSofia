@@ -10,4 +10,7 @@ tabulate
 pickle
 logging
 scipy
+umap-learn
+plotly
+pickle-mixin
 

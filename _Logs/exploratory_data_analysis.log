@@ -1,0 +1,1641 @@
+2025-06-09 12:22:50 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:22:50 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:22:50 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:22:50 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:22:50 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:22:50 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:22:50 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:22:50 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:22:51 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:22:51 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:22:51 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:22:51 - INFO - Exploring seed2.csv dataset...
+2025-06-09 12:22:51 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:22:51 - INFO - Dataset Info for seed2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 10 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   ESM      275 non-null    float64
+ 1   HSPC     275 non-null    float64
+ 2   CHOL     275 non-null    float64
+ 3   PEG      275 non-null    float64
+ 4   TFR      275 non-null    float64
+ 5   FRR      272 non-null    float64
+ 6   AQUEOUS  275 non-null    object 
+ 7   OUTPUT   275 non-null    object 
+ 8   SIZE     273 non-null    float64
+ 9   PDI      275 non-null    float64
+dtypes: float64(8), object(2)
+memory usage: 21.6+ KB
+
+2025-06-09 12:22:51 - INFO - Missing Values for seed2.csv:
+ESM        0
+HSPC       0
+CHOL       0
+PEG        0
+TFR        0
+FRR        3
+AQUEOUS    0
+OUTPUT     0
+SIZE       2
+PDI        0
+2025-06-09 12:22:51 - INFO - Summary Statistics for seed2.csv:
+              ESM        HSPC        CHOL         PEG         TFR         FRR         SIZE         PDI
+count  275.000000  275.000000  275.000000  275.000000  275.000000  272.000000   273.000000  275.000000
+mean     8.543884    4.541839    5.012404    1.513946    1.290036    8.942958   327.260795    0.273153
+std      9.692942    4.828508    3.903993    1.609503    0.655755   14.323370   979.677670    0.223271
+min      0.000000    0.000000    0.000000    0.000000    0.250000    1.000000    19.897000    0.027000
+25%      0.000000    0.000000    3.050000    0.000000    0.710000    3.000000    83.696000    0.100500
+50%      3.000000    0.000000    3.352000    0.000000    1.375000    3.000000   118.758000    0.239000
+75%     16.486509    9.576000    7.973018    3.192000    1.375000    7.000000   162.675000    0.333500
+max     24.779000   12.570000   20.000000    4.190000    2.500000   50.000000  8973.734000    1.000000
+2025-06-09 12:22:51 - INFO - First 5 Rows for seed2.csv:
+   ESM   HSPC  CHOL   PEG   TFR   FRR AQUEOUS OUTPUT     SIZE    PDI
+0  0.0   3.00   1.0  1.00  0.25   3.0      MQ    YES  117.567  0.327
+1  0.0  11.25   0.0  3.75  1.00   3.0      MQ    YES  124.403  0.403
+2  0.0   9.00   3.0  3.00  0.25  50.0      MQ     NO  169.247  0.531
+3  0.0   3.00   1.0  1.00  1.00   3.0     PBS    YES   73.088  0.238
+4  0.0  11.25   0.0  3.75  1.00  50.0      MQ     NO  141.591  0.597
+2025-06-09 12:22:52 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:22:52 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:22:52 - INFO - ---> Feature distributions at: _Plot/seed2.csv_complete_data_histogram.png
+2025-06-09 12:22:52 - INFO - Plotting numeric distributions (Nodi_DAG1.csv vs seed2.csv)...
+2025-06-09 12:23:32 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:23:32 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:23:32 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:23:32 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:23:32 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:23:32 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:23:32 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:23:33 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:23:33 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:23:33 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:23:33 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:23:33 - INFO - Exploring seed2.csv dataset...
+2025-06-09 12:23:33 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:23:33 - INFO - Dataset Info for seed2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 10 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   ESM      275 non-null    float64
+ 1   HSPC     275 non-null    float64
+ 2   CHOL     275 non-null    float64
+ 3   PEG      275 non-null    float64
+ 4   TFR      275 non-null    float64
+ 5   FRR      272 non-null    float64
+ 6   AQUEOUS  275 non-null    object 
+ 7   OUTPUT   275 non-null    object 
+ 8   SIZE     273 non-null    float64
+ 9   PDI      275 non-null    float64
+dtypes: float64(8), object(2)
+memory usage: 21.6+ KB
+
+2025-06-09 12:23:33 - INFO - Missing Values for seed2.csv:
+ESM        0
+HSPC       0
+CHOL       0
+PEG        0
+TFR        0
+FRR        3
+AQUEOUS    0
+OUTPUT     0
+SIZE       2
+PDI        0
+2025-06-09 12:23:33 - INFO - Summary Statistics for seed2.csv:
+              ESM        HSPC        CHOL         PEG         TFR         FRR         SIZE         PDI
+count  275.000000  275.000000  275.000000  275.000000  275.000000  272.000000   273.000000  275.000000
+mean     8.543884    4.541839    5.012404    1.513946    1.290036    8.942958   327.260795    0.273153
+std      9.692942    4.828508    3.903993    1.609503    0.655755   14.323370   979.677670    0.223271
+min      0.000000    0.000000    0.000000    0.000000    0.250000    1.000000    19.897000    0.027000
+25%      0.000000    0.000000    3.050000    0.000000    0.710000    3.000000    83.696000    0.100500
+50%      3.000000    0.000000    3.352000    0.000000    1.375000    3.000000   118.758000    0.239000
+75%     16.486509    9.576000    7.973018    3.192000    1.375000    7.000000   162.675000    0.333500
+max     24.779000   12.570000   20.000000    4.190000    2.500000   50.000000  8973.734000    1.000000
+2025-06-09 12:23:33 - INFO - First 5 Rows for seed2.csv:
+   ESM   HSPC  CHOL   PEG   TFR   FRR AQUEOUS OUTPUT     SIZE    PDI
+0  0.0   3.00   1.0  1.00  0.25   3.0      MQ    YES  117.567  0.327
+1  0.0  11.25   0.0  3.75  1.00   3.0      MQ    YES  124.403  0.403
+2  0.0   9.00   3.0  3.00  0.25  50.0      MQ     NO  169.247  0.531
+3  0.0   3.00   1.0  1.00  1.00   3.0     PBS    YES   73.088  0.238
+4  0.0  11.25   0.0  3.75  1.00  50.0      MQ     NO  141.591  0.597
+2025-06-09 12:23:33 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:23:34 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:23:34 - INFO - ---> Feature distributions at: _Plot/seed2.csv_complete_data_histogram.png
+2025-06-09 12:23:34 - INFO - Plotting numeric distributions (Nodi_DAG1.csv vs seed2.csv)...
+2025-06-09 12:23:34 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 12:23:34 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:23:34 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:23:34 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 12:23:34 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:23:34 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:23:34 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 12:23:34 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:23:34 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:23:34 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 12:23:34 - INFO - ...DONE!
+
+
+2025-06-09 12:26:20 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:26:20 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:26:20 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:26:20 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:26:20 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:26:20 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:26:20 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:26:20 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:26:20 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:26:20 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:26:20 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:26:20 - INFO - ...DONE!
+
+
+2025-06-09 12:27:10 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:27:10 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:27:10 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:27:10 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:27:10 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:27:10 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:27:10 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:27:10 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:27:10 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:27:10 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:27:10 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:27:10 - INFO - ...DONE!
+
+
+2025-06-09 12:41:47 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:41:47 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:41:47 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:41:47 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:41:47 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:41:47 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:41:47 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:41:47 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:41:47 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:41:48 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:41:48 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:41:48 - INFO - ...DONE!
+
+
+2025-06-09 12:42:26 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:42:26 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:42:26 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:42:26 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:42:26 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:42:26 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:42:26 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:42:26 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:42:26 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:42:26 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:42:26 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:42:26 - INFO - ...DONE!
+
+
+2025-06-09 12:45:12 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 12:45:12 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 12:45:12 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 12:45:12 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 12:45:12 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 12:45:12 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 12:45:12 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 12:45:12 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 12:45:12 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 12:45:12 - INFO - ---> Plot saved at: _Plot
+2025-06-09 12:45:12 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 12:45:12 - INFO - ...DONE!
+
+
+2025-06-09 14:41:18 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 14:41:18 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 14:41:18 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 14:41:18 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 14:41:18 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 14:41:18 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 14:41:18 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 14:41:18 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 14:41:18 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:41:19 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:41:19 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 14:41:19 - INFO - ...DONE!
+
+
+2025-06-09 14:51:34 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 14:51:34 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 14:51:34 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 14:51:34 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 14:51:34 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 14:51:34 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 14:51:34 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 14:51:34 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 14:51:36 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:51:36 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:51:36 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 14:51:36 - INFO - ...DONE!
+
+
+2025-06-09 14:52:41 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 14:52:41 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 14:52:41 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 14:52:41 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 14:52:41 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 14:52:41 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 14:52:41 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 14:52:41 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 14:52:41 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:52:41 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:52:41 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 14:52:41 - INFO - Probability function (Nodi_DAG1.csv vs Nodi_DAG1.csv)...
+2025-06-09 14:52:41 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 14:52:41 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 14:52:42 - INFO - --> Grafico KDE salvato: _KDE\Nodi_DAG1.csv_FRR_pdf.png
+2025-06-09 14:52:42 - INFO - --> CSV KDE salvato: _KDE\Nodi_DAG1.csv_FRR_pdf.csv
+2025-06-09 14:52:42 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_FRR_kde.pkl
+2025-06-09 14:52:42 - INFO - --> Grafico KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_pdf.png
+2025-06-09 14:52:42 - INFO - --> CSV KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_pdf.csv
+2025-06-09 14:52:42 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_kde.pkl
+2025-06-09 14:52:42 - INFO - --> Grafico KDE salvato: _KDE\Nodi_DAG1.csv_PDI_pdf.png
+2025-06-09 14:52:42 - INFO - --> CSV KDE salvato: _KDE\Nodi_DAG1.csv_PDI_pdf.csv
+2025-06-09 14:52:42 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_PDI_kde.pkl
+2025-06-09 14:52:42 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 14:52:42 - INFO - ...DONE!
+
+
+2025-06-09 14:55:30 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 14:55:30 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 14:55:30 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 14:55:30 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 14:55:30 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 14:55:30 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 14:55:30 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 14:55:30 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 14:55:31 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:55:31 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:55:31 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 14:55:31 - INFO - Plotting numeric distribution...
+2025-06-09 14:55:31 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 14:55:31 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:55:31 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:55:31 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 14:55:31 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:55:31 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:55:31 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 14:55:31 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 14:55:31 - INFO - ---> Plot saved at: _Plot
+2025-06-09 14:55:31 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 14:55:31 - INFO - Probability function...
+2025-06-09 14:55:31 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 14:55:31 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 14:55:32 - INFO - --> Grafico KDE salvato: _KDE\Nodi_DAG1.csv_FRR_pdf.png
+2025-06-09 14:55:32 - INFO - --> CSV KDE salvato: _KDE\Nodi_DAG1.csv_FRR_pdf.csv
+2025-06-09 14:55:32 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_FRR_kde.pkl
+2025-06-09 14:55:32 - INFO - --> Grafico KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_pdf.png
+2025-06-09 14:55:32 - INFO - --> CSV KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_pdf.csv
+2025-06-09 14:55:32 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_kde.pkl
+2025-06-09 14:55:32 - INFO - --> Grafico KDE salvato: _KDE\Nodi_DAG1.csv_PDI_pdf.png
+2025-06-09 14:55:32 - INFO - --> CSV KDE salvato: _KDE\Nodi_DAG1.csv_PDI_pdf.csv
+2025-06-09 14:55:32 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_PDI_kde.pkl
+2025-06-09 14:55:32 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 14:55:32 - INFO - ...DONE!
+
+
+2025-06-09 15:02:10 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:02:10 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:02:10 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:02:10 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:02:10 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:02:10 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:02:10 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:02:10 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:02:12 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:02:12 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:02:12 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 15:02:12 - INFO - Plotting numeric distribution...
+2025-06-09 15:02:12 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:02:12 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:02:12 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:02:12 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:02:12 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:02:12 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:02:12 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:02:12 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:02:12 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:02:12 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:02:12 - INFO - Probability function...
+2025-06-09 15:02:12 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:02:12 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:02:13 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_FRR_kde.pkl
+2025-06-09 15:02:13 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_kde.pkl
+2025-06-09 15:02:13 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_PDI_kde.pkl
+2025-06-09 15:02:13 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:02:13 - INFO - ...DONE!
+
+
+2025-06-09 15:05:27 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:05:27 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:05:27 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:05:27 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:05:27 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:05:27 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:05:27 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:05:27 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:05:28 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:05:28 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:05:28 - INFO - ---> Feature distributions at: _Plot/Nodi_DAG1.csv_complete_data_histogram.png
+2025-06-09 15:05:28 - INFO - Plotting numeric distribution...
+2025-06-09 15:05:28 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:05:28 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:05:28 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:05:28 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:05:28 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:05:28 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:05:28 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:05:28 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:05:28 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:05:28 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:05:28 - INFO - Probability function...
+2025-06-09 15:05:28 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:05:28 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:05:28 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_FRR_kde.pkl
+2025-06-09 15:05:28 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_SIZE_kde.pkl
+2025-06-09 15:05:29 - INFO - --> Modello KDE salvato: _KDE\Nodi_DAG1.csv_PDI_kde.pkl
+2025-06-09 15:05:29 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:05:29 - INFO - ...DONE!
+
+
+2025-06-09 15:09:48 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:09:48 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:09:48 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:09:48 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:09:48 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:09:48 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:09:48 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:09:48 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:09:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:09:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:09:49 - INFO - ---> Feature distributions at: _Plot/AG1_complete_data_histogram.png
+2025-06-09 15:09:49 - INFO - Plotting numeric distribution...
+2025-06-09 15:09:49 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:09:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:09:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:09:49 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:09:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:09:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:09:49 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:09:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:09:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:09:49 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:09:49 - INFO - Probability function...
+2025-06-09 15:09:49 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:09:49 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:09:50 - INFO - --> Modello KDE salvato: _KDE\FRR_AG1_kde.pkl
+2025-06-09 15:09:50 - INFO - --> Modello KDE salvato: _KDE\SIZE_AG1_kde.pkl
+2025-06-09 15:09:50 - INFO - --> Modello KDE salvato: _KDE\PDI_AG1_kde.pkl
+2025-06-09 15:09:50 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:09:50 - INFO - ...DONE!
+
+
+2025-06-09 15:10:51 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:10:51 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:10:51 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:10:51 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:10:51 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:10:51 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:10:51 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:10:51 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:10:51 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:10:51 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:10:51 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 15:10:51 - INFO - Plotting numeric distribution...
+2025-06-09 15:10:51 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:10:51 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:10:52 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:10:52 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:10:52 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:10:52 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:10:52 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:10:52 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:10:52 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:10:52 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:10:52 - INFO - Probability function...
+2025-06-09 15:10:52 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:10:52 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:10:52 - INFO - --> Modello KDE salvato: _KDE\FRR_DAG1_kde.pkl
+2025-06-09 15:10:52 - INFO - --> Modello KDE salvato: _KDE\SIZE_DAG1_kde.pkl
+2025-06-09 15:10:52 - INFO - --> Modello KDE salvato: _KDE\PDI_DAG1_kde.pkl
+2025-06-09 15:10:52 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:10:52 - INFO - ...DONE!
+
+
+2025-06-09 15:11:56 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:11:56 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:11:56 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:11:56 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:11:56 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:11:56 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:11:56 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:11:56 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:11:56 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:11:57 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:11:57 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 15:11:57 - INFO - Plotting numeric distribution...
+2025-06-09 15:11:57 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:11:57 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:11:57 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:11:57 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:11:57 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:11:57 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:11:57 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:11:57 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:11:57 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:11:57 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:11:57 - INFO - Probability function...
+2025-06-09 15:11:57 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:11:57 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:11:57 - INFO - --> Modello KDE salvato: _KDE\FRR_DAG1_kde.pkl
+2025-06-09 15:11:58 - INFO - --> Modello KDE salvato: _KDE\SIZE_DAG1_kde.pkl
+2025-06-09 15:11:58 - INFO - --> Modello KDE salvato: _KDE\PDI_DAG1_kde.pkl
+2025-06-09 15:11:58 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:11:58 - INFO - ...DONE!
+
+
+2025-06-09 15:12:13 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:12:13 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:12:13 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:12:13 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:12:13 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:12:13 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:12:13 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:12:13 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:12:13 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:12:14 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:12:14 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 15:12:14 - INFO - Plotting numeric distribution...
+2025-06-09 15:12:14 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:12:14 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:12:14 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:12:14 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:12:14 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:12:14 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:12:14 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:12:14 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:12:14 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:12:14 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:12:14 - INFO - Probability function...
+2025-06-09 15:12:14 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:12:14 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:12:14 - INFO - --> Modello KDE salvato: _KDE\FRR_DAG1_kde.pkl
+2025-06-09 15:12:15 - INFO - --> Modello KDE salvato: _KDE\SIZE_DAG1_kde.pkl
+2025-06-09 15:12:15 - INFO - --> Modello KDE salvato: _KDE\PDI_DAG1_kde.pkl
+2025-06-09 15:12:15 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:12:15 - INFO - ...DONE!
+
+
+2025-06-09 15:15:43 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 15:15:43 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 15:15:43 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 15:15:43 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 15:15:43 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 15:15:43 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 15:15:43 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 15:15:43 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 15:15:44 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:15:44 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:15:44 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 15:15:44 - INFO - Plotting numeric distribution...
+2025-06-09 15:15:44 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 15:15:44 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:15:44 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:15:44 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 15:15:44 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:15:44 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:15:44 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 15:15:44 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 15:15:44 - INFO - ---> Plot saved at: _Plot
+2025-06-09 15:15:44 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 15:15:44 - INFO - Probability function...
+2025-06-09 15:15:44 - INFO - (----------------KDE ESTIMATION------------------)
+2025-06-09 15:15:44 - INFO - Calcolo funzione di densità per: Nodi_DAG1.csv
+2025-06-09 15:15:45 - INFO - --> Modello KDE salvato: _KDE\FRR_DAG1_kde.pkl
+2025-06-09 15:15:45 - INFO - --> Modello KDE salvato: _KDE\SIZE_DAG1_kde.pkl
+2025-06-09 15:15:45 - INFO - --> Modello KDE salvato: _KDE\PDI_DAG1_kde.pkl
+2025-06-09 15:15:45 - INFO - Stima KDE completata per 3 variabili.
+2025-06-09 15:15:45 - INFO - ...DONE!
+
+
+2025-06-09 16:53:48 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 16:53:48 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 16:53:48 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 16:53:48 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 16:53:48 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 16:53:48 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 16:53:48 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 16:53:48 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 16:53:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:53:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:53:49 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 16:53:49 - INFO - Plotting numeric distribution for Nodi_DAG1.csv...
+2025-06-09 16:53:49 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 16:53:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:53:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:53:49 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 16:53:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:53:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:53:49 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 16:53:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:53:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:53:49 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 16:53:49 - INFO - ...DONE!
+
+
+2025-06-09 16:57:15 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 16:57:15 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 16:57:15 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 16:57:15 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 16:57:15 - INFO - Exploring data in Nodi_DAG1.csv
+2025-06-09 16:57:15 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 16:57:15 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 16:57:15 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 16:57:15 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 16:57:16 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:16 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:16 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 16:57:16 - INFO - Plotting numeric distribution for Nodi_DAG1.csv...
+2025-06-09 16:57:16 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 16:57:16 - INFO - Plotting distributions for Nodi_DAG1.csv
+2025-06-09 16:57:16 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:16 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:16 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 16:57:16 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:16 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:16 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 16:57:16 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:16 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:16 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 16:57:16 - INFO - Exploring Nodi_DAG2.csv dataset...
+2025-06-09 16:57:16 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 16:57:16 - INFO - Exploring data in Nodi_DAG2.csv
+2025-06-09 16:57:16 - INFO - Dataset Info for Nodi_DAG2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   TFR     275 non-null    float64
+ 2   SIZE    273 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 16:57:16 - INFO - Missing Values for Nodi_DAG2.csv:
+FRR     3
+TFR     0
+SIZE    2
+2025-06-09 16:57:16 - INFO - Summary Statistics for Nodi_DAG2.csv:
+              FRR         TFR         SIZE
+count  272.000000  275.000000   273.000000
+mean     8.942958    1.290036   327.260795
+std     14.323370    0.655755   979.677670
+min      1.000000    0.250000    19.897000
+25%      3.000000    0.710000    83.696000
+50%      3.000000    1.375000   118.758000
+75%      7.000000    1.375000   162.675000
+max     50.000000    2.500000  8973.734000
+2025-06-09 16:57:16 - INFO - First 5 Rows for Nodi_DAG2.csv:
+    FRR   TFR     SIZE
+0   3.0  0.25  117.567
+1   3.0  1.00  124.403
+2  50.0  0.25  169.247
+3   3.0  1.00   73.088
+4  50.0  1.00  141.591
+2025-06-09 16:57:16 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:17 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:17 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 16:57:17 - INFO - Plotting numeric distribution for Nodi_DAG2.csv...
+2025-06-09 16:57:17 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 16:57:17 - INFO - Plotting distributions for Nodi_DAG2.csv
+2025-06-09 16:57:17 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:17 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:17 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 16:57:17 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:17 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:17 - INFO - ---> Distribution plot saved for: TFR
+2025-06-09 16:57:17 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 16:57:17 - INFO - ---> Plot saved at: _Plot
+2025-06-09 16:57:17 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 16:57:17 - INFO - ...DONE!
+
+
+2025-06-09 17:00:55 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 17:00:55 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 17:00:55 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 17:00:55 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:00:55 - INFO - Exploring data in Nodi_DAG1.csv
+2025-06-09 17:00:55 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:00:55 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 17:00:55 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 17:00:55 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 17:00:55 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:55 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:55 - INFO - ---> Feature distributions at: _Plot/['Nodi_DAG1.csv', 'Nodi_DAG2.csv']_complete_data_histogram.png
+2025-06-09 17:00:55 - INFO - Plotting numeric distribution for Nodi_DAG1.csv...
+2025-06-09 17:00:55 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:00:55 - INFO - Plotting distributions for Nodi_DAG1.csv
+2025-06-09 17:00:55 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:56 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:56 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:00:56 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:56 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:56 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:00:56 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:56 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:56 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 17:00:56 - INFO - Exploring Nodi_DAG2.csv dataset...
+2025-06-09 17:00:56 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:00:56 - INFO - Exploring data in Nodi_DAG2.csv
+2025-06-09 17:00:56 - INFO - Dataset Info for Nodi_DAG2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   TFR     275 non-null    float64
+ 2   SIZE    273 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:00:56 - INFO - Missing Values for Nodi_DAG2.csv:
+FRR     3
+TFR     0
+SIZE    2
+2025-06-09 17:00:56 - INFO - Summary Statistics for Nodi_DAG2.csv:
+              FRR         TFR         SIZE
+count  272.000000  275.000000   273.000000
+mean     8.942958    1.290036   327.260795
+std     14.323370    0.655755   979.677670
+min      1.000000    0.250000    19.897000
+25%      3.000000    0.710000    83.696000
+50%      3.000000    1.375000   118.758000
+75%      7.000000    1.375000   162.675000
+max     50.000000    2.500000  8973.734000
+2025-06-09 17:00:56 - INFO - First 5 Rows for Nodi_DAG2.csv:
+    FRR   TFR     SIZE
+0   3.0  0.25  117.567
+1   3.0  1.00  124.403
+2  50.0  0.25  169.247
+3   3.0  1.00   73.088
+4  50.0  1.00  141.591
+2025-06-09 17:00:56 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:56 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:56 - INFO - ---> Feature distributions at: _Plot/['Nodi_DAG1.csv', 'Nodi_DAG2.csv']_complete_data_histogram.png
+2025-06-09 17:00:56 - INFO - Plotting numeric distribution for Nodi_DAG2.csv...
+2025-06-09 17:00:56 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:00:56 - INFO - Plotting distributions for Nodi_DAG2.csv
+2025-06-09 17:00:56 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:56 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:56 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:00:56 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:57 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:57 - INFO - ---> Distribution plot saved for: TFR
+2025-06-09 17:00:57 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:00:57 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:00:57 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:00:57 - INFO - ...DONE!
+
+
+2025-06-09 17:03:54 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 17:03:54 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 17:04:38 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 17:04:38 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 17:04:38 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 17:04:38 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:04:38 - INFO - Exploring data in Nodi_DAG1.csv
+2025-06-09 17:04:38 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:04:38 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 17:04:38 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 17:04:38 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 17:04:38 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:38 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:38 - INFO - ---> Feature distributions at: _Plot/.csv_complete_data_histogram.png
+2025-06-09 17:04:38 - INFO - Plotting numeric distribution for Nodi_DAG1.csv...
+2025-06-09 17:04:38 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:04:38 - INFO - Plotting distributions for Nodi_DAG1.csv
+2025-06-09 17:04:38 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:38 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:38 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:04:39 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:39 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:39 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:04:39 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:39 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:39 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 17:04:39 - INFO - Exploring Nodi_DAG2.csv dataset...
+2025-06-09 17:04:39 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:04:39 - INFO - Exploring data in Nodi_DAG2.csv
+2025-06-09 17:04:39 - INFO - Dataset Info for Nodi_DAG2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   TFR     275 non-null    float64
+ 2   SIZE    273 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:04:39 - INFO - Missing Values for Nodi_DAG2.csv:
+FRR     3
+TFR     0
+SIZE    2
+2025-06-09 17:04:39 - INFO - Summary Statistics for Nodi_DAG2.csv:
+              FRR         TFR         SIZE
+count  272.000000  275.000000   273.000000
+mean     8.942958    1.290036   327.260795
+std     14.323370    0.655755   979.677670
+min      1.000000    0.250000    19.897000
+25%      3.000000    0.710000    83.696000
+50%      3.000000    1.375000   118.758000
+75%      7.000000    1.375000   162.675000
+max     50.000000    2.500000  8973.734000
+2025-06-09 17:04:39 - INFO - First 5 Rows for Nodi_DAG2.csv:
+    FRR   TFR     SIZE
+0   3.0  0.25  117.567
+1   3.0  1.00  124.403
+2  50.0  0.25  169.247
+3   3.0  1.00   73.088
+4  50.0  1.00  141.591
+2025-06-09 17:04:39 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:39 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:39 - INFO - ---> Feature distributions at: _Plot/.csv_complete_data_histogram.png
+2025-06-09 17:04:39 - INFO - Plotting numeric distribution for Nodi_DAG2.csv...
+2025-06-09 17:04:39 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:04:39 - INFO - Plotting distributions for Nodi_DAG2.csv
+2025-06-09 17:04:39 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:39 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:39 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:04:40 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:40 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:40 - INFO - ---> Distribution plot saved for: TFR
+2025-06-09 17:04:40 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:04:40 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:04:40 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:04:40 - INFO - ...DONE!
+
+
+2025-06-09 17:05:48 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 17:05:48 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 17:05:48 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 17:05:48 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:05:48 - INFO - Exploring data in Nodi_DAG1.csv
+2025-06-09 17:05:48 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:05:48 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 17:05:48 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 17:05:48 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 17:05:48 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:48 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:48 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 17:05:48 - INFO - Plotting numeric distribution for Nodi_DAG1.csv...
+2025-06-09 17:05:48 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:05:48 - INFO - Plotting distributions for Nodi_DAG1.csv
+2025-06-09 17:05:48 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:48 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:48 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:05:48 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:48 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:48 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:05:48 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:48 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:48 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 17:05:48 - INFO - Exploring Nodi_DAG2.csv dataset...
+2025-06-09 17:05:48 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:05:48 - INFO - Exploring data in Nodi_DAG2.csv
+2025-06-09 17:05:48 - INFO - Dataset Info for Nodi_DAG2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   TFR     275 non-null    float64
+ 2   SIZE    273 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:05:48 - INFO - Missing Values for Nodi_DAG2.csv:
+FRR     3
+TFR     0
+SIZE    2
+2025-06-09 17:05:48 - INFO - Summary Statistics for Nodi_DAG2.csv:
+              FRR         TFR         SIZE
+count  272.000000  275.000000   273.000000
+mean     8.942958    1.290036   327.260795
+std     14.323370    0.655755   979.677670
+min      1.000000    0.250000    19.897000
+25%      3.000000    0.710000    83.696000
+50%      3.000000    1.375000   118.758000
+75%      7.000000    1.375000   162.675000
+max     50.000000    2.500000  8973.734000
+2025-06-09 17:05:48 - INFO - First 5 Rows for Nodi_DAG2.csv:
+    FRR   TFR     SIZE
+0   3.0  0.25  117.567
+1   3.0  1.00  124.403
+2  50.0  0.25  169.247
+3   3.0  1.00   73.088
+4  50.0  1.00  141.591
+2025-06-09 17:05:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:49 - INFO - ---> Feature distributions at: _Plot/DAG2_complete_data_histogram.png
+2025-06-09 17:05:49 - INFO - Plotting numeric distribution for Nodi_DAG2.csv...
+2025-06-09 17:05:49 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:05:49 - INFO - Plotting distributions for Nodi_DAG2.csv
+2025-06-09 17:05:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:49 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:05:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:49 - INFO - ---> Distribution plot saved for: TFR
+2025-06-09 17:05:49 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:05:49 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:05:49 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:05:49 - INFO - ...DONE!
+
+
+2025-06-09 17:07:20 - INFO - (----------------RUN PIPELINE------------------)
+2025-06-09 17:07:20 - INFO - STARTING EXPLORATORY DATA ANALYSIS (EDA)... 
+2025-06-09 17:07:20 - INFO - Exploring Nodi_DAG1.csv dataset...
+2025-06-09 17:07:20 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:07:20 - INFO - Exploring data in Nodi_DAG1.csv
+2025-06-09 17:07:20 - INFO - Dataset Info for Nodi_DAG1.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   SIZE    273 non-null    float64
+ 2   PDI     275 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:07:20 - INFO - Missing Values for Nodi_DAG1.csv:
+FRR     3
+SIZE    2
+PDI     0
+2025-06-09 17:07:20 - INFO - Summary Statistics for Nodi_DAG1.csv:
+              FRR         SIZE         PDI
+count  272.000000   273.000000  275.000000
+mean     8.942958   327.260795    0.273153
+std     14.323370   979.677670    0.223271
+min      1.000000    19.897000    0.027000
+25%      3.000000    83.696000    0.100500
+50%      3.000000   118.758000    0.239000
+75%      7.000000   162.675000    0.333500
+max     50.000000  8973.734000    1.000000
+2025-06-09 17:07:20 - INFO - First 5 Rows for Nodi_DAG1.csv:
+    FRR     SIZE    PDI
+0   3.0  117.567  0.327
+1   3.0  124.403  0.403
+2  50.0  169.247  0.531
+3   3.0   73.088  0.238
+4  50.0  141.591  0.597
+2025-06-09 17:07:20 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:20 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:20 - INFO - ---> Feature distributions at: _Plot/DAG1_complete_data_histogram.png
+2025-06-09 17:07:20 - INFO - Plotting numeric distribution for Nodi_DAG1.csv...
+2025-06-09 17:07:20 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:07:20 - INFO - Plotting distributions for Nodi_DAG1.csv
+2025-06-09 17:07:20 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:20 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:20 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:07:21 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:21 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:21 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:07:21 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:21 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:21 - INFO - ---> Distribution plot saved for: PDI
+2025-06-09 17:07:21 - INFO - Exploring Nodi_DAG2.csv dataset...
+2025-06-09 17:07:21 - INFO - (----------------DATA EXPLORER------------------)
+2025-06-09 17:07:21 - INFO - Exploring data in Nodi_DAG2.csv
+2025-06-09 17:07:21 - INFO - Dataset Info for Nodi_DAG2.csv:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 275 entries, 0 to 274
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   FRR     272 non-null    float64
+ 1   TFR     275 non-null    float64
+ 2   SIZE    273 non-null    float64
+dtypes: float64(3)
+memory usage: 6.6 KB
+
+2025-06-09 17:07:21 - INFO - Missing Values for Nodi_DAG2.csv:
+FRR     3
+TFR     0
+SIZE    2
+2025-06-09 17:07:21 - INFO - Summary Statistics for Nodi_DAG2.csv:
+              FRR         TFR         SIZE
+count  272.000000  275.000000   273.000000
+mean     8.942958    1.290036   327.260795
+std     14.323370    0.655755   979.677670
+min      1.000000    0.250000    19.897000
+25%      3.000000    0.710000    83.696000
+50%      3.000000    1.375000   118.758000
+75%      7.000000    1.375000   162.675000
+max     50.000000    2.500000  8973.734000
+2025-06-09 17:07:21 - INFO - First 5 Rows for Nodi_DAG2.csv:
+    FRR   TFR     SIZE
+0   3.0  0.25  117.567
+1   3.0  1.00  124.403
+2  50.0  0.25  169.247
+3   3.0  1.00   73.088
+4  50.0  1.00  141.591
+2025-06-09 17:07:21 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:21 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:21 - INFO - ---> Feature distributions at: _Plot/DAG2_complete_data_histogram.png
+2025-06-09 17:07:21 - INFO - Plotting numeric distribution for Nodi_DAG2.csv...
+2025-06-09 17:07:21 - INFO - (----------------PLOT NUMERIC DISTRIBUTION------------------)
+2025-06-09 17:07:21 - INFO - Plotting distributions for Nodi_DAG2.csv
+2025-06-09 17:07:21 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:21 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:21 - INFO - ---> Distribution plot saved for: FRR
+2025-06-09 17:07:21 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:22 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:22 - INFO - ---> Distribution plot saved for: TFR
+2025-06-09 17:07:22 - INFO - (----------------SAVE PLOT------------------)
+2025-06-09 17:07:22 - INFO - ---> Plot saved at: _Plot
+2025-06-09 17:07:22 - INFO - ---> Distribution plot saved for: SIZE
+2025-06-09 17:07:22 - INFO - ...DONE!
+
+
