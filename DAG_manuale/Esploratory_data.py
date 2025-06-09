@@ -77,13 +77,13 @@ def plot_numeric_distributions(dataset, filename, DAG):
         filename (string): nome del file per il salvataggio del plot
     Returns: """
     logging.info(f"Plotting distributions for {filename}")
-    numeric_data = dataset.select_dtypes(include=['number']).dropna()  # Seleziona tutte le variabili numeriche
+    numeric_data = dataset.select_dtypes(include=['number']).dropna()  
     for column in numeric_data.columns:
         plt.figure(figsize=(6, 4))
         sns.kdeplot(numeric_data[column], label=f"{column} Distribution", fill=True, color="skyblue")
         plt.title(f"Distribution of {column}")
         plt.legend()
-        save_plot(plt, f"{column}_{DAG}_distribution")  # Salva il grafico con il nome della variabile
+        save_plot(plt, f"{column}_{DAG}_distribution") 
         logging.info("---> Distribution plot saved for: %s", column)
 
 
@@ -94,9 +94,6 @@ def run_pipeline():
     logging.info("(----------------RUN PIPELINE------------------)")
     logging.info("Starting Exploratory Data Analysis (EDA)... ".upper())
 
-    # Ottieni la lista di tutti i file CSV nella cartella Data_DAG
-
-    
 
     # Itera su ogni file CSV nella cartella
     for filename in csv_files:
