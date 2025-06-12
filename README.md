@@ -24,3 +24,13 @@ costruisco un file di validazione per ogni "mini-DAG", in cui:
     - calcola la percentuale di probabilità che il modello fattorizzato spiega bene (con ratio tra 0,9 e 1,1)
 
 
+#### NEW ######
+ho reso automatiche le analisi del DAG, ossia, per costruire e analizzare completamente un "mini-DAG" basta seguire questi passi:
+- costruire tanti file quanti si vuole della serie "Constraction_DAGxx.py", dove xx=numero del DAG
+- eseguire ogni "Constraction_DAGxx.py" singolarmente
+- eseguire una sola volta "Analyse_DAG.py": è implementata di modo da effettuare l'analisi su ogni dag che hai costruito ai passi precedenti
+- eseguire una sola volta "Exploratory_data.py": ""
+--> QUESTO SERVE PER NON DOVER MODIFICARE OGNI VOLTA LE ULTIME DUE FUNZIONI MENZIONATE IN BASE ALLA COSTRUZIONE DEL DAG
+
++ Validation: valida i singoli dag
++ Results_validation: salva tutti i dag e le percentuali corrispondenti (divisi per gruppi 1, 1.1, 1.2 | 2, 2.1 ecc perchè ogni gruppo rappresenta le possibili configurazioni di 3 nodi selezionati). Mi aiuta a capire prima quale edge mantenere e quali no (anche se graficamente non è molto elegante nel log corrispondente: "Validation_results.log")

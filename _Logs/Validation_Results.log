@@ -1,0 +1,2505 @@
+2025-06-12 08:31:22,029 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:31:26,308 - INFO - 
+FRR bins:
+2025-06-12 08:31:26,308 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:31:26,308 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:31:26,308 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:31:26,308 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:31:26,308 - INFO - 
+SIZE bins:
+2025-06-12 08:31:26,308 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:31:26,308 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:31:26,308 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:31:26,308 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:31:26,322 - INFO - 
+PDI bins:
+2025-06-12 08:31:26,322 - INFO -   Bin 0: [0.03, 0.27)
+2025-06-12 08:31:26,322 - INFO -   Bin 1: [0.27, 0.51)
+2025-06-12 08:31:26,322 - INFO -   Bin 2: [0.51, 0.76)
+2025-06-12 08:31:26,322 - INFO -   Bin 3: [0.76, 1.00)
+2025-06-12 08:31:26,339 - INFO - RESULTS:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:31:26,339 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:31:26,355 - INFO - 
+FRR bins:
+2025-06-12 08:31:26,355 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:31:26,355 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:31:26,355 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:31:26,355 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:31:26,355 - INFO - 
+TFR bins:
+2025-06-12 08:31:26,355 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:31:26,355 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:31:26,355 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:31:26,355 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:31:26,355 - INFO - 
+SIZE bins:
+2025-06-12 08:31:26,355 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:31:26,355 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:31:26,355 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:31:26,355 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:31:26,377 - INFO - RESULTS:
+    FRR  TFR  SIZE   p_joint    p_fact      ratio
+10    1  0.0   1.0  0.003704  0.000164  22.544298
+11    1  0.0   2.0  0.003704  0.000164  22.544298
+12    1  0.0   3.0  0.003704  0.000164  22.544298
+0     1  0.0   0.0  0.425926  0.021850  19.493190
+8     3  0.0   2.0  0.007407  0.000771   9.608664
+13    3  0.0   3.0  0.003704  0.000385   9.608664
+1     3  0.0   0.0  0.200000  0.023127   8.647797
+3     1  3.0   0.0  0.055556  0.023969   2.317794
+9     0  0.0   2.0  0.003704  0.002859   1.295238
+2     0  0.0   0.0  0.196296  0.203023   0.966868
+2025-06-12 08:31:26,378 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 19.63%
+2025-06-12 08:31:26,389 - INFO - 
+TFR bins:
+2025-06-12 08:31:26,389 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:31:26,389 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:31:26,389 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:31:26,389 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:31:26,389 - INFO - 
+FRR bins:
+2025-06-12 08:31:26,389 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:31:26,389 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:31:26,389 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:31:26,389 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:31:26,391 - INFO - 
+SIZE bins:
+2025-06-12 08:31:26,391 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:31:26,391 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:31:26,391 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:31:26,391 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:31:26,402 - INFO - RESULTS:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:31:26,403 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:31:26,417 - INFO - 
+FRR bins:
+2025-06-12 08:31:26,417 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:31:26,417 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:31:26,417 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:31:26,417 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:31:26,417 - INFO - 
+TFR bins:
+2025-06-12 08:31:26,417 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:31:26,417 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:31:26,417 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:31:26,417 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:31:26,418 - INFO - 
+SIZE bins:
+2025-06-12 08:31:26,418 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:31:26,418 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:31:26,418 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:31:26,418 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:31:26,424 - INFO - RESULTS:
+   FRR  TFR  SIZE   p_joint    p_fact      ratio
+0    1  0.0   0.0  0.425926  0.022059  19.308642
+1    3  0.0   0.0  0.200000  0.044118   4.533333
+3    1  3.0   0.0  0.055556  0.022059   2.518519
+2    0  0.0   0.0  0.196296  0.202070   0.971429
+9    0  0.0   2.0  0.003704  0.003813   0.971429
+6    3  1.0   0.0  0.022222  0.055147   0.402963
+4    0  3.0   0.0  0.044444  0.198529   0.223868
+5    0  1.0   0.0  0.022222  0.422794   0.052560
+7    2  0.0   0.0  0.007407  0.000000        NaN
+8    3  0.0   2.0  0.007407  0.000000        NaN
+2025-06-12 08:31:26,424 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:31:26,440 - INFO - 
+TFR bins:
+2025-06-12 08:31:26,440 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:31:26,440 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:31:26,440 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:31:26,440 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:31:26,440 - INFO - 
+FRR bins:
+2025-06-12 08:31:26,440 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:31:26,440 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:31:26,440 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:31:26,440 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:31:26,440 - INFO - 
+SIZE bins:
+2025-06-12 08:31:26,440 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:31:26,440 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:31:26,440 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:31:26,440 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:31:26,456 - INFO - RESULTS:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003589  2.063840
+13    3  0.0   3.0  0.003704  0.001795  2.063840
+10    1  0.0   1.0  0.003704  0.001899  1.949897
+7     2  0.0   0.0  0.007407  0.007052  1.050347
+9     0  0.0   2.0  0.003704  0.003526  1.050347
+6     3  1.0   0.0  0.022222  0.021818  1.018519
+4     0  3.0   0.0  0.044444  0.043636  1.018519
+5     0  1.0   0.0  0.022222  0.021818  1.018519
+0     1  0.0   0.0  0.425926  0.425474  1.001063
+3     1  3.0   0.0  0.055556  0.055776  0.996051
+2025-06-12 08:31:26,456 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:31:26,460 - INFO - 
+TFR bins:
+2025-06-12 08:31:26,460 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:31:26,460 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:31:26,460 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:31:26,460 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:31:26,460 - INFO - 
+FRR bins:
+2025-06-12 08:31:26,460 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:31:26,460 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:31:26,460 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:31:26,460 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:31:26,471 - INFO - 
+PDI bins:
+2025-06-12 08:31:26,471 - INFO -   Bin 0: [0.03, 0.27)
+2025-06-12 08:31:26,471 - INFO -   Bin 1: [0.27, 0.51)
+2025-06-12 08:31:26,471 - INFO -   Bin 2: [0.51, 0.76)
+2025-06-12 08:31:26,471 - INFO -   Bin 3: [0.76, 1.00)
+2025-06-12 08:31:26,480 - INFO - RESULTS:
+    TFR  FRR  PDI   p_joint    p_fact     ratio
+5     0  0.0    2  0.029412  0.009614  3.059349
+9     0  0.0    3  0.018382  0.011362  1.617925
+20    2  0.0    0  0.007353  0.004932  1.490948
+4     0  0.0    1  0.066176  0.044573  1.484684
+1     3  0.0    0  0.176471  0.140554  1.255536
+19    1  3.0    3  0.007353  0.006197  1.186473
+8     0  3.0    1  0.022059  0.019394  1.137408
+15    1  3.0    2  0.011029  0.010329  1.067825
+2     1  0.0    1  0.099265  0.096040  1.033580
+0     1  0.0    0  0.305147  0.297535  1.025584
+2025-06-12 08:31:26,480 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,708 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:26,878 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,026 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,167 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,305 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,458 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,585 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,588 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:31:27,701 - ERROR - Errore in Validation_DAG3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:27,538 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:35:35,869 - INFO - 
+FRR bins:
+2025-06-12 08:35:35,869 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:35:35,869 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:35:35,869 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:35:35,869 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:35:35,870 - INFO - 
+SIZE bins:
+2025-06-12 08:35:35,870 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:35:35,870 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:35:35,870 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:35:35,870 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:35:35,871 - INFO - 
+PDI bins:
+2025-06-12 08:35:35,871 - INFO -   Bin 0: [0.03, 0.27)
+2025-06-12 08:35:35,871 - INFO -   Bin 1: [0.27, 0.51)
+2025-06-12 08:35:35,871 - INFO -   Bin 2: [0.51, 0.76)
+2025-06-12 08:35:35,871 - INFO -   Bin 3: [0.76, 1.00)
+2025-06-12 08:35:35,899 - INFO - RESULTS:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:35:35,900 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:35:35,905 - INFO - 
+FRR bins:
+2025-06-12 08:35:35,905 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:35:35,905 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:35:35,905 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:35:35,906 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:35:35,907 - INFO - 
+TFR bins:
+2025-06-12 08:35:35,907 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:35:35,907 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:35:35,907 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:35:35,907 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:35:35,907 - INFO - 
+SIZE bins:
+2025-06-12 08:35:35,907 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:35:35,907 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:35:35,907 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:35:35,907 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:35:35,929 - INFO - RESULTS:
+    FRR  TFR  SIZE   p_joint    p_fact      ratio
+10    1  0.0   1.0  0.003704  0.000164  22.544298
+11    1  0.0   2.0  0.003704  0.000164  22.544298
+12    1  0.0   3.0  0.003704  0.000164  22.544298
+0     1  0.0   0.0  0.425926  0.021850  19.493190
+8     3  0.0   2.0  0.007407  0.000771   9.608664
+13    3  0.0   3.0  0.003704  0.000385   9.608664
+1     3  0.0   0.0  0.200000  0.023127   8.647797
+3     1  3.0   0.0  0.055556  0.023969   2.317794
+9     0  0.0   2.0  0.003704  0.002859   1.295238
+2     0  0.0   0.0  0.196296  0.203023   0.966868
+2025-06-12 08:35:35,930 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 19.63%
+2025-06-12 08:35:35,936 - INFO - 
+TFR bins:
+2025-06-12 08:35:35,936 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:35:35,936 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:35:35,936 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:35:35,936 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:35:35,937 - INFO - 
+FRR bins:
+2025-06-12 08:35:35,937 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:35:35,937 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:35:35,937 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:35:35,937 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:35:35,938 - INFO - 
+SIZE bins:
+2025-06-12 08:35:35,938 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:35:35,938 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:35:35,938 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:35:35,938 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:35:35,957 - INFO - RESULTS:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:35:35,961 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:35:35,961 - INFO - 
+FRR bins:
+2025-06-12 08:35:35,961 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:35:35,961 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:35:35,967 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:35:35,967 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:35:35,967 - INFO - 
+TFR bins:
+2025-06-12 08:35:35,967 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:35:35,967 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:35:35,967 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:35:35,967 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:35:35,967 - INFO - 
+SIZE bins:
+2025-06-12 08:35:35,967 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:35:35,967 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:35:35,967 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:35:35,967 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:35:35,989 - INFO - RESULTS:
+   FRR  TFR  SIZE   p_joint    p_fact      ratio
+0    1  0.0   0.0  0.425926  0.022059  19.308642
+1    3  0.0   0.0  0.200000  0.044118   4.533333
+3    1  3.0   0.0  0.055556  0.022059   2.518519
+2    0  0.0   0.0  0.196296  0.202070   0.971429
+9    0  0.0   2.0  0.003704  0.003813   0.971429
+6    3  1.0   0.0  0.022222  0.055147   0.402963
+4    0  3.0   0.0  0.044444  0.198529   0.223868
+5    0  1.0   0.0  0.022222  0.422794   0.052560
+7    2  0.0   0.0  0.007407  0.000000        NaN
+8    3  0.0   2.0  0.007407  0.000000        NaN
+2025-06-12 08:35:35,989 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:35:35,989 - INFO - 
+TFR bins:
+2025-06-12 08:35:35,989 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:35:35,989 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:35:35,989 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:35:35,989 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:35:35,998 - INFO - 
+FRR bins:
+2025-06-12 08:35:35,998 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:35:35,998 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:35:35,998 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:35:35,998 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:35:35,998 - INFO - 
+SIZE bins:
+2025-06-12 08:35:35,998 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:35:35,998 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:35:35,998 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:35:35,998 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:35:36,019 - INFO - RESULTS:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003589  2.063840
+13    3  0.0   3.0  0.003704  0.001795  2.063840
+10    1  0.0   1.0  0.003704  0.001899  1.949897
+7     2  0.0   0.0  0.007407  0.007052  1.050347
+9     0  0.0   2.0  0.003704  0.003526  1.050347
+6     3  1.0   0.0  0.022222  0.021818  1.018519
+4     0  3.0   0.0  0.044444  0.043636  1.018519
+5     0  1.0   0.0  0.022222  0.021818  1.018519
+0     1  0.0   0.0  0.425926  0.425474  1.001063
+3     1  3.0   0.0  0.055556  0.055776  0.996051
+2025-06-12 08:35:36,019 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,327 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,547 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,783 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,784 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,784 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,784 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,784 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,784 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,784 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:36,984 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,247 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,519 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,703 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,703 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,708 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,708 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,708 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,708 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,708 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,919 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,923 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,923 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,923 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,923 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,923 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,923 - ERROR - Errore in Validation_DAG2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:35:37,943 - INFO - 
+================================================================================
+2025-06-12 08:35:37,943 - INFO - Analisi causale per: DAG3
+2025-06-12 08:35:37,943 - INFO -   FRR \u2192 PDI
+2025-06-12 08:35:37,943 - INFO -   TFR \u2192 FRR
+2025-06-12 08:35:37,943 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:35:37,943 - INFO - ================================================================================
+
+2025-06-12 08:37:49,123 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:37:55,775 - INFO - 
+FRR bins:
+2025-06-12 08:37:55,775 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:37:55,775 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:37:55,775 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:37:55,775 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:37:55,775 - INFO - 
+SIZE bins:
+2025-06-12 08:37:55,775 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:37:55,775 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:37:55,775 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:37:55,775 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:37:55,775 - INFO - 
+PDI bins:
+2025-06-12 08:37:55,775 - INFO -   Bin 0: [0.03, 0.27)
+2025-06-12 08:37:55,775 - INFO -   Bin 1: [0.27, 0.51)
+2025-06-12 08:37:55,775 - INFO -   Bin 2: [0.51, 0.76)
+2025-06-12 08:37:55,775 - INFO -   Bin 3: [0.76, 1.00)
+2025-06-12 08:37:55,800 - INFO - RESULTS:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:37:55,800 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:37:55,800 - INFO - 
+FRR bins:
+2025-06-12 08:37:55,800 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:37:55,800 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:37:55,800 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:37:55,800 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:37:55,800 - INFO - 
+TFR bins:
+2025-06-12 08:37:55,800 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:37:55,800 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:37:55,800 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:37:55,800 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:37:55,800 - INFO - 
+SIZE bins:
+2025-06-12 08:37:55,800 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:37:55,800 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:37:55,800 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:37:55,800 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:37:55,816 - INFO - RESULTS:
+    FRR  TFR  SIZE   p_joint    p_fact      ratio
+10    1  0.0   1.0  0.003704  0.000164  22.544298
+11    1  0.0   2.0  0.003704  0.000164  22.544298
+12    1  0.0   3.0  0.003704  0.000164  22.544298
+0     1  0.0   0.0  0.425926  0.021850  19.493190
+8     3  0.0   2.0  0.007407  0.000771   9.608664
+13    3  0.0   3.0  0.003704  0.000385   9.608664
+1     3  0.0   0.0  0.200000  0.023127   8.647797
+3     1  3.0   0.0  0.055556  0.023969   2.317794
+9     0  0.0   2.0  0.003704  0.002859   1.295238
+2     0  0.0   0.0  0.196296  0.203023   0.966868
+2025-06-12 08:37:55,816 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 19.63%
+2025-06-12 08:37:55,816 - INFO - 
+TFR bins:
+2025-06-12 08:37:55,816 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:37:55,816 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:37:55,816 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:37:55,816 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:37:55,816 - INFO - 
+FRR bins:
+2025-06-12 08:37:55,816 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:37:55,816 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:37:55,816 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:37:55,816 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:37:55,831 - INFO - 
+SIZE bins:
+2025-06-12 08:37:55,831 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:37:55,831 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:37:55,831 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:37:55,831 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:37:55,840 - INFO - RESULTS:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:37:55,840 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:37:55,847 - INFO - 
+FRR bins:
+2025-06-12 08:37:55,847 - INFO -   Bin 0: [0.95, 13.25)
+2025-06-12 08:37:55,847 - INFO -   Bin 1: [13.25, 25.50)
+2025-06-12 08:37:55,847 - INFO -   Bin 2: [25.50, 37.75)
+2025-06-12 08:37:55,847 - INFO -   Bin 3: [37.75, 50.00)
+2025-06-12 08:37:55,853 - INFO - 
+TFR bins:
+2025-06-12 08:37:55,853 - INFO -   Bin 0: [0.25, 0.81)
+2025-06-12 08:37:55,853 - INFO -   Bin 1: [0.81, 1.38)
+2025-06-12 08:37:55,853 - INFO -   Bin 2: [1.38, 1.94)
+2025-06-12 08:37:55,853 - INFO -   Bin 3: [1.94, 2.50)
+2025-06-12 08:37:55,853 - INFO - 
+SIZE bins:
+2025-06-12 08:37:55,853 - INFO -   Bin 0: [10.94, 2258.36)
+2025-06-12 08:37:55,853 - INFO -   Bin 1: [2258.36, 4496.82)
+2025-06-12 08:37:55,853 - INFO -   Bin 2: [4496.82, 6735.27)
+2025-06-12 08:37:55,853 - INFO -   Bin 3: [6735.27, 8973.73)
+2025-06-12 08:37:55,865 - INFO - RESULTS:
+   FRR  TFR  SIZE   p_joint    p_fact      ratio
+0    1  0.0   0.0  0.425926  0.022059  19.308642
+1    3  0.0   0.0  0.200000  0.044118   4.533333
+3    1  3.0   0.0  0.055556  0.022059   2.518519
+2    0  0.0   0.0  0.196296  0.202070   0.971429
+9    0  0.0   2.0  0.003704  0.003813   0.971429
+6    3  1.0   0.0  0.022222  0.055147   0.402963
+4    0  3.0   0.0  0.044444  0.198529   0.223868
+5    0  1.0   0.0  0.022222  0.422794   0.052560
+7    2  0.0   0.0  0.007407  0.000000        NaN
+8    3  0.0   2.0  0.007407  0.000000        NaN
+2025-06-12 08:37:55,865 - INFO - 
+Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:37:56,160 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,160 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,160 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,160 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,160 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,160 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,332 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,332 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,332 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,332 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,332 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,332 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,486 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,487 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,487 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,487 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,487 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,487 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,630 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,630 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,630 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,635 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,635 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,635 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,786 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,786 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,786 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,786 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,786 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,786 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,933 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,933 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,935 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,935 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,935 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:56,935 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,079 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,079 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,079 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,079 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,079 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,079 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,080 - INFO - 
+================================================================================
+2025-06-12 08:37:57,080 - INFO - Analisi causale per: DAG2
+2025-06-12 08:37:57,080 - INFO -   TFR \u2192 FRR
+2025-06-12 08:37:57,080 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:37:57,080 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:37:57,080 - INFO - ================================================================================
+
+2025-06-12 08:37:57,231 - ERROR - Errore in Validation_DAG1.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,231 - ERROR - Errore in Validation_DAG1.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,231 - ERROR - Errore in Validation_DAG1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,231 - ERROR - Errore in Validation_DAG2.1: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,231 - ERROR - Errore in Validation_DAG2.2: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,231 - ERROR - Errore in Validation_DAG2.3: percentage_well_done() missing 1 required positional argument: 'upper'
+2025-06-12 08:37:57,251 - INFO - 
+================================================================================
+2025-06-12 08:37:57,251 - INFO - Analisi causale per: DAG3
+2025-06-12 08:37:57,251 - INFO -   TFR \u2192 FRR
+2025-06-12 08:37:57,251 - INFO -   FRR \u2192 PDI
+2025-06-12 08:37:57,251 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:37:57,251 - INFO - ================================================================================
+
+2025-06-12 08:45:55,310 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:46:03,493 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:03,493 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:03,500 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:03,500 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:03,532 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:03,532 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:03,547 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:03,547 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:03,562 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:03,562 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:03,770 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:03,770 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:03,786 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:03,786 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:03,802 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:03,802 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:03,836 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:03,836 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:03,855 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:03,857 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,072 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,072 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,072 - INFO - 
+================================================================================
+2025-06-12 08:46:04,072 - INFO - Analisi causale per: DAG1
+2025-06-12 08:46:04,072 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:04,072 - INFO -   SIZE \u2192 PDI
+2025-06-12 08:46:04,072 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,072 - INFO - ================================================================================
+
+2025-06-12 08:46:04,102 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,102 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,102 - INFO - 
+================================================================================
+2025-06-12 08:46:04,102 - INFO - Analisi causale per: DAG1
+2025-06-12 08:46:04,102 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:04,102 - INFO -   SIZE \u2192 PDI
+2025-06-12 08:46:04,102 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,102 - INFO - ================================================================================
+
+2025-06-12 08:46:04,118 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,118 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,118 - INFO - 
+================================================================================
+2025-06-12 08:46:04,118 - INFO - Analisi causale per: DAG1
+2025-06-12 08:46:04,118 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:04,118 - INFO -   SIZE \u2192 PDI
+2025-06-12 08:46:04,118 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,118 - INFO - ================================================================================
+
+2025-06-12 08:46:04,133 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,133 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,166 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,167 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,343 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,343 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,359 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,359 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,378 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,378 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,391 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,391 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,420 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,420 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,617 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,617 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,645 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,645 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,669 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,670 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,683 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,683 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,683 - INFO - 
+================================================================================
+2025-06-12 08:46:04,683 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:46:04,683 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:04,683 - INFO -   FRR \u2192 TFR
+2025-06-12 08:46:04,683 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,683 - INFO - ================================================================================
+
+2025-06-12 08:46:04,701 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,701 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,701 - INFO - 
+================================================================================
+2025-06-12 08:46:04,701 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:46:04,701 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:04,701 - INFO -   FRR \u2192 TFR
+2025-06-12 08:46:04,701 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,701 - INFO - ================================================================================
+
+2025-06-12 08:46:04,893 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,894 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,900 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,900 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,918 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:04,918 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:04,929 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,929 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,947 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:04,947 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:04,961 - INFO - 
+================================================================================
+2025-06-12 08:46:04,961 - INFO - Analisi causale per: DAG2.3
+2025-06-12 08:46:04,961 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:04,961 - INFO -   FRR \u2192 TFR
+2025-06-12 08:46:04,961 - INFO -   TFR \u2192 SIZE
+2025-06-12 08:46:04,961 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:46:04,961 - INFO - ================================================================================
+
+2025-06-12 08:46:05,120 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:05,120 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:05,135 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:05,135 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:05,139 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:05,139 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:05,153 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:05,153 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:05,170 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:05,170 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:05,184 - INFO - 
+================================================================================
+2025-06-12 08:46:05,184 - INFO - Analisi causale per: DAG2
+2025-06-12 08:46:05,184 - INFO -   FRR \u2192 SIZE
+2025-06-12 08:46:05,184 - INFO -   TFR \u2192 FRR
+2025-06-12 08:46:05,184 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:05,184 - INFO - ================================================================================
+
+2025-06-12 08:46:05,344 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:05,345 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:05,364 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:05,365 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:05,385 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:46:05,385 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:46:05,405 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:05,405 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:05,423 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:46:05,423 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:46:05,438 - INFO - 
+================================================================================
+2025-06-12 08:46:05,438 - INFO - Analisi causale per: DAG3
+2025-06-12 08:46:05,438 - INFO -   TFR \u2192 FRR
+2025-06-12 08:46:05,438 - INFO -   FRR \u2192 PDI
+2025-06-12 08:46:05,438 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:46:05,438 - INFO - ================================================================================
+
+2025-06-12 08:47:53,882 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:47:54,221 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:47:54,221 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:47:54,221 - ERROR - Errore in Validation_DAG1.1: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,250 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:47:54,250 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:47:54,250 - ERROR - Errore in Validation_DAG1.2: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,267 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:47:54,267 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:47:54,267 - ERROR - Errore in Validation_DAG1: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,289 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:47:54,289 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:47:54,289 - ERROR - Errore in Validation_DAG2.1: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,311 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:47:54,314 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:47:54,314 - ERROR - Errore in Validation_DAG2.2: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,324 - ERROR - Errore in Validation_DAG2.3: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,335 - ERROR - Errore in Validation_DAG2: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:47:54,349 - ERROR - Errore in Validation_DAG3: log_dag_with_validation() missing 1 required positional argument: 'description'
+2025-06-12 08:49:00,223 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:49:00,471 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:49:00,474 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:49:00,475 - INFO - 
+================================================================================
+2025-06-12 08:49:00,475 - INFO - Analisi causale per: DAG1
+2025-06-12 08:49:00,475 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:49:00,475 - INFO - ================================================================================
+
+2025-06-12 08:49:00,495 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:49:00,496 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:49:00,496 - INFO - 
+================================================================================
+2025-06-12 08:49:00,496 - INFO - Analisi causale per: DAG1
+2025-06-12 08:49:00,496 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:49:00,496 - INFO - ================================================================================
+
+2025-06-12 08:49:00,515 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:49:00,516 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:49:00,516 - INFO - 
+================================================================================
+2025-06-12 08:49:00,516 - INFO - Analisi causale per: DAG1
+2025-06-12 08:49:00,516 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:49:00,516 - INFO - ================================================================================
+
+2025-06-12 08:49:00,536 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:49:00,537 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:49:00,537 - INFO - 
+================================================================================
+2025-06-12 08:49:00,537 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:49:00,537 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:49:00,537 - INFO - ================================================================================
+
+2025-06-12 08:49:00,557 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:49:00,558 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:49:00,558 - INFO - 
+================================================================================
+2025-06-12 08:49:00,558 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:49:00,558 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:49:00,559 - INFO - ================================================================================
+
+2025-06-12 08:49:00,574 - INFO - 
+================================================================================
+2025-06-12 08:49:00,574 - INFO - Analisi causale per: DAG2.3
+2025-06-12 08:49:00,574 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:49:00,575 - INFO - ================================================================================
+
+2025-06-12 08:49:00,589 - INFO - 
+================================================================================
+2025-06-12 08:49:00,589 - INFO - Analisi causale per: DAG2
+2025-06-12 08:49:00,589 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:49:00,589 - INFO - ================================================================================
+
+2025-06-12 08:49:00,604 - INFO - 
+================================================================================
+2025-06-12 08:49:00,605 - INFO - Analisi causale per: DAG3
+2025-06-12 08:49:00,605 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:49:00,605 - INFO - ================================================================================
+
+2025-06-12 08:53:02,976 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:53:03,539 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:53:03,539 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:53:03,539 - INFO - 
+================================================================================
+2025-06-12 08:53:03,539 - INFO - Analisi causale per: DAG1
+2025-06-12 08:53:03,539 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:53:03,539 - INFO - ================================================================================
+
+2025-06-12 08:53:03,557 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:53:03,557 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:53:03,557 - INFO - 
+================================================================================
+2025-06-12 08:53:03,557 - INFO - Analisi causale per: DAG1
+2025-06-12 08:53:03,557 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:53:03,557 - INFO - ================================================================================
+
+2025-06-12 08:53:03,571 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:53:03,571 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:53:03,571 - INFO - 
+================================================================================
+2025-06-12 08:53:03,571 - INFO - Analisi causale per: DAG1
+2025-06-12 08:53:03,571 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:53:03,571 - INFO - ================================================================================
+
+2025-06-12 08:53:03,601 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:53:03,601 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:53:03,601 - INFO - 
+================================================================================
+2025-06-12 08:53:03,601 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:53:03,601 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:53:03,601 - INFO - ================================================================================
+
+2025-06-12 08:53:03,619 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:53:03,619 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:53:03,619 - INFO - 
+================================================================================
+2025-06-12 08:53:03,619 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:53:03,619 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:53:03,619 - INFO - ================================================================================
+
+2025-06-12 08:53:03,634 - INFO - 
+================================================================================
+2025-06-12 08:53:03,634 - INFO - Analisi causale per: DAG2.3
+2025-06-12 08:53:03,634 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:53:03,634 - INFO - ================================================================================
+
+2025-06-12 08:53:03,650 - INFO - 
+================================================================================
+2025-06-12 08:53:03,650 - INFO - Analisi causale per: DAG2
+2025-06-12 08:53:03,650 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:53:03,650 - INFO - ================================================================================
+
+2025-06-12 08:53:03,666 - INFO - 
+================================================================================
+2025-06-12 08:53:03,666 - INFO - Analisi causale per: DAG3
+2025-06-12 08:53:03,666 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:53:03,666 - INFO - ================================================================================
+
+2025-06-12 08:54:13,060 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:54:13,290 - INFO - INIZIO..
+
+2025-06-12 08:54:13,313 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:54:13,316 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:54:13,316 - INFO - 
+================================================================================
+2025-06-12 08:54:13,316 - INFO - Analisi causale per: DAG1
+2025-06-12 08:54:13,316 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:54:13,316 - INFO - ================================================================================
+
+2025-06-12 08:54:13,330 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:54:13,330 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:54:13,330 - INFO - 
+================================================================================
+2025-06-12 08:54:13,330 - INFO - Analisi causale per: DAG1
+2025-06-12 08:54:13,330 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:54:13,330 - INFO - ================================================================================
+
+2025-06-12 08:54:13,349 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:54:13,349 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:54:13,349 - INFO - 
+================================================================================
+2025-06-12 08:54:13,349 - INFO - Analisi causale per: DAG1
+2025-06-12 08:54:13,349 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:54:13,349 - INFO - ================================================================================
+
+2025-06-12 08:54:13,365 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:54:13,366 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:54:13,366 - INFO - 
+================================================================================
+2025-06-12 08:54:13,366 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:54:13,366 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:54:13,366 - INFO - ================================================================================
+
+2025-06-12 08:54:13,379 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:54:13,379 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:54:13,379 - INFO - 
+================================================================================
+2025-06-12 08:54:13,379 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:54:13,379 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:54:13,379 - INFO - ================================================================================
+
+2025-06-12 08:54:13,396 - INFO - 
+================================================================================
+2025-06-12 08:54:13,396 - INFO - Analisi causale per: DAG2.3
+2025-06-12 08:54:13,396 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:54:13,396 - INFO - ================================================================================
+
+2025-06-12 08:54:13,399 - INFO - 
+================================================================================
+2025-06-12 08:54:13,399 - INFO - Analisi causale per: DAG2
+2025-06-12 08:54:13,399 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:54:13,399 - INFO - ================================================================================
+
+2025-06-12 08:54:13,415 - INFO - 
+================================================================================
+2025-06-12 08:54:13,415 - INFO - Analisi causale per: DAG3
+2025-06-12 08:54:13,415 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:54:13,415 - INFO - ================================================================================
+
+2025-06-12 08:56:05,807 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:56:06,197 - INFO - INIZIO..
+
+2025-06-12 08:56:06,255 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:56:06,255 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:56:06,257 - INFO - 
+================================================================================
+2025-06-12 08:56:06,257 - INFO - Analisi causale per: DAG1
+2025-06-12 08:56:06,257 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:56:06,257 - INFO - ================================================================================
+
+2025-06-12 08:56:06,274 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:56:06,274 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:56:06,274 - INFO - 
+================================================================================
+2025-06-12 08:56:06,274 - INFO - Analisi causale per: DAG1
+2025-06-12 08:56:06,274 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:56:06,274 - INFO - ================================================================================
+
+2025-06-12 08:56:06,287 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:56:06,287 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:56:06,287 - INFO - 
+================================================================================
+2025-06-12 08:56:06,287 - INFO - Analisi causale per: DAG1
+2025-06-12 08:56:06,287 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:56:06,287 - INFO - ================================================================================
+
+2025-06-12 08:56:06,310 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:56:06,310 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:56:06,310 - INFO - 
+================================================================================
+2025-06-12 08:56:06,310 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:56:06,310 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:56:06,310 - INFO - ================================================================================
+
+2025-06-12 08:56:06,339 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:56:06,339 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:56:06,339 - INFO - 
+================================================================================
+2025-06-12 08:56:06,339 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:56:06,339 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:56:06,339 - INFO - ================================================================================
+
+2025-06-12 08:56:06,356 - INFO - 
+================================================================================
+2025-06-12 08:56:06,356 - INFO - Analisi causale per: DAG2.3
+2025-06-12 08:56:06,356 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:56:06,356 - INFO - ================================================================================
+
+2025-06-12 08:56:06,370 - INFO - 
+================================================================================
+2025-06-12 08:56:06,370 - INFO - Analisi causale per: DAG2
+2025-06-12 08:56:06,370 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:56:06,370 - INFO - ================================================================================
+
+2025-06-12 08:56:06,379 - INFO - 
+================================================================================
+2025-06-12 08:56:06,379 - INFO - Analisi causale per: DAG3
+2025-06-12 08:56:06,379 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:56:06,379 - INFO - ================================================================================
+
+2025-06-12 08:57:33,973 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 08:57:34,211 - INFO - INIZIO..
+
+2025-06-12 08:57:34,229 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:57:34,237 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:57:34,237 - INFO - 
+================================================================================
+2025-06-12 08:57:34,237 - INFO - Analisi causale per: DAG1
+2025-06-12 08:57:34,237 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:57:34,237 - INFO - ================================================================================
+
+2025-06-12 08:57:34,258 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:57:34,259 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:57:34,259 - INFO - 
+================================================================================
+2025-06-12 08:57:34,260 - INFO - Analisi causale per: DAG1
+2025-06-12 08:57:34,260 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:57:34,260 - INFO - ================================================================================
+
+2025-06-12 08:57:34,277 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 08:57:34,277 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:57:34,277 - INFO - 
+================================================================================
+2025-06-12 08:57:34,277 - INFO - Analisi causale per: DAG1
+2025-06-12 08:57:34,277 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 08:57:34,277 - INFO - ================================================================================
+
+2025-06-12 08:57:34,295 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:57:34,296 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:57:34,296 - INFO - 
+================================================================================
+2025-06-12 08:57:34,296 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:57:34,296 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:57:34,297 - INFO - ================================================================================
+
+2025-06-12 08:57:34,346 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 08:57:34,350 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:57:34,351 - INFO - 
+================================================================================
+2025-06-12 08:57:34,351 - INFO - Analisi causale per: DAG2.2
+2025-06-12 08:57:34,351 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:57:34,351 - INFO - ================================================================================
+
+2025-06-12 08:57:34,366 - INFO - 
+================================================================================
+2025-06-12 08:57:34,366 - INFO - Analisi causale per: DAG2.3
+2025-06-12 08:57:34,366 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 08:57:34,366 - INFO - ================================================================================
+
+2025-06-12 08:57:34,376 - INFO - 
+================================================================================
+2025-06-12 08:57:34,376 - INFO - Analisi causale per: DAG2
+2025-06-12 08:57:34,376 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 08:57:34,376 - INFO - ================================================================================
+
+2025-06-12 08:57:34,393 - INFO - 
+================================================================================
+2025-06-12 08:57:34,393 - INFO - Analisi causale per: DAG3
+2025-06-12 08:57:34,393 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 08:57:34,393 - INFO - ================================================================================
+
+2025-06-12 09:00:46,959 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:00:47,185 - INFO - INIZIO..
+
+2025-06-12 09:02:13,692 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:02:13,922 - INFO - INIZIO..
+
+2025-06-12 09:02:13,947 - INFO - 
+================================================================================
+2025-06-12 09:02:13,947 - INFO - Analisi causale per: DAG1
+2025-06-12 09:02:13,947 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:02:13,947 - INFO - ================================================================================
+
+2025-06-12 09:02:13,964 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 09:02:13,965 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:02:13,965 - INFO - 
+================================================================================
+2025-06-12 09:02:13,965 - INFO - Analisi causale per: DAG1
+2025-06-12 09:02:13,965 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:02:13,965 - INFO - ================================================================================
+
+2025-06-12 09:02:13,979 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 09:02:13,979 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:02:13,979 - INFO - 
+================================================================================
+2025-06-12 09:02:13,979 - INFO - Analisi causale per: DAG1
+2025-06-12 09:02:13,979 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:02:13,979 - INFO - ================================================================================
+
+2025-06-12 09:02:13,999 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 09:02:13,999 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:02:13,999 - INFO - 
+================================================================================
+2025-06-12 09:02:13,999 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:02:13,999 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:02:13,999 - INFO - ================================================================================
+
+2025-06-12 09:02:14,012 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 09:02:14,012 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:02:14,012 - INFO - 
+================================================================================
+2025-06-12 09:02:14,012 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:02:14,012 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:02:14,012 - INFO - ================================================================================
+
+2025-06-12 09:02:14,033 - INFO - 
+================================================================================
+2025-06-12 09:02:14,033 - INFO - Analisi causale per: DAG2.3
+2025-06-12 09:02:14,033 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 09:02:14,033 - INFO - ================================================================================
+
+2025-06-12 09:02:14,045 - INFO - 
+================================================================================
+2025-06-12 09:02:14,045 - INFO - Analisi causale per: DAG2
+2025-06-12 09:02:14,045 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:02:14,045 - INFO - ================================================================================
+
+2025-06-12 09:02:14,063 - INFO - 
+================================================================================
+2025-06-12 09:02:14,063 - INFO - Analisi causale per: DAG3
+2025-06-12 09:02:14,063 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 09:02:14,063 - INFO - ================================================================================
+
+2025-06-12 09:03:09,398 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:03:09,620 - INFO - INIZIO..
+
+2025-06-12 09:04:52,982 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:04:53,210 - INFO - INIZIO..
+
+2025-06-12 09:04:53,245 - INFO - 
+================================================================================
+2025-06-12 09:04:53,245 - INFO - Analisi causale per: DAG1
+2025-06-12 09:04:53,245 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:04:53,245 - INFO - ================================================================================
+
+2025-06-12 09:04:53,263 - INFO - 
+================================================================================
+2025-06-12 09:04:53,263 - INFO - Analisi causale per: DAG1
+2025-06-12 09:04:53,263 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:04:53,263 - INFO - ================================================================================
+
+2025-06-12 09:04:53,276 - INFO - 
+================================================================================
+2025-06-12 09:04:53,276 - INFO - Analisi causale per: DAG1
+2025-06-12 09:04:53,276 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:04:53,276 - INFO - ================================================================================
+
+2025-06-12 09:04:53,297 - INFO - 
+================================================================================
+2025-06-12 09:04:53,297 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:04:53,297 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:04:53,297 - INFO - ================================================================================
+
+2025-06-12 09:04:53,319 - INFO - 
+================================================================================
+2025-06-12 09:04:53,319 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:04:53,319 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:04:53,319 - INFO - ================================================================================
+
+2025-06-12 09:04:53,326 - INFO - 
+================================================================================
+2025-06-12 09:04:53,326 - INFO - Analisi causale per: DAG2.3
+2025-06-12 09:04:53,326 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 09:04:53,326 - INFO - ================================================================================
+
+2025-06-12 09:04:53,343 - INFO - 
+================================================================================
+2025-06-12 09:04:53,343 - INFO - Analisi causale per: DAG2
+2025-06-12 09:04:53,343 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:04:53,343 - INFO - ================================================================================
+
+2025-06-12 09:04:53,343 - INFO - 
+================================================================================
+2025-06-12 09:04:53,343 - INFO - Analisi causale per: DAG3
+2025-06-12 09:04:53,343 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 09:04:53,343 - INFO - ================================================================================
+
+2025-06-12 09:05:59,094 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:05:59,355 - INFO - INIZIO..
+
+2025-06-12 09:05:59,381 - INFO - 
+================================================================================
+2025-06-12 09:05:59,381 - INFO - Analisi causale per: DAG1
+2025-06-12 09:05:59,381 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:05:59,400 - INFO - 
+================================================================================
+2025-06-12 09:05:59,400 - INFO - Analisi causale per: DAG1
+2025-06-12 09:05:59,400 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:05:59,415 - INFO - 
+================================================================================
+2025-06-12 09:05:59,415 - INFO - Analisi causale per: DAG1
+2025-06-12 09:05:59,415 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:05:59,432 - INFO - 
+================================================================================
+2025-06-12 09:05:59,432 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:05:59,432 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:05:59,451 - INFO - 
+================================================================================
+2025-06-12 09:05:59,451 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:05:59,451 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:05:59,468 - INFO - 
+================================================================================
+2025-06-12 09:05:59,468 - INFO - Analisi causale per: DAG2.3
+2025-06-12 09:05:59,468 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 09:05:59,483 - INFO - 
+================================================================================
+2025-06-12 09:05:59,483 - INFO - Analisi causale per: DAG2
+2025-06-12 09:05:59,483 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:05:59,501 - INFO - 
+================================================================================
+2025-06-12 09:05:59,501 - INFO - Analisi causale per: DAG3
+2025-06-12 09:05:59,501 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 09:06:18,649 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:06:18,870 - INFO - INIZIO..
+2025-06-12 09:06:18,893 - INFO - 
+================================================================================
+2025-06-12 09:06:18,893 - INFO - Analisi causale per: DAG1
+2025-06-12 09:06:18,893 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:06:18,911 - INFO - 
+================================================================================
+2025-06-12 09:06:18,911 - INFO - Analisi causale per: DAG1
+2025-06-12 09:06:18,911 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:06:18,929 - INFO - 
+================================================================================
+2025-06-12 09:06:18,929 - INFO - Analisi causale per: DAG1
+2025-06-12 09:06:18,929 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:06:18,949 - INFO - 
+================================================================================
+2025-06-12 09:06:18,949 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:06:18,949 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:06:18,972 - INFO - 
+================================================================================
+2025-06-12 09:06:18,972 - INFO - Analisi causale per: DAG2.2
+2025-06-12 09:06:18,972 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:06:18,987 - INFO - 
+================================================================================
+2025-06-12 09:06:18,987 - INFO - Analisi causale per: DAG2.3
+2025-06-12 09:06:18,987 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 20.00%
+2025-06-12 09:06:18,997 - INFO - 
+================================================================================
+2025-06-12 09:06:18,997 - INFO - Analisi causale per: DAG2
+2025-06-12 09:06:18,997 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:06:19,007 - INFO - 
+================================================================================
+2025-06-12 09:06:19,007 - INFO - Analisi causale per: DAG3
+2025-06-12 09:06:19,007 - INFO - Percentuale ben spiegata (\u2208 [0.9, 1.1]): 50.37%
+2025-06-12 09:08:17,715 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:08:17,988 - INFO - INIZIO..
+2025-06-12 09:08:18,001 - INFO - ================================================================================
+2025-06-12 09:08:18,001 - INFO - Description | Percentage
+2025-06-12 09:08:18,001 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,001 - INFO - DAG1 | 2.59%
+2025-06-12 09:08:18,001 - INFO - ================================================================================
+
+2025-06-12 09:08:18,027 - INFO - ================================================================================
+2025-06-12 09:08:18,027 - INFO - Description | Percentage
+2025-06-12 09:08:18,027 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,027 - INFO - DAG1 | 2.59%
+2025-06-12 09:08:18,027 - INFO - ================================================================================
+
+2025-06-12 09:08:18,033 - INFO - ================================================================================
+2025-06-12 09:08:18,033 - INFO - Description | Percentage
+2025-06-12 09:08:18,033 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,033 - INFO - DAG1 | 2.59%
+2025-06-12 09:08:18,033 - INFO - ================================================================================
+
+2025-06-12 09:08:18,066 - INFO - ================================================================================
+2025-06-12 09:08:18,066 - INFO - Description | Percentage
+2025-06-12 09:08:18,066 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,066 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:08:18,066 - INFO - ================================================================================
+
+2025-06-12 09:08:18,088 - INFO - ================================================================================
+2025-06-12 09:08:18,088 - INFO - Description | Percentage
+2025-06-12 09:08:18,088 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,088 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:08:18,088 - INFO - ================================================================================
+
+2025-06-12 09:08:18,099 - INFO - ================================================================================
+2025-06-12 09:08:18,099 - INFO - Description | Percentage
+2025-06-12 09:08:18,099 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,099 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:08:18,099 - INFO - ================================================================================
+
+2025-06-12 09:08:18,111 - INFO - ================================================================================
+2025-06-12 09:08:18,111 - INFO - Description | Percentage
+2025-06-12 09:08:18,111 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,111 - INFO - DAG2 | 98.15%
+2025-06-12 09:08:18,111 - INFO - ================================================================================
+
+2025-06-12 09:08:18,111 - INFO - ================================================================================
+2025-06-12 09:08:18,111 - INFO - Description | Percentage
+2025-06-12 09:08:18,111 - INFO - --------------------------------------------------------------------------------
+2025-06-12 09:08:18,111 - INFO - DAG3 | 50.37%
+2025-06-12 09:08:18,111 - INFO - ================================================================================
+
+2025-06-12 09:09:04,577 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:09:04,781 - INFO - INIZIO..
+2025-06-12 09:09:04,815 - INFO - Description | Percentage
+2025-06-12 09:09:04,815 - INFO - DAG1 | 2.59%
+2025-06-12 09:09:04,835 - INFO - Description | Percentage
+2025-06-12 09:09:04,835 - INFO - DAG1 | 2.59%
+2025-06-12 09:09:04,849 - INFO - Description | Percentage
+2025-06-12 09:09:04,849 - INFO - DAG1 | 2.59%
+2025-06-12 09:09:04,863 - INFO - Description | Percentage
+2025-06-12 09:09:04,863 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:09:04,876 - INFO - Description | Percentage
+2025-06-12 09:09:04,876 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:09:04,896 - INFO - Description | Percentage
+2025-06-12 09:09:04,896 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:09:04,904 - INFO - Description | Percentage
+2025-06-12 09:09:04,905 - INFO - DAG2 | 98.15%
+2025-06-12 09:09:04,908 - INFO - Description | Percentage
+2025-06-12 09:09:04,908 - INFO - DAG3 | 50.37%
+2025-06-12 09:09:33,711 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:09:33,933 - INFO - INIZIO..
+2025-06-12 09:09:33,933 - INFO - Description | Percentage
+2025-06-12 09:09:33,957 - INFO - DAG1 | 2.59%
+2025-06-12 09:09:33,976 - INFO - DAG1 | 2.59%
+2025-06-12 09:09:33,993 - INFO - DAG1 | 2.59%
+2025-06-12 09:09:34,012 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:09:34,029 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:09:34,040 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:09:34,048 - INFO - DAG2 | 98.15%
+2025-06-12 09:09:34,048 - INFO - DAG3 | 50.37%
+2025-06-12 09:12:45,532 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:12:45,757 - INFO - INIZIO..
+2025-06-12 09:12:45,779 - INFO - DAG1 | 2.59%
+2025-06-12 09:12:45,779 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:12:45,797 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 09:12:45,798 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:12:45,804 - INFO - DAG1 | 2.59%
+2025-06-12 09:12:45,804 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:12:45,828 - INFO - Top valori per ratio:
+    FRR  SIZE  PDI   p_joint    p_fact     ratio
+10  3.0   0.0    3  0.011111  0.003359  3.308276
+7   3.0   0.0    2  0.018519  0.005971  3.101509
+4   1.0   0.0    1  0.029630  0.011942  2.481207
+2   3.0   0.0    1  0.044444  0.026869  1.654138
+0   0.0   0.0    0  0.585185  0.527750  1.108831
+8   0.0   2.0    3  0.014815  0.014833  0.998760
+11  0.0   3.0    3  0.007407  0.007417  0.998760
+12  0.0   1.0    3  0.003704  0.003708  0.998760
+1   0.0   0.0    1  0.188889  0.224840  0.840103
+6   0.0   0.0    3  0.022222  0.028105  0.790685
+2025-06-12 09:12:45,828 - INFO - Percentuale di distribuzione ben spiegata (ratio \u2208 [0.9, 1.1]): 2.59%
+2025-06-12 09:12:45,828 - INFO - DAG1 | 2.59%
+2025-06-12 09:12:45,828 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:12:45,848 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 09:12:45,848 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:12:45,848 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:12:45,848 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:12:45,869 - INFO - Top valori per ratio:
+    TFR  FRR  SIZE   p_joint    p_fact     ratio
+8     3  0.0   2.0  0.007407  0.003629  2.041326
+13    3  0.0   3.0  0.003704  0.001814  2.041326
+10    1  0.0   1.0  0.003704  0.001878  1.972128
+7     2  0.0   0.0  0.007407  0.007130  1.038889
+9     0  0.0   2.0  0.003704  0.003565  1.038889
+0     1  0.0   0.0  0.425926  0.420677  1.012476
+4     0  3.0   0.0  0.044444  0.044118  1.007407
+3     1  3.0   0.0  0.055556  0.055147  1.007407
+5     0  1.0   0.0  0.022222  0.022059  1.007407
+6     3  1.0   0.0  0.022222  0.022059  1.007407
+2025-06-12 09:12:45,869 - INFO - Percentuale spiegata (ratio \u2208 [0.9, 1.1]): 98.15%
+2025-06-12 09:12:45,869 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:12:45,869 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:12:45,877 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:12:45,877 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:12:45,894 - INFO - DAG2 | 98.15%
+2025-06-12 09:12:45,894 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:12:45,905 - INFO - DAG3 | 50.37%
+2025-06-12 09:13:23,066 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:13:23,308 - INFO - INIZIO..
+2025-06-12 09:13:23,332 - INFO - DAG1 | 2.59%
+2025-06-12 09:13:23,332 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:13:23,352 - INFO - DAG1 | 2.59%
+2025-06-12 09:13:23,352 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:13:23,370 - INFO - DAG1 | 2.59%
+2025-06-12 09:13:23,370 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:13:23,388 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:13:23,388 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:13:23,407 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:13:23,407 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:13:23,423 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:13:23,423 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:13:23,436 - INFO - DAG2 | 98.15%
+2025-06-12 09:13:23,436 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:13:23,450 - INFO - DAG3 | 50.37%
+2025-06-12 09:21:00,803 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:21:01,365 - INFO - INIZIO..
+2025-06-12 09:21:01,403 - INFO - DAG1 | 2.59%
+2025-06-12 09:21:01,403 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:21:01,434 - INFO - DAG1 | 2.59%
+2025-06-12 09:21:01,434 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:21:01,451 - INFO - DAG1 | 2.59%
+2025-06-12 09:21:01,451 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:21:01,478 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:21:01,478 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:21:01,499 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:21:01,499 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:21:01,540 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:21:01,540 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:21:01,559 - INFO - DAG2 | 98.15%
+2025-06-12 09:21:01,559 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:21:01,572 - INFO - DAG3 | 50.37%
+2025-06-12 09:28:17,082 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:28:17,689 - INFO - 
+
+INIZIO..
+2025-06-12 09:28:17,689 - INFO - Description | Percentage
+2025-06-12 09:28:17,689 - INFO - Moduli da eseguire: ['Validation_DAG1.1', 'Validation_DAG1.2', 'Validation_DAG1', 'Validation_DAG2.1', 'Validation_DAG2.2', 'Validation_DAG2.3', 'Validation_DAG2', 'Validation_DAG3']
+2025-06-12 09:28:17,689 - INFO - Esecuzione del modulo: Validation_DAG1.1
+2025-06-12 09:28:17,766 - INFO - DAG1 | 2.59%
+2025-06-12 09:28:17,766 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:28:17,780 - INFO - DAG1 | 2.59%
+2025-06-12 09:28:17,780 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:28:17,796 - INFO - DAG1 | 2.59%
+2025-06-12 09:28:17,796 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:28:17,814 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:28:17,814 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:28:17,830 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:28:17,830 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:28:17,846 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:28:17,846 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:28:17,849 - INFO - DAG2 | 98.15%
+2025-06-12 09:28:17,849 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:28:17,860 - INFO - DAG3 | 50.37%
+2025-06-12 09:29:25,054 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:29:25,295 - INFO - 
+
+INIZIO..
+2025-06-12 09:29:25,297 - INFO - Description | Percentage
+2025-06-12 09:29:25,297 - INFO - Moduli da eseguire: ['Validation_DAG1.1', 'Validation_DAG1.2', 'Validation_DAG1', 'Validation_DAG2.1', 'Validation_DAG2.2', 'Validation_DAG2.3', 'Validation_DAG2', 'Validation_DAG3']
+2025-06-12 09:29:25,297 - INFO - Esecuzione del modulo: Validation_DAG1.1
+2025-06-12 09:29:25,323 - INFO - DAG1.1 | 2.59%
+2025-06-12 09:29:25,323 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:29:25,342 - INFO - DAG1.2 | 2.59%
+2025-06-12 09:29:25,342 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:29:25,359 - INFO - DAG1 | 2.59%
+2025-06-12 09:29:25,359 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:29:25,379 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:29:25,380 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:29:25,403 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:29:25,404 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:29:25,414 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:29:25,414 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:29:25,441 - INFO - DAG2 | 98.15%
+2025-06-12 09:29:25,441 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:29:25,458 - INFO - DAG3 | 50.37%
+2025-06-12 09:29:32,614 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:29:32,891 - INFO - 
+
+INIZIO..
+2025-06-12 09:29:32,891 - INFO - Description | Percentage
+2025-06-12 09:29:32,891 - INFO - Moduli da eseguire: ['Validation_DAG1.1', 'Validation_DAG1.2', 'Validation_DAG1', 'Validation_DAG2.1', 'Validation_DAG2.2', 'Validation_DAG2.3', 'Validation_DAG2', 'Validation_DAG3']
+2025-06-12 09:29:32,891 - INFO - Esecuzione del modulo: Validation_DAG1.1
+2025-06-12 09:29:32,925 - INFO - DAG1.1 | 2.59%
+2025-06-12 09:29:32,925 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:29:32,942 - INFO - DAG1.2 | 2.59%
+2025-06-12 09:29:32,942 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:29:32,976 - INFO - DAG1 | 2.59%
+2025-06-12 09:29:32,976 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:29:32,990 - INFO - DAG2.1 | 98.15%
+2025-06-12 09:29:32,990 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:29:33,008 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:29:33,008 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:29:33,024 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:29:33,024 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:29:33,035 - INFO - DAG2 | 98.15%
+2025-06-12 09:29:33,035 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:29:33,049 - INFO - DAG3 | 50.37%
+2025-06-12 09:37:14,422 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 09:37:14,695 - INFO - 
+
+INIZIO..
+2025-06-12 09:37:14,695 - INFO - Description | Percentage
+2025-06-12 09:37:14,695 - INFO - Moduli da eseguire: ['Validation_DAG1.1', 'Validation_DAG1.2', 'Validation_DAG1', 'Validation_DAG2.1', 'Validation_DAG2.2', 'Validation_DAG2.3', 'Validation_DAG2', 'Validation_DAG3']
+2025-06-12 09:37:14,695 - INFO - Esecuzione del modulo: Validation_DAG1.1
+2025-06-12 09:37:14,758 - INFO - DAG1.1 | 100.00%
+2025-06-12 09:37:14,758 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 09:37:14,779 - INFO - DAG1.2 | 49.82%
+2025-06-12 09:37:14,779 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 09:37:14,795 - INFO - DAG1 | 2.59%
+2025-06-12 09:37:14,795 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 09:37:14,816 - INFO - DAG2.1 | 97.41%
+2025-06-12 09:37:14,816 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 09:37:14,835 - INFO - DAG2.2 | 98.15%
+2025-06-12 09:37:14,835 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 09:37:14,848 - INFO - DAG2.3 | 20.00%
+2025-06-12 09:37:14,849 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 09:37:14,859 - INFO - DAG2 | 98.15%
+2025-06-12 09:37:14,859 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 09:37:14,871 - INFO - DAG3 | 50.37%
+2025-06-12 16:56:31,950 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 16:56:32,245 - INFO - 
+
+INIZIO..
+2025-06-12 16:56:32,245 - INFO - Description | Percentage
+2025-06-12 16:56:32,245 - INFO - Moduli da eseguire: ['Validation_DAG1.1', 'Validation_DAG1.2', 'Validation_DAG1', 'Validation_DAG2.1', 'Validation_DAG2.2', 'Validation_DAG2.3', 'Validation_DAG2', 'Validation_DAG3']
+2025-06-12 16:56:32,245 - INFO - Esecuzione del modulo: Validation_DAG1.1
+2025-06-12 16:56:32,380 - INFO - DAG1.1 | 100.00%
+2025-06-12 16:56:32,380 - INFO - Esecuzione del modulo: Validation_DAG1.2
+2025-06-12 16:56:32,399 - INFO - DAG1.2 | 49.82%
+2025-06-12 16:56:32,399 - INFO - Esecuzione del modulo: Validation_DAG1
+2025-06-12 16:56:32,421 - INFO - DAG1 | 2.59%
+2025-06-12 16:56:32,421 - INFO - Esecuzione del modulo: Validation_DAG2.1
+2025-06-12 16:56:32,441 - INFO - DAG2.1 | 97.41%
+2025-06-12 16:56:32,441 - INFO - Esecuzione del modulo: Validation_DAG2.2
+2025-06-12 16:56:32,461 - INFO - DAG2.2 | 98.15%
+2025-06-12 16:56:32,461 - INFO - Esecuzione del modulo: Validation_DAG2.3
+2025-06-12 16:56:32,485 - INFO - DAG2.3 | 20.00%
+2025-06-12 16:56:32,485 - INFO - Esecuzione del modulo: Validation_DAG2
+2025-06-12 16:56:32,494 - INFO - DAG2 | 98.15%
+2025-06-12 16:56:32,495 - INFO - Esecuzione del modulo: Validation_DAG3
+2025-06-12 16:56:32,504 - INFO - DAG3 | 50.37%
+2025-06-12 16:57:40,939 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 16:57:41,193 - INFO - 
+
+INIZIO..
+2025-06-12 16:57:41,193 - INFO - Description | Percentage
+2025-06-12 16:57:41,219 - INFO - DAG1.1 | 100.00%
+2025-06-12 16:57:41,240 - INFO - DAG1.2 | 49.82%
+2025-06-12 16:57:41,259 - INFO - DAG1 | 2.59%
+2025-06-12 16:57:41,278 - INFO - DAG2.1 | 97.41%
+2025-06-12 16:57:41,301 - INFO - DAG2.2 | 98.15%
+2025-06-12 16:57:41,316 - INFO - DAG2.3 | 20.00%
+2025-06-12 16:57:41,325 - INFO - DAG2 | 98.15%
+2025-06-12 16:57:41,341 - INFO - DAG3 | 50.37%
+2025-06-12 16:59:33,378 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 16:59:33,793 - INFO - 
+
+INIZIO..
+2025-06-12 16:59:33,793 - INFO - Description | Percentage
+2025-06-12 16:59:33,865 - INFO - DAG1.1 | 100.00%
+2025-06-12 16:59:33,891 - INFO - DAG1.2 | 49.82%
+2025-06-12 16:59:33,907 - INFO - DAG1 | 2.59%
+2025-06-12 16:59:33,930 - INFO - ---------
+2025-06-12 16:59:33,930 - INFO - DAG2.1 | 97.41%
+2025-06-12 16:59:33,951 - INFO - DAG2.2 | 98.15%
+2025-06-12 16:59:33,975 - INFO - DAG2.3 | 20.00%
+2025-06-12 16:59:33,985 - INFO - DAG2 | 98.15%
+2025-06-12 16:59:33,997 - INFO - ---------
+2025-06-12 16:59:33,997 - INFO - DAG3 | 50.37%
+2025-06-12 17:12:11,949 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 17:12:12,417 - INFO - 
+
+INIZIO..
+2025-06-12 17:12:12,417 - INFO - Description | Percentage | DAG
+2025-06-12 17:12:53,682 - ERROR - Errore in Validation_DAG1.1: module 'Constraction_DAG1.1' has no attribute 'get_dag'
+2025-06-12 17:12:53,713 - ERROR - Errore in Validation_DAG1.2: module 'Constraction_DAG1.2' has no attribute 'get_dag'
+2025-06-12 17:12:53,735 - ERROR - Errore in Validation_DAG1: module 'Constraction_DAG1' has no attribute 'get_dag'
+2025-06-12 17:12:53,745 - INFO - ---------
+2025-06-12 17:12:53,764 - ERROR - Errore in Validation_DAG2.1: module 'Constraction_DAG2.1' has no attribute 'get_dag'
+2025-06-12 17:12:53,792 - ERROR - Errore in Validation_DAG2.2: module 'Constraction_DAG2.2' has no attribute 'get_dag'
+2025-06-12 17:12:53,811 - ERROR - Errore in Validation_DAG2.3: module 'Constraction_DAG2.3' has no attribute 'get_dag'
+2025-06-12 17:12:53,824 - ERROR - Errore in Validation_DAG2: module 'Constraction_DAG2' has no attribute 'get_dag'
+2025-06-12 17:12:53,840 - INFO - ---------
+2025-06-12 17:12:53,844 - ERROR - Errore in Validation_DAG3: module 'Constraction_DAG3' has no attribute 'get_dag'
+2025-06-12 17:13:52,818 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 17:13:53,049 - INFO - 
+
+INIZIO..
+2025-06-12 17:13:53,049 - INFO - Description | Percentage | DAG
+2025-06-12 17:13:58,660 - INFO - DAG1.1 | 100.00% | DAG: [HSPC][TFR][ESM][FRR][ML][ID][AQUEOUS][OUTPUT][PEG][SIZE|FRR][PDI|SIZE,FRR][CHOL][CHIP]
+2025-06-12 17:13:58,800 - INFO - DAG1.2 | 49.82% | DAG: [HSPC][TFR][ESM][FRR][ML][ID][AQUEOUS][OUTPUT][PEG][SIZE|TFR][PDI|SIZE][CHOL][CHIP]
+2025-06-12 17:13:58,947 - INFO - DAG1 | 2.59% | DAG: [HSPC][TFR][ESM][FRR][ML][ID][AQUEOUS][OUTPUT][PEG][SIZE|FRR][PDI|SIZE][CHOL][CHIP]
+2025-06-12 17:13:58,965 - INFO - ---------
+2025-06-12 17:13:59,106 - INFO - DAG2.1 | 97.41% | DAG: [HSPC][ESM][FRR][TFR|FRR][ML][ID][AQUEOUS][PDI][OUTPUT][PEG][SIZE|TFR][CHOL][CHIP]
+2025-06-12 17:13:59,251 - INFO - DAG2.2 | 98.15% | DAG: [HSPC][ESM][FRR][TFR|FRR][ML][ID][AQUEOUS][PDI][OUTPUT][PEG][SIZE|FRR][CHOL][CHIP]
+2025-06-12 17:13:59,391 - INFO - DAG2.3 | 20.00% | DAG: [HSPC][ESM][FRR][TFR|FRR][ML][ID][AQUEOUS][PDI][OUTPUT][PEG][SIZE|TFR,FRR][CHOL][CHIP]
+2025-06-12 17:13:59,531 - INFO - DAG2 | 98.15% | DAG: [HSPC][TFR][ESM][FRR|TFR][ML][ID][AQUEOUS][PDI][OUTPUT][PEG][SIZE|FRR][CHOL][CHIP]
+2025-06-12 17:13:59,543 - INFO - ---------
+2025-06-12 17:13:59,679 - INFO - DAG3 | 50.37% | DAG: [HSPC][TFR][ESM][FRR|TFR][ML][ID][AQUEOUS][PDI|FRR][OUTPUT][PEG][SIZE][CHOL][CHIP]
+2025-06-12 17:21:29,389 - INFO - NumExpr defaulting to 8 threads.
+2025-06-12 17:21:29,796 - INFO - 
+
+INIZIO..
+2025-06-12 17:21:29,796 - INFO - Description | Percentage | DAG
+2025-06-12 17:21:35,940 - INFO - DAG1.1 | 100.00% | DAG: FRR -> SIZE, FRR -> PDI, SIZE -> PDI
+2025-06-12 17:21:36,094 - INFO - DAG1.2 | 49.82% | DAG: TFR -> SIZE, SIZE -> PDI
+2025-06-12 17:21:36,259 - INFO - DAG1 | 2.59% | DAG: FRR -> SIZE, SIZE -> PDI
+2025-06-12 17:21:36,267 - INFO - ---------
+2025-06-12 17:21:36,409 - INFO - DAG2.1 | 97.41% | DAG: FRR -> TFR, TFR -> SIZE
+2025-06-12 17:21:36,567 - INFO - DAG2.2 | 98.15% | DAG: FRR -> TFR, FRR -> SIZE
+2025-06-12 17:21:36,725 - INFO - DAG2.3 | 20.00% | DAG: FRR -> TFR, FRR -> SIZE, TFR -> SIZE
+2025-06-12 17:21:36,862 - INFO - DAG2 | 98.15% | DAG: FRR -> SIZE, TFR -> FRR
+2025-06-12 17:21:36,872 - INFO - ---------
+2025-06-12 17:21:37,017 - INFO - DAG3 | 50.37% | DAG: FRR -> PDI, TFR -> FRR

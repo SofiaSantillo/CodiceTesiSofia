@@ -10,11 +10,25 @@ from sklearn.model_selection import train_test_split
 import os
 from sklearn.impute import SimpleImputer
 from Esploratory_data import run_pipeline
+import importlib.util
+import os
+
+moduli = {}
+cartella = "DAG_manuale"
+
+for file in os.listdir(cartella):
+    if file.startswith("Constraction_DAG") and file.endswith(".py"):
+        nome_modulo = file[:-3]  # Rimuove .py
+        percorso = os.path.join(cartella, file)
+
+        spec = importlib.util.spec_from_file_location(nome_modulo, percorso)
+        modulo = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(modulo)
+
+        moduli[nome_modulo] = modulo
 
 
-
-def analyze_dag(dag):
-
+def analyze_dag(dag, DAG):
     G = nx.DiGraph()
     for arc in dag.arcs:
         G.add_edge(*arc)
@@ -63,10 +77,10 @@ def analyze_dag(dag):
     def format_pairs(pairs):
         return [f"{a} ⇒ {b}" for a, b in pairs]
 
-    structure_file = "_Structure_manual_DAG/DAG1.1_structure.txt"
+    structure_file = f"_Structure_manual_DAG/{DAG}_structure.txt"
     # Write to file
     with open(structure_file, "w", encoding="utf-8") as f:
-        f.write("DAG1.1 STRUCTURE:\n\n\n")
+        f.write(f"{DAG} STRUCTURE:\n\n\n")
         # Writing collider information
         f.write("Colliders (A → B ← C):\n")
         f.write("\n".join(format_triplets(colliders, ('→', '←'))) or "None")
@@ -90,31 +104,16 @@ def analyze_dag(dag):
     return list(forks), list(colliders), chains, backdoor_paths
 
 
-# === DAG Construction ===
-df = pd.read_csv("Data_DAG/Nodi_DAG1.csv") 
-column_names = df.columns.tolist()
-column_names.append("mt")
+def run_pipeline():
+    """Main function to execute the analysis of all DAG constructed."""
+    # Itera su ogni file CSV nella cartella
+    for nome, modulo in moduli.items():
+        if hasattr(modulo, "constraction_dag"):
+            print(f"Eseguo {nome}.constraction_dag()")
+            dag=modulo.constraction_dag()
+            DAG = nome.split("Constraction_")[1]
+            analyze_dag(dag=dag, DAG=DAG)
 
-dag = DAG(set(column_names))
-dag.add_arc('SIZE', 'PDI')
-dag.add_arc('FRR', 'SIZE')
-dag.add_arc('FRR', 'PDI')
-
-
-# Create networkx graph from dag.arcs
-G = nx.DiGraph()
-for arc in dag.arcs:
-    G.add_edge(*arc)
-
-# Plot and save the DAG
-plt.figure(figsize=(10, 8))
-pos = nx.spring_layout(G, seed=42)
-nx.draw(G, pos, with_labels=True, node_color="skyblue", node_size=5000, font_size=15, font_weight='bold', arrows=True, arrowsize=30)
-plt.savefig('_Plot/DAG1.1.png', format='png')
-plt.close()
-
-# Analyze structures
-forks, colliders, chains, backdoor_paths = analyze_dag(dag)
-
-
-
+            
+if __name__ == "__main__":
+    run_pipeline()

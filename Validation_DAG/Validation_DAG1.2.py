@@ -8,10 +8,10 @@ def discretize(df, bins=4):
 
 # Funzione per calcolare la probabilità fattorizzata secondo il DAG
 def get_fact_prob(row, f_indep, f_dep1, f_dep2):
-    frr, size, pdi = row['FRR'], row['SIZE'], row['PDI']
+    tfr, size, pdi = row['TFR'], row['SIZE'], row['PDI']
 
-    p_indep = f_indep.get(frr, 0)
-    p_dep1 = f_dep1.loc[frr][size] if frr in f_dep1.index else 0
+    p_indep = f_indep.get(tfr, 0)
+    p_dep1 = f_dep1.loc[tfr][size] if tfr in f_dep1.index else 0
     p_dep2 = f_dep2.loc[size][pdi] if size in f_dep2.index else 0
 
     # Probabilità fattorizzata secondo il DAG
@@ -36,18 +36,18 @@ def percentage_well_done(lower=0.9, upper=1.1):
     logging.basicConfig(filename='_Logs/validation_DAG1.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
     # Caricamento dati
-    df = pd.read_csv("Data_Droplet/seed.csv", usecols=["FRR", "SIZE", "PDI"])
+    df = pd.read_csv("Data_Droplet/seed.csv", usecols=["TFR", "SIZE", "PDI"])
 
     # Discretizzazione delle variabili
     df_disc = discretize(df, bins=4)
 
     # Calcolo della distribuzione congiunta empirica
     joint = df_disc.value_counts(normalize=True).reset_index()
-    joint.columns = ['FRR', 'SIZE', 'PDI', 'p_joint']
+    joint.columns = ['TFR', 'SIZE', 'PDI', 'p_joint']
 
     # Calcolo delle distribuzioni marginali e condizionate secondo il DAG
-    f_indep = df_disc['FRR'].value_counts(normalize=True)
-    f_dep1 = df_disc.groupby('FRR')['SIZE'].value_counts(normalize=True).unstack().fillna(0)
+    f_indep = df_disc['TFR'].value_counts(normalize=True)
+    f_dep1 = df_disc.groupby('TFR')['SIZE'].value_counts(normalize=True).unstack().fillna(0)
     f_dep2 = df_disc.groupby('SIZE')['PDI'].value_counts(normalize=True).unstack().fillna(0)
 
     # Calcolo delle probabilità fattorizzate
@@ -68,5 +68,6 @@ def percentage_well_done(lower=0.9, upper=1.1):
 
     logging.info(f"Percentuale di distribuzione ben spiegata (ratio ∈ [{lower}, {upper}]): {percentage_well_explained:.2f}%")
 
-    DAG = "DAG1"
+    DAG = "DAG1.2"
     return percentage_well_explained, DAG
+
