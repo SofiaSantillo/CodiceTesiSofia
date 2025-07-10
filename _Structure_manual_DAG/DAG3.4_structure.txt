@@ -1,0 +1,14 @@
+DAG3.4 STRUCTURE:
+
+
+Colliders (A → B ← C):
+None
+
+Forks (A ← B → C):
+FRR ← TFR → PDI
+
+Chains (A → B → C):
+None
+
+Backdoor paths (A ⇒ B):
+None

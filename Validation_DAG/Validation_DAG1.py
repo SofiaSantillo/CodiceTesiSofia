@@ -1,72 +1,148 @@
 import pandas as pd
-import numpy as np
 import logging
+from tabulate import tabulate
+from probability_matrix_DAG1 import creation_matrix, creation_dataset
+import numpy as np
+import os
+import json
+from scipy.special import rel_entr
 
-# Funzione di discretizzazione
-def discretize(df, bins=4):
-    return df.apply(lambda col: pd.cut(col, bins=bins, labels=False))
 
-# Funzione per calcolare la probabilità fattorizzata secondo il DAG
-def get_fact_prob(row, f_indep, f_dep1, f_dep2):
-    frr, size, pdi = row['FRR'], row['SIZE'], row['PDI']
 
-    p_indep = f_indep.get(frr, 0)
-    p_dep1 = f_dep1.loc[frr][size] if frr in f_dep1.index else 0
-    p_dep2 = f_dep2.loc[size][pdi] if size in f_dep2.index else 0
+def cerca_prob(prob_array, frr_v, size_v, pdi_v):
+    for item in prob_array:
+        tripletta, prob = item
+        frr, size, pdi = tripletta
+        if frr == frr_v and size == size_v and pdi == pdi_v:
+            return prob
+    return 0.0
 
-    # Probabilità fattorizzata secondo il DAG
-    return p_indep * p_dep1 * p_dep2
+def probabilita_fattorizzata(matrix_frr_size, matrix_size_pdi, prob_marginale_frr, prob_marginale_size, prob_empirica, logger):
+    array_probabilita_codizionata_size_dato_frr = []
+    array_probabilita_codizionata_pdi_dato_size= []
+    array_probabilita_empirica=[]
+    log_data = []
+    probabilita_fattorizzata=[]
 
-# Funzione per calcolare la percentuale di probabilità ben spiegata dal modello
-def percentage_well_done(lower=0.9, upper=1.1):
-    """
-    Calcola la percentuale della distribuzione congiunta ben spiegata dal modello
-    secondo il DAG: FRR → SIZE → PDI.
 
-    Parametri:
-    - lower: soglia inferiore del ratio
-    - upper: soglia superiore del ratio
+    for i in range(matrix_frr_size.shape[0]):
+        frr_value=matrix_frr_size[i, 0] 
+        print("frr:", frr_value)
+        for j in range(1, matrix_frr_size.shape[1]):
+            size_value=j-1
+            print("size:", size_value)
+            print(matrix_frr_size[i,j], prob_marginale_frr[i])
+            p_codizionata_size_dato_frr= matrix_frr_size[i,j]/prob_marginale_frr[i] 
+            array_probabilita_codizionata_size_dato_frr.append(p_codizionata_size_dato_frr)
 
-    Ritorna:
-    - percentuale di supporto ben spiegato
-    - nome del DAG
-    """
+            for k in range(matrix_size_pdi.shape[0]): 
+                pdi_value=k
+                print("pdi:", pdi_value)
+                print(matrix_size_pdi[k,j], prob_marginale_size[j-1])
+                prob_condizionata_pdi= matrix_size_pdi[k,j]/prob_marginale_size[j-1]
+                array_probabilita_codizionata_pdi_dato_size.append(prob_condizionata_pdi)
+                prob_fatt = prob_marginale_frr[i] * p_codizionata_size_dato_frr * prob_condizionata_pdi
+                probabilita_fattorizzata.append(prob_fatt)
+                probabilità_congiunta=cerca_prob(prob_empirica, frr_value, size_value, pdi_value)
+                array_probabilita_empirica.append(probabilità_congiunta)
+                log_data.append([frr_value, size_value, pdi_value, prob_marginale_frr[i], prob_marginale_size[j-1],p_codizionata_size_dato_frr, prob_condizionata_pdi, prob_fatt, probabilità_congiunta])
 
-    # Impostazioni per il logging
-    logging.basicConfig(filename='_Logs/validation_DAG1.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+    # Scrive i dati nel log in formato tabellare
+    log_file = tabulate(log_data, headers=['FRR','SIZE','PDI','P(FRR)','P(SIZE)','P(SIZE|FRR)', 'P(PDI|SIZE)', 'p. fattorizzata', 
+                                            'p. empirica'], tablefmt='github')
+    logger.info("\n" + log_file)
 
-    # Caricamento dati
-    df = pd.read_csv("Data_Droplet/seed.csv", usecols=["FRR", "SIZE", "PDI"])
+    return array_probabilita_empirica, probabilita_fattorizzata 
 
-    # Discretizzazione delle variabili
-    df_disc = discretize(df, bins=4)
+def similarity_score(empirica, fattorizzata, logger=None):
+    empirica = np.array(empirica)
+    fattorizzata = np.array(fattorizzata)
 
-    # Calcolo della distribuzione congiunta empirica
-    joint = df_disc.value_counts(normalize=True).reset_index()
-    joint.columns = ['FRR', 'SIZE', 'PDI', 'p_joint']
+    # Evita divisioni per zero sommando un piccolo epsilon
+    epsilon = 1e-10
+    somma = empirica + fattorizzata + epsilon
+    diff = np.abs(empirica - fattorizzata)
+    similarity = 1 - (diff / somma)
 
-    # Calcolo delle distribuzioni marginali e condizionate secondo il DAG
-    f_indep = df_disc['FRR'].value_counts(normalize=True)
-    f_dep1 = df_disc.groupby('FRR')['SIZE'].value_counts(normalize=True).unstack().fillna(0)
-    f_dep2 = df_disc.groupby('SIZE')['PDI'].value_counts(normalize=True).unstack().fillna(0)
+    mean_similarity = np.mean(similarity)
 
-    # Calcolo delle probabilità fattorizzate
-    joint['p_fact'] = joint.apply(get_fact_prob, axis=1, f_indep=f_indep, f_dep1=f_dep1, f_dep2=f_dep2)
-    
-    # Calcolo del "ratio" tra distribuzione congiunta e probabilità fattorizzata
-    joint['ratio'] = joint['p_joint'] / joint['p_fact'].replace(0, np.nan)
+    if logger:
+        logger.info(f"Similarità media: {mean_similarity:.4f}")
 
-    # Log dei risultati principali
-    logging.info(f"Top valori per ratio:\n{joint.sort_values('ratio', ascending=False).head(10)}")
+    return mean_similarity
 
-    # Percentuale di distribuzione ben spiegata
-    well_explained = joint[(joint['ratio'] >= lower) & (joint['ratio'] <= upper)]
-    support_well_explained = well_explained['p_joint'].sum()
-    support_total = joint['p_joint'].sum()
 
-    percentage_well_explained = support_well_explained / support_total * 100
 
-    logging.info(f"Percentuale di distribuzione ben spiegata (ratio ∈ [{lower}, {upper}]): {percentage_well_explained:.2f}%")
+def main():
 
+    log_path = '_Logs'
+    dataset_path = 'Data_DAG/Nodi_DAG1.csv' 
     DAG = "DAG1"
-    return percentage_well_explained, DAG
+    log_file = os.path.join(log_path, 'confronto_prob_DAG1.log')
+
+    if not os.path.exists(log_path):
+        os.makedirs(log_path)
+
+    logger = logging.getLogger("confronto_prob_DAG1") 
+    logger.setLevel(logging.INFO)
+
+    logger.propagate = False
+
+    if not logger.handlers:
+        file_handler = logging.FileHandler(log_file)
+        formatter = logging.Formatter('%(asctime)s - %(message)s')
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+
+  
+    df = creation_dataset(log_path, dataset_path, DAG)
+    matrix_frr_size, matrix_pdi_size, p_marginale_frr, p_marginale_size, prob_empirica = creation_matrix(df)
+    
+    matrix_frr_size = np.array(matrix_frr_size)
+    p_marginale_size=p_marginale_size.astype(float) 
+
+    matrix_pdi_size = np.array(matrix_pdi_size, dtype=float)
+
+    if not os.path.exists(log_path):
+        os.makedirs(log_path)
+    
+    empirica, fattorizzata=probabilita_fattorizzata(matrix_frr_size, matrix_pdi_size, p_marginale_frr, p_marginale_size, prob_empirica, logger)
+      
+    avg_similarity = similarity_score(empirica, fattorizzata, logger)
+
+    json_file = os.path.join(log_path, 'dag_avg_ratio_data.json')
+
+    data = {
+        'DAG': DAG,
+        'avg_similarity': avg_similarity
+    }
+
+    # Leggi il file se esiste, altrimenti crea una lista vuota
+    if os.path.exists(json_file):
+        with open(json_file, 'r') as f:
+            try:
+                all_data = json.load(f)
+                if not isinstance(all_data, list):
+                    all_data = []
+            except json.JSONDecodeError:
+                all_data = []
+    else:
+        all_data = []
+
+    all_data = [entry for entry in all_data if entry['DAG'] != data['DAG']]
+
+    # Aggiungi la nuova entry (sovrascrivendo se esisteva)
+    all_data.append(data)
+
+    with open(json_file, 'w') as f:
+        json.dump(all_data, f, indent=4)
+
+    return avg_similarity
+
+
+main()
+    
+    
+    
+    
+    

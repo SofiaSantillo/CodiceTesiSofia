@@ -1,0 +1,14 @@
+DAG2.3 STRUCTURE:
+
+
+Colliders (A → B ← C):
+FRR → SIZE ← TFR
+
+Forks (A ← B → C):
+SIZE ← FRR → TFR
+
+Chains (A → B → C):
+FRR → TFR → SIZE
+
+Backdoor paths (A ⇒ B):
+None

@@ -1,0 +1,78 @@
+[
+    {
+        "DAG": "DAG1",
+        "avg_similarity": 0.6627534531736847
+    },
+    {
+        "DAG": "DAG1.1",
+        "avg_similarity": 1.0
+    },
+    {
+        "DAG": "DAG1.2",
+        "avg_similarity": 0.6316759313777897
+    },
+    {
+        "DAG": "DAG1.3",
+        "avg_similarity": 0.390184518390956
+    },
+    {
+        "DAG": "DAG1.4",
+        "avg_similarity": 0.4778859861906686
+    },
+    {
+        "DAG": "DAG2",
+        "avg_similarity": 0.7728438181322105
+    },
+    {
+        "DAG": "DAG2.1",
+        "avg_similarity": 0.7833626168430199
+    },
+    {
+        "DAG": "DAG2.2",
+        "avg_similarity": 0.7728438181322106
+    },
+    {
+        "DAG": "DAG2.3",
+        "avg_similarity": 1.0
+    },
+    {
+        "DAG": "DAG2.4",
+        "avg_similarity": 0.5556439283160174
+    },
+    {
+        "DAG": "DAG3",
+        "avg_similarity": 0.8283841654923582
+    },
+    {
+        "DAG": "DAG3.1",
+        "avg_similarity": 0.8228892204423855
+    },
+    {
+        "DAG": "DAG3.2",
+        "avg_similarity": 0.8283841654923582
+    },
+    {
+        "DAG": "DAG3.3",
+        "avg_similarity": 0.8228892204423855
+    },
+    {
+        "DAG": "DAG4",
+        "avg_similarity": 0.4015141282153003
+    },
+    {
+        "DAG": "DAG4.1",
+        "avg_similarity": 0.2759954811694999
+    },
+    {
+        "DAG": "DAG4.2",
+        "avg_similarity": 0.4571283775852696
+    },
+    {
+        "DAG": "DAG4.3",
+        "avg_similarity": 0.34649038406324056
+    },
+    {
+        "DAG": "DAG4.4",
+        "avg_similarity": 0.1958424087222177
+    }
+]

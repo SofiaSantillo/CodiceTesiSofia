@@ -1,0 +1,12 @@
+2025-07-10 16:37:07,088 - INFO - Numero di bin per 'SIZE': 4
+2025-07-10 16:37:07,088 - INFO - Conteggio degli elementi in ciascun bin di 'SIZE_CAT':
+2025-07-10 16:37:07,089 - INFO - SIZE_CAT
+1     80
+2     50
+0    104
+3     36
+Name: count, dtype: int64
+2025-07-10 16:37:07,089 - INFO - Bin 0: da 0.0000 a 100.0000
+2025-07-10 16:37:07,089 - INFO - Bin 1: da 100.0000 a 150.0000
+2025-07-10 16:37:07,089 - INFO - Bin 2: da 150.0000 a 200.0000
+2025-07-10 16:37:07,089 - INFO - Bin 3: da 200.0000 a 8974.7340

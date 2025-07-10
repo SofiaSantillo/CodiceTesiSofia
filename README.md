@@ -1,3 +1,8 @@
+
+DA RISCRIVERE
+
+
+
 ## Data_DLS: non ancora utilizzati
 I dati DLS sono i dati in tabella nell'articolo "Microfluidic manufacturing of liposomes: Development and
 optimization by design of experiment and machine learning."
@@ -29,7 +34,7 @@ ho reso automatiche le analisi del DAG, ossia, per costruire e analizzare comple
 - costruire tanti file quanti si vuole della serie "Constraction_DAGxx.py", dove xx=numero del DAG
 - eseguire ogni "Constraction_DAGxx.py" singolarmente
 - eseguire una sola volta "Analyse_DAG.py": è implementata di modo da effettuare l'analisi su ogni dag che hai costruito ai passi precedenti
-- eseguire una sola volta "Exploratory_data.py": ""
+- eseguire una sola volta "Exploratory_data.py": "" MODIFICARE: deve creare una distribuzione per ogni variabile, non tante quante sono i dag per ogni variabili
 --> QUESTO SERVE PER NON DOVER MODIFICARE OGNI VOLTA LE ULTIME DUE FUNZIONI MENZIONATE IN BASE ALLA COSTRUZIONE DEL DAG
 
 + Validation: valida i singoli dag

@@ -5,10 +5,10 @@ Colliders (A → B ← C):
 None
 
 Forks (A ← B → C):
-None
+SIZE ← FRR → TFR
 
 Chains (A → B → C):
-FRR → TFR → SIZE
+None
 
 Backdoor paths (A ⇒ B):
-FRR ⇒ SIZE
+None

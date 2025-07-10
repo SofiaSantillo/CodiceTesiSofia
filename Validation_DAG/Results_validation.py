@@ -1,88 +1,69 @@
+import importlib.util
 import logging
 import os
-import importlib.util
+import json
+import numexpr
 
-
+logging.getLogger('numexpr').setLevel(logging.CRITICAL)
 
 logging.basicConfig(filename='_Logs/Validation_Results.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Dizionario per memorizzare i moduli di validazione
-moduli_val = {}
-
-cartella_val = "Validation_DAG"
-
-lower, upper = 0.9, 1.1
-
-# Caricamento dei moduli di validazione
-for file in os.listdir(cartella_val):
-    if file.startswith("Validation_DAG") and file.endswith(".py"):
-        nome_modulo_val = file[:-3]
-        spec = importlib.util.spec_from_file_location(nome_modulo_val, os.path.join(cartella_val, file))
-        modulo = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(modulo)
-        moduli_val[nome_modulo_val] = modulo
-
-
-def run_pipeline():
-    logging.info("\n\nINIZIO..")
-    logging.info("Description | Percentage")
-
-    previous_prefix = None
-
-
+def load_dag_avg_similarity_data():
+    json_file = os.path.join('_Logs', 'dag_avg_ratio_data.json')
+    if os.path.exists(json_file):
+        with open(json_file, 'r') as f:
+            data = json.load(f)
+        return data
+    else:
+        return None
 
 def run_pipeline():
     logging.info("\n\nINIZIO..")
     logging.info("Description | Percentage | DAG")
-
     previous_prefix = None
+    previous_dag_number = None 
+
     dag_dir = "DAG_manuale"
 
-    for nome_val, mod_val in moduli_val.items():
-        if hasattr(mod_val, "percentage_well_done"):
-            try:
-                # Esegui la funzione senza log
-                logging.getLogger().setLevel(logging.CRITICAL)
-                percentage, description = mod_val.percentage_well_done(lower, upper)
-                logging.getLogger().setLevel(logging.INFO)
+    # Recupera i dati dal file JSON
+    data = load_dag_avg_similarity_data()
 
-                # Separatore se cambia DAG principale
-                prefix = nome_val.split('.')[0]
-                if previous_prefix is not None and prefix != previous_prefix:
-                    logging.info("---------")
-                previous_prefix = prefix
+    if data:
+        for entry in data:
+            description = entry.get('DAG', 'Unknown')
+            avg_similarity = entry.get('avg_similarity', 0.0)
+            dag_number = description.split('.')[0]
+          
+            # Separatore se cambia il numero principale del DAG
+            if previous_dag_number is not None and dag_number != previous_dag_number:
+                logging.info("---------")
+            
+            previous_dag_number=dag_number
 
-                # Costruisci path al file Python
-                dag_filename = f"Constraction_{description}.py"
-                dag_filepath = os.path.join(dag_dir, dag_filename)
+            dag_filename = f"Constraction_{description}.py"
+            dag_filepath = os.path.join(dag_dir, dag_filename)
+            dag_repr = "DAG non trovato"
+            if os.path.exists(dag_filepath):
+                # Import dinamico
+                spec = importlib.util.spec_from_file_location(f"Constraction_{description}", dag_filepath)
+                module = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(module)
 
-                dag_repr = "DAG non trovato"
-                if os.path.exists(dag_filepath):
-                    # Import dinamico
-                    spec = importlib.util.spec_from_file_location(f"Constraction_{description}", dag_filepath)
-                    module = importlib.util.module_from_spec(spec)
-                    spec.loader.exec_module(module)
-
-                    # Chiamata alla funzione che costruisce il DAG
-                    if hasattr(module, "constraction_dag"):
-                        dag_repr = module.constraction_dag()
-                    else:
-                        dag_repr = "Funzione constraction_dag() non trovata"
+                # Chiamata alla funzione che costruisce il DAG
+                if hasattr(module, "constraction_dag"):
+                    dag_repr = module.constraction_dag()
                 else:
-                    dag_repr = "File non trovato"
+                    dag_repr = "Funzione constraction_dag() non trovata"
+            else:
+                dag_repr = "File non trovato"
 
-                
-                logging.info(f"{description} | {percentage:.2f}% | DAG: {dag_repr}")
-
-            except Exception as e:
-                logging.error(f"Errore in {nome_val}: {e}")
-
-
-    
-   
-    logging.getLogger().setLevel(logging.INFO) 
-
-    
+            # Scrittura dei dati nel formato tabellare
+            if description in ["DAG1.1", "DAG2.3"]:
+                logging.info(f"[CANCELED] {description:<10} | {avg_similarity:<10.2f} | {dag_repr}")
+            else:
+                logging.info(f"{description:<10} | {avg_similarity:<10.2f} | {dag_repr}")
+    else:
+        logging.warning("Nessun dato trovato nel file JSON.")
 
 if __name__ == "__main__":
     run_pipeline()

@@ -18,8 +18,8 @@ def constraction_dag():
     column_names = df.columns.tolist()
 
     dag = DAG(set(column_names))
-    dag.add_arc('TFR', 'SIZE')
-    dag.add_arc('SIZE', 'PDI')
+    dag.add_arc('PDI', 'SIZE')
+    dag.add_arc('FRR', 'PDI')
 
 
     # Create networkx graph from dag.arcs
@@ -31,8 +31,10 @@ def constraction_dag():
     plt.figure(figsize=(10, 8))
     pos = nx.spring_layout(G, seed=42)
     nx.draw(G, pos, with_labels=True, node_color="skyblue", node_size=5000, font_size=15, font_weight='bold', arrows=True, arrowsize=30)
-    plt.savefig('_Plot/DAG1.2.png', format='png')
+    plt.savefig('_Plot/DAG1.png', format='png')
     plt.close()
+
+    
     edges_text = [f"{src} -> {dst}" for src, dst in G.edges()]
     dag_repr = ", ".join(edges_text) 
 

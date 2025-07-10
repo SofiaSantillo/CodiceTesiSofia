@@ -1,0 +1,29 @@
+2025-07-10 13:23:01,692 - 
+| Combinazione                                          | Archi                                                               | Nodi                          |   Score Medio |
+|-------------------------------------------------------|---------------------------------------------------------------------|-------------------------------|---------------|
+| ('DAG1', 'DAG2')                                      | [('SIZE', 'PDI'), ('FRR', 'SIZE'), ('TFR', 'FRR')]                  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.717799 |
+| ('DAG1', 'DAG2.1')                                    | [('FRR', 'TFR'), ('SIZE', 'PDI'), ('FRR', 'SIZE'), ('TFR', 'SIZE')] | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.723058 |
+| ('DAG1', 'DAG2.2')                                    | [('SIZE', 'PDI'), ('FRR', 'SIZE'), ('FRR', 'TFR')]                  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.717799 |
+| ('DAG1', 'DAG3')                                      | [('SIZE', 'PDI'), ('FRR', 'SIZE'), ('FRR', 'PDI'), ('TFR', 'FRR')]  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.745569 |
+| ('DAG1', 'DAG3.1')                                    | [('SIZE', 'PDI'), ('FRR', 'SIZE'), ('FRR', 'TFR'), ('TFR', 'PDI')]  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.742821 |
+| ('DAG1', 'DAG3.2')                                    | [('SIZE', 'PDI'), ('FRR', 'SIZE'), ('FRR', 'PDI'), ('FRR', 'TFR')]  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.745569 |
+| ('DAG1', 'DAG3.3')                                    | [('SIZE', 'PDI'), ('FRR', 'SIZE'), ('TFR', 'FRR'), ('TFR', 'PDI')]  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.742821 |
+| ('DAG1.2', 'DAG2')                                    | [('FRR', 'SIZE'), ('PDI', 'SIZE'), ('TFR', 'FRR'), ('FRR', 'PDI')]  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.70226  |
+| ('DAG1.2', 'DAG2.1')                                  | [('FRR', 'TFR'), ('PDI', 'SIZE'), ('TFR', 'SIZE'), ('FRR', 'PDI')]  | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.707519 |
+| ('DAG1.2', 'DAG2.2')                                  | [('FRR', 'SIZE'), ('PDI', 'SIZE'), ('FRR', 'TFR'), ('FRR', 'PDI')]  | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.70226  |
+| ('DAG1.2', 'DAG3')                                    | [('PDI', 'SIZE'), ('TFR', 'FRR'), ('FRR', 'PDI')]                   | ['TFR', 'SIZE', 'FRR', 'PDI'] |      0.73003  |
+| ('DAG1.2', 'DAG3.1')                                  | [('TFR', 'PDI'), ('FRR', 'TFR'), ('PDI', 'SIZE'), ('FRR', 'PDI')]   | ['PDI', 'SIZE', 'FRR', 'TFR'] |      0.727283 |
+| ('DAG1.2', 'DAG3.2')                                  | [('FRR', 'TFR'), ('PDI', 'SIZE'), ('FRR', 'PDI')]                   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.73003  |
+| ('DAG1.2', 'DAG3.3')                                  | [('TFR', 'PDI'), ('PDI', 'SIZE'), ('TFR', 'FRR'), ('FRR', 'PDI')]   | ['PDI', 'SIZE', 'FRR', 'TFR'] |      0.727283 |
+| ('DAG2', 'DAG3') + NO CORREL TRA SIZE e PDI           | [('FRR', 'SIZE'), ('FRR', 'PDI'), ('TFR', 'FRR')]                   | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.800614 |
+| ('DAG2', 'DAG3.1') CICLO + NO CORREL TRA SIZE e PDI   | [('FRR', 'TFR'), ('FRR', 'SIZE'), ('TFR', 'FRR'), ('TFR', 'PDI')]   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.797867 |
+| ('DAG2', 'DAG3.2') CICLO + NO CORREL TRA SIZE e PDI   | [('FRR', 'TFR'), ('FRR', 'SIZE'), ('FRR', 'PDI'), ('TFR', 'FRR')]   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.800614 |
+| ('DAG2', 'DAG3.3') + NO CORREL TRA SIZE e PDI         | [('FRR', 'SIZE'), ('TFR', 'FRR'), ('TFR', 'PDI')]                   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.797867 |
+| ('DAG2.1', 'DAG3') CICLO + NO CORREL TRA SIZE e PDI   | [('TFR', 'FRR'), ('FRR', 'TFR'), ('FRR', 'PDI'), ('TFR', 'SIZE')]   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.805873 |
+| ('DAG2.1', 'DAG3.1') + NO CORREL TRA SIZE e PDI       | [('FRR', 'TFR'), ('TFR', 'SIZE'), ('TFR', 'PDI')]                   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.803126 |
+| ('DAG2.1', 'DAG3.2') + NO CORREL TRA SIZE e PDI       | [('FRR', 'TFR'), ('FRR', 'PDI'), ('TFR', 'SIZE')]                   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.805873 |
+| ('DAG2.1', 'DAG3.3') CICLO + NO CORREL TRA SIZE e PDI | [('TFR', 'FRR'), ('FRR', 'TFR'), ('TFR', 'SIZE'), ('TFR', 'PDI')]   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.803126 |
+| ('DAG2.2', 'DAG3') CICLO + NO CORREL TRA SIZE e PDI   | [('TFR', 'FRR'), ('FRR', 'SIZE'), ('FRR', 'PDI'), ('FRR', 'TFR')]   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.800614 |
+| ('DAG2.2', 'DAG3.1') + NO CORREL TRA SIZE e PDI       | [('FRR', 'SIZE'), ('FRR', 'TFR'), ('TFR', 'PDI')]                   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.797867 |
+| ('DAG2.2', 'DAG3.2') + NO CORREL TRA SIZE e PDI       | [('FRR', 'SIZE'), ('FRR', 'PDI'), ('FRR', 'TFR')]                   | ['TFR', 'FRR', 'SIZE', 'PDI'] |      0.800614 |
+| ('DAG2.2', 'DAG3.3') CICLO + NO CORREL TRA SIZE e PDI | [('TFR', 'FRR'), ('FRR', 'SIZE'), ('FRR', 'TFR'), ('TFR', 'PDI')]   | ['FRR', 'SIZE', 'TFR', 'PDI'] |      0.797867 |
