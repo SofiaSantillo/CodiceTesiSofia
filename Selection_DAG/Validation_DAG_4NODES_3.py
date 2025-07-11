@@ -17,8 +17,8 @@ def cerca_prob(prob_array, frr_v, size_v, pdi_v, tfr_v):
             return prob
     return 0.0
 
-def probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, prob_marginale_tfr, prob_marginale_frr, prob_marginale_size, prob_empirica, logger):
-    array_probabilita_codizionata_frr_dato_tfr = []
+def probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, prob_marginale_frr, prob_marginale_size, prob_empirica, logger):
+    array_probabilita_codizionata_tfr_dato_frr = []
     array_probabilita_codizionata_size_dato_frr= []
     array_probabilita_codizionata_pdi_dato_size= []
     array_probabilita_empirica=[]
@@ -32,9 +32,9 @@ def probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, p
         for k in range(1, matrix_frr_tfr.shape[1]):
             tfr_value=k-1
             print("tfr: ", tfr_value)
-            print(matrix_frr_tfr[i,k], prob_marginale_tfr[k-1] )
-            p_codizionata_frr_dato_tfr= matrix_frr_tfr[i,k]/prob_marginale_tfr[k-1] 
-            array_probabilita_codizionata_frr_dato_tfr.append(p_codizionata_frr_dato_tfr)
+            print(matrix_frr_tfr[i,k], prob_marginale_frr[i] )
+            p_codizionata_tfr_dato_frr= matrix_frr_tfr[i,k]/prob_marginale_frr[i] 
+            array_probabilita_codizionata_tfr_dato_frr.append(p_codizionata_tfr_dato_frr)
 
             for j in range(1, matrix_frr_size.shape[1]): 
                 size_value=j-1
@@ -50,7 +50,7 @@ def probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, p
                     prob_condizionata_pdi= matrix_size_pdi[j-1,n]/prob_marginale_size[j-1]
                     array_probabilita_codizionata_pdi_dato_size.append(prob_condizionata_pdi)
 
-                    prob_fatt = prob_marginale_tfr[k-1] * p_codizionata_frr_dato_tfr * p_condizionata_size_dato_frr * prob_condizionata_pdi
+                    prob_fatt = prob_marginale_frr[i] * p_codizionata_tfr_dato_frr * p_condizionata_size_dato_frr * prob_condizionata_pdi
                     probabilita_fattorizzata.append(prob_fatt)
 
 
@@ -58,10 +58,10 @@ def probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, p
 
                     probabilità_congiunta=cerca_prob(prob_empirica, frr_value, size_value, pdi_value, tfr_value)
                     array_probabilita_empirica.append(probabilità_congiunta)
-                    log_data.append([frr_value, size_value, pdi_value, tfr_value, prob_marginale_tfr[k-1], p_codizionata_frr_dato_tfr, p_condizionata_size_dato_frr, prob_condizionata_pdi, prob_fatt, probabilità_congiunta])
+                    log_data.append([frr_value, size_value, pdi_value, tfr_value, prob_marginale_frr[i], p_codizionata_tfr_dato_frr, p_condizionata_size_dato_frr, prob_condizionata_pdi, prob_fatt, probabilità_congiunta])
 
     # Scrive i dati nel log in formato tabellare
-    log_file = tabulate(log_data, headers=['FRR','SIZE','PDI','TFR', 'P(TFR)','P(FRR|TFR)','P(SIZE|FRR)', 'P(PDI|SIZE)', 'p. fattorizzata', 
+    log_file = tabulate(log_data, headers=['FRR','SIZE','PDI','TFR', 'P(FRR)','P(TFR|FRR)','P(SIZE|FRR)', 'P(PDI|SIZE)', 'p. fattorizzata', 
                                             'p. empirica'], tablefmt='github')
     logger.info("\n" + log_file)
 
@@ -90,8 +90,8 @@ def main():
 
     log_path = '_Logs/DAG_4_NODES'
     dataset_path = 'Data_DAG/Nodi_DAG_4NODES.csv' 
-    DAG = "DAG_4NODES_1"
-    log_file = os.path.join(log_path, 'confronto_prob_DAG_4NODES_1.log')
+    DAG = "DAG_4NODES_3"
+    log_file = os.path.join(log_path, 'confronto_prob_DAG_4NODES_3.log')
 
     if not os.path.exists(log_path):
         os.makedirs(log_path)
@@ -122,7 +122,7 @@ def main():
     if not os.path.exists(log_path):
         os.makedirs(log_path)
     
-    empirica, fattorizzata=probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, p_marginale_tfr, p_marginale_frr, p_marginale_size, prob_empirica, logger)
+    empirica, fattorizzata=probabilita_fattorizzata(matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, p_marginale_frr, p_marginale_size, prob_empirica, logger)
       
     avg_similarity = similarity_score(empirica, fattorizzata, logger)
 

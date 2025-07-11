@@ -1,6 +1,18 @@
 [
     {
-        "DAG": "DAG_4NODES",
+        "DAG": "DAG_4NODES_1",
         "avg_similarity": 0.44753884437057373
+    },
+    {
+        "DAG": "DAG_4NODES_3",
+        "avg_similarity": 0.44753884437057373
+    },
+    {
+        "DAG": "DAG_4NODES_11",
+        "avg_similarity": 0.41682914359976103
+    },
+    {
+        "DAG": "DAG_4NODES_13",
+        "avg_similarity": 0.41682914359976103
     }
 ]

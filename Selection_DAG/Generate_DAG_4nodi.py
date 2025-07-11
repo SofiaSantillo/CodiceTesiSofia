@@ -10,11 +10,12 @@ def plot_all_dags(pkl_file, plot_file):
         selected_dags = pickle.load(f)
 
     # Crea una figura per contenere tutti i DAG
-    fig, axes = plt.subplots(4, 4, figsize=(40, 40))  # 4x4 griglia per 14 DAG
+    fig, axes = plt.subplots(4, 4, figsize=(40, 40))
     axes = axes.flatten()
 
     # Plot di tutti i DAG in una griglia
     for i, dag in enumerate(selected_dags):
+        print(dag)
         G = nx.DiGraph()  # Crea un grafo diretto
 
         edges = dag[1]
@@ -78,6 +79,16 @@ def filter_dags_and_save(table, pkl_file):
         pickle.dump(filtered_dags, f)
 
     print(f"Filtrati {len(filtered_dags)} DAG e salvati in '{pkl_file}'.")
+    return filtered_dags, pkl_file
+
+def filter2_dags_and_save(table, pkl_file):
+    filtered2_dags = [dag for dag in table if len(dag[1])==3]
+    print(filtered2_dags)
+    with open(pkl_file, 'wb') as f:
+            pickle.dump(filtered2_dags, f)
+
+    print(f"Filtrati {len(filtered2_dags)} DAG e salvati in '{pkl_file}'.")
+    return filtered2_dags, pkl_file
 
 def create_4nodesDags(threshold):
 
@@ -119,14 +130,16 @@ def create_4nodesDags(threshold):
 
         combined_edges = list(set(edge_list1 + edge_list2))
         nodes = set([n for edge in combined_edges for n in edge])
-
+        i=1
         if len(nodes) == 4:
             dag_info = ({
+                'index': i,
                 'combined_from': (key1, key2),
                 'edges': combined_edges,
                 'nodes': list(nodes),
                 'avg_score': (score1 + score2) / 2
             })
+            i=i+1
             # Filtraggio degli archi per evitare archi inversi
             filtered_edges = []
             seen_edges = set() 
@@ -159,18 +172,23 @@ def create_4nodesDags(threshold):
                 dag_info['combined_from'] = f"{dag_info['combined_from']} + NO CORREL TRA SIZE e PDI"
 
             table.append([dag_info['combined_from'], dag_info['edges'], dag_info['nodes'], dag_info['avg_score']])
+
         
         headers = ["Combinazione", "Archi", "Nodi", "Score Medio"]
         tabella_log= tabulate(table, headers=headers, tablefmt="github")
     logging.info("\n" + tabella_log)
 
-    pkl_file=f'_Logs/DAG_4_NODES/filtered_dags_{threshold}.pkl'
-    filter_dags_and_save(table, pkl_file)
-    
+    pkl_file=f'_Logs/DAG_4_NODES/all_dags_{threshold}.pkl'
+    filter_dag, pkl_file=filter_dags_and_save(table, pkl_file)
     find_and_remove_duplicate_dags(pkl_file)
     
     plot_file = f'_Plot/DAG_4_NODES/all_dags_{threshold}.png'  
-    plot_all_dags(pkl_file, plot_file)   
+    plot_all_dags(pkl_file, plot_file)  
+
+    filter2_dag, pkl_file=filter2_dags_and_save(filter_dag, pkl_file) 
+
+    plot_file2 = f'_Plot/DAG_4_NODES/realistic_dags_{threshold}.png'  
+    plot_all_dags(pkl_file, plot_file2) 
 
 if __name__ == "__main__":
     threshold= 0.6

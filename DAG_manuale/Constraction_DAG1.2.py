@@ -31,7 +31,7 @@ def constraction_dag():
     plt.figure(figsize=(10, 8))
     pos = nx.spring_layout(G, seed=42)
     nx.draw(G, pos, with_labels=True, node_color="skyblue", node_size=5000, font_size=15, font_weight='bold', arrows=True, arrowsize=30)
-    plt.savefig('_Plot/DAG1.png', format='png')
+    plt.savefig('_Plot/DAG1.2.png', format='png')
     plt.close()
 
     

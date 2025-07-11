@@ -186,7 +186,7 @@ def creation_matrix(df):
     prob_marginale_frr=prob_marginale_frr1
   
     
-    return matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, prob_marginale_tfr, prob_marginale_frr, prob_marginale_size, probabilità_congiunta_tot
+    return matrix_frr_tfr, matrix_frr_size, matrix_size_pdi, matrix_tfr_pdi, matrix_size_tfr, matrix_pdi_frr, prob_marginale_tfr, prob_marginale_frr, prob_marginale_size, prob_marginale_pdi, probabilità_congiunta_tot
 
 
 
