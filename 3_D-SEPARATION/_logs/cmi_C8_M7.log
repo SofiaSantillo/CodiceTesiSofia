@@ -1,0 +1,39 @@
+path,conditioned_on,cmi,d_separated
+"['PDI', 'CHOL', 'ESM', 'SIZE']",,0.41253842673877994,False
+"['PDI', 'CHOL', 'ESM', 'SIZE']","('CHOL',)",0.4164863051750052,False
+"['PDI', 'CHOL', 'ESM', 'SIZE']","('ESM',)",0.4913865022992647,False
+"['PDI', 'CHOL', 'ESM', 'SIZE']","('CHOL', 'ESM')",0.3468832150476273,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']",,0.41253842673877994,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL',)",0.4164863051750052,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR',)",0.47551511123683277,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('PEG',)",0.5118473932835745,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('ML',)",0.5156675809688347,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('ESM',)",0.4913865022992647,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR')",0.4596254595184166,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'PEG')",0.4548460686001854,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'ML')",0.43394051714088766,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'ESM')",0.3468832150476273,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'PEG')",0.570057933518985,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'ML')",0.5701250190305882,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'ESM')",0.4979236501131967,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('PEG', 'ML')",0.5118473932835745,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('PEG', 'ESM')",0.5065656060129586,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('ML', 'ESM')",0.5103857936982166,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'PEG')",0.45739511454961335,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'ML')",0.43630810153649024,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'ESM')",0.3458063302168579,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'PEG', 'ML')",0.4548460686001854,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'PEG', 'ESM')",0.36983259494282095,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'ML', 'ESM')",0.3489270434835232,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'PEG', 'ML')",0.570057933518985,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'PEG', 'ESM')",0.5160278734123871,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'ML', 'ESM')",0.5160949589239889,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('PEG', 'ML', 'ESM')",0.5065656060129586,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'PEG', 'ML')",0.45739511454961335,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'PEG', 'ESM')",0.36988807823988035,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'ML', 'ESM')",0.34880106522675725,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'PEG', 'ML', 'ESM')",0.36983259494282095,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('FRR', 'PEG', 'ML', 'ESM')",0.5160278734123871,False
+"['PDI', 'CHOL', 'FRR', 'PEG', 'ML', 'ESM', 'SIZE']","('CHOL', 'FRR', 'PEG', 'ML', 'ESM')",0.36988807823988035,False
+"['PDI', 'ESM', 'SIZE']",,0.41253842673877994,False
+"['PDI', 'ESM', 'SIZE']","('ESM',)",0.4913865022992647,False

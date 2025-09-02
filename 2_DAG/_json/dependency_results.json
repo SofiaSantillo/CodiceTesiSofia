@@ -1,0 +1,109 @@
+{
+    "ML": {
+        "r2_differenziale": 0.943125,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "PEG": 0.5268041517032196,
+            "HSPC": 0.3776359155044157,
+            "ESM": 0.07916462291243695
+        }
+    },
+    "HSPC": {
+        "r2_differenziale": 0.9969233411248579,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "PEG": 0.9761265767239617
+        }
+    },
+    "ESM": {
+        "r2_differenziale": 0.8823145470255627,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "CHOL": 0.4258049931862848,
+            "SIZE": 0.21266769999760293,
+            "PDI": 0.19413009062463726,
+            "HSPC": 0.05106807237693822
+        }
+    },
+    "PEG": {
+        "r2_differenziale": 0.9965711556027621,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "HSPC": 0.9765389265178294
+        }
+    },
+    "AQUEOUS": {
+        "r2_differenziale": 0.806688543435663,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "CHOL": 0.17195060354528346,
+            "SIZE": 0.15245196444953102,
+            "FRR": 0.1485843159993692,
+            "PDI": 0.13496395393758281,
+            "ESM": 0.09687087518991268,
+            "HSPC": 0.0809996289752582,
+            "PEG": 0.08062615794058557,
+            "TFR": 0.06254969257154756,
+            "CHIP": 0.06188985587505729
+        }
+    },
+    "SIZE": {
+        "r2_differenziale": 0.9252498197330484,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "PDI": 0.9299300030113995
+        }
+    },
+    "PDI": {
+        "r2_differenziale": 0.9815204043197772,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "SIZE": 0.9048674748592954
+        }
+    },
+    "CHOL": {
+        "r2_differenziale": 0.9371479901888928,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "PDI": 0.37514226993617866,
+            "ESM": 0.3185913981388055,
+            "SIZE": 0.13179344155299075
+        }
+    },
+    "FRR": {
+        "r2_differenziale": 0.8716646352868059,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "SIZE": 0.24678689699114312,
+            "PDI": 0.164716321645348,
+            "CHIP": 0.13504583027187933,
+            "AQUEOUS": 0.10798085971123708,
+            "TFR": 0.10027065274810655,
+            "CHOL": 0.09504164409770466,
+            "HSPC": 0.05649182199959185,
+            "PEG": 0.05099712610397218
+        }
+    },
+    "CHIP": {
+        "r2_differenziale": 0.83823,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "CHOL": 0.1946856054265587,
+            "SIZE": 0.17550109745917053,
+            "FRR": 0.16288529847078212,
+            "PDI": 0.14760015125853848,
+            "TFR": 0.12919116751472903,
+            "AQUEOUS": 0.07625406888899423
+        }
+    },
+    "TFR": {
+        "r2_differenziale": 0.9230764190103694,
+        "dipendenza": "dipendenza",
+        "variabili_influenti": {
+            "SIZE": 0.4569559888415693,
+            "FRR": 0.2503893759965498,
+            "PDI": 0.1510368539260275,
+            "CHOL": 0.060534585475064545
+        }
+    }
+}

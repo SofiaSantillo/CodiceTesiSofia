@@ -1,0 +1,9 @@
+2025-08-14 09:55:04,981 - INFO - Numero di bin per 'HSPC': 3
+2025-08-14 09:55:04,981 - INFO - Conteggio degli elementi in ciascun bin di 'HSPC_CAT':
+2025-08-14 09:55:04,982 - INFO - 0    146
+2    117
+1      7
+Name: HSPC_CAT, dtype: int64
+2025-08-14 09:55:04,982 - INFO - Bin 0: da 0.0000 a 4.1900
+2025-08-14 09:55:04,982 - INFO - Bin 1: da 4.1900 a 8.3800
+2025-08-14 09:55:04,982 - INFO - Bin 2: da 8.3800 a 12.5700

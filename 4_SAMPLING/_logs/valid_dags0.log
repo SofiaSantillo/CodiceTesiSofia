@@ -1,0 +1,48 @@
+DAG1
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('CHOL', 'PDI'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'CHIP'), ('FRR', 'TFR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP')]
+Forks: ['FRR -> TFR, FRR -> CHIP', 'ML -> PDI, ML -> SIZE', 'CHIP -> SIZE, CHIP -> PDI']
+Chains: ['AQUEOUS -> CHIP -> SIZE', 'TFR -> CHIP -> PDI', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'PEG -> HSPC -> ML', 'ESM -> ML -> PDI', 'ESM -> ML -> SIZE', 'FRR -> TFR -> CHIP', 'HSPC -> ML -> PDI', 'TFR -> CHIP -> SIZE', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'TFR -> CHIP <- FRR', 'ML -> PDI <- CHIP', 'CHOL -> PDI <- ML', 'ML -> SIZE <- CHIP', 'TFR -> CHIP <- AQUEOUS', 'CHOL -> PDI <- CHIP']
+
+DAG3
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('CHOL', 'PDI'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'CHIP'), ('FRR', 'TFR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('CHOL', 'PEG'), ('AQUEOUS', 'TFR')]
+Forks: ['AQUEOUS -> CHIP, AQUEOUS -> TFR', 'CHIP -> SIZE, CHIP -> PDI', 'CHOL -> PDI, CHOL -> PEG', 'ML -> PDI, ML -> SIZE', 'FRR -> TFR, FRR -> CHIP']
+Chains: ['AQUEOUS -> TFR -> CHIP', 'AQUEOUS -> CHIP -> SIZE', 'TFR -> CHIP -> PDI', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'PEG -> HSPC -> ML', 'ESM -> ML -> PDI', 'CHOL -> PEG -> HSPC', 'ESM -> ML -> SIZE', 'FRR -> TFR -> CHIP', 'HSPC -> ML -> PDI', 'TFR -> CHIP -> SIZE', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'TFR -> CHIP <- FRR', 'ML -> PDI <- CHIP', 'CHOL -> PDI <- ML', 'ML -> SIZE <- CHIP', 'FRR -> TFR <- AQUEOUS', 'TFR -> CHIP <- AQUEOUS', 'CHOL -> PDI <- CHIP']
+
+DAG8
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'CHIP'), ('FRR', 'TFR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('CHOL', 'ML'), ('AQUEOUS', 'TFR')]
+Forks: ['FRR -> TFR, FRR -> CHIP', 'ML -> PDI, ML -> SIZE', 'CHIP -> SIZE, CHIP -> PDI', 'AQUEOUS -> CHIP, AQUEOUS -> TFR']
+Chains: ['AQUEOUS -> TFR -> CHIP', 'CHOL -> ML -> SIZE', 'AQUEOUS -> CHIP -> SIZE', 'CHOL -> ML -> PDI', 'TFR -> CHIP -> PDI', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'ESM -> ML -> PDI', 'PEG -> HSPC -> ML', 'ESM -> ML -> SIZE', 'FRR -> TFR -> CHIP', 'HSPC -> ML -> PDI', 'TFR -> CHIP -> SIZE', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'TFR -> CHIP <- FRR', 'HSPC -> ML <- CHOL', 'ML -> PDI <- CHIP', 'ML -> SIZE <- CHIP', 'FRR -> TFR <- AQUEOUS', 'TFR -> CHIP <- AQUEOUS', 'ESM -> ML <- CHOL']
+
+DAG10
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('CHOL', 'PDI'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'FRR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('AQUEOUS', 'TFR')]
+Forks: ['AQUEOUS -> CHIP, AQUEOUS -> TFR', 'ML -> PDI, ML -> SIZE', 'CHIP -> SIZE, CHIP -> PDI']
+Chains: ['TFR -> FRR -> CHIP', 'AQUEOUS -> TFR -> FRR', 'AQUEOUS -> CHIP -> SIZE', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'PEG -> HSPC -> ML', 'ESM -> ML -> PDI', 'ESM -> ML -> SIZE', 'HSPC -> ML -> PDI', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'ML -> PDI <- CHIP', 'CHOL -> PDI <- ML', 'ML -> SIZE <- CHIP', 'CHOL -> PDI <- CHIP']
+
+DAG38
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'CHIP'), ('FRR', 'TFR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('CHOL', 'PEG'), ('CHOL', 'ML'), ('AQUEOUS', 'TFR')]
+Forks: ['AQUEOUS -> CHIP, AQUEOUS -> TFR', 'CHIP -> SIZE, CHIP -> PDI', 'CHOL -> PEG, CHOL -> ML', 'ML -> PDI, ML -> SIZE', 'FRR -> TFR, FRR -> CHIP']
+Chains: ['AQUEOUS -> TFR -> CHIP', 'CHOL -> ML -> SIZE', 'AQUEOUS -> CHIP -> SIZE', 'CHOL -> ML -> PDI', 'TFR -> CHIP -> PDI', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'ESM -> ML -> PDI', 'PEG -> HSPC -> ML', 'CHOL -> PEG -> HSPC', 'ESM -> ML -> SIZE', 'FRR -> TFR -> CHIP', 'HSPC -> ML -> PDI', 'TFR -> CHIP -> SIZE', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'TFR -> CHIP <- FRR', 'HSPC -> ML <- CHOL', 'ML -> PDI <- CHIP', 'ML -> SIZE <- CHIP', 'FRR -> TFR <- AQUEOUS', 'TFR -> CHIP <- AQUEOUS', 'ESM -> ML <- CHOL']
+
+DAG310
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('CHOL', 'PDI'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'FRR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('CHOL', 'PEG'), ('AQUEOUS', 'TFR')]
+Forks: ['AQUEOUS -> CHIP, AQUEOUS -> TFR', 'ML -> PDI, ML -> SIZE', 'CHIP -> SIZE, CHIP -> PDI', 'CHOL -> PDI, CHOL -> PEG']
+Chains: ['TFR -> FRR -> CHIP', 'AQUEOUS -> TFR -> FRR', 'AQUEOUS -> CHIP -> SIZE', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'PEG -> HSPC -> ML', 'ESM -> ML -> PDI', 'CHOL -> PEG -> HSPC', 'ESM -> ML -> SIZE', 'HSPC -> ML -> PDI', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'ML -> PDI <- CHIP', 'CHOL -> PDI <- ML', 'ML -> SIZE <- CHIP', 'CHOL -> PDI <- CHIP']
+
+DAG810
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'FRR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('CHOL', 'ML'), ('AQUEOUS', 'TFR')]
+Forks: ['AQUEOUS -> CHIP, AQUEOUS -> TFR', 'ML -> PDI, ML -> SIZE', 'CHIP -> SIZE, CHIP -> PDI']
+Chains: ['TFR -> FRR -> CHIP', 'AQUEOUS -> TFR -> FRR', 'CHOL -> ML -> SIZE', 'AQUEOUS -> CHIP -> SIZE', 'CHOL -> ML -> PDI', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'ESM -> ML -> PDI', 'PEG -> HSPC -> ML', 'ESM -> ML -> SIZE', 'HSPC -> ML -> PDI', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'HSPC -> ML <- CHOL', 'ML -> PDI <- CHIP', 'ML -> SIZE <- CHIP', 'ESM -> ML <- CHOL']
+
+DAG3810
+Edges: [('ESM', 'ML'), ('HSPC', 'ML'), ('PEG', 'HSPC'), ('ML', 'PDI'), ('ML', 'SIZE'), ('CHIP', 'SIZE'), ('CHIP', 'PDI'), ('TFR', 'FRR'), ('FRR', 'CHIP'), ('AQUEOUS', 'CHIP'), ('CHOL', 'ML'), ('CHOL', 'PEG'), ('AQUEOUS', 'TFR')]
+Forks: ['AQUEOUS -> CHIP, AQUEOUS -> TFR', 'ML -> PDI, ML -> SIZE', 'CHOL -> ML, CHOL -> PEG', 'CHIP -> SIZE, CHIP -> PDI']
+Chains: ['TFR -> FRR -> CHIP', 'AQUEOUS -> TFR -> FRR', 'CHOL -> ML -> SIZE', 'AQUEOUS -> CHIP -> SIZE', 'CHOL -> ML -> PDI', 'AQUEOUS -> CHIP -> PDI', 'HSPC -> ML -> SIZE', 'ESM -> ML -> PDI', 'PEG -> HSPC -> ML', 'CHOL -> PEG -> HSPC', 'ESM -> ML -> SIZE', 'HSPC -> ML -> PDI', 'FRR -> CHIP -> SIZE', 'FRR -> CHIP -> PDI']
+Colliders: ['FRR -> CHIP <- AQUEOUS', 'ESM -> ML <- HSPC', 'HSPC -> ML <- CHOL', 'ML -> PDI <- CHIP', 'ML -> SIZE <- CHIP', 'ESM -> ML <- CHOL']
+

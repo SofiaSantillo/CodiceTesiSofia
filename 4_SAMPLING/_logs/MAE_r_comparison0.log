@@ -1,0 +1,29 @@
+DAG 1: MAE per SIZE = 0.6263, MAE per PDI = 0.4713 - MAE medio = 0.5488
+
+ 
+DAG 3: MAE per SIZE = 0.5572, MAE per PDI = 0.4758 - MAE medio = 0.5165
+
+ 
+DAG 8: MAE per SIZE = 0.6151, MAE per PDI = 1.0335 - MAE medio = 0.8243
+
+ 
+DAG 10: MAE per SIZE = 0.8271, MAE per PDI = 0.7702 - MAE medio = 0.7986
+
+ 
+DAG 38: MAE per SIZE = 0.6232, MAE per PDI = 0.5568 - MAE medio = 0.5900
+
+ 
+DAG 310: MAE per SIZE = 0.9549, MAE per PDI = 0.7626 - MAE medio = 0.8588
+
+ 
+DAG 810: MAE per SIZE = 0.6478, MAE per PDI = 0.7837 - MAE medio = 0.7157
+
+ 
+DAG 3810: MAE per SIZE = 0.5996, MAE per PDI = 0.7231 - MAE medio = 0.6613
+
+ 
+=== TOP 3 DAG con MAE medio piu' basso ===
+
+1 - DAG 3: MAE medio = 0.5165 (SIZE=0.5572, PDI=0.4758)
+2 - DAG 1: MAE medio = 0.5488 (SIZE=0.6263, PDI=0.4713)
+3 - DAG 38: MAE medio = 0.5900 (SIZE=0.6232, PDI=0.5568)

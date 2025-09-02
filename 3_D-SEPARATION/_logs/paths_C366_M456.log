@@ -1,0 +1,5 @@
+CHIP - SIZE 
+Percorso: ['CHIP', 'PDI', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+Percorso: ['CHIP', 'PDI', 'CHOL', 'AQUEOUS', 'ESM', 'SIZE'] -> Struttura piu' lunga
+Percorso: ['CHIP', 'PDI', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+Percorso: ['CHIP', 'PDI', 'ESM', 'SIZE'] -> Struttura piu' lunga

@@ -1,0 +1,13 @@
+2025-08-14 09:55:04,976 - INFO - Numero di bin per 'ESM': 5
+2025-08-14 09:55:04,976 - INFO - Conteggio degli elementi in ciascun bin di 'ESM_CAT':
+2025-08-14 09:55:04,980 - INFO - 0    141
+1     12
+4     57
+2     23
+3     37
+Name: ESM_CAT, dtype: int64
+2025-08-14 09:55:04,980 - INFO - Bin 0: da 0.0000 a 4.9558
+2025-08-14 09:55:04,980 - INFO - Bin 1: da 4.9558 a 9.9116
+2025-08-14 09:55:04,980 - INFO - Bin 2: da 9.9116 a 14.8674
+2025-08-14 09:55:04,980 - INFO - Bin 3: da 14.8674 a 19.8232
+2025-08-14 09:55:04,980 - INFO - Bin 4: da 19.8232 a 24.7790

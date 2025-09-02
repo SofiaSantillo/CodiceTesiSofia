@@ -1,0 +1,16 @@
+#DAG1
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('CHOL','PDI'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','CHIP'), ('FRR','TFR'), ('FRR','CHIP'), ('AQUEOUS','CHIP')]
+#DAG3
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('CHOL','PDI'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','CHIP'), ('FRR','TFR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('CHOL','PEG'), ('AQUEOUS','TFR')]
+#DAG8
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','CHIP'), ('FRR','TFR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('CHOL','ML'), ('AQUEOUS','TFR')]
+#DAG10
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('CHOL','PDI'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','FRR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('AQUEOUS','TFR')]
+#DAG38
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','CHIP'), ('FRR','TFR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('CHOL','PEG'), ('CHOL','ML'), ('AQUEOUS','TFR')]
+#DAG310
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('CHOL','PDI'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','FRR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('CHOL','PEG'), ('AQUEOUS','TFR')]
+#DAG810
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','FRR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('CHOL','ML'), ('AQUEOUS','TFR')]
+#DAG3810
+[('ESM','ML'), ('HSPC','ML'), ('PEG','HSPC'), ('ML','PDI'), ('ML','SIZE'), ('CHIP','SIZE'), ('CHIP','PDI'), ('TFR','FRR'), ('FRR','CHIP'), ('AQUEOUS','CHIP'), ('CHOL','ML'), ('CHOL','PEG'), ('AQUEOUS','TFR')]

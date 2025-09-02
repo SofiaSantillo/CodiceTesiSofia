@@ -1,0 +1,41 @@
+path,conditioned_on,cmi,d_separated
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']",,0.9875585446310513,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('HSPC',)",0.3872122827466671,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('ML',)",0.5393409479540108,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('PDI',)",0.6763487358374203,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('HSPC', 'ML')",0.29421335645804936,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('HSPC', 'PDI')",0.29755587492507374,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('ML', 'PDI')",0.46210776011139165,False
+"['PEG', 'HSPC', 'ML', 'PDI', 'CHOL']","('HSPC', 'ML', 'PDI')",0.25177997967769183,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']",,0.9875585446310513,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC',)",0.3872122827466671,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML',)",0.5393409479540108,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('SIZE',)",0.8853058558076607,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('CHIP',)",0.9584610110348235,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('PDI',)",0.6763487358374203,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML')",0.29421335645804936,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'SIZE')",0.39958398510147575,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'CHIP')",0.3548733883559321,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'PDI')",0.29755587492507374,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'SIZE')",0.4877605489164374,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'CHIP')",0.4971234299137923,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'PDI')",0.46210776011139165,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('SIZE', 'CHIP')",0.8497886963239707,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('SIZE', 'PDI')",0.5131468438944147,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('CHIP', 'PDI')",0.6670658244625791,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'SIZE')",0.2821312693654372,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'CHIP')",0.28511015446612253,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'PDI')",0.25177997967769183,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'SIZE', 'CHIP')",0.3672701307599544,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'SIZE', 'PDI')",0.2662239199215293,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'CHIP', 'PDI')",0.28945566610404194,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'SIZE', 'CHIP')",0.4555324776975773,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'SIZE', 'PDI')",0.4352531002183748,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'CHIP', 'PDI')",0.4397985684337704,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('SIZE', 'CHIP', 'PDI')",0.4643431770128199,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'SIZE', 'CHIP')",0.2614174049831961,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'SIZE', 'PDI')",0.24474941818141627,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'CHIP', 'PDI')",0.24194359622613026,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'SIZE', 'CHIP', 'PDI')",0.24959385318773464,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('ML', 'SIZE', 'CHIP', 'PDI')",0.40198502192594887,False
+"['PEG', 'HSPC', 'ML', 'SIZE', 'CHIP', 'PDI', 'CHOL']","('HSPC', 'ML', 'SIZE', 'CHIP', 'PDI')",0.22534108842545297,False
