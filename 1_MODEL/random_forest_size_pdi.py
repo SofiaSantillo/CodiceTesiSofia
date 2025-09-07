@@ -142,13 +142,13 @@ def random_forest_size_pdi(DATA):
     
 
 
-if __name__== "__main__":
-    file_path = data_path + "/seed.csv"
-    DATA = pd.read_csv(file_path)
-    DATA.dropna(inplace=True)
+#if __name__== "__main__":
+ #   file_path = data_path + "/seed.csv"
+  #  DATA = pd.read_csv(file_path)
+   # DATA.dropna(inplace=True)
 
-    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-    from _File.config import data_path
+    #sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    #from _File.config import data_path
 
-    validation_r2_pdi, validation_r2_size, DATA, model = random_forest_size_pdi(DATA)
+    #validation_r2_pdi, validation_r2_size, DATA, model = random_forest_size_pdi(DATA)
 

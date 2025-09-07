@@ -1,0 +1,30 @@
+Early stopping at iteration 14 due to insufficient improvement.
+['cat__ML_ESM' 'cat__ML_HSPC' 'cat__CHIP_Droplet' 'cat__CHIP_Micromixer'
+ 'cat__AQUEOUS_MQ' 'cat__AQUEOUS_PBS' 'cat__OUTPUT_NO' 'cat__OUTPUT_YES'
+ 'remainder__ESM' 'remainder__HSPC' 'remainder__CHOL' 'remainder__PEG'
+ 'remainder__TFR' 'remainder__FRR']
+{'cat__ML_ESM': 'ML', 'cat__ML_HSPC': 'ML', 'cat__CHIP_Droplet': 'CHIP', 'cat__CHIP_Micromixer': 'CHIP', 'cat__OUTPUT_YES': 'OUTPUT', 'cat__OUTPUT_NO': 'OUTPUT', 'cat__AQUEOUS_MQ': 'AQUEOUS', 'cat__AQUEOUS_PBS': 'AQUEOUS', 'remainder__ESM': 'ESM', 'remainder__CHOL': 'CHOL', 'remainder__FRR': 'FRR', 'remainder__TFR': 'TFR', 'remainder__HSPC': 'HSPC', 'remainder__PEG': 'PEG'}
+Importanza media per SIZE:
+   Feature  Importance
+4   OUTPUT  363.110586
+7      TFR   87.641093
+0      ESM   71.311172
+1      FRR   50.014536
+8     CHIP   25.547598
+9  AQUEOUS   21.072928
+6       ML   13.095146
+3     CHOL    7.481076
+2      PEG    4.695935
+5     HSPC    4.500238
+Importanza media per PDI:
+   Feature  Importance
+4   OUTPUT    0.105808
+0      ESM    0.030911
+3     CHOL    0.024991
+6       ML    0.016590
+1      FRR    0.016517
+7      TFR    0.013047
+5     HSPC    0.008804
+2      PEG    0.007404
+9  AQUEOUS    0.002902
+8     CHIP    0.001827

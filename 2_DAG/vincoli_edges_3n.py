@@ -1,6 +1,5 @@
 import json
 
-# Qui ci metti la tua lista manuale di archi non ammissibili
 not_allowed_edges = [
     #FRR
     ('PDI', 'FRR'),

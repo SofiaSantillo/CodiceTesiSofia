@@ -10,7 +10,8 @@ from xgboost_gridsearch_pdi import functionalize_xgboost_gridsearch_pdi
 from xgboost_gridsearch_size import functionalize_xgboost_gridsearch_size
 from random_forest_size_pdi import random_forest_size_pdi
 
-import shap
+import joblib
+
 
 
 
@@ -29,7 +30,7 @@ if __name__=="__main__":
     r2_size_history = []
     r2_pdi_history = []
     
-    rf_r2_pdi, rf_r2_size, data, rf_model= random_forest_size_pdi(DATA=DATA)
+    rf_r2_pdi, rf_r2_size, data, model_rf= random_forest_size_pdi(DATA=DATA)
     best_rf_r2_size = rf_r2_size
     best_rf_r2_pdi = rf_r2_pdi
 
@@ -71,117 +72,11 @@ if __name__=="__main__":
     plt.show()
 
 
-####### ANALISI SHAP ######### 
-X = data.drop(columns=['SIZE', 'PDI'])
+    # Salva il modello Random Forest addestrato
+    filename_model = "6_ANALISI_INTERVENTISTA/model_rf.pkl"  # percorso dove vuoi salvare il modello
+    os.makedirs(os.path.dirname(filename_model), exist_ok=True)  # crea cartella se non esiste
+    joblib.dump(model_rf, filename_model)
 
-if 'preprocessor' in rf_model.named_steps:
-    preprocessor = rf_model.named_steps['preprocessor']
-    X_transformed = preprocessor.transform(X)
-    feature_names_transformed = preprocessor.get_feature_names_out()
-else:
-    X_transformed = X.values
-    feature_names_transformed = X.columns
-
-rf_model_size = rf_model.named_steps['regressor'].estimators_[0]
-rf_model_pdi  = rf_model.named_steps['regressor'].estimators_[1]
-
-feature_map = {
-    "cat__ML_ESM": "ML",
-    "cat__ML_HSPC": "ML",
-    "cat__CHIP_Droplet": "CHIP",
-    "cat__CHIP_Micromixer": "CHIP",
-    "cat__OUTPUT_YES": "OUTPUT",
-    "cat__OUTPUT_NO": "OUTPUT",
-    "cat__AQUEOUS_MQ": "AQUEOUS",
-    "cat__AQUEOUS_PBS": "AQUEOUS",
-    "remainder__ESM": "ESM",
-    "remainder__CHOL": "CHOL",
-    "remainder__FRR": "FRR",
-    "remainder__TFR": "TFR",
-    "remainder__HSPC": "HSPC",
-    "remainder__PEG": "PEG",
-    # aggiungi altre feature categoriali se presenti
-}
-
-unique_features = list(set(feature_map.values()))
-print(unique_features)
-
-# SHAP per SIZE
-explainer_size = shap.TreeExplainer(rf_model_size)
-shap_values_size = explainer_size.shap_values(X_transformed)
-
-# SHAP per PDI
-explainer_pdi = shap.TreeExplainer(rf_model_pdi)
-shap_values_pdi = explainer_pdi.shap_values(X_transformed)
-
-def aggregate_shap(shap_vals, feature_names_transformed, feature_map):
-    unique_features = list(set(feature_map.values()))
-    shap_agg = np.zeros((shap_vals.shape[0], len(unique_features)))
-    
-    for i, col in enumerate(feature_names_transformed):
-        orig_feat = feature_map.get(col, col)
-        idx = unique_features.index(orig_feat)
-        shap_agg[:, idx] += shap_vals[:, i]
-    return shap_agg, unique_features
-
-print(feature_names_transformed)
-print(feature_map)
-shap_values_size_agg, agg_features = aggregate_shap(shap_values_size, feature_names_transformed, feature_map)
-shap_values_pdi_agg, _ = aggregate_shap(shap_values_pdi, feature_names_transformed, feature_map)
-
-X_agg_df = pd.DataFrame(columns=agg_features, index=range(X_transformed.shape[0]))
-for feat in agg_features:
-    cols_to_sum = [c for c, f in feature_map.items() if f == feat]
-    if cols_to_sum:
-        idx_cols = [np.where(feature_names_transformed == c)[0][0] for c in cols_to_sum]
-        X_agg_df[feat] = X_transformed[:, idx_cols].sum(axis=1)
-    else:
-        idx_col = np.where(feature_names_transformed == feat)[0][0]
-        X_agg_df[feat] = X_transformed[:, idx_col]
+    print(f"Modello salvato in {filename_model}")
 
 
-# Summary plot SIZE
-shap.summary_plot(shap_values_size_agg, X_agg_df, plot_type="bar", show=False)
-plt.title("Feature importance per SIZE")
-plt.tight_layout()
-plt.savefig('_Plot/shap_summary_size.png')
-plt.show()
-
-# Summary plot PDI
-shap.summary_plot(shap_values_pdi_agg, X_agg_df, plot_type="bar", show=False)
-plt.title("Feature importance per PDI")
-plt.tight_layout()
-plt.savefig('_Plot/shap_summary_pdi.png')
-plt.show()
-
-# Dependence plots (primi due features)#
-#for i in range(min(2, len(agg_features))):
-  #  shap.dependence_plot(i, shap_values_size_agg, X_agg_df, show=False)
-  #  plt.tight_layout()
-   # plt.savefig(f'_Plot/shap_dependence_size_{agg_features[i]}.png')
-    #plt.show()
-
-  #  shap.dependence_plot(i, shap_values_pdi_agg, X_agg_df, show=False)
-   # plt.tight_layout()
-   # plt.savefig(f'_Plot/shap_dependence_pdi_{agg_features[i]}.png')
-    #plt.show()
-
-# Importanza media delle feature aggregate per SIZE
-shap_importance_size = np.abs(shap_values_size_agg).mean(axis=0)
-shap_importance_size_df = pd.DataFrame({
-    'Feature': agg_features,
-    'Importance': shap_importance_size
-}).sort_values(by='Importance', ascending=False)
-
-print("Importanza media per SIZE:")
-print(shap_importance_size_df)
-
-# Importanza media delle feature aggregate per PDI
-shap_importance_pdi = np.abs(shap_values_pdi_agg).mean(axis=0)
-shap_importance_pdi_df = pd.DataFrame({
-    'Feature': agg_features,
-    'Importance': shap_importance_pdi
-}).sort_values(by='Importance', ascending=False)
-
-print("Importanza media per PDI:")
-print(shap_importance_pdi_df)

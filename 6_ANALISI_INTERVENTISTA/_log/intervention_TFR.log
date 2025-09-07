@@ -1,0 +1,476 @@
+
+PDI, do (TFR= 0.25)
+INTERVENTO 1
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2849599012049568
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.014421587799173
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.729461686594217
+delta pre-post (dag) 0.3679017465293324 delta pre-post (ML) 0.020988495335492796
+percentuale delta_dag 4.81136195506472 percentuale delta_ml 7.951048813927891
+differenza tra le percentuali dei delta: 3.139686858863171
+criterio decisionale magnitudo: 0.03139686858863171 < 0.09699098884747455
+ INTERVENTO 1: Il modello predittivo risponde bene all'intervento causale
+
+SIZE, do (TFR= 0.25)
+INTERVENTO 1
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 304.8482332550802
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1930.5591956023936
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1625.7109623473134
+delta pre-post (dag) 311.577447541403 delta pre-post (ML) 4.264289161609781
+percentuale delta_dag 19.245272401283746 percentuale delta_ml 1.418668310601363
+differenza tra le percentuali dei delta: 17.826604090682384
+criterio decisionale magnitudo: 0.17826604090682385 < 0.28309592708284276
+ INTERVENTO 1: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 1.0)
+INTERVENTO 2
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2609000420247338
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.42482572274469
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.163925680719956
+delta pre-post (dag) 0.7783058814748482 delta pre-post (ML) -0.0030713638447301683
+percentuale delta_dag 10.17856355088718 percentuale delta_ml -1.1635214180163826
+differenza tra le percentuali dei delta: 11.342084968903563
+criterio decisionale magnitudo: 0.11342084968903564 < 0.15584112683538426
+ INTERVENTO 2: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027489             0.016590  0.010899  correlazione spuria
+6      PEG               0.012036             0.007404  0.004632  correlazione spuria
+0   OUTPUT               0.110097             0.105808  0.004289                     
+5     HSPC               0.012680             0.008804  0.003876  correlazione spuria
+9     CHIP               0.000047             0.001827 -0.001780                     
+3      FRR               0.014347             0.016517 -0.002170                     
+8  AQUEOUS               0.000108             0.002902 -0.002794                     
+7      TFR               0.002342             0.013047 -0.010705                     
+4     CHOL               0.013551             0.024991 -0.011440                     
+2      ESM               0.014660             0.030911 -0.016251                     
+
+SIZE, do (TFR= 1.0)
+INTERVENTO 2
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 293.8820370628164
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1793.712748387097
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1499.8307113242806
+delta pre-post (dag) 174.73100032610637 delta pre-post (ML) -6.701907030654013
+percentuale delta_dag 10.792647942781123 percentuale delta_ml -2.2296290811095254
+differenza tra le percentuali dei delta: 13.022277023890648
+criterio decisionale magnitudo: 0.1302227702389065 < 0.18761620871239715
+ INTERVENTO 2: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per SIZE con valutazione:
+   Feature  Importance_intervento  Importance_original       Diff          valutazione
+3       ML              24.909967            13.095146  11.814821  correlazione spuria
+4     HSPC              13.327335             4.500238   8.827097  correlazione spuria
+5      PEG              10.074297             4.695935   5.378362  correlazione spuria
+1      ESM              68.634308            71.311172  -2.676864                     
+7     CHOL               0.955266             7.481076  -6.525810                     
+9  AQUEOUS               0.216455            21.072928 -20.856473                     
+2      FRR              27.121528            50.014536 -22.893008                     
+8     CHIP               0.402312            25.547598 -25.145286                     
+0   OUTPUT             287.761507           363.110586 -75.349079                     
+6      TFR               6.200656            87.641093 -81.440437                     
+
+PDI, do (TFR= 0.71)
+INTERVENTO 3
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2692369882560115
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 7.9215342490842495
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.652297260828238
+delta pre-post (dag) 0.27501440781440856 delta pre-post (ML) 0.005265582386547507
+percentuale delta_dag 3.596595752359122 percentuale delta_ml 1.9947548368747865
+differenza tra le percentuali dei delta: 1.6018409154843354
+criterio decisionale magnitudo: 0.016018409154843354 < 0.08653871393980658
+ INTERVENTO 3: Il modello predittivo risponde bene all'intervento causale
+
+SIZE, do (TFR= 0.71)
+INTERVENTO 3
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 298.222806006657
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1532.5660233283893
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1234.3432173217323
+delta pre-post (dag) -86.41572473260135 delta pre-post (ML) -2.361138086813412
+percentuale delta_dag -5.337658984488185 percentuale delta_ml -0.7855170354938141
+differenza tra le percentuali dei delta: 4.552141948994372
+criterio decisionale magnitudo: 0.04552141948994372 < 0.1137551021344532
+ INTERVENTO 3: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 2.04)
+INTERVENTO 4
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2567981954770982
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.056735673585674
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.799937478108576
+delta pre-post (dag) 0.41021583231583314 delta pre-post (ML) -0.007173210392365792
+percentuale delta_dag 5.364739003249738 percentuale delta_ml -2.717419475317339
+differenza tra le percentuali dei delta: 8.082158478567077
+criterio decisionale magnitudo: 0.08082158478567077 < 0.10653725760968374
+ INTERVENTO 4: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027956             0.016590  0.011366  correlazione spuria
+0   OUTPUT               0.110916             0.105808  0.005108                     
+6      PEG               0.012157             0.007404  0.004753  correlazione spuria
+5     HSPC               0.012865             0.008804  0.004061  correlazione spuria
+9     CHIP               0.000052             0.001827 -0.001775                     
+3      FRR               0.014654             0.016517 -0.001863                     
+8  AQUEOUS               0.000090             0.002902 -0.002812                     
+7      TFR               0.006364             0.013047 -0.006683                     
+4     CHOL               0.013667             0.024991 -0.011324                     
+2      ESM               0.014696             0.030911 -0.016215                     
+
+SIZE, do (TFR= 2.04)
+INTERVENTO 4
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 323.68696377547764
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1485.3320989962317
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1161.6451352207541
+delta pre-post (dag) -133.64964906475893 delta pre-post (ML) 23.103019682007243
+percentuale delta_dag -8.255167127413722 percentuale delta_ml 7.686045823799247
+differenza tra le percentuali dei delta: 15.941212951212968
+criterio decisionale magnitudo: 0.15941212951212969 < 0.1688963363523836
+ INTERVENTO 4: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per SIZE con valutazione:
+   Feature  Importance_intervento  Importance_original       Diff          valutazione
+3       ML              28.574453            13.095146  15.479307  correlazione spuria
+5     HSPC              15.192537             4.500238  10.692299  correlazione spuria
+6      PEG              10.550894             4.695935   5.854959  correlazione spuria
+1      ESM              70.528349            71.311172  -0.782823                     
+7     CHOL               0.996178             7.481076  -6.484898                     
+2      FRR              30.910999            50.014536 -19.103537                     
+9  AQUEOUS               0.195856            21.072928 -20.877072                     
+8     CHIP               0.317088            25.547598 -25.230510                     
+0   OUTPUT             315.514588           363.110586 -47.595998                     
+4      TFR              22.486036            87.641093 -65.155057                     
+
+PDI, do (TFR= 1.37)
+INTERVENTO 5
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2603450656022382
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.519130823888288
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.25878575828605
+delta pre-post (dag) 0.8726109826184469 delta pre-post (ML) -0.0036263402672258027
+percentuale delta_dag 11.41187103064568 percentuale delta_ml -1.3737625313171449
+differenza tra le percentuali dei delta: 12.785633561962824
+criterio decisionale magnitudo: 0.12785633561962823 < 0.16869035883110364
+ INTERVENTO 5: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027596             0.016590  0.011006  correlazione spuria
+6      PEG               0.012060             0.007404  0.004656  correlazione spuria
+0   OUTPUT               0.110151             0.105808  0.004343                     
+5     HSPC               0.012720             0.008804  0.003916  correlazione spuria
+9     CHIP               0.000050             0.001827 -0.001777                     
+3      FRR               0.014402             0.016517 -0.002115                     
+8  AQUEOUS               0.000101             0.002902 -0.002801                     
+7      TFR               0.002887             0.013047 -0.010160                     
+4     CHOL               0.013570             0.024991 -0.011421                     
+2      ESM               0.014708             0.030911 -0.016203                     
+
+SIZE, do (TFR= 1.37)
+INTERVENTO 5
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 290.4211595502978
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1340.4336527806738
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1050.012493230376
+delta pre-post (dag) -278.54809528031683 delta pre-post (ML) -10.16278454317262
+percentuale delta_dag -17.205141170610858 percentuale delta_ml -3.3810137709858425
+differenza tra le percentuali dei delta: 13.824127399625016
+criterio decisionale magnitudo: 0.13824127399625016 < 0.253569294434107
+ INTERVENTO 5: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 2.5)
+INTERVENTO 6
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.25559055493047306
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 7.9839565545565545
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.728365999626082
+delta pre-post (dag) 0.33743671328671354 delta pre-post (ML) -0.008380850938990936
+percentuale delta_dag 4.41294497747195 percentuale delta_ml -3.1749086274652547
+differenza tra le percentuali dei delta: 7.587853604937205
+criterio decisionale magnitudo: 0.07587853604937206 < 0.09684257302904509
+ INTERVENTO 6: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.028103             0.016590  0.011513  correlazione spuria
+0   OUTPUT               0.111003             0.105808  0.005195                     
+6      PEG               0.012224             0.007404  0.004820  correlazione spuria
+5     HSPC               0.012940             0.008804  0.004136  correlazione spuria
+9     CHIP               0.000052             0.001827 -0.001775                     
+3      FRR               0.014742             0.016517 -0.001775                     
+8  AQUEOUS               0.000091             0.002902 -0.002811                     
+7      TFR               0.007409             0.013047 -0.005638                     
+4     CHOL               0.013773             0.024991 -0.011218                     
+2      ESM               0.014777             0.030911 -0.016134                     
+
+SIZE, do (TFR= 2.5)
+INTERVENTO 6
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 323.51750966732175
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 2178.3584686963304
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1854.8409590290087
+delta pre-post (dag) 559.3767206353398 delta pre-post (ML) 22.933565573851354
+percentuale delta_dag 34.55114434151526 percentuale delta_ml 7.629670853849689
+differenza tra le percentuali dei delta: 26.921473487665573
+criterio decisionale magnitudo: 0.2692147348766557 < 0.45689020677002284
+ INTERVENTO 6: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 1.375)
+INTERVENTO 7
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.259954074001437
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 7.896880463980464
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.636926389979028
+delta pre-post (dag) 0.2503606227106232 delta pre-post (ML) -0.0040173318680269965
+percentuale delta_dag 3.274177376214672 percentuale delta_ml -1.5218814533319567
+differenza tra le percentuali dei delta: 4.796058829546629
+criterio decisionale magnitudo: 0.04796058829546629 < 0.08445665907979309
+ INTERVENTO 7: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027536             0.016590  0.010946  correlazione spuria
+6      PEG               0.012025             0.007404  0.004621  correlazione spuria
+0   OUTPUT               0.110180             0.105808  0.004372                     
+5     HSPC               0.012666             0.008804  0.003862  correlazione spuria
+9     CHIP               0.000050             0.001827 -0.001777                     
+3      FRR               0.014311             0.016517 -0.002206                     
+8  AQUEOUS               0.000101             0.002902 -0.002801                     
+7      TFR               0.003309             0.013047 -0.009738                     
+4     CHOL               0.013643             0.024991 -0.011348                     
+2      ESM               0.014670             0.030911 -0.016241                     
+
+SIZE, do (TFR= 1.375)
+INTERVENTO 7
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 290.3809921809645
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1176.2980340812933
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -885.9170419003287
+delta pre-post (dag) -442.68371397969736 delta pre-post (ML) -10.20295191250591
+percentuale delta_dag -27.343341857305514 percentuale delta_ml -3.3943768830623804
+differenza tra le percentuali dei delta: 23.948964974243133
+criterio decisionale magnitudo: 0.23948964974243134 < 0.3780351050082954
+ INTERVENTO 7: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 0.7060709978109694)
+INTERVENTO 8
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2692369882560115
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.541116722090566
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.271879733834554
+delta pre-post (dag) 0.8945968808207247 delta pre-post (ML) 0.005265582386547507
+percentuale delta_dag 11.699399195859026 percentuale delta_ml 1.9947548368747865
+differenza tra le percentuali dei delta: 9.70464435898424
+criterio decisionale magnitudo: 0.0970464435898424 < 0.17046399779373017
+ INTERVENTO 8: Il modello predittivo risponde bene all'intervento causale
+
+SIZE, do (TFR= 0.7060709978109694)
+INTERVENTO 8
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 298.5059992418043
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1610.3773715464947
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1311.8713723046903
+delta pre-post (dag) -8.604376514495925 delta pre-post (ML) -2.077944851666075
+percentuale delta_dag -0.5314684075222681 percentuale delta_ml -0.6913026768388906
+differenza tra le percentuali dei delta: 0.15983426931662248
+criterio decisionale magnitudo: 0.0015983426931662247 < 0.05495027498012334
+ INTERVENTO 8: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 2.0439290021890306)
+INTERVENTO 9
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2567981954770982
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.002095835964802
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.745297640487704
+delta pre-post (dag) 0.35557599469496104 delta pre-post (ML) -0.007173210392365792
+percentuale delta_dag 4.650167685119238 percentuale delta_ml -2.717419475317339
+differenza tra le percentuali dei delta: 7.367587160436577
+criterio decisionale magnitudo: 0.07367587160436577 < 0.09913604133606388
+ INTERVENTO 9: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027956             0.016590  0.011366  correlazione spuria
+0   OUTPUT               0.110916             0.105808  0.005108                     
+6      PEG               0.012157             0.007404  0.004753  correlazione spuria
+5     HSPC               0.012865             0.008804  0.004061  correlazione spuria
+9     CHIP               0.000052             0.001827 -0.001775                     
+3      FRR               0.014654             0.016517 -0.001863                     
+8  AQUEOUS               0.000090             0.002902 -0.002812                     
+7      TFR               0.006364             0.013047 -0.006683                     
+4     CHOL               0.013667             0.024991 -0.011324                     
+2      ESM               0.014696             0.030911 -0.016215                     
+
+SIZE, do (TFR= 2.0439290021890306)
+INTERVENTO 9
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 323.68696377547764
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1465.9292678571428
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1142.2423040816652
+delta pre-post (dag) -153.05248020384784 delta pre-post (ML) 23.103019682007243
+percentuale delta_dag -9.453626045330934 percentuale delta_ml 7.686045823799247
+differenza tra le percentuali dei delta: 17.13967186913018
+criterio decisionale magnitudo: 0.1713967186913018 < 0.183613314096657
+ INTERVENTO 9: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per SIZE con valutazione:
+   Feature  Importance_intervento  Importance_original       Diff          valutazione
+3       ML              28.574453            13.095146  15.479307  correlazione spuria
+5     HSPC              15.192537             4.500238  10.692299  correlazione spuria
+6      PEG              10.550894             4.695935   5.854959  correlazione spuria
+1      ESM              70.528349            71.311172  -0.782823                     
+7     CHOL               0.996178             7.481076  -6.484898                     
+2      FRR              30.910999            50.014536 -19.103537                     
+9  AQUEOUS               0.195856            21.072928 -20.877072                     
+8     CHIP               0.317088            25.547598 -25.230510                     
+0   OUTPUT             315.514588           363.110586 -47.595998                     
+4      TFR              22.486036            87.641093 -65.155057                     
+
+PDI, do (TFR= 0.58)
+INTERVENTO 10
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.27018937140786536
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.353929310966812
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.083739939558948
+delta pre-post (dag) 0.7074094696969713 delta pre-post (ML) 0.006217965538401371
+percentuale delta_dag 9.251391278407947 percentuale delta_ml 2.3555451083501846
+differenza tra le percentuali dei delta: 6.895846170057762
+criterio decisionale magnitudo: 0.06895846170057762 < 0.144979600918872
+ INTERVENTO 10: Il modello predittivo risponde bene all'intervento causale
+
+SIZE, do (TFR= 0.58)
+INTERVENTO 10
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 298.92356297578823
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1238.9515740098664
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -940.0280110340782
+delta pre-post (dag) -380.0301740511243 delta pre-post (ML) -1.6603811176821637
+percentuale delta_dag -23.473406942745083 percentuale delta_ml -0.5523851657112621
+differenza tra le percentuali dei delta: 22.921021777033822
+criterio decisionale magnitudo: 0.22921021777033823 < 0.336992129230491
+ INTERVENTO 10: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 2.17)
+INTERVENTO 11
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.2566717396452895
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.344102074238723
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.087430334593433
+delta pre-post (dag) 0.6975822329688821 delta pre-post (ML) -0.007299666224174495
+percentuale delta_dag 9.122872201336445 percentuale delta_ml -2.765324600265318
+differenza tra le percentuali dei delta: 11.888196801601763
+criterio decisionale magnitudo: 0.11888196801601764 < 0.14547948182947865
+ INTERVENTO 11: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027983             0.016590  0.011393  correlazione spuria
+0   OUTPUT               0.110926             0.105808  0.005118                     
+6      PEG               0.012170             0.007404  0.004766  correlazione spuria
+5     HSPC               0.012874             0.008804  0.004070  correlazione spuria
+9     CHIP               0.000052             0.001827 -0.001775                     
+3      FRR               0.014655             0.016517 -0.001862                     
+8  AQUEOUS               0.000090             0.002902 -0.002812                     
+7      TFR               0.006494             0.013047 -0.006553                     
+4     CHOL               0.013686             0.024991 -0.011305                     
+2      ESM               0.014707             0.030911 -0.016204                     
+
+SIZE, do (TFR= 2.17)
+INTERVENTO 11
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 323.5756402447405
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1966.297524961877
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1642.7218847171364
+delta pre-post (dag) 347.31577690088625 delta pre-post (ML) 22.991696151270105
+percentuale delta_dag 21.452729613342257 percentuale delta_ml 7.649010069586599
+differenza tra le percentuali dei delta: 13.803719543755658
+criterio decisionale magnitudo: 0.13803719543755658 < 0.29599865061486863
+ INTERVENTO 11: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 1.75)
+INTERVENTO 12
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.25878315368516264
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.412265516528336
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.153482362843173
+delta pre-post (dag) 0.7657456752584952 delta pre-post (ML) -0.005188252184301356
+percentuale delta_dag 10.01430312291362 percentuale delta_ml -1.9654599206351118
+differenza tra le percentuali dei delta: 11.979763043548733
+criterio decisionale magnitudo: 0.11979763043548733 < 0.1544265315952493
+ INTERVENTO 12: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027713             0.016590  0.011123  correlazione spuria
+0   OUTPUT               0.110649             0.105808  0.004841                     
+6      PEG               0.012062             0.007404  0.004658  correlazione spuria
+5     HSPC               0.012748             0.008804  0.003944  correlazione spuria
+9     CHIP               0.000050             0.001827 -0.001777                     
+3      FRR               0.014561             0.016517 -0.001956                     
+8  AQUEOUS               0.000096             0.002902 -0.002806                     
+7      TFR               0.004494             0.013047 -0.008553                     
+4     CHOL               0.013629             0.024991 -0.011362                     
+2      ESM               0.014581             0.030911 -0.016330                     
+
+SIZE, do (TFR= 1.75)
+INTERVENTO 12
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 324.40610975313774
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1858.5426801079761
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1534.1365703548383
+delta pre-post (dag) 239.5609320469855 delta pre-post (ML) 23.82216565966735
+percentuale delta_dag 14.797012525552 percentuale delta_ml 7.9252954549892864
+differenza tra le percentuali dei delta: 6.871717070562714
+criterio decisionale magnitudo: 0.06871717070562715 < 0.21363707959622247
+ INTERVENTO 12: Il modello predittivo risponde bene all'intervento causale
+
+PDI, do (TFR= 2.0)
+INTERVENTO 13
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.25689900312663005
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.285921466290732
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -8.029022463164102
+delta pre-post (dag) 0.6394016250208914 delta pre-post (ML) -0.007072402742833939
+percentuale delta_dag 8.361995238277016 percentuale delta_ml -2.679230623308988
+differenza tra le percentuali dei delta: 11.041225861586003
+criterio decisionale magnitudo: 0.11041225861586003 < 0.1375678681177071
+ INTERVENTO 13: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027877             0.016590  0.011287  correlazione spuria
+0   OUTPUT               0.110841             0.105808  0.005033                     
+6      PEG               0.012111             0.007404  0.004707  correlazione spuria
+5     HSPC               0.012827             0.008804  0.004023  correlazione spuria
+9     CHIP               0.000052             0.001827 -0.001775                     
+3      FRR               0.014642             0.016517 -0.001875                     
+8  AQUEOUS               0.000086             0.002902 -0.002816                     
+7      TFR               0.006201             0.013047 -0.006846                     
+4     CHOL               0.013748             0.024991 -0.011243                     
+2      ESM               0.014666             0.030911 -0.016245                     
+
+SIZE, do (TFR= 2.0)
+INTERVENTO 13
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 323.6837069344539
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1386.4355098991919
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -1062.751802964738
+delta pre-post (dag) -232.54623816179878 delta pre-post (ML) 23.099762840983487
+percentuale delta_dag -14.363734392948713 percentuale delta_ml 7.6849623191451375
+differenza tra le percentuali dei delta: 22.04869671209385
+criterio decisionale magnitudo: 0.22048696712093852 < 0.24390657374690244
+ INTERVENTO 13: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per SIZE con valutazione:
+   Feature  Importance_intervento  Importance_original       Diff          valutazione
+3       ML              28.574453            13.095146  15.479307  correlazione spuria
+5     HSPC              15.192537             4.500238  10.692299  correlazione spuria
+6      PEG              10.550894             4.695935   5.854959  correlazione spuria
+1      ESM              70.528875            71.311172  -0.782297                     
+7     CHOL               0.994855             7.481076  -6.486221                     
+2      FRR              30.911620            50.014536 -19.102916                     
+9  AQUEOUS               0.195856            21.072928 -20.877072                     
+8     CHIP               0.317088            25.547598 -25.230510                     
+0   OUTPUT             315.514977           363.110586 -47.595609                     
+4      TFR              22.483768            87.641093 -65.157325                     
+
+PDI, do (TFR= 1.4)
+INTERVENTO 14
+media predizione PDI baseline ML: 0.263971405869464 media predizione PDI ML: 0.260135356932065
+media PDI baseline dag: 7.646519841269841 media PDI dag do(X): 8.110293357763627
+errore medie pre intervento: -7.382548435400377 errore medie post intervento: -7.850158000831562
+delta pre-post (dag) 0.4637735164937862 delta pre-post (ML) -0.0038360489373989726
+percentuale delta_dag 6.065158086567762 percentuale delta_ml -1.453206238290798
+differenza tra le percentuali dei delta: 7.51836432485856
+criterio decisionale magnitudo: 0.07518364324858559 < 0.11333985743851406
+ INTERVENTO 14: Il modello predittivo NON risponde bene all'intervento causale --> Eseguire analisi SHAP
+Differenza valori SHAP per PDI con valutazione:
+   Feature  Importance_intervento  Importance_original      Diff          valutazione
+1       ML               0.027535             0.016590  0.010945  correlazione spuria
+6      PEG               0.012027             0.007404  0.004623  correlazione spuria
+0   OUTPUT               0.110346             0.105808  0.004538                     
+5     HSPC               0.012662             0.008804  0.003858  correlazione spuria
+9     CHIP               0.000050             0.001827 -0.001777                     
+3      FRR               0.014323             0.016517 -0.002194                     
+8  AQUEOUS               0.000100             0.002902 -0.002802                     
+7      TFR               0.003183             0.013047 -0.009864                     
+4     CHOL               0.013630             0.024991 -0.011361                     
+2      ESM               0.014629             0.030911 -0.016282                     
+
+SIZE, do (TFR= 1.4)
+INTERVENTO 14
+media predizione SIZE baseline ML: 300.5839440934704 media predizione SIZE ML: 295.55274988396854
+media SIZE baseline dag: 1618.9817480609906 media SIZE dag do(X): 1260.9135631059405
+errore medie pre intervento: -1318.3978039675203 errore medie post intervento: -965.360813221972
+delta pre-post (dag) -358.0681849550501 delta pre-post (ML) -5.031194209501848
+percentuale delta_dag -22.116875955142696 percentuale delta_ml -1.673806704704538
+differenza tra le percentuali dei delta: 20.443069250438157
+criterio decisionale magnitudo: 0.20443069250438156 < 0.3177772897399681
+ INTERVENTO 14: Il modello predittivo risponde bene all'intervento causale

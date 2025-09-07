@@ -118,13 +118,13 @@ def functionalize_xgboost_gridsearch_size(data):
     return data
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 
-    file_path = data_path + "/seed_non_ordinato.csv"
-    DATA = pd.read_csv(file_path)
-    DATA.dropna(inplace=True)
+ #   file_path = data_path + "/seed_non_ordinato.csv"
+  #  DATA = pd.read_csv(file_path)
+   # DATA.dropna(inplace=True)
     
-    rf_r2_pdi, rf_r2_size, data= random_forest_size_pdi(DATA)
+#    rf_r2_pdi, rf_r2_size, data= random_forest_size_pdi(DATA)
 
-    data = functionalize_xgboost_gridsearch_size(data=data)
-    logging.info("...Done!\n\n".upper())
+ #   data = functionalize_xgboost_gridsearch_size(data=data)
+  #  logging.info("...Done!\n\n".upper())
