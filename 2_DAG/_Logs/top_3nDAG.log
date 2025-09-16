@@ -1,0 +1,10 @@
+7.1: AQUEOUS -> FRR, AQUEOUS -> PEG | similarity_score: 0.5922 | LL: -557.23 | AIC: 1140.46 | BIC: 1188.74
+7.9: FRR -> AQUEOUS, AQUEOUS -> PEG | similarity_score: 0.5922 | LL: -557.23 | AIC: 1140.46 | BIC: 1188.74
+7.15: PEG -> AQUEOUS, AQUEOUS -> FRR | similarity_score: 0.5922 | LL: -557.23 | AIC: 1140.46 | BIC: 1188.74
+7.14: PEG -> AQUEOUS, PEG -> FRR | similarity_score: 0.8051 | LL: -546.55 | AIC: 1131.10 | BIC: 1201.66
+7.5: AQUEOUS -> PEG, PEG -> FRR | similarity_score: 0.0676 | LL: -546.55 | AIC: 1131.10 | BIC: 1201.66
+7.11: FRR -> PEG, PEG -> AQUEOUS | similarity_score: 0.0337 | LL: -546.55 | AIC: 1131.10 | BIC: 1201.66
+7.12: FRR -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 0.9181 | LL: -555.99 | AIC: 1153.97 | BIC: 1231.96
+7.3: AQUEOUS -> PEG, FRR -> PEG | similarity_score: 0.6070 | LL: -545.31 | AIC: 1144.61 | BIC: 1244.88
+7.4: AQUEOUS -> FRR, AQUEOUS -> PEG, FRR -> PEG | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+7.7: AQUEOUS -> PEG, AQUEOUS -> FRR, PEG -> FRR | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86

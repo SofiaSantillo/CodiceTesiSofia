@@ -1,0 +1,40 @@
+DAG 1:
+Edges: [('AQUEOUS', 'FRR'), ('AQUEOUS', 'PEG'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('TFR', 'AQUEOUS'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5555.8891651418935
+----------------------------------------
+DAG 2:
+Edges: [('FRR', 'AQUEOUS'), ('AQUEOUS', 'PEG'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5556.552270614417
+----------------------------------------
+DAG 3:
+Edges: [('PEG', 'AQUEOUS'), ('AQUEOUS', 'FRR'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('CHOL', 'PEG'), ('ESM', 'SIZE')]
+Score: 5556.113513200547
+----------------------------------------
+DAG 4:
+Edges: [('PEG', 'AQUEOUS'), ('PEG', 'FRR'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('CHOL', 'PEG'), ('ESM', 'SIZE')]
+Score: 5579.312935239174
+----------------------------------------
+DAG 5:
+Edges: [('AQUEOUS', 'PEG'), ('PEG', 'FRR'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('TFR', 'AQUEOUS'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5579.088587180519
+----------------------------------------
+DAG 6:
+Edges: [('FRR', 'PEG'), ('PEG', 'AQUEOUS'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5578.618071550447
+----------------------------------------
+DAG 7:
+Edges: [('FRR', 'AQUEOUS'), ('PEG', 'AQUEOUS'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('CHOL', 'PEG'), ('ESM', 'SIZE')]
+Score: 5599.125642439333
+----------------------------------------
+DAG 8:
+Edges: [('AQUEOUS', 'PEG'), ('FRR', 'PEG'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('TFR', 'AQUEOUS'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5624.615011086928
+----------------------------------------
+DAG 9:
+Edges: [('AQUEOUS', 'FRR'), ('AQUEOUS', 'PEG'), ('FRR', 'PEG'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('TFR', 'AQUEOUS'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5629.6645783597805
+----------------------------------------
+DAG 10:
+Edges: [('AQUEOUS', 'PEG'), ('AQUEOUS', 'FRR'), ('PEG', 'FRR'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('TFR', 'AQUEOUS'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE')]
+Score: 5631.598160489826
+----------------------------------------

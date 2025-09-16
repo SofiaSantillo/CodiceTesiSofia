@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-file_path = "Data_Droplet/validation_1.csv"  
+file_path = "_Data/validation.csv"  
 df = pd.read_csv(file_path)
 
 # Controllo che le colonne esistano

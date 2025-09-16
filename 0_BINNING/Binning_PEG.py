@@ -15,7 +15,7 @@ def bin_variable_by_k(data, column, k):
     bins = np.linspace(min_val, max_val, k + 1)
     return bins
 
-def bin_PEG(df, logger, h=1):
+def bin_PEG(df, logger, h=1.5):
     k_PEG = binning_max_min(df, 'PEG', h=h)
     bins_PEG = bin_variable_by_k(df, 'PEG', k_PEG)
     df['PEG_CAT'] = pd.cut(df['PEG'], bins=bins_PEG, labels=False, include_lowest=True)

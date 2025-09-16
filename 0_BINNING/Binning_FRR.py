@@ -15,7 +15,7 @@ def bin_variable_by_k(data, column, k):
     bins = np.linspace(min_val, max_val, k + 1)
     return bins
 
-def bin_FRR(df, logger, h=18):
+def bin_FRR(df, logger, h=15):
     k_FRR = binning_max_min(df, 'FRR', h=h)
     bins_FRR = bin_variable_by_k(df, 'FRR', k_FRR)
     df['FRR_CAT'] = pd.cut(df['FRR'], bins=bins_FRR, labels=False, include_lowest=True)

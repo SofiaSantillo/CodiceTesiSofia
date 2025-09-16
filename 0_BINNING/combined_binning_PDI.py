@@ -44,7 +44,7 @@ def bin_variable_by_k(data, column, k):
 
 # Esegui la funzione main solo se il file viene eseguito direttamente
 if __name__ == "__main__":
-    file_path = "Data_Droplet/seed.csv"
+    file_path = "_Data/data_1.csv"
 
 
     if file_path.endswith('.csv'):

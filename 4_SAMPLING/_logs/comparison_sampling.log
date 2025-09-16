@@ -1,0 +1,51 @@
+DAG 1:
+  MAE: SIZE=10.2595, PDI=0.0216, media=5.1406
+  KS: SIZE=0.1154 (p=0.9966), PDI=0.1154 (p=0.9966), media=0.1154
+
+DAG 2:
+  MAE: SIZE=9.1506, PDI=0.0185, media=4.5845
+  KS: SIZE=0.1250 (p=0.9942), PDI=0.0800 (p=1.0000), media=0.1025
+
+DAG 3:
+  MAE: SIZE=7.1471, PDI=0.0260, media=3.5865
+  KS: SIZE=0.0952 (p=1.0000), PDI=0.0952 (p=1.0000), media=0.0952
+
+DAG 4:
+  MAE: SIZE=325.5668, PDI=0.0233, media=162.7950
+  KS: SIZE=0.1000 (p=1.0000), PDI=0.1053 (p=1.0000), media=0.1026
+
+DAG 5:
+  MAE: SIZE=7.9316, PDI=0.0202, media=3.9759
+  KS: SIZE=0.1053 (p=1.0000), PDI=0.1250 (p=0.9999), media=0.1151
+
+DAG 6:
+  MAE: SIZE=17.2355, PDI=0.0259, media=8.6307
+  KS: SIZE=0.1818 (p=0.8717), PDI=0.2222 (p=0.7810), media=0.2020
+
+DAG 7:
+  MAE: SIZE=9.3211, PDI=0.0270, media=4.6741
+  KS: SIZE=0.1304 (p=0.9924), PDI=0.1818 (p=0.8717), media=0.1561
+
+DAG 8:
+  MAE: SIZE=7.1577, PDI=0.0214, media=3.5896
+  KS: SIZE=0.1176 (p=0.9999), PDI=0.1875 (p=0.9523), media=0.1526
+
+DAG 9:
+  MAE: SIZE=94.0779, PDI=0.0164, media=47.0472
+  KS: SIZE=0.0769 (p=1.0000), PDI=0.0909 (p=1.0000), media=0.0839
+
+DAG 10:
+  MAE: SIZE=12.3568, PDI=0.0324, media=6.1946
+  KS: SIZE=0.2105 (p=0.8081), PDI=0.2000 (p=0.9383), media=0.2053
+
+=== TOP 3 DAG con MAE medio più basso ===
+
+1 - DAG 3: MAE medio = 3.5865 (SIZE=7.1471, PDI=0.0260)
+2 - DAG 8: MAE medio = 3.5896 (SIZE=7.1577, PDI=0.0214)
+3 - DAG 5: MAE medio = 3.9759 (SIZE=7.9316, PDI=0.0202)
+
+=== TOP 3 DAG con KS medio più basso ===
+
+1 - DAG 9: KS medio = 0.0839 (SIZE=0.0769, PDI=0.0909)
+2 - DAG 3: KS medio = 0.0952 (SIZE=0.0952, PDI=0.0952)
+3 - DAG 2: KS medio = 0.1025 (SIZE=0.1250, PDI=0.0800)

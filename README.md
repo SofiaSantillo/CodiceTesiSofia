@@ -1,41 +1,29 @@
+L'intero progetto si struttura nelle seguenti cartelle:
+- _Data: contiene tutti i dataset che verranno utilizzati per l'implementazione del modello predittivo, della modellazione causale e del modello di Scale-Up. In particolare
+    - seed_completo.csv contiene circa 300 formulazioni e rappresenta il dataset iniziale, fungendo da punto di partenza per l’addestramento dei modelli;
+    - extension.csv, costituito da circa 50 formulazioni aggiuntive, che può essere impiegato sia per ampliare il numero di campioni di training sia come primo benchmark di validazione preliminare;
+    - validation.csv rappresenta il vero set di validazione, il quale non deve mai essere utilizzato durante la fase di addestramento, garantendo così una stima imparziale delle prestazioni del modello sui dati non osservati;
+    - data_1.csv, ottenuto unendo seed\_completo.csv ed extension.csv. Questo file rappresenta il dataset principale utilizzato nel progetto, contenente l’intera gamma di formulazioni disponibili per l’addestramento e la sperimentazione dei modelli;
+    - data_1_Binning è il dataset binnato secondo quanto effettuato nella cartella 0_BINNING, utilizzato poi in fase di modellazione causale per il calcolo delle probabilità frequentiste;
+    - dataset_ScaleUp.csv è il dataset fornito delle formulazione in fase di Scale Up industriale. Viene utilizzato in fase di check tra modello predittivo di machine learning puro e modello di ScaleUp creato tramite analisi causale, come validation set
+    - dataset_ScaleUp_mixed_train.csv è il dataset composto unendo randomicamente formulazioni provenienti da data_1 e dataset_ScaleUp per il ri-allenamento del modello predittivo puro per confrontarne le prestazioni rispetto al modello di ScaleUp; rappresenta il training set
+    - dataset_ScaleUp_mixed_validation.csv è il dataset composto unendo randomicamente formulazioni provenienti da data_1 e dataset_ScaleUp per il ri-allenamento del modello predittivo puro per confrontarne le prestazioni rispetto al modello di ScaleUp; rappresenta il validation set
+-_File: contiene file di configurazione e strumenti ausiliari
+-_Logs: contiene i log riferiti alle esecuzioni del modello predittivo puro
+-_Model: cartella in cui sono salvati i modelli predittivi puri 
+-_Plot: ...
 
-DA RISCRIVERE
+PIPELINE: per favorire la leggibilità dell'intero progetto, le cartelle sono state numerate in ordine di esecuzione. In ognuna di essere sono presenti/possono essere presenti file di _Log, _Plot, _json ecc.. relativi alle esecuzioni degli script presenti nella medesima cartella
+    - 0_BINNING: processo di discretizzazione del dataset data_1 per successivi calcoli delle probabilità frequentiste in fase di analisi causale. Eseguire solo lo script Binning_dataset.py
 
+    - 1_MODEL: implementazione, addestramento ed esecuzione del modello rpedittivo di machine learning puro sul dataset data_1. Eseguire solo lo script Model_predictive.py
 
+    - 2_DAG: creazione dello spazio dei dag a 3 nodi e espansione dei 10 dag a 3 nodi migliori con HillClimbing. Eseguire prima pipeline_3nDAG e poi HillClimbing
 
-## Data_DLS: non ancora utilizzati
-I dati DLS sono i dati in tabella nell'articolo "Microfluidic manufacturing of liposomes: Development and
-optimization by design of experiment and machine learning."
-Ho riportati questi ultimi in un file .csv tramite extraction_data_DLS in "Extraction_dataset".
-Ho applicato a questi dati l'IQR (codice in Extraction_dataset/IQR_data_DLS.py). In particolare, il codice applica l'IQR a tutte le colonne numeriche;
-salva in un file .png i grafici delle distribuzioni di ogni signola colonna prima e dopo l'applicazione dell'IQR; salva il nuovo dataset ripulito 
-(elimato delle righe che avevano outlier per qualche features) nel file Data_DLS/data_DLS_cleaned.csv
+    - 3_D-SEPARATION: analisi e modifica dei 10 DAG costruiti con HillClimbing tramite conoscenza a priori, letteratura e conferma analisi e modifiche tramite d-separation. Eseguire: structure_analysis -> d-separation -> expanded_dag_correction
 
-## Data_DAG
-Mi creo file con solo i nodi che mi servono per costruire i vari "mmini-DAG" tramite la funzione Extraction_node.py"
+    - 4_SAMPLING: selezione dei 3 DAG migliori tra i 10 dag espansi modificati ai passi precedenti, tramite sampling: confronto tra dataset di partenza e dataset causale: 10 iterazioni dell'algoritmo per stima statistica dei migliori 3 dag (criterio: tradoff tra MAE (locale) e KS (globale)). Eseguire solo simulation_sampling.py
 
-## DAG_manuale
--   Constaction_DAG.py: creo il "mini-DAG" manualmente, salvo nella cartella "_Structure_manual_DAG" le strutture base, ossia fork, collider, backdoor, chain, dei singoli dag (un file per ognuno)
--   Exploratory_data.py: ho definito le funzioni data_explorer e plot_numeric_distribution prendendole dalla cartella "tesi_sofia" di GitHub --> penso che potrebbero essermi utili in futuro (salvo le distribuzioni, gli istogrammi e i risultati dell'esecuzione del codice rispettivamente in file png in _Plot e nel file di log in _Logs)
+    - 5_ACE: confronto dei 3 dag selezionati dal sampling per scelta DAG ottimo. Il calcolo dell'ACE mi permette di decifrare edge migliori a discapito di altri e quindi scartare DAG meno potenti dal punto di vista causale. Eseguire "ACE" modificando la variabile DAG.
 
-## Validation_DAG
-costruisco un file di validazione per ogni "mini-DAG", in cui:
-    - discretizzo le variabili in 4 bin
-    - calcolo da distribuzione congiunta empirica "p_joint" delle variabili discretizzate: 
-        p_joint(A=a,B=b,C=c)= Numero totale di osservazioni/Numero di occorrenze di (A=a, B=b, C=c)
-    - calcolo le distribuzioni marginali e condizionate
-    - calcola la probabilità fattorizzata "p_fact" secondo il modello DAG
-    - confronto la distribuzione congiunta empirica con quella fattorizzata calcolando il rapporto "ratio"
-    - calcola la percentuale di probabilità che il modello fattorizzato spiega bene (con ratio tra 0,9 e 1,1)
-
-
-#### NEW ######
-ho reso automatiche le analisi del DAG, ossia, per costruire e analizzare completamente un "mini-DAG" basta seguire questi passi:
-- costruire tanti file quanti si vuole della serie "Constraction_DAGxx.py", dove xx=numero del DAG
-- eseguire ogni "Constraction_DAGxx.py" singolarmente
-- eseguire una sola volta "Analyse_DAG.py": è implementata di modo da effettuare l'analisi su ogni dag che hai costruito ai passi precedenti
-- eseguire una sola volta "Exploratory_data.py": "" MODIFICARE: deve creare una distribuzione per ogni variabile, non tante quante sono i dag per ogni variabili
---> QUESTO SERVE PER NON DOVER MODIFICARE OGNI VOLTA LE ULTIME DUE FUNZIONI MENZIONATE IN BASE ALLA COSTRUZIONE DEL DAG
-
-+ Validation: valida i singoli dag
-+ Results_validation: salva tutti i dag e le percentuali corrispondenti (divisi per gruppi 1, 1.1, 1.2 | 2, 2.1 ecc perchè ogni gruppo rappresenta le possibili configurazioni di 3 nodi selezionati). Mi aiuta a capire prima quale edge mantenere e quali no (anche se graficamente non è molto elegante nel log corrispondente: "Validation_results.log")
+    

@@ -12,7 +12,7 @@ def setup_logging(root, path):
 
 
 logs_path = "_Logs"
-data_path = "Data_Droplet"
+data_path = "_Data"
 files_path = "_File"
 plots_path = "Plot"
-models_path = "Model"
+models_path = "_Model"

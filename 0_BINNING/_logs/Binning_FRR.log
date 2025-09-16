@@ -1,9 +1,11 @@
-2025-08-14 09:55:04,968 - INFO - Numero di bin per 'FRR': 3
-2025-08-14 09:55:04,968 - INFO - Conteggio degli elementi in ciascun bin di 'FRR_CAT':
-2025-08-14 09:55:04,968 - INFO - 0    231
-2     27
+2025-09-13 12:34:36,791 - INFO - Numero di bin per 'FRR': 4
+2025-09-13 12:34:36,791 - INFO - Conteggio degli elementi in ciascun bin di 'FRR_CAT':
+2025-09-13 12:34:36,791 - INFO - FRR_CAT
+0    276
+3     15
 1     12
-Name: FRR_CAT, dtype: int64
-2025-08-14 09:55:04,968 - INFO - Bin 0: da 1.0000 a 17.3333
-2025-08-14 09:55:04,968 - INFO - Bin 1: da 17.3333 a 33.6667
-2025-08-14 09:55:04,968 - INFO - Bin 2: da 33.6667 a 50.0000
+Name: count, dtype: int64
+2025-09-13 12:34:36,791 - INFO - Bin 0: da 1.0000 a 13.2500
+2025-09-13 12:34:36,791 - INFO - Bin 1: da 13.2500 a 25.5000
+2025-09-13 12:34:36,791 - INFO - Bin 2: da 25.5000 a 37.7500
+2025-09-13 12:34:36,791 - INFO - Bin 3: da 37.7500 a 50.0000

@@ -1,4 +1,0 @@
-FRR - PEG 
-Percorso: ['FRR', 'CHOL', 'ESM', 'ML', 'HSPC', 'PEG'] -> Struttura piu' lunga
-Percorso: ['FRR', 'CHOL', 'PDI', 'ESM', 'ML', 'HSPC', 'PEG'] -> Struttura piu' lunga
-Percorso: ['FRR', 'PEG'] -> Arco diretto

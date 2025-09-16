@@ -1,0 +1,692 @@
+
+================ DAG #9 =================
+Percorsi ESM -> HSPC
+  Percorso: ['ESM', 'HSPC'] -> Arco diretto
+
+Risultati CMI ESM -> HSPC
+  Path: ['ESM', 'HSPC'] | Cond: None | CMI: 0.999804 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> CHOL
+  Percorso: ['ESM', 'CHOL'] -> Arco diretto
+
+Risultati CMI ESM -> CHOL
+  Path: ['ESM', 'CHOL'] | Cond: None | CMI: 2.375988 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> PEG
+  Percorso: ['ESM', 'CHOL', 'PEG'] -> Struttura piu' lunga
+
+Risultati CMI ESM -> PEG
+  Path: ['ESM', 'CHOL', 'PEG'] | Cond: None | CMI: 1.385225 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG'] | Cond: ('CHOL',) | CMI: 0.194784 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> TFR
+  Percorso: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+  Percorso: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+
+Risultati CMI ESM -> TFR
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.039257 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 0.838952 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL',) | CMI: 0.081185 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('PEG',) | CMI: 0.539288 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.241904 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL') | CMI: 0.075673 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.455591 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'FRR') | CMI: 0.152928 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'PEG') | CMI: 0.044817 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'FRR') | CMI: 0.058901 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('PEG', 'FRR') | CMI: 0.124806 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL', 'PEG') | CMI: 0.039305 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL', 'FRR') | CMI: 0.040996 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG', 'FRR') | CMI: 0.099551 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'PEG', 'FRR') | CMI: 0.038225 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL', 'PEG', 'FRR') | CMI: 0.022482 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.039257 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 0.838952 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL',) | CMI: 0.081185 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('PEG',) | CMI: 0.539288 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.241904 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL') | CMI: 0.075673 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.455591 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'FRR') | CMI: 0.152928 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'PEG') | CMI: 0.044817 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'FRR') | CMI: 0.058901 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('PEG', 'FRR') | CMI: 0.124806 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL', 'PEG') | CMI: 0.039305 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL', 'FRR') | CMI: 0.040996 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG', 'FRR') | CMI: 0.099551 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'PEG', 'FRR') | CMI: 0.038225 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'CHOL', 'PEG', 'FRR') | CMI: 0.022482 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> FRR
+  Percorso: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] -> Struttura piu' lunga
+  Percorso: ['ESM', 'CHOL', 'PEG', 'FRR'] -> Struttura piu' lunga
+
+Risultati CMI ESM -> FRR
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: None | CMI: 1.276533 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.071933 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('CHOL',) | CMI: 0.047070 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('PEG',) | CMI: 0.613486 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS', 'CHOL') | CMI: 0.054479 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.556920 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('CHOL', 'PEG') | CMI: 0.018175 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS', 'CHOL', 'PEG') | CMI: 0.023423 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: None | CMI: 1.276533 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.071933 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('CHOL',) | CMI: 0.047070 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('PEG',) | CMI: 0.613486 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS', 'CHOL') | CMI: 0.054479 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.556920 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('CHOL', 'PEG') | CMI: 0.018175 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS', 'CHOL', 'PEG') | CMI: 0.023423 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> AQUEOUS
+  Percorso: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] -> Struttura piu' lunga
+  Percorso: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] -> Struttura piu' lunga
+
+Risultati CMI ESM -> AQUEOUS
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: None | CMI: 0.345256 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL',) | CMI: 0.017096 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('PEG',) | CMI: 0.105861 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.140655 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL', 'PEG') | CMI: 0.017096 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL', 'FRR') | CMI: 0.024505 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('PEG', 'FRR') | CMI: 0.049295 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL', 'PEG', 'FRR') | CMI: 0.022343 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: None | CMI: 0.345256 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL',) | CMI: 0.017096 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('PEG',) | CMI: 0.105861 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.140655 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL', 'PEG') | CMI: 0.017096 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL', 'FRR') | CMI: 0.024505 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('PEG', 'FRR') | CMI: 0.049295 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL', 'PEG', 'FRR') | CMI: 0.022343 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> SIZE
+  Percorso: ['ESM', 'SIZE'] -> Arco diretto
+
+Risultati CMI ESM -> SIZE
+  Path: ['ESM', 'SIZE'] | Cond: None | CMI: 2.698907 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi ESM -> PDI
+  Percorso: ['ESM', 'CHOL', 'PEG', 'PDI'] -> Struttura piu' lunga
+
+Risultati CMI ESM -> PDI
+  Path: ['ESM', 'CHOL', 'PEG', 'PDI'] | Cond: None | CMI: 2.432260 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('CHOL',) | CMI: 0.323792 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 1.156010 | D-Separato: False
+  Path: ['ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('CHOL', 'PEG') | CMI: 0.142209 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi HSPC -> CHOL
+  Percorso: ['HSPC', 'ESM', 'CHOL'] -> Struttura piu' lunga
+
+Risultati CMI HSPC -> CHOL
+  Path: ['HSPC', 'ESM', 'CHOL'] | Cond: None | CMI: 2.445623 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL'] | Cond: ('ESM',) | CMI: 1.683444 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi HSPC -> PEG
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG'] -> Struttura piu' lunga
+
+Risultati CMI HSPC -> PEG
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG'] | Cond: None | CMI: 2.537159 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG'] | Cond: ('ESM',) | CMI: 1.655179 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG'] | Cond: ('CHOL',) | CMI: 0.241862 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG'] | Cond: ('ESM', 'CHOL') | CMI: 0.083446 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi HSPC -> TFR
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+
+Risultati CMI HSPC -> TFR
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.177161 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.249806 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM',) | CMI: 0.891435 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL',) | CMI: 0.065262 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 0.961389 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('PEG',) | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM') | CMI: 0.180774 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL') | CMI: 0.032259 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'AQUEOUS') | CMI: 0.195577 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL') | CMI: 0.045460 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'AQUEOUS') | CMI: 0.674103 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'PEG') | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 0.067754 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL') | CMI: 0.024785 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'AQUEOUS') | CMI: 0.162002 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL', 'AQUEOUS') | CMI: 0.031715 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'AQUEOUS', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 0.047952 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS') | CMI: 0.026403 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'AQUEOUS', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL', 'AQUEOUS', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.177161 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.249806 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM',) | CMI: 0.891435 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL',) | CMI: 0.065262 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 0.961389 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('PEG',) | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM') | CMI: 0.180774 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL') | CMI: 0.032259 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'AQUEOUS') | CMI: 0.195577 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL') | CMI: 0.045460 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'AQUEOUS') | CMI: 0.674103 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'PEG') | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 0.067754 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL') | CMI: 0.024785 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'AQUEOUS') | CMI: 0.162002 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL', 'AQUEOUS') | CMI: 0.031715 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'AQUEOUS', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 0.047952 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 0.016566 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS') | CMI: 0.026403 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'AQUEOUS', 'PEG') | CMI: 0.013201 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'CHOL', 'AQUEOUS', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.000000 | D-Separato: True
+
+================ DAG #9 =================
+Percorsi HSPC -> FRR
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] -> Struttura piu' lunga
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] -> Struttura piu' lunga
+
+Risultati CMI HSPC -> FRR
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: None | CMI: 1.476579 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM',) | CMI: 1.181399 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('CHOL',) | CMI: 0.057788 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.209766 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('PEG',) | CMI: 0.063644 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'CHOL') | CMI: 0.045460 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'AQUEOUS') | CMI: 0.871353 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'PEG') | CMI: 0.052305 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 0.055841 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.063644 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 0.041351 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 0.052305 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: None | CMI: 1.476579 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM',) | CMI: 1.181399 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('CHOL',) | CMI: 0.057788 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.209766 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('PEG',) | CMI: 0.063644 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'CHOL') | CMI: 0.045460 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'AQUEOUS') | CMI: 0.871353 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'PEG') | CMI: 0.052305 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 0.055841 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.063644 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 0.041351 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 0.052305 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.000000 | D-Separato: True
+
+================ DAG #9 =================
+Percorsi HSPC -> AQUEOUS
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] -> Struttura piu' lunga
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] -> Struttura piu' lunga
+
+Risultati CMI HSPC -> AQUEOUS
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: None | CMI: 0.362426 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM',) | CMI: 0.362364 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL',) | CMI: 0.009092 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('PEG',) | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.095613 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'CHOL') | CMI: 0.009092 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'FRR') | CMI: 0.052319 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL', 'FRR') | CMI: 0.007145 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('PEG', 'FRR') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'CHOL', 'FRR') | CMI: 0.004983 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'PEG', 'FRR') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('CHOL', 'PEG', 'FRR') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'AQUEOUS'] | Cond: ('ESM', 'CHOL', 'PEG', 'FRR') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: None | CMI: 0.362426 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM',) | CMI: 0.362364 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL',) | CMI: 0.009092 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('PEG',) | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.095613 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'CHOL') | CMI: 0.009092 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'FRR') | CMI: 0.052319 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL', 'FRR') | CMI: 0.007145 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('PEG', 'FRR') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'CHOL', 'FRR') | CMI: 0.004983 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'PEG', 'FRR') | CMI: -0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('CHOL', 'PEG', 'FRR') | CMI: 0.000000 | D-Separato: True
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('ESM', 'CHOL', 'PEG', 'FRR') | CMI: -0.000000 | D-Separato: True
+
+================ DAG #9 =================
+Percorsi HSPC -> SIZE
+  Percorso: ['HSPC', 'ESM', 'SIZE'] -> Forchetta
+
+Risultati CMI HSPC -> SIZE
+  Path: ['HSPC', 'ESM', 'SIZE'] | Cond: None | CMI: 2.751001 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 1.760289 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi HSPC -> PDI
+  Percorso: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] -> Struttura piu' lunga
+
+Risultati CMI HSPC -> PDI
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: None | CMI: 2.493446 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM',) | CMI: 1.576215 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('CHOL',) | CMI: 0.307869 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 0.229534 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM', 'CHOL') | CMI: 0.083446 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM', 'PEG') | CMI: 0.111711 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('CHOL', 'PEG') | CMI: 0.079208 | D-Separato: False
+  Path: ['HSPC', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 0.000000 | D-Separato: True
+
+================ DAG #9 =================
+Percorsi CHOL -> PEG
+  Percorso: ['CHOL', 'PEG'] -> Arco diretto
+
+Risultati CMI CHOL -> PEG
+  Path: ['CHOL', 'PEG'] | Cond: None | CMI: 2.762174 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi CHOL -> TFR
+  Percorso: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+  Percorso: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+
+Risultati CMI CHOL -> TFR
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.814756 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 1.409776 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.359339 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('PEG',) | CMI: 0.521746 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'FRR') | CMI: 0.266046 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.453198 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'PEG') | CMI: 0.120128 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'FRR', 'PEG') | CMI: 0.108784 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.814756 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 1.409776 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.359339 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('PEG',) | CMI: 0.521746 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'FRR') | CMI: 0.266046 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.453198 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'PEG') | CMI: 0.120128 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS', 'FRR', 'PEG') | CMI: 0.108784 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi CHOL -> FRR
+  Percorso: ['CHOL', 'PEG', 'AQUEOUS', 'FRR'] -> Struttura piu' lunga
+  Percorso: ['CHOL', 'PEG', 'FRR'] -> Struttura piu' lunga
+
+Risultati CMI CHOL -> FRR
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: None | CMI: 2.372333 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.862490 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('PEG',) | CMI: 0.654546 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.600836 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR'] | Cond: None | CMI: 2.372333 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.862490 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR'] | Cond: ('PEG',) | CMI: 0.654546 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR'] | Cond: ('AQUEOUS', 'PEG') | CMI: 0.600836 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi CHOL -> AQUEOUS
+  Percorso: ['CHOL', 'PEG', 'AQUEOUS'] -> Struttura piu' lunga
+  Percorso: ['CHOL', 'PEG', 'FRR', 'AQUEOUS'] -> Struttura piu' lunga
+
+Risultati CMI CHOL -> AQUEOUS
+  Path: ['CHOL', 'PEG', 'AQUEOUS'] | Cond: None | CMI: 0.688362 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.178520 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS'] | Cond: ('PEG',) | CMI: 0.095695 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'AQUEOUS'] | Cond: ('FRR', 'PEG') | CMI: 0.041985 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: None | CMI: 0.688362 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.178520 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('PEG',) | CMI: 0.095695 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'FRR', 'AQUEOUS'] | Cond: ('FRR', 'PEG') | CMI: 0.041985 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi CHOL -> SIZE
+  Percorso: ['CHOL', 'ESM', 'SIZE'] -> Catena
+
+Risultati CMI CHOL -> SIZE
+  Path: ['CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 4.075125 | D-Separato: False
+  Path: ['CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 1.723921 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi CHOL -> PDI
+  Percorso: ['CHOL', 'PEG', 'PDI'] -> Forchetta
+
+Risultati CMI CHOL -> PDI
+  Path: ['CHOL', 'PEG', 'PDI'] | Cond: None | CMI: 3.648315 | D-Separato: False
+  Path: ['CHOL', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 1.172590 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi PEG -> TFR
+  Percorso: ['PEG', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+  Percorso: ['PEG', 'FRR', 'AQUEOUS', 'TFR'] -> Struttura piu' lunga
+
+Risultati CMI PEG -> TFR
+  Path: ['PEG', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.374838 | D-Separato: False
+  Path: ['PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.284671 | D-Separato: False
+  Path: ['PEG', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 1.040898 | D-Separato: False
+  Path: ['PEG', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'AQUEOUS') | CMI: 0.202178 | D-Separato: False
+  Path: ['PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: None | CMI: 1.374838 | D-Separato: False
+  Path: ['PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR',) | CMI: 0.284671 | D-Separato: False
+  Path: ['PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('AQUEOUS',) | CMI: 1.040898 | D-Separato: False
+  Path: ['PEG', 'FRR', 'AQUEOUS', 'TFR'] | Cond: ('FRR', 'AQUEOUS') | CMI: 0.202178 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi PEG -> FRR
+  Percorso: ['PEG', 'AQUEOUS', 'FRR'] -> Forchetta
+  Percorso: ['PEG', 'FRR'] -> Arco diretto
+
+Risultati CMI PEG -> FRR
+  Path: ['PEG', 'AQUEOUS', 'FRR'] | Cond: None | CMI: 1.792141 | D-Separato: False
+  Path: ['PEG', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.334061 | D-Separato: False
+  Path: ['PEG', 'FRR'] | Cond: None | CMI: 1.792141 | D-Separato: False
+  Path: ['PEG', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.334061 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi PEG -> AQUEOUS
+  Percorso: ['PEG', 'AQUEOUS'] -> Arco diretto
+  Percorso: ['PEG', 'FRR', 'AQUEOUS'] -> Struttura piu' lunga
+
+Risultati CMI PEG -> AQUEOUS
+  Path: ['PEG', 'AQUEOUS'] | Cond: None | CMI: 0.601760 | D-Separato: False
+  Path: ['PEG', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.143679 | D-Separato: False
+  Path: ['PEG', 'FRR', 'AQUEOUS'] | Cond: None | CMI: 0.601760 | D-Separato: False
+  Path: ['PEG', 'FRR', 'AQUEOUS'] | Cond: ('FRR',) | CMI: 0.143679 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi PEG -> SIZE
+  Percorso: ['PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+
+Risultati CMI PEG -> SIZE
+  Path: ['PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 3.018111 | D-Separato: False
+  Path: ['PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 1.648578 | D-Separato: False
+  Path: ['PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 0.278230 | D-Separato: False
+  Path: ['PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL') | CMI: 0.083446 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi PEG -> PDI
+  Percorso: ['PEG', 'PDI'] -> Arco diretto
+
+Risultati CMI PEG -> PDI
+  Path: ['PEG', 'PDI'] | Cond: None | CMI: 2.740754 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi TFR -> FRR
+  Percorso: ['TFR', 'AQUEOUS', 'FRR'] -> Catena
+  Percorso: ['TFR', 'AQUEOUS', 'PEG', 'FRR'] -> Struttura piu' lunga
+
+Risultati CMI TFR -> FRR
+  Path: ['TFR', 'AQUEOUS', 'FRR'] | Cond: None | CMI: 1.950868 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR'] | Cond: ('PEG',) | CMI: 0.860702 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.647251 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR'] | Cond: ('PEG', 'AQUEOUS') | CMI: 0.808531 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'FRR'] | Cond: None | CMI: 1.950868 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'FRR'] | Cond: ('PEG',) | CMI: 0.860702 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'FRR'] | Cond: ('AQUEOUS',) | CMI: 1.647251 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'FRR'] | Cond: ('PEG', 'AQUEOUS') | CMI: 0.808531 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi TFR -> AQUEOUS
+  Percorso: ['TFR', 'AQUEOUS'] -> Arco diretto
+
+Risultati CMI TFR -> AQUEOUS
+  Path: ['TFR', 'AQUEOUS'] | Cond: None | CMI: 0.444913 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi TFR -> SIZE
+  Percorso: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+  Percorso: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+
+Risultati CMI TFR -> SIZE
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 3.107793 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR',) | CMI: 1.170126 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 2.075137 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 1.306239 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS',) | CMI: 2.676082 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('PEG',) | CMI: 1.746157 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM') | CMI: 0.928222 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL') | CMI: 0.810787 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'AQUEOUS') | CMI: 1.028831 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'PEG') | CMI: 0.885455 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL') | CMI: 1.225053 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS') | CMI: 1.837130 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'PEG') | CMI: 1.206869 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 1.266306 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'PEG') | CMI: 1.224410 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS', 'PEG') | CMI: 1.635184 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL') | CMI: 0.751886 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'AQUEOUS') | CMI: 0.875903 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'PEG') | CMI: 0.760649 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL', 'AQUEOUS') | CMI: 0.762786 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL', 'PEG') | CMI: 0.765327 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'AQUEOUS', 'PEG') | CMI: 0.826653 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 1.190632 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 1.179593 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 1.179593 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: 1.181986 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS') | CMI: 0.721789 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL', 'PEG') | CMI: 0.727102 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'AQUEOUS', 'PEG') | CMI: 0.727102 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.717869 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 1.142681 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.695387 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 3.107793 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR',) | CMI: 1.170126 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 2.075137 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 1.306239 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS',) | CMI: 2.676082 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('PEG',) | CMI: 1.746157 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM') | CMI: 0.928222 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL') | CMI: 0.810787 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'AQUEOUS') | CMI: 1.028831 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'PEG') | CMI: 0.885455 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL') | CMI: 1.225053 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS') | CMI: 1.837130 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'PEG') | CMI: 1.206869 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 1.266306 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'PEG') | CMI: 1.224410 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS', 'PEG') | CMI: 1.635184 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL') | CMI: 0.751886 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'AQUEOUS') | CMI: 0.875903 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'PEG') | CMI: 0.760649 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL', 'AQUEOUS') | CMI: 0.762786 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL', 'PEG') | CMI: 0.765327 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'AQUEOUS', 'PEG') | CMI: 0.826653 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 1.190632 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 1.179593 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 1.179593 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: 1.181986 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS') | CMI: 0.721789 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL', 'PEG') | CMI: 0.727102 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'AQUEOUS', 'PEG') | CMI: 0.727102 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.717869 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 1.142681 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 0.695387 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi TFR -> PDI
+  Percorso: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] -> Struttura piu' lunga
+  Percorso: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] -> Struttura piu' lunga
+
+Risultati CMI TFR -> PDI
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: None | CMI: 2.656199 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 1.548008 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('FRR',) | CMI: 1.090918 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('AQUEOUS',) | CMI: 2.359865 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('PEG', 'FRR') | CMI: 0.832650 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('PEG', 'AQUEOUS') | CMI: 1.461820 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('FRR', 'AQUEOUS') | CMI: 0.969425 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('PEG', 'FRR', 'AQUEOUS') | CMI: 0.787049 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: None | CMI: 2.656199 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 1.548008 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('FRR',) | CMI: 1.090918 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('AQUEOUS',) | CMI: 2.359865 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('PEG', 'FRR') | CMI: 0.832650 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('PEG', 'AQUEOUS') | CMI: 1.461820 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('FRR', 'AQUEOUS') | CMI: 0.969425 | D-Separato: False
+  Path: ['TFR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('PEG', 'FRR', 'AQUEOUS') | CMI: 0.787049 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi FRR -> AQUEOUS
+  Percorso: ['FRR', 'PEG', 'AQUEOUS'] -> Collider
+  Percorso: ['FRR', 'AQUEOUS'] -> Arco diretto
+
+Risultati CMI FRR -> AQUEOUS
+  Path: ['FRR', 'PEG', 'AQUEOUS'] | Cond: None | CMI: 0.538142 | D-Separato: False
+  Path: ['FRR', 'PEG', 'AQUEOUS'] | Cond: ('PEG',) | CMI: 0.080062 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS'] | Cond: None | CMI: 0.538142 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS'] | Cond: ('PEG',) | CMI: 0.080062 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi FRR -> SIZE
+  Percorso: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+  Percorso: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+
+Risultati CMI FRR -> SIZE
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 3.653333 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 2.401584 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 1.312385 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS',) | CMI: 3.128392 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('PEG',) | CMI: 1.883485 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL') | CMI: 1.265316 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS') | CMI: 2.074643 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'PEG') | CMI: 1.279091 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 1.284086 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'PEG') | CMI: 1.238031 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS', 'PEG') | CMI: 1.803423 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 1.229607 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 1.219855 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 1.255594 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: 1.211679 | D-Separato: False
+  Path: ['FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 1.188256 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 3.653333 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 2.401584 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 1.312385 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS',) | CMI: 3.128392 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('PEG',) | CMI: 1.883485 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL') | CMI: 1.265316 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS') | CMI: 2.074643 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'PEG') | CMI: 1.279091 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS') | CMI: 1.284086 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'PEG') | CMI: 1.238031 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('AQUEOUS', 'PEG') | CMI: 1.803423 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS') | CMI: 1.229607 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 1.219855 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'AQUEOUS', 'PEG') | CMI: 1.255594 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'AQUEOUS', 'PEG') | CMI: 1.211679 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'CHOL', 'AQUEOUS', 'PEG') | CMI: 1.188256 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi FRR -> PDI
+  Percorso: ['FRR', 'PEG', 'PDI'] -> Catena
+  Percorso: ['FRR', 'AQUEOUS', 'PEG', 'PDI'] -> Struttura piu' lunga
+
+Risultati CMI FRR -> PDI
+  Path: ['FRR', 'PEG', 'PDI'] | Cond: None | CMI: 3.266127 | D-Separato: False
+  Path: ['FRR', 'PEG', 'PDI'] | Cond: ('AQUEOUS',) | CMI: 2.863363 | D-Separato: False
+  Path: ['FRR', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 1.734032 | D-Separato: False
+  Path: ['FRR', 'PEG', 'PDI'] | Cond: ('AQUEOUS', 'PEG') | CMI: 1.665554 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: None | CMI: 3.266127 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('AQUEOUS',) | CMI: 2.863363 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 1.734032 | D-Separato: False
+  Path: ['FRR', 'AQUEOUS', 'PEG', 'PDI'] | Cond: ('AQUEOUS', 'PEG') | CMI: 1.665554 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi AQUEOUS -> SIZE
+  Percorso: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+  Percorso: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] -> Struttura piu' lunga
+
+Risultati CMI AQUEOUS -> SIZE
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 0.777865 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 0.102704 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR',) | CMI: 0.252924 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 0.439210 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('PEG',) | CMI: 0.189307 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR') | CMI: 0.074404 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'ESM') | CMI: 0.085608 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'PEG') | CMI: 0.093612 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM') | CMI: 0.112269 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'PEG') | CMI: 0.109245 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'PEG') | CMI: 0.083446 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR', 'ESM') | CMI: 0.049899 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR', 'PEG') | CMI: 0.067260 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'ESM', 'PEG') | CMI: 0.076516 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'PEG') | CMI: 0.059950 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR', 'ESM', 'PEG') | CMI: 0.044916 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: None | CMI: 0.777865 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL',) | CMI: 0.102704 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR',) | CMI: 0.252924 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM',) | CMI: 0.439210 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('PEG',) | CMI: 0.189307 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR') | CMI: 0.074404 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'ESM') | CMI: 0.085608 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'PEG') | CMI: 0.093612 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM') | CMI: 0.112269 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'PEG') | CMI: 0.109245 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('ESM', 'PEG') | CMI: 0.083446 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR', 'ESM') | CMI: 0.049899 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR', 'PEG') | CMI: 0.067260 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'ESM', 'PEG') | CMI: 0.076516 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('FRR', 'ESM', 'PEG') | CMI: 0.059950 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'CHOL', 'ESM', 'SIZE'] | Cond: ('CHOL', 'FRR', 'ESM', 'PEG') | CMI: 0.044916 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi AQUEOUS -> PDI
+  Percorso: ['AQUEOUS', 'FRR', 'PEG', 'PDI'] -> Struttura piu' lunga
+  Percorso: ['AQUEOUS', 'PEG', 'PDI'] -> Catena
+
+Risultati CMI AQUEOUS -> PDI
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: None | CMI: 0.635886 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('FRR',) | CMI: 0.233122 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 0.164522 | D-Separato: False
+  Path: ['AQUEOUS', 'FRR', 'PEG', 'PDI'] | Cond: ('FRR', 'PEG') | CMI: 0.096043 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'PDI'] | Cond: None | CMI: 0.635886 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'PDI'] | Cond: ('FRR',) | CMI: 0.233122 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 0.164522 | D-Separato: False
+  Path: ['AQUEOUS', 'PEG', 'PDI'] | Cond: ('FRR', 'PEG') | CMI: 0.096043 | D-Separato: False
+
+================ DAG #9 =================
+Percorsi SIZE -> PDI
+  Percorso: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] -> Struttura piu' lunga
+
+Risultati CMI SIZE -> PDI
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: None | CMI: 7.608379 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM',) | CMI: 5.200904 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('CHOL',) | CMI: 3.991449 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('PEG',) | CMI: 4.889918 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM', 'CHOL') | CMI: 3.667657 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM', 'PEG') | CMI: 3.743000 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('CHOL', 'PEG') | CMI: 3.726420 | D-Separato: False
+  Path: ['SIZE', 'ESM', 'CHOL', 'PEG', 'PDI'] | Cond: ('ESM', 'CHOL', 'PEG') | CMI: 3.584211 | D-Separato: False

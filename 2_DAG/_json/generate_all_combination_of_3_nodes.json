@@ -1,827 +1,422 @@
 {
     "1": [
-        "ML",
-        "HSPC",
-        "ESM"
-    ],
-    "2": [
-        "ML",
-        "HSPC",
-        "PEG"
-    ],
-    "3": [
-        "ML",
-        "HSPC",
-        "AQUEOUS"
-    ],
-    "4": [
-        "ML",
-        "HSPC",
+        "AQUEOUS",
+        "FRR",
         "SIZE"
     ],
-    "5": [
-        "ML",
-        "HSPC",
+    "2": [
+        "AQUEOUS",
+        "FRR",
         "PDI"
     ],
+    "3": [
+        "AQUEOUS",
+        "FRR",
+        "TFR"
+    ],
+    "4": [
+        "AQUEOUS",
+        "FRR",
+        "ESM"
+    ],
+    "5": [
+        "AQUEOUS",
+        "FRR",
+        "HSPC"
+    ],
     "6": [
-        "ML",
-        "HSPC",
+        "AQUEOUS",
+        "FRR",
         "CHOL"
     ],
     "7": [
-        "ML",
-        "HSPC",
-        "FRR"
+        "AQUEOUS",
+        "FRR",
+        "PEG"
     ],
     "8": [
-        "ML",
-        "HSPC",
-        "CHIP"
+        "AQUEOUS",
+        "SIZE",
+        "PDI"
     ],
     "9": [
-        "ML",
-        "HSPC",
+        "AQUEOUS",
+        "SIZE",
         "TFR"
     ],
     "10": [
-        "ML",
-        "ESM",
-        "PEG"
+        "AQUEOUS",
+        "SIZE",
+        "ESM"
     ],
     "11": [
-        "ML",
-        "ESM",
-        "AQUEOUS"
+        "AQUEOUS",
+        "SIZE",
+        "HSPC"
     ],
     "12": [
-        "ML",
-        "ESM",
-        "SIZE"
-    ],
-    "13": [
-        "ML",
-        "ESM",
-        "PDI"
-    ],
-    "14": [
-        "ML",
-        "ESM",
+        "AQUEOUS",
+        "SIZE",
         "CHOL"
     ],
-    "15": [
-        "ML",
-        "ESM",
-        "FRR"
+    "13": [
+        "AQUEOUS",
+        "SIZE",
+        "PEG"
     ],
-    "16": [
-        "ML",
-        "ESM",
-        "CHIP"
-    ],
-    "17": [
-        "ML",
-        "ESM",
+    "14": [
+        "AQUEOUS",
+        "PDI",
         "TFR"
     ],
+    "15": [
+        "AQUEOUS",
+        "PDI",
+        "ESM"
+    ],
+    "16": [
+        "AQUEOUS",
+        "PDI",
+        "HSPC"
+    ],
+    "17": [
+        "AQUEOUS",
+        "PDI",
+        "CHOL"
+    ],
     "18": [
-        "ML",
-        "PEG",
-        "AQUEOUS"
+        "AQUEOUS",
+        "PDI",
+        "PEG"
     ],
     "19": [
-        "ML",
-        "PEG",
-        "SIZE"
+        "AQUEOUS",
+        "TFR",
+        "ESM"
     ],
     "20": [
-        "ML",
-        "PEG",
-        "PDI"
+        "AQUEOUS",
+        "TFR",
+        "HSPC"
     ],
     "21": [
-        "ML",
-        "PEG",
+        "AQUEOUS",
+        "TFR",
         "CHOL"
     ],
     "22": [
-        "ML",
-        "PEG",
-        "FRR"
+        "AQUEOUS",
+        "TFR",
+        "PEG"
     ],
     "23": [
-        "ML",
-        "PEG",
-        "CHIP"
+        "AQUEOUS",
+        "ESM",
+        "HSPC"
     ],
     "24": [
-        "ML",
-        "PEG",
-        "TFR"
-    ],
-    "25": [
-        "ML",
         "AQUEOUS",
-        "SIZE"
-    ],
-    "26": [
-        "ML",
-        "AQUEOUS",
-        "PDI"
-    ],
-    "27": [
-        "ML",
-        "AQUEOUS",
+        "ESM",
         "CHOL"
     ],
-    "28": [
-        "ML",
+    "25": [
         "AQUEOUS",
-        "FRR"
+        "ESM",
+        "PEG"
+    ],
+    "26": [
+        "AQUEOUS",
+        "HSPC",
+        "CHOL"
+    ],
+    "27": [
+        "AQUEOUS",
+        "HSPC",
+        "PEG"
+    ],
+    "28": [
+        "AQUEOUS",
+        "CHOL",
+        "PEG"
     ],
     "29": [
-        "ML",
-        "AQUEOUS",
-        "CHIP"
+        "FRR",
+        "SIZE",
+        "PDI"
     ],
     "30": [
-        "ML",
-        "AQUEOUS",
+        "FRR",
+        "SIZE",
         "TFR"
     ],
     "31": [
-        "ML",
+        "FRR",
         "SIZE",
-        "PDI"
+        "ESM"
     ],
     "32": [
-        "ML",
+        "FRR",
+        "SIZE",
+        "HSPC"
+    ],
+    "33": [
+        "FRR",
         "SIZE",
         "CHOL"
     ],
-    "33": [
-        "ML",
-        "SIZE",
-        "FRR"
-    ],
     "34": [
-        "ML",
+        "FRR",
         "SIZE",
-        "CHIP"
+        "PEG"
     ],
     "35": [
-        "ML",
-        "SIZE",
+        "FRR",
+        "PDI",
         "TFR"
     ],
     "36": [
-        "ML",
+        "FRR",
+        "PDI",
+        "ESM"
+    ],
+    "37": [
+        "FRR",
+        "PDI",
+        "HSPC"
+    ],
+    "38": [
+        "FRR",
         "PDI",
         "CHOL"
     ],
-    "37": [
-        "ML",
-        "PDI",
-        "FRR"
-    ],
-    "38": [
-        "ML",
-        "PDI",
-        "CHIP"
-    ],
     "39": [
-        "ML",
+        "FRR",
         "PDI",
-        "TFR"
+        "PEG"
     ],
     "40": [
-        "ML",
-        "CHOL",
-        "FRR"
+        "FRR",
+        "TFR",
+        "ESM"
     ],
     "41": [
-        "ML",
-        "CHOL",
-        "CHIP"
+        "FRR",
+        "TFR",
+        "HSPC"
     ],
     "42": [
-        "ML",
-        "CHOL",
-        "TFR"
+        "FRR",
+        "TFR",
+        "CHOL"
     ],
     "43": [
-        "ML",
         "FRR",
-        "CHIP"
+        "TFR",
+        "PEG"
     ],
     "44": [
-        "ML",
         "FRR",
-        "TFR"
+        "ESM",
+        "HSPC"
     ],
     "45": [
-        "ML",
-        "CHIP",
-        "TFR"
+        "FRR",
+        "ESM",
+        "CHOL"
     ],
     "46": [
-        "HSPC",
+        "FRR",
         "ESM",
         "PEG"
     ],
     "47": [
+        "FRR",
         "HSPC",
-        "ESM",
-        "AQUEOUS"
-    ],
-    "48": [
-        "HSPC",
-        "ESM",
-        "SIZE"
-    ],
-    "49": [
-        "HSPC",
-        "ESM",
-        "PDI"
-    ],
-    "50": [
-        "HSPC",
-        "ESM",
         "CHOL"
     ],
-    "51": [
+    "48": [
+        "FRR",
         "HSPC",
-        "ESM",
-        "FRR"
+        "PEG"
     ],
-    "52": [
-        "HSPC",
-        "ESM",
-        "CHIP"
+    "49": [
+        "FRR",
+        "CHOL",
+        "PEG"
     ],
-    "53": [
-        "HSPC",
-        "ESM",
+    "50": [
+        "SIZE",
+        "PDI",
         "TFR"
     ],
+    "51": [
+        "SIZE",
+        "PDI",
+        "ESM"
+    ],
+    "52": [
+        "SIZE",
+        "PDI",
+        "HSPC"
+    ],
+    "53": [
+        "SIZE",
+        "PDI",
+        "CHOL"
+    ],
     "54": [
-        "HSPC",
-        "PEG",
-        "AQUEOUS"
+        "SIZE",
+        "PDI",
+        "PEG"
     ],
     "55": [
-        "HSPC",
-        "PEG",
-        "SIZE"
+        "SIZE",
+        "TFR",
+        "ESM"
     ],
     "56": [
-        "HSPC",
-        "PEG",
-        "PDI"
+        "SIZE",
+        "TFR",
+        "HSPC"
     ],
     "57": [
-        "HSPC",
-        "PEG",
+        "SIZE",
+        "TFR",
         "CHOL"
     ],
     "58": [
-        "HSPC",
-        "PEG",
-        "FRR"
+        "SIZE",
+        "TFR",
+        "PEG"
     ],
     "59": [
-        "HSPC",
-        "PEG",
-        "CHIP"
+        "SIZE",
+        "ESM",
+        "HSPC"
     ],
     "60": [
-        "HSPC",
-        "PEG",
-        "TFR"
+        "SIZE",
+        "ESM",
+        "CHOL"
     ],
     "61": [
-        "HSPC",
-        "AQUEOUS",
-        "SIZE"
+        "SIZE",
+        "ESM",
+        "PEG"
     ],
     "62": [
+        "SIZE",
         "HSPC",
-        "AQUEOUS",
-        "PDI"
+        "CHOL"
     ],
     "63": [
+        "SIZE",
         "HSPC",
-        "AQUEOUS",
-        "CHOL"
+        "PEG"
     ],
     "64": [
-        "HSPC",
-        "AQUEOUS",
-        "FRR"
+        "SIZE",
+        "CHOL",
+        "PEG"
     ],
     "65": [
-        "HSPC",
-        "AQUEOUS",
-        "CHIP"
+        "PDI",
+        "TFR",
+        "ESM"
     ],
     "66": [
-        "HSPC",
-        "AQUEOUS",
-        "TFR"
+        "PDI",
+        "TFR",
+        "HSPC"
     ],
     "67": [
-        "HSPC",
-        "SIZE",
-        "PDI"
-    ],
-    "68": [
-        "HSPC",
-        "SIZE",
+        "PDI",
+        "TFR",
         "CHOL"
     ],
+    "68": [
+        "PDI",
+        "TFR",
+        "PEG"
+    ],
     "69": [
-        "HSPC",
-        "SIZE",
-        "FRR"
+        "PDI",
+        "ESM",
+        "HSPC"
     ],
     "70": [
-        "HSPC",
-        "SIZE",
-        "CHIP"
+        "PDI",
+        "ESM",
+        "CHOL"
     ],
     "71": [
-        "HSPC",
-        "SIZE",
-        "TFR"
+        "PDI",
+        "ESM",
+        "PEG"
     ],
     "72": [
-        "HSPC",
         "PDI",
+        "HSPC",
         "CHOL"
     ],
     "73": [
-        "HSPC",
         "PDI",
-        "FRR"
+        "HSPC",
+        "PEG"
     ],
     "74": [
-        "HSPC",
         "PDI",
-        "CHIP"
+        "CHOL",
+        "PEG"
     ],
     "75": [
-        "HSPC",
-        "PDI",
-        "TFR"
+        "TFR",
+        "ESM",
+        "HSPC"
     ],
     "76": [
-        "HSPC",
-        "CHOL",
-        "FRR"
+        "TFR",
+        "ESM",
+        "CHOL"
     ],
     "77": [
-        "HSPC",
-        "CHOL",
-        "CHIP"
+        "TFR",
+        "ESM",
+        "PEG"
     ],
     "78": [
+        "TFR",
         "HSPC",
-        "CHOL",
-        "TFR"
+        "CHOL"
     ],
     "79": [
+        "TFR",
         "HSPC",
-        "FRR",
-        "CHIP"
+        "PEG"
     ],
     "80": [
-        "HSPC",
-        "FRR",
-        "TFR"
+        "TFR",
+        "CHOL",
+        "PEG"
     ],
     "81": [
+        "ESM",
         "HSPC",
-        "CHIP",
-        "TFR"
+        "CHOL"
     ],
     "82": [
         "ESM",
-        "PEG",
-        "AQUEOUS"
+        "HSPC",
+        "PEG"
     ],
     "83": [
         "ESM",
-        "PEG",
-        "SIZE"
+        "CHOL",
+        "PEG"
     ],
     "84": [
-        "ESM",
-        "PEG",
-        "PDI"
-    ],
-    "85": [
-        "ESM",
-        "PEG",
-        "CHOL"
-    ],
-    "86": [
-        "ESM",
-        "PEG",
-        "FRR"
-    ],
-    "87": [
-        "ESM",
-        "PEG",
-        "CHIP"
-    ],
-    "88": [
-        "ESM",
-        "PEG",
-        "TFR"
-    ],
-    "89": [
-        "ESM",
-        "AQUEOUS",
-        "SIZE"
-    ],
-    "90": [
-        "ESM",
-        "AQUEOUS",
-        "PDI"
-    ],
-    "91": [
-        "ESM",
-        "AQUEOUS",
-        "CHOL"
-    ],
-    "92": [
-        "ESM",
-        "AQUEOUS",
-        "FRR"
-    ],
-    "93": [
-        "ESM",
-        "AQUEOUS",
-        "CHIP"
-    ],
-    "94": [
-        "ESM",
-        "AQUEOUS",
-        "TFR"
-    ],
-    "95": [
-        "ESM",
-        "SIZE",
-        "PDI"
-    ],
-    "96": [
-        "ESM",
-        "SIZE",
-        "CHOL"
-    ],
-    "97": [
-        "ESM",
-        "SIZE",
-        "FRR"
-    ],
-    "98": [
-        "ESM",
-        "SIZE",
-        "CHIP"
-    ],
-    "99": [
-        "ESM",
-        "SIZE",
-        "TFR"
-    ],
-    "100": [
-        "ESM",
-        "PDI",
-        "CHOL"
-    ],
-    "101": [
-        "ESM",
-        "PDI",
-        "FRR"
-    ],
-    "102": [
-        "ESM",
-        "PDI",
-        "CHIP"
-    ],
-    "103": [
-        "ESM",
-        "PDI",
-        "TFR"
-    ],
-    "104": [
-        "ESM",
+        "HSPC",
         "CHOL",
-        "FRR"
-    ],
-    "105": [
-        "ESM",
-        "CHOL",
-        "CHIP"
-    ],
-    "106": [
-        "ESM",
-        "CHOL",
-        "TFR"
-    ],
-    "107": [
-        "ESM",
-        "FRR",
-        "CHIP"
-    ],
-    "108": [
-        "ESM",
-        "FRR",
-        "TFR"
-    ],
-    "109": [
-        "ESM",
-        "CHIP",
-        "TFR"
-    ],
-    "110": [
-        "PEG",
-        "AQUEOUS",
-        "SIZE"
-    ],
-    "111": [
-        "PEG",
-        "AQUEOUS",
-        "PDI"
-    ],
-    "112": [
-        "PEG",
-        "AQUEOUS",
-        "CHOL"
-    ],
-    "113": [
-        "PEG",
-        "AQUEOUS",
-        "FRR"
-    ],
-    "114": [
-        "PEG",
-        "AQUEOUS",
-        "CHIP"
-    ],
-    "115": [
-        "PEG",
-        "AQUEOUS",
-        "TFR"
-    ],
-    "116": [
-        "PEG",
-        "SIZE",
-        "PDI"
-    ],
-    "117": [
-        "PEG",
-        "SIZE",
-        "CHOL"
-    ],
-    "118": [
-        "PEG",
-        "SIZE",
-        "FRR"
-    ],
-    "119": [
-        "PEG",
-        "SIZE",
-        "CHIP"
-    ],
-    "120": [
-        "PEG",
-        "SIZE",
-        "TFR"
-    ],
-    "121": [
-        "PEG",
-        "PDI",
-        "CHOL"
-    ],
-    "122": [
-        "PEG",
-        "PDI",
-        "FRR"
-    ],
-    "123": [
-        "PEG",
-        "PDI",
-        "CHIP"
-    ],
-    "124": [
-        "PEG",
-        "PDI",
-        "TFR"
-    ],
-    "125": [
-        "PEG",
-        "CHOL",
-        "FRR"
-    ],
-    "126": [
-        "PEG",
-        "CHOL",
-        "CHIP"
-    ],
-    "127": [
-        "PEG",
-        "CHOL",
-        "TFR"
-    ],
-    "128": [
-        "PEG",
-        "FRR",
-        "CHIP"
-    ],
-    "129": [
-        "PEG",
-        "FRR",
-        "TFR"
-    ],
-    "130": [
-        "PEG",
-        "CHIP",
-        "TFR"
-    ],
-    "131": [
-        "AQUEOUS",
-        "SIZE",
-        "PDI"
-    ],
-    "132": [
-        "AQUEOUS",
-        "SIZE",
-        "CHOL"
-    ],
-    "133": [
-        "AQUEOUS",
-        "SIZE",
-        "FRR"
-    ],
-    "134": [
-        "AQUEOUS",
-        "SIZE",
-        "CHIP"
-    ],
-    "135": [
-        "AQUEOUS",
-        "SIZE",
-        "TFR"
-    ],
-    "136": [
-        "AQUEOUS",
-        "PDI",
-        "CHOL"
-    ],
-    "137": [
-        "AQUEOUS",
-        "PDI",
-        "FRR"
-    ],
-    "138": [
-        "AQUEOUS",
-        "PDI",
-        "CHIP"
-    ],
-    "139": [
-        "AQUEOUS",
-        "PDI",
-        "TFR"
-    ],
-    "140": [
-        "AQUEOUS",
-        "CHOL",
-        "FRR"
-    ],
-    "141": [
-        "AQUEOUS",
-        "CHOL",
-        "CHIP"
-    ],
-    "142": [
-        "AQUEOUS",
-        "CHOL",
-        "TFR"
-    ],
-    "143": [
-        "AQUEOUS",
-        "FRR",
-        "CHIP"
-    ],
-    "144": [
-        "AQUEOUS",
-        "FRR",
-        "TFR"
-    ],
-    "145": [
-        "AQUEOUS",
-        "CHIP",
-        "TFR"
-    ],
-    "146": [
-        "SIZE",
-        "PDI",
-        "CHOL"
-    ],
-    "147": [
-        "SIZE",
-        "PDI",
-        "FRR"
-    ],
-    "148": [
-        "SIZE",
-        "PDI",
-        "CHIP"
-    ],
-    "149": [
-        "SIZE",
-        "PDI",
-        "TFR"
-    ],
-    "150": [
-        "SIZE",
-        "CHOL",
-        "FRR"
-    ],
-    "151": [
-        "SIZE",
-        "CHOL",
-        "CHIP"
-    ],
-    "152": [
-        "SIZE",
-        "CHOL",
-        "TFR"
-    ],
-    "153": [
-        "SIZE",
-        "FRR",
-        "CHIP"
-    ],
-    "154": [
-        "SIZE",
-        "FRR",
-        "TFR"
-    ],
-    "155": [
-        "SIZE",
-        "CHIP",
-        "TFR"
-    ],
-    "156": [
-        "PDI",
-        "CHOL",
-        "FRR"
-    ],
-    "157": [
-        "PDI",
-        "CHOL",
-        "CHIP"
-    ],
-    "158": [
-        "PDI",
-        "CHOL",
-        "TFR"
-    ],
-    "159": [
-        "PDI",
-        "FRR",
-        "CHIP"
-    ],
-    "160": [
-        "PDI",
-        "FRR",
-        "TFR"
-    ],
-    "161": [
-        "PDI",
-        "CHIP",
-        "TFR"
-    ],
-    "162": [
-        "CHOL",
-        "FRR",
-        "CHIP"
-    ],
-    "163": [
-        "CHOL",
-        "FRR",
-        "TFR"
-    ],
-    "164": [
-        "CHOL",
-        "CHIP",
-        "TFR"
-    ],
-    "165": [
-        "FRR",
-        "CHIP",
-        "TFR"
+        "PEG"
     ]
 }

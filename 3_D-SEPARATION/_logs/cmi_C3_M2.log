@@ -1,8 +1,0 @@
-path,conditioned_on,cmi,d_separated
-"['PDI', 'CHOL', 'ESM', 'SIZE']",,0.41253842673877994,False
-"['PDI', 'CHOL', 'ESM', 'SIZE']","('CHOL',)",0.4164863051750052,False
-"['PDI', 'CHOL', 'ESM', 'SIZE']","('ESM',)",0.4913865022992647,False
-"['PDI', 'CHOL', 'ESM', 'SIZE']","('CHOL', 'ESM')",0.3468832150476273,False
-"['PDI', 'ESM', 'SIZE']",,0.41253842673877994,False
-"['PDI', 'ESM', 'SIZE']","('ESM',)",0.4913865022992647,False
-"['PDI', 'SIZE']",,0.41253842673877994,False

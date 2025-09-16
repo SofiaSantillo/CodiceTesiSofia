@@ -15,7 +15,7 @@ def bin_variable_by_k(data, column, k):
     bins = np.linspace(min_val, max_val, k + 1)
     return bins
 
-def bin_HSPC(df, logger, h=5):
+def bin_HSPC(df, logger, h=3):
     k_HSPC = binning_max_min(df, 'HSPC', h=h)
     bins_HSPC = bin_variable_by_k(df, 'HSPC', k_HSPC)
     df['HSPC_CAT'] = pd.cut(df['HSPC'], bins=bins_HSPC, labels=False, include_lowest=True)

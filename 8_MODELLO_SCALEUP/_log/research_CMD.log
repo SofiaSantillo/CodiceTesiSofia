@@ -1,0 +1,36 @@
+SIZE:
+Confondenti: ['ESM']
+Mediatori: ['PDI', 'CHOL', 'ESM']
+Decisionali: []
+
+PDI:
+Confondenti: ['ESM', 'PEG']
+Mediatori: ['SIZE', 'CHOL', 'PEG', 'ESM', 'HSPC']
+Decisionali: ['AQUEOUS']
+SIZE:
+Confondenti: ['ESM']
+Mediatori: ['PDI', 'CHOL', 'ESM']
+Decisionali: []
+
+PDI:
+Confondenti: ['PEG', 'ESM']
+Mediatori: ['CHOL', 'HSPC', 'ESM', 'SIZE', 'PEG']
+Decisionali: ['AQUEOUS']
+SIZE:
+Confondenti: ['ESM']
+Mediatori: ['ESM', 'CHOL', 'PDI']
+Decisionali: []
+
+PDI:
+Confondenti: ['ESM', 'PEG']
+Mediatori: ['ESM', 'CHOL', 'PEG', 'SIZE', 'HSPC', 'AQUEOUS']
+Decisionali: []
+SIZE:
+Confondenti: ['ESM']
+Mediatori: ['ESM', 'PDI', 'CHOL']
+Decisionali: []
+
+PDI:
+Confondenti: ['PEG', 'ESM']
+Mediatori: ['ESM', 'CHOL', 'PEG', 'SIZE', 'AQUEOUS', 'HSPC']
+Decisionali: []

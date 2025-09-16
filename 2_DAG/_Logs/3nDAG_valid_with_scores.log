@@ -1,0 +1,819 @@
+1.1: AQUEOUS -> FRR, AQUEOUS -> SIZE | similarity_score: 0.7120 | LL: -642.46 | AIC: 1306.93 | BIC: 1347.78
+1.2: AQUEOUS -> FRR, FRR -> SIZE | similarity_score: 0.8677 | LL: -642.86 | AIC: 1313.73 | BIC: 1365.72
+1.3: AQUEOUS -> SIZE, FRR -> SIZE | similarity_score: 0.5460 | LL: -637.69 | AIC: 1317.39 | BIC: 1395.37
+1.4: AQUEOUS -> FRR, AQUEOUS -> SIZE, FRR -> SIZE | similarity_score: 1.0000 | LL: -633.47 | AIC: 1312.93 | BIC: 1398.35
+1.5: FRR -> AQUEOUS, FRR -> SIZE | similarity_score: 0.8677 | LL: -642.86 | AIC: 1313.73 | BIC: 1365.72
+1.6: FRR -> AQUEOUS, AQUEOUS -> SIZE | similarity_score: 0.7120 | LL: -642.46 | AIC: 1306.93 | BIC: 1347.78
+1.7: FRR -> AQUEOUS, FRR -> SIZE, AQUEOUS -> SIZE | similarity_score: 1.0000 | LL: -633.47 | AIC: 1312.93 | BIC: 1398.35
+2.1: AQUEOUS -> FRR, AQUEOUS -> PDI | similarity_score: 0.6247 | LL: -664.57 | AIC: 1351.14 | BIC: 1391.99
+2.2: AQUEOUS -> FRR, FRR -> PDI | similarity_score: 0.7086 | LL: -666.58 | AIC: 1361.15 | BIC: 1413.14
+2.3: AQUEOUS -> PDI, FRR -> PDI | similarity_score: 0.5946 | LL: -648.82 | AIC: 1339.63 | BIC: 1417.62
+2.4: AQUEOUS -> FRR, AQUEOUS -> PDI, FRR -> PDI | similarity_score: 1.0000 | LL: -644.59 | AIC: 1335.18 | BIC: 1420.60
+2.5: FRR -> AQUEOUS, FRR -> PDI | similarity_score: 0.7086 | LL: -666.58 | AIC: 1361.15 | BIC: 1413.14
+2.6: FRR -> AQUEOUS, AQUEOUS -> PDI | similarity_score: 0.6247 | LL: -664.57 | AIC: 1351.14 | BIC: 1391.99
+2.7: FRR -> AQUEOUS, FRR -> PDI, AQUEOUS -> PDI | similarity_score: 1.0000 | LL: -644.59 | AIC: 1335.18 | BIC: 1420.60
+3.1: AQUEOUS -> FRR, AQUEOUS -> TFR | similarity_score: 0.4646 | LL: -690.21 | AIC: 1414.42 | BIC: 1477.55
+3.2: AQUEOUS -> FRR, FRR -> TFR | similarity_score: 0.6029 | LL: -738.26 | AIC: 1522.52 | BIC: 1607.93
+3.3: AQUEOUS -> TFR, FRR -> TFR | similarity_score: 0.6348 | LL: -656.83 | AIC: 1391.67 | BIC: 1536.51
+3.4: AQUEOUS -> FRR, AQUEOUS -> TFR, FRR -> TFR | similarity_score: 1.0000 | LL: -652.61 | AIC: 1387.22 | BIC: 1539.48
+3.5: AQUEOUS -> TFR, TFR -> FRR | similarity_score: 0.0310 | LL: -659.40 | AIC: 1372.80 | BIC: 1473.07
+3.6: AQUEOUS -> FRR, TFR -> FRR | similarity_score: 0.7098 | LL: -735.70 | AIC: 1541.39 | BIC: 1671.37
+3.7: AQUEOUS -> TFR, AQUEOUS -> FRR, TFR -> FRR | similarity_score: 1.0000 | LL: -652.61 | AIC: 1387.22 | BIC: 1539.48
+3.8: FRR -> AQUEOUS, FRR -> TFR | similarity_score: 0.6029 | LL: -738.26 | AIC: 1522.52 | BIC: 1607.93
+3.9: FRR -> AQUEOUS, AQUEOUS -> TFR | similarity_score: 0.4646 | LL: -690.21 | AIC: 1414.42 | BIC: 1477.55
+3.10: FRR -> AQUEOUS, FRR -> TFR, AQUEOUS -> TFR | similarity_score: 1.0000 | LL: -652.61 | AIC: 1387.22 | BIC: 1539.48
+3.11: FRR -> TFR, TFR -> AQUEOUS | similarity_score: 0.0147 | LL: -659.40 | AIC: 1372.80 | BIC: 1473.07
+3.12: FRR -> AQUEOUS, TFR -> AQUEOUS | similarity_score: 0.7502 | LL: -687.65 | AIC: 1433.30 | BIC: 1540.99
+3.13: FRR -> TFR, FRR -> AQUEOUS, TFR -> AQUEOUS | similarity_score: 1.0000 | LL: -652.61 | AIC: 1387.22 | BIC: 1539.48
+3.14: TFR -> AQUEOUS, TFR -> FRR | similarity_score: 0.7796 | LL: -659.40 | AIC: 1372.80 | BIC: 1473.07
+3.15: TFR -> AQUEOUS, AQUEOUS -> FRR | similarity_score: 0.4646 | LL: -690.21 | AIC: 1414.42 | BIC: 1477.55
+3.16: TFR -> AQUEOUS, TFR -> FRR, AQUEOUS -> FRR | similarity_score: 1.0000 | LL: -652.61 | AIC: 1387.22 | BIC: 1539.48
+3.17: TFR -> FRR, FRR -> AQUEOUS | similarity_score: 0.6029 | LL: -738.26 | AIC: 1522.52 | BIC: 1607.93
+3.18: TFR -> FRR, TFR -> AQUEOUS, FRR -> AQUEOUS | similarity_score: 1.0000 | LL: -652.61 | AIC: 1387.22 | BIC: 1539.48
+4.1: AQUEOUS -> FRR, AQUEOUS -> ESM | similarity_score: 0.5162 | LL: -642.40 | AIC: 1310.79 | BIC: 1359.07
+4.2: AQUEOUS -> FRR, FRR -> ESM | similarity_score: 0.8027 | LL: -637.75 | AIC: 1309.50 | BIC: 1372.63
+4.3: AQUEOUS -> ESM, FRR -> ESM | similarity_score: 0.5685 | LL: -625.85 | AIC: 1305.69 | BIC: 1405.96
+4.4: AQUEOUS -> FRR, AQUEOUS -> ESM, FRR -> ESM | similarity_score: 1.0000 | LL: -621.62 | AIC: 1301.24 | BIC: 1408.94
+4.5: AQUEOUS -> ESM, ESM -> FRR | similarity_score: 0.0565 | LL: -631.40 | AIC: 1300.81 | BIC: 1371.37
+4.6: AQUEOUS -> FRR, ESM -> FRR | similarity_score: 0.7886 | LL: -632.19 | AIC: 1314.38 | BIC: 1407.22
+4.7: AQUEOUS -> ESM, AQUEOUS -> FRR, ESM -> FRR | similarity_score: 1.0000 | LL: -621.62 | AIC: 1301.24 | BIC: 1408.94
+4.8: FRR -> AQUEOUS, FRR -> ESM | similarity_score: 0.8027 | LL: -637.75 | AIC: 1309.50 | BIC: 1372.63
+4.9: FRR -> AQUEOUS, AQUEOUS -> ESM | similarity_score: 0.5162 | LL: -642.40 | AIC: 1310.79 | BIC: 1359.07
+4.10: FRR -> AQUEOUS, FRR -> ESM, AQUEOUS -> ESM | similarity_score: 1.0000 | LL: -621.62 | AIC: 1301.24 | BIC: 1408.94
+4.11: FRR -> ESM, ESM -> AQUEOUS | similarity_score: 0.0825 | LL: -631.40 | AIC: 1300.81 | BIC: 1371.37
+4.12: FRR -> AQUEOUS, ESM -> AQUEOUS | similarity_score: 0.8460 | LL: -636.84 | AIC: 1315.68 | BIC: 1393.66
+4.13: FRR -> ESM, FRR -> AQUEOUS, ESM -> AQUEOUS | similarity_score: 1.0000 | LL: -621.62 | AIC: 1301.24 | BIC: 1408.94
+4.14: ESM -> AQUEOUS, ESM -> FRR | similarity_score: 0.7627 | LL: -631.40 | AIC: 1300.81 | BIC: 1371.37
+4.15: ESM -> AQUEOUS, AQUEOUS -> FRR | similarity_score: 0.5162 | LL: -642.40 | AIC: 1310.79 | BIC: 1359.07
+4.16: ESM -> AQUEOUS, ESM -> FRR, AQUEOUS -> FRR | similarity_score: 1.0000 | LL: -621.62 | AIC: 1301.24 | BIC: 1408.94
+4.17: ESM -> FRR, FRR -> AQUEOUS | similarity_score: 0.8027 | LL: -637.75 | AIC: 1309.50 | BIC: 1372.63
+4.18: ESM -> FRR, ESM -> AQUEOUS, FRR -> AQUEOUS | similarity_score: 1.0000 | LL: -621.62 | AIC: 1301.24 | BIC: 1408.94
+5.1: AQUEOUS -> FRR, AQUEOUS -> HSPC | similarity_score: 0.5534 | LL: -626.91 | AIC: 1287.81 | BIC: 1350.94
+5.2: AQUEOUS -> FRR, FRR -> HSPC | similarity_score: 0.6863 | LL: -643.29 | AIC: 1332.58 | BIC: 1418.00
+5.3: AQUEOUS -> HSPC, FRR -> HSPC | similarity_score: 0.6234 | LL: -610.16 | AIC: 1298.33 | BIC: 1443.16
+5.4: AQUEOUS -> FRR, AQUEOUS -> HSPC, FRR -> HSPC | similarity_score: 1.0000 | LL: -605.94 | AIC: 1293.88 | BIC: 1446.14
+5.5: AQUEOUS -> HSPC, HSPC -> FRR | similarity_score: 0.0446 | LL: -611.17 | AIC: 1276.34 | BIC: 1376.61
+5.6: AQUEOUS -> FRR, HSPC -> FRR | similarity_score: 0.7040 | LL: -642.29 | AIC: 1354.57 | BIC: 1484.55
+5.7: AQUEOUS -> HSPC, AQUEOUS -> FRR, HSPC -> FRR | similarity_score: 1.0000 | LL: -605.94 | AIC: 1293.88 | BIC: 1446.14
+5.8: FRR -> AQUEOUS, FRR -> HSPC | similarity_score: 0.6863 | LL: -643.29 | AIC: 1332.58 | BIC: 1418.00
+5.9: FRR -> AQUEOUS, AQUEOUS -> HSPC | similarity_score: 0.5534 | LL: -626.91 | AIC: 1287.81 | BIC: 1350.94
+5.10: FRR -> AQUEOUS, FRR -> HSPC, AQUEOUS -> HSPC | similarity_score: 1.0000 | LL: -605.94 | AIC: 1293.88 | BIC: 1446.14
+5.11: FRR -> HSPC, HSPC -> AQUEOUS | similarity_score: 0.0412 | LL: -611.17 | AIC: 1276.34 | BIC: 1376.61
+5.12: FRR -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 0.8180 | LL: -625.90 | AIC: 1309.80 | BIC: 1417.50
+5.13: FRR -> HSPC, FRR -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 1.0000 | LL: -605.94 | AIC: 1293.88 | BIC: 1446.14
+5.14: HSPC -> AQUEOUS, HSPC -> FRR | similarity_score: 0.7788 | LL: -611.17 | AIC: 1276.34 | BIC: 1376.61
+5.15: HSPC -> AQUEOUS, AQUEOUS -> FRR | similarity_score: 0.5534 | LL: -626.91 | AIC: 1287.81 | BIC: 1350.94
+5.16: HSPC -> AQUEOUS, HSPC -> FRR, AQUEOUS -> FRR | similarity_score: 1.0000 | LL: -605.94 | AIC: 1293.88 | BIC: 1446.14
+5.17: HSPC -> FRR, FRR -> AQUEOUS | similarity_score: 0.6863 | LL: -643.29 | AIC: 1332.58 | BIC: 1418.00
+5.18: HSPC -> FRR, HSPC -> AQUEOUS, FRR -> AQUEOUS | similarity_score: 1.0000 | LL: -605.94 | AIC: 1293.88 | BIC: 1446.14
+6.1: AQUEOUS -> FRR, AQUEOUS -> CHOL | similarity_score: 0.5452 | LL: -653.36 | AIC: 1332.71 | BIC: 1380.99
+6.2: AQUEOUS -> FRR, FRR -> CHOL | similarity_score: 0.7831 | LL: -644.12 | AIC: 1322.24 | BIC: 1385.37
+6.3: AQUEOUS -> CHOL, FRR -> CHOL | similarity_score: 0.5908 | LL: -637.67 | AIC: 1329.33 | BIC: 1429.60
+6.4: AQUEOUS -> FRR, AQUEOUS -> CHOL, FRR -> CHOL | similarity_score: 1.0000 | LL: -633.44 | AIC: 1324.88 | BIC: 1432.58
+6.5: AQUEOUS -> CHOL, CHOL -> FRR | similarity_score: 0.0525 | LL: -640.57 | AIC: 1319.14 | BIC: 1389.70
+6.6: AQUEOUS -> FRR, CHOL -> FRR | similarity_score: 0.8478 | LL: -641.22 | AIC: 1332.43 | BIC: 1425.28
+6.7: AQUEOUS -> CHOL, AQUEOUS -> FRR, CHOL -> FRR | similarity_score: 1.0000 | LL: -633.44 | AIC: 1324.88 | BIC: 1432.58
+6.8: FRR -> AQUEOUS, FRR -> CHOL | similarity_score: 0.7831 | LL: -644.12 | AIC: 1322.24 | BIC: 1385.37
+6.9: FRR -> AQUEOUS, AQUEOUS -> CHOL | similarity_score: 0.5452 | LL: -653.36 | AIC: 1332.71 | BIC: 1380.99
+6.10: FRR -> AQUEOUS, FRR -> CHOL, AQUEOUS -> CHOL | similarity_score: 1.0000 | LL: -633.44 | AIC: 1324.88 | BIC: 1432.58
+6.11: FRR -> CHOL, CHOL -> AQUEOUS | similarity_score: 0.0782 | LL: -640.57 | AIC: 1319.14 | BIC: 1389.70
+6.12: FRR -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 0.8104 | LL: -650.45 | AIC: 1342.91 | BIC: 1420.90
+6.13: FRR -> CHOL, FRR -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 1.0000 | LL: -633.44 | AIC: 1324.88 | BIC: 1432.58
+6.14: CHOL -> AQUEOUS, CHOL -> FRR | similarity_score: 0.7071 | LL: -640.57 | AIC: 1319.14 | BIC: 1389.70
+6.15: CHOL -> AQUEOUS, AQUEOUS -> FRR | similarity_score: 0.5452 | LL: -653.36 | AIC: 1332.71 | BIC: 1380.99
+6.16: CHOL -> AQUEOUS, CHOL -> FRR, AQUEOUS -> FRR | similarity_score: 1.0000 | LL: -633.44 | AIC: 1324.88 | BIC: 1432.58
+6.17: CHOL -> FRR, FRR -> AQUEOUS | similarity_score: 0.7831 | LL: -644.12 | AIC: 1322.24 | BIC: 1385.37
+6.18: CHOL -> FRR, CHOL -> AQUEOUS, FRR -> AQUEOUS | similarity_score: 1.0000 | LL: -633.44 | AIC: 1324.88 | BIC: 1432.58
+7.1: AQUEOUS -> FRR, AQUEOUS -> PEG | similarity_score: 0.5922 | LL: -557.23 | AIC: 1140.46 | BIC: 1188.74
+7.2: AQUEOUS -> FRR, FRR -> PEG | similarity_score: 0.6644 | LL: -614.90 | AIC: 1263.79 | BIC: 1326.93
+7.3: AQUEOUS -> PEG, FRR -> PEG | similarity_score: 0.6070 | LL: -545.31 | AIC: 1144.61 | BIC: 1244.88
+7.4: AQUEOUS -> FRR, AQUEOUS -> PEG, FRR -> PEG | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+7.5: AQUEOUS -> PEG, PEG -> FRR | similarity_score: 0.0676 | LL: -546.55 | AIC: 1131.10 | BIC: 1201.66
+7.6: AQUEOUS -> FRR, PEG -> FRR | similarity_score: 0.7143 | LL: -613.65 | AIC: 1277.31 | BIC: 1370.15
+7.7: AQUEOUS -> PEG, AQUEOUS -> FRR, PEG -> FRR | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+7.8: FRR -> AQUEOUS, FRR -> PEG | similarity_score: 0.6644 | LL: -614.90 | AIC: 1263.79 | BIC: 1326.93
+7.9: FRR -> AQUEOUS, AQUEOUS -> PEG | similarity_score: 0.5922 | LL: -557.23 | AIC: 1140.46 | BIC: 1188.74
+7.10: FRR -> AQUEOUS, FRR -> PEG, AQUEOUS -> PEG | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+7.11: FRR -> PEG, PEG -> AQUEOUS | similarity_score: 0.0337 | LL: -546.55 | AIC: 1131.10 | BIC: 1201.66
+7.12: FRR -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 0.9181 | LL: -555.99 | AIC: 1153.97 | BIC: 1231.96
+7.13: FRR -> PEG, FRR -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+7.14: PEG -> AQUEOUS, PEG -> FRR | similarity_score: 0.8051 | LL: -546.55 | AIC: 1131.10 | BIC: 1201.66
+7.15: PEG -> AQUEOUS, AQUEOUS -> FRR | similarity_score: 0.5922 | LL: -557.23 | AIC: 1140.46 | BIC: 1188.74
+7.16: PEG -> AQUEOUS, PEG -> FRR, AQUEOUS -> FRR | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+7.17: PEG -> FRR, FRR -> AQUEOUS | similarity_score: 0.6644 | LL: -614.90 | AIC: 1263.79 | BIC: 1326.93
+7.18: PEG -> FRR, PEG -> AQUEOUS, FRR -> AQUEOUS | similarity_score: 1.0000 | LL: -541.08 | AIC: 1140.16 | BIC: 1247.86
+8.1: AQUEOUS -> SIZE, AQUEOUS -> PDI | similarity_score: 0.5643 | LL: -930.16 | AIC: 1886.32 | BIC: 1934.60
+8.2: AQUEOUS -> SIZE, SIZE -> PDI | similarity_score: 0.7065 | LL: -881.27 | AIC: 1800.54 | BIC: 1871.10
+8.3: AQUEOUS -> PDI, SIZE -> PDI | similarity_score: 0.4166 | LL: -863.65 | AIC: 1783.31 | BIC: 1887.29
+8.4: AQUEOUS -> SIZE, AQUEOUS -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -855.06 | AIC: 1772.12 | BIC: 1887.24
+8.5: AQUEOUS -> PDI, PDI -> SIZE | similarity_score: 0.0292 | LL: -871.18 | AIC: 1780.36 | BIC: 1850.92
+8.6: AQUEOUS -> SIZE, PDI -> SIZE | similarity_score: 0.8768 | LL: -873.74 | AIC: 1803.49 | BIC: 1907.47
+8.7: AQUEOUS -> PDI, AQUEOUS -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -855.06 | AIC: 1772.12 | BIC: 1887.24
+9.1: AQUEOUS -> SIZE, AQUEOUS -> TFR | similarity_score: 0.4915 | LL: -955.80 | AIC: 1949.61 | BIC: 2020.17
+9.2: AQUEOUS -> TFR, TFR -> SIZE | similarity_score: 0.0271 | LL: -922.32 | AIC: 1912.64 | BIC: 2038.91
+9.3: AQUEOUS -> SIZE, TFR -> SIZE | similarity_score: 0.7031 | LL: -990.82 | AIC: 2079.65 | BIC: 2261.62
+9.4: AQUEOUS -> TFR, AQUEOUS -> SIZE, TFR -> SIZE | similarity_score: 1.0000 | LL: -907.74 | AIC: 1925.47 | BIC: 2129.73
+9.5: TFR -> AQUEOUS, TFR -> SIZE | similarity_score: 0.6622 | LL: -922.32 | AIC: 1912.64 | BIC: 2038.91
+9.6: TFR -> AQUEOUS, AQUEOUS -> SIZE | similarity_score: 0.4915 | LL: -955.80 | AIC: 1949.61 | BIC: 2020.17
+9.7: TFR -> AQUEOUS, TFR -> SIZE, AQUEOUS -> SIZE | similarity_score: 1.0000 | LL: -907.74 | AIC: 1925.47 | BIC: 2129.73
+10.1: AQUEOUS -> SIZE, AQUEOUS -> ESM | similarity_score: 0.5275 | LL: -907.99 | AIC: 1845.98 | BIC: 1901.68
+10.2: AQUEOUS -> ESM, ESM -> SIZE | similarity_score: 0.0334 | LL: -837.17 | AIC: 1722.35 | BIC: 1811.48
+10.3: AQUEOUS -> SIZE, ESM -> SIZE | similarity_score: 0.8121 | LL: -806.94 | AIC: 1683.88 | BIC: 1813.86
+10.4: AQUEOUS -> ESM, AQUEOUS -> SIZE, ESM -> SIZE | similarity_score: 1.0000 | LL: -796.37 | AIC: 1670.74 | BIC: 1815.57
+10.5: ESM -> AQUEOUS, ESM -> SIZE | similarity_score: 0.6386 | LL: -837.17 | AIC: 1722.35 | BIC: 1811.48
+10.6: ESM -> AQUEOUS, AQUEOUS -> SIZE | similarity_score: 0.5275 | LL: -907.99 | AIC: 1845.98 | BIC: 1901.68
+10.7: ESM -> AQUEOUS, ESM -> SIZE, AQUEOUS -> SIZE | similarity_score: 1.0000 | LL: -796.37 | AIC: 1670.74 | BIC: 1815.57
+11.1: AQUEOUS -> SIZE, AQUEOUS -> HSPC | similarity_score: 0.4117 | LL: -892.50 | AIC: 1823.00 | BIC: 1893.56
+11.2: AQUEOUS -> HSPC, HSPC -> SIZE | similarity_score: 0.0295 | LL: -831.35 | AIC: 1730.70 | BIC: 1856.97
+11.3: AQUEOUS -> SIZE, HSPC -> SIZE | similarity_score: 0.7195 | LL: -838.23 | AIC: 1774.45 | BIC: 1956.42
+11.4: AQUEOUS -> HSPC, AQUEOUS -> SIZE, HSPC -> SIZE | similarity_score: 1.0000 | LL: -801.88 | AIC: 1713.76 | BIC: 1918.01
+11.5: HSPC -> AQUEOUS, HSPC -> SIZE | similarity_score: 0.6641 | LL: -831.35 | AIC: 1730.70 | BIC: 1856.97
+11.6: HSPC -> AQUEOUS, AQUEOUS -> SIZE | similarity_score: 0.4117 | LL: -892.50 | AIC: 1823.00 | BIC: 1893.56
+11.7: HSPC -> AQUEOUS, HSPC -> SIZE, AQUEOUS -> SIZE | similarity_score: 1.0000 | LL: -801.88 | AIC: 1713.76 | BIC: 1918.01
+12.1: AQUEOUS -> SIZE, AQUEOUS -> CHOL | similarity_score: 0.5133 | LL: -918.95 | AIC: 1867.90 | BIC: 1923.61
+12.2: AQUEOUS -> CHOL, CHOL -> SIZE | similarity_score: 0.0384 | LL: -875.19 | AIC: 1798.38 | BIC: 1887.51
+12.3: AQUEOUS -> SIZE, CHOL -> SIZE | similarity_score: 0.8522 | LL: -862.05 | AIC: 1794.11 | BIC: 1924.09
+12.4: AQUEOUS -> CHOL, AQUEOUS -> SIZE, CHOL -> SIZE | similarity_score: 1.0000 | LL: -854.28 | AIC: 1786.55 | BIC: 1931.39
+12.5: CHOL -> AQUEOUS, CHOL -> SIZE | similarity_score: 0.7467 | LL: -875.19 | AIC: 1798.38 | BIC: 1887.51
+12.6: CHOL -> AQUEOUS, AQUEOUS -> SIZE | similarity_score: 0.5133 | LL: -918.95 | AIC: 1867.90 | BIC: 1923.61
+12.7: CHOL -> AQUEOUS, CHOL -> SIZE, AQUEOUS -> SIZE | similarity_score: 1.0000 | LL: -854.28 | AIC: 1786.55 | BIC: 1931.39
+13.1: AQUEOUS -> SIZE, AQUEOUS -> PEG | similarity_score: 0.5283 | LL: -822.82 | AIC: 1675.65 | BIC: 1731.35
+13.2: AQUEOUS -> PEG, PEG -> SIZE | similarity_score: 0.0378 | LL: -758.71 | AIC: 1565.41 | BIC: 1654.54
+13.3: AQUEOUS -> SIZE, PEG -> SIZE | similarity_score: 0.6784 | LL: -812.91 | AIC: 1695.82 | BIC: 1825.81
+13.4: AQUEOUS -> PEG, AQUEOUS -> SIZE, PEG -> SIZE | similarity_score: 1.0000 | LL: -740.34 | AIC: 1558.68 | BIC: 1703.51
+13.5: PEG -> AQUEOUS, PEG -> SIZE | similarity_score: 0.6755 | LL: -758.71 | AIC: 1565.41 | BIC: 1654.54
+13.6: PEG -> AQUEOUS, AQUEOUS -> SIZE | similarity_score: 0.5283 | LL: -822.82 | AIC: 1675.65 | BIC: 1731.35
+13.7: PEG -> AQUEOUS, PEG -> SIZE, AQUEOUS -> SIZE | similarity_score: 1.0000 | LL: -740.34 | AIC: 1558.68 | BIC: 1703.51
+14.1: AQUEOUS -> PDI, AQUEOUS -> TFR | similarity_score: 0.5904 | LL: -977.91 | AIC: 1993.82 | BIC: 2064.38
+14.2: AQUEOUS -> TFR, TFR -> PDI | similarity_score: 0.0143 | LL: -980.22 | AIC: 2028.43 | BIC: 2154.70
+14.3: AQUEOUS -> PDI, TFR -> PDI | similarity_score: 0.7149 | LL: -1034.09 | AIC: 2166.18 | BIC: 2348.15
+14.4: AQUEOUS -> TFR, AQUEOUS -> PDI, TFR -> PDI | similarity_score: 1.0000 | LL: -951.00 | AIC: 2012.00 | BIC: 2216.26
+14.5: TFR -> AQUEOUS, TFR -> PDI | similarity_score: 0.6478 | LL: -980.22 | AIC: 2028.43 | BIC: 2154.70
+14.6: TFR -> AQUEOUS, AQUEOUS -> PDI | similarity_score: 0.5904 | LL: -977.91 | AIC: 1993.82 | BIC: 2064.38
+14.7: TFR -> AQUEOUS, TFR -> PDI, AQUEOUS -> PDI | similarity_score: 1.0000 | LL: -951.00 | AIC: 2012.00 | BIC: 2216.26
+15.1: AQUEOUS -> PDI, AQUEOUS -> ESM | similarity_score: 0.5752 | LL: -930.09 | AIC: 1890.19 | BIC: 1945.89
+15.2: AQUEOUS -> ESM, ESM -> PDI | similarity_score: 0.0320 | LL: -872.76 | AIC: 1793.53 | BIC: 1882.66
+15.3: AQUEOUS -> PDI, ESM -> PDI | similarity_score: 0.8276 | LL: -848.89 | AIC: 1767.79 | BIC: 1897.77
+15.4: AQUEOUS -> ESM, AQUEOUS -> PDI, ESM -> PDI | similarity_score: 1.0000 | LL: -838.32 | AIC: 1754.65 | BIC: 1899.48
+15.5: ESM -> AQUEOUS, ESM -> PDI | similarity_score: 0.5744 | LL: -872.76 | AIC: 1793.53 | BIC: 1882.66
+15.6: ESM -> AQUEOUS, AQUEOUS -> PDI | similarity_score: 0.5752 | LL: -930.09 | AIC: 1890.19 | BIC: 1945.89
+15.7: ESM -> AQUEOUS, ESM -> PDI, AQUEOUS -> PDI | similarity_score: 1.0000 | LL: -838.32 | AIC: 1754.65 | BIC: 1899.48
+16.1: AQUEOUS -> PDI, AQUEOUS -> HSPC | similarity_score: 0.4652 | LL: -914.60 | AIC: 1867.21 | BIC: 1937.77
+16.2: AQUEOUS -> HSPC, HSPC -> PDI | similarity_score: 0.0132 | LL: -845.41 | AIC: 1758.82 | BIC: 1885.09
+16.3: AQUEOUS -> PDI, HSPC -> PDI | similarity_score: 0.6966 | LL: -844.86 | AIC: 1787.72 | BIC: 1969.69
+16.4: AQUEOUS -> HSPC, AQUEOUS -> PDI, HSPC -> PDI | similarity_score: 1.0000 | LL: -808.51 | AIC: 1727.02 | BIC: 1931.28
+16.5: HSPC -> AQUEOUS, HSPC -> PDI | similarity_score: 0.7250 | LL: -845.41 | AIC: 1758.82 | BIC: 1885.09
+16.6: HSPC -> AQUEOUS, AQUEOUS -> PDI | similarity_score: 0.4652 | LL: -914.60 | AIC: 1867.21 | BIC: 1937.77
+16.7: HSPC -> AQUEOUS, HSPC -> PDI, AQUEOUS -> PDI | similarity_score: 1.0000 | LL: -808.51 | AIC: 1727.02 | BIC: 1931.28
+17.1: AQUEOUS -> PDI, AQUEOUS -> CHOL | similarity_score: 0.5024 | LL: -941.05 | AIC: 1912.11 | BIC: 1967.82
+17.2: AQUEOUS -> CHOL, CHOL -> PDI | similarity_score: 0.0116 | LL: -893.22 | AIC: 1834.45 | BIC: 1923.58
+17.3: AQUEOUS -> PDI, CHOL -> PDI | similarity_score: 0.8732 | LL: -868.08 | AIC: 1806.16 | BIC: 1936.14
+17.4: AQUEOUS -> CHOL, AQUEOUS -> PDI, CHOL -> PDI | similarity_score: 1.0000 | LL: -860.30 | AIC: 1798.61 | BIC: 1943.44
+17.5: CHOL -> AQUEOUS, CHOL -> PDI | similarity_score: 0.6382 | LL: -893.22 | AIC: 1834.45 | BIC: 1923.58
+17.6: CHOL -> AQUEOUS, AQUEOUS -> PDI | similarity_score: 0.5024 | LL: -941.05 | AIC: 1912.11 | BIC: 1967.82
+17.7: CHOL -> AQUEOUS, CHOL -> PDI, AQUEOUS -> PDI | similarity_score: 1.0000 | LL: -860.30 | AIC: 1798.61 | BIC: 1943.44
+18.1: AQUEOUS -> PDI, AQUEOUS -> PEG | similarity_score: 0.6172 | LL: -844.93 | AIC: 1719.85 | BIC: 1775.56
+18.2: AQUEOUS -> PEG, PEG -> PDI | similarity_score: 0.0189 | LL: -780.89 | AIC: 1609.78 | BIC: 1698.90
+18.3: AQUEOUS -> PDI, PEG -> PDI | similarity_score: 0.6799 | LL: -830.81 | AIC: 1731.62 | BIC: 1861.61
+18.4: AQUEOUS -> PEG, AQUEOUS -> PDI, PEG -> PDI | similarity_score: 1.0000 | LL: -758.24 | AIC: 1594.48 | BIC: 1739.31
+18.5: PEG -> AQUEOUS, PEG -> PDI | similarity_score: 0.7550 | LL: -780.89 | AIC: 1609.78 | BIC: 1698.90
+18.6: PEG -> AQUEOUS, AQUEOUS -> PDI | similarity_score: 0.6172 | LL: -844.93 | AIC: 1719.85 | BIC: 1775.56
+18.7: PEG -> AQUEOUS, PEG -> PDI, AQUEOUS -> PDI | similarity_score: 1.0000 | LL: -758.24 | AIC: 1594.48 | BIC: 1739.31
+19.1: AQUEOUS -> TFR, AQUEOUS -> ESM | similarity_score: 0.4875 | LL: -955.74 | AIC: 1953.47 | BIC: 2031.46
+19.2: AQUEOUS -> TFR, TFR -> ESM | similarity_score: 0.7090 | LL: -937.95 | AIC: 1957.90 | BIC: 2110.16
+19.3: AQUEOUS -> ESM, TFR -> ESM | similarity_score: 0.2890 | LL: -1009.73 | AIC: 2145.47 | BIC: 2379.43
+19.4: AQUEOUS -> TFR, AQUEOUS -> ESM, TFR -> ESM | similarity_score: 1.0000 | LL: -926.65 | AIC: 1991.29 | BIC: 2247.54
+19.5: AQUEOUS -> ESM, ESM -> TFR | similarity_score: 0.0250 | LL: -1010.47 | AIC: 2098.93 | BIC: 2243.77
+19.6: AQUEOUS -> TFR, ESM -> TFR | similarity_score: 0.8630 | LL: -937.22 | AIC: 2004.43 | BIC: 2245.83
+19.7: AQUEOUS -> ESM, AQUEOUS -> TFR, ESM -> TFR | similarity_score: 1.0000 | LL: -926.65 | AIC: 1991.29 | BIC: 2247.54
+19.8: TFR -> AQUEOUS, TFR -> ESM | similarity_score: 0.7090 | LL: -937.95 | AIC: 1957.90 | BIC: 2110.16
+19.9: TFR -> AQUEOUS, AQUEOUS -> ESM | similarity_score: 0.4875 | LL: -955.74 | AIC: 1953.47 | BIC: 2031.46
+19.10: TFR -> AQUEOUS, TFR -> ESM, AQUEOUS -> ESM | similarity_score: 1.0000 | LL: -926.65 | AIC: 1991.29 | BIC: 2247.54
+19.11: TFR -> ESM, ESM -> AQUEOUS | similarity_score: 0.0616 | LL: -1010.47 | AIC: 2098.93 | BIC: 2243.77
+19.12: TFR -> AQUEOUS, ESM -> AQUEOUS | similarity_score: 0.8125 | LL: -955.00 | AIC: 2000.01 | BIC: 2167.12
+19.13: TFR -> ESM, TFR -> AQUEOUS, ESM -> AQUEOUS | similarity_score: 1.0000 | LL: -926.65 | AIC: 1991.29 | BIC: 2247.54
+19.14: ESM -> AQUEOUS, ESM -> TFR | similarity_score: 0.5060 | LL: -1010.47 | AIC: 2098.93 | BIC: 2243.77
+19.15: ESM -> AQUEOUS, AQUEOUS -> TFR | similarity_score: 0.4875 | LL: -955.74 | AIC: 1953.47 | BIC: 2031.46
+19.16: ESM -> AQUEOUS, ESM -> TFR, AQUEOUS -> TFR | similarity_score: 1.0000 | LL: -926.65 | AIC: 1991.29 | BIC: 2247.54
+19.17: ESM -> TFR, TFR -> AQUEOUS | similarity_score: 0.7090 | LL: -937.95 | AIC: 1957.90 | BIC: 2110.16
+19.18: ESM -> TFR, ESM -> AQUEOUS, TFR -> AQUEOUS | similarity_score: 1.0000 | LL: -926.65 | AIC: 1991.29 | BIC: 2247.54
+20.1: AQUEOUS -> TFR, AQUEOUS -> HSPC | similarity_score: 0.4081 | LL: -940.24 | AIC: 1930.49 | BIC: 2023.33
+20.2: AQUEOUS -> TFR, TFR -> HSPC | similarity_score: 0.6730 | LL: -927.61 | AIC: 1965.22 | BIC: 2169.47
+20.3: AQUEOUS -> HSPC, TFR -> HSPC | similarity_score: 0.2781 | LL: -994.47 | AIC: 2170.93 | BIC: 2508.88
+20.4: AQUEOUS -> TFR, AQUEOUS -> HSPC, TFR -> HSPC | similarity_score: 1.0000 | LL: -911.38 | AIC: 2016.76 | BIC: 2376.99
+20.5: AQUEOUS -> HSPC, HSPC -> TFR | similarity_score: 0.0259 | LL: -974.35 | AIC: 2058.70 | BIC: 2262.96
+20.6: AQUEOUS -> TFR, HSPC -> TFR | similarity_score: 0.7820 | LL: -947.73 | AIC: 2077.45 | BIC: 2415.40
+20.7: AQUEOUS -> HSPC, AQUEOUS -> TFR, HSPC -> TFR | similarity_score: 1.0000 | LL: -911.38 | AIC: 2016.76 | BIC: 2376.99
+20.8: TFR -> AQUEOUS, TFR -> HSPC | similarity_score: 0.6730 | LL: -927.61 | AIC: 1965.22 | BIC: 2169.47
+20.9: TFR -> AQUEOUS, AQUEOUS -> HSPC | similarity_score: 0.4081 | LL: -940.24 | AIC: 1930.49 | BIC: 2023.33
+20.10: TFR -> AQUEOUS, TFR -> HSPC, AQUEOUS -> HSPC | similarity_score: 1.0000 | LL: -911.38 | AIC: 2016.76 | BIC: 2376.99
+20.11: TFR -> HSPC, HSPC -> AQUEOUS | similarity_score: 0.0631 | LL: -974.35 | AIC: 2058.70 | BIC: 2262.96
+20.12: TFR -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 0.7667 | LL: -960.36 | AIC: 2042.72 | BIC: 2269.26
+20.13: TFR -> HSPC, TFR -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 1.0000 | LL: -911.38 | AIC: 2016.76 | BIC: 2376.99
+20.14: HSPC -> AQUEOUS, HSPC -> TFR | similarity_score: 0.5473 | LL: -974.35 | AIC: 2058.70 | BIC: 2262.96
+20.15: HSPC -> AQUEOUS, AQUEOUS -> TFR | similarity_score: 0.4081 | LL: -940.24 | AIC: 1930.49 | BIC: 2023.33
+20.16: HSPC -> AQUEOUS, HSPC -> TFR, AQUEOUS -> TFR | similarity_score: 1.0000 | LL: -911.38 | AIC: 2016.76 | BIC: 2376.99
+20.17: HSPC -> TFR, TFR -> AQUEOUS | similarity_score: 0.6730 | LL: -927.61 | AIC: 1965.22 | BIC: 2169.47
+20.18: HSPC -> TFR, HSPC -> AQUEOUS, TFR -> AQUEOUS | similarity_score: 1.0000 | LL: -911.38 | AIC: 2016.76 | BIC: 2376.99
+21.1: AQUEOUS -> TFR, AQUEOUS -> CHOL | similarity_score: 0.4014 | LL: -966.70 | AIC: 1975.39 | BIC: 2053.38
+21.2: AQUEOUS -> TFR, TFR -> CHOL | similarity_score: 0.6932 | LL: -926.25 | AIC: 1934.49 | BIC: 2086.75
+21.3: AQUEOUS -> CHOL, TFR -> CHOL | similarity_score: 0.3034 | LL: -997.70 | AIC: 2121.40 | BIC: 2355.36
+21.4: AQUEOUS -> TFR, AQUEOUS -> CHOL, TFR -> CHOL | similarity_score: 1.0000 | LL: -914.61 | AIC: 1967.22 | BIC: 2223.47
+21.5: AQUEOUS -> CHOL, CHOL -> TFR | similarity_score: 0.0246 | LL: -1001.56 | AIC: 2081.11 | BIC: 2225.95
+21.6: AQUEOUS -> TFR, CHOL -> TFR | similarity_score: 0.8717 | LL: -922.39 | AIC: 1974.78 | BIC: 2216.17
+21.7: AQUEOUS -> CHOL, AQUEOUS -> TFR, CHOL -> TFR | similarity_score: 1.0000 | LL: -914.61 | AIC: 1967.22 | BIC: 2223.47
+21.8: TFR -> AQUEOUS, TFR -> CHOL | similarity_score: 0.6932 | LL: -926.25 | AIC: 1934.49 | BIC: 2086.75
+21.9: TFR -> AQUEOUS, AQUEOUS -> CHOL | similarity_score: 0.4014 | LL: -966.70 | AIC: 1975.39 | BIC: 2053.38
+21.10: TFR -> AQUEOUS, TFR -> CHOL, AQUEOUS -> CHOL | similarity_score: 1.0000 | LL: -914.61 | AIC: 1967.22 | BIC: 2223.47
+21.11: TFR -> CHOL, CHOL -> AQUEOUS | similarity_score: 0.0739 | LL: -1001.56 | AIC: 2081.11 | BIC: 2225.95
+21.12: TFR -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 0.7414 | LL: -962.84 | AIC: 2015.68 | BIC: 2182.80
+21.13: TFR -> CHOL, TFR -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 1.0000 | LL: -914.61 | AIC: 1967.22 | BIC: 2223.47
+21.14: CHOL -> AQUEOUS, CHOL -> TFR | similarity_score: 0.5071 | LL: -1001.56 | AIC: 2081.11 | BIC: 2225.95
+21.15: CHOL -> AQUEOUS, AQUEOUS -> TFR | similarity_score: 0.4014 | LL: -966.70 | AIC: 1975.39 | BIC: 2053.38
+21.16: CHOL -> AQUEOUS, CHOL -> TFR, AQUEOUS -> TFR | similarity_score: 1.0000 | LL: -914.61 | AIC: 1967.22 | BIC: 2223.47
+21.17: CHOL -> TFR, TFR -> AQUEOUS | similarity_score: 0.6932 | LL: -926.25 | AIC: 1934.49 | BIC: 2086.75
+21.18: CHOL -> TFR, CHOL -> AQUEOUS, TFR -> AQUEOUS | similarity_score: 1.0000 | LL: -914.61 | AIC: 1967.22 | BIC: 2223.47
+22.1: AQUEOUS -> TFR, AQUEOUS -> PEG | similarity_score: 0.4673 | LL: -870.57 | AIC: 1783.14 | BIC: 1861.13
+22.2: AQUEOUS -> TFR, TFR -> PEG | similarity_score: 0.6880 | LL: -863.42 | AIC: 1808.83 | BIC: 1961.09
+22.3: AQUEOUS -> PEG, TFR -> PEG | similarity_score: 0.2506 | LL: -916.50 | AIC: 1959.01 | BIC: 2192.97
+22.4: AQUEOUS -> TFR, AQUEOUS -> PEG, TFR -> PEG | similarity_score: 1.0000 | LL: -833.41 | AIC: 1804.83 | BIC: 2061.08
+22.5: AQUEOUS -> PEG, PEG -> TFR | similarity_score: 0.0313 | LL: -873.93 | AIC: 1825.86 | BIC: 1970.70
+22.6: AQUEOUS -> TFR, PEG -> TFR | similarity_score: 0.7582 | LL: -905.99 | AIC: 1941.98 | BIC: 2183.37
+22.7: AQUEOUS -> PEG, AQUEOUS -> TFR, PEG -> TFR | similarity_score: 1.0000 | LL: -833.41 | AIC: 1804.83 | BIC: 2061.08
+22.8: TFR -> AQUEOUS, TFR -> PEG | similarity_score: 0.6880 | LL: -863.42 | AIC: 1808.83 | BIC: 1961.09
+22.9: TFR -> AQUEOUS, AQUEOUS -> PEG | similarity_score: 0.4673 | LL: -870.57 | AIC: 1783.14 | BIC: 1861.13
+22.10: TFR -> AQUEOUS, TFR -> PEG, AQUEOUS -> PEG | similarity_score: 1.0000 | LL: -833.41 | AIC: 1804.83 | BIC: 2061.08
+22.11: TFR -> PEG, PEG -> AQUEOUS | similarity_score: 0.1137 | LL: -873.93 | AIC: 1825.86 | BIC: 1970.70
+22.12: TFR -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 0.7746 | LL: -913.14 | AIC: 1916.28 | BIC: 2083.40
+22.13: TFR -> PEG, TFR -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 1.0000 | LL: -833.41 | AIC: 1804.83 | BIC: 2061.08
+22.14: PEG -> AQUEOUS, PEG -> TFR | similarity_score: 0.6116 | LL: -873.93 | AIC: 1825.86 | BIC: 1970.70
+22.15: PEG -> AQUEOUS, AQUEOUS -> TFR | similarity_score: 0.4673 | LL: -870.57 | AIC: 1783.14 | BIC: 1861.13
+22.16: PEG -> AQUEOUS, PEG -> TFR, AQUEOUS -> TFR | similarity_score: 1.0000 | LL: -833.41 | AIC: 1804.83 | BIC: 2061.08
+22.17: PEG -> TFR, TFR -> AQUEOUS | similarity_score: 0.6880 | LL: -863.42 | AIC: 1808.83 | BIC: 1961.09
+22.18: PEG -> TFR, PEG -> AQUEOUS, TFR -> AQUEOUS | similarity_score: 1.0000 | LL: -833.41 | AIC: 1804.83 | BIC: 2061.08
+23.1: AQUEOUS -> ESM, AQUEOUS -> HSPC | similarity_score: 0.2252 | LL: -892.43 | AIC: 1826.86 | BIC: 1904.85
+23.2: AQUEOUS -> ESM, ESM -> HSPC | similarity_score: 0.6730 | LL: -766.68 | AIC: 1611.36 | BIC: 1756.20
+23.3: AQUEOUS -> HSPC, ESM -> HSPC | similarity_score: 0.4683 | LL: -729.55 | AIC: 1589.10 | BIC: 1830.49
+23.4: AQUEOUS -> ESM, AQUEOUS -> HSPC, ESM -> HSPC | similarity_score: 1.0000 | LL: -718.98 | AIC: 1575.96 | BIC: 1832.21
+23.5: AQUEOUS -> HSPC, HSPC -> ESM | similarity_score: 0.0277 | LL: -740.90 | AIC: 1563.81 | BIC: 1716.07
+23.6: AQUEOUS -> ESM, HSPC -> ESM | similarity_score: 0.7825 | LL: -755.33 | AIC: 1636.65 | BIC: 1870.62
+23.7: AQUEOUS -> HSPC, AQUEOUS -> ESM, HSPC -> ESM | similarity_score: 1.0000 | LL: -718.98 | AIC: 1575.96 | BIC: 1832.21
+23.8: ESM -> AQUEOUS, ESM -> HSPC | similarity_score: 0.6730 | LL: -766.68 | AIC: 1611.36 | BIC: 1756.20
+23.9: ESM -> AQUEOUS, AQUEOUS -> HSPC | similarity_score: 0.2252 | LL: -892.43 | AIC: 1826.86 | BIC: 1904.85
+23.10: ESM -> AQUEOUS, ESM -> HSPC, AQUEOUS -> HSPC | similarity_score: 1.0000 | LL: -718.98 | AIC: 1575.96 | BIC: 1832.21
+23.11: ESM -> HSPC, HSPC -> AQUEOUS | similarity_score: 0.0277 | LL: -740.90 | AIC: 1563.81 | BIC: 1716.07
+23.12: ESM -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 0.6488 | LL: -881.08 | AIC: 1852.15 | BIC: 2019.27
+23.13: ESM -> HSPC, ESM -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 1.0000 | LL: -718.98 | AIC: 1575.96 | BIC: 1832.21
+23.14: HSPC -> AQUEOUS, HSPC -> ESM | similarity_score: 0.8488 | LL: -740.90 | AIC: 1563.81 | BIC: 1716.07
+23.15: HSPC -> AQUEOUS, AQUEOUS -> ESM | similarity_score: 0.2252 | LL: -892.43 | AIC: 1826.86 | BIC: 1904.85
+23.16: HSPC -> AQUEOUS, HSPC -> ESM, AQUEOUS -> ESM | similarity_score: 1.0000 | LL: -718.98 | AIC: 1575.96 | BIC: 1832.21
+23.17: HSPC -> ESM, ESM -> AQUEOUS | similarity_score: 0.6730 | LL: -766.68 | AIC: 1611.36 | BIC: 1756.20
+23.18: HSPC -> ESM, HSPC -> AQUEOUS, ESM -> AQUEOUS | similarity_score: 1.0000 | LL: -718.98 | AIC: 1575.96 | BIC: 1832.21
+24.1: AQUEOUS -> ESM, AQUEOUS -> CHOL | similarity_score: 0.3445 | LL: -918.88 | AIC: 1871.76 | BIC: 1934.90
+24.2: AQUEOUS -> ESM, ESM -> CHOL | similarity_score: 0.6120 | LL: -794.03 | AIC: 1646.06 | BIC: 1753.76
+24.3: AQUEOUS -> CHOL, ESM -> CHOL | similarity_score: 0.3159 | LL: -762.51 | AIC: 1615.01 | BIC: 1782.13
+24.4: AQUEOUS -> ESM, AQUEOUS -> CHOL, ESM -> CHOL | similarity_score: 1.0000 | LL: -751.93 | AIC: 1601.87 | BIC: 1783.84
+24.5: AQUEOUS -> CHOL, CHOL -> ESM | similarity_score: 0.0363 | LL: -796.83 | AIC: 1651.65 | BIC: 1759.35
+24.6: AQUEOUS -> ESM, CHOL -> ESM | similarity_score: 0.8557 | LL: -759.71 | AIC: 1609.42 | BIC: 1776.54
+24.7: AQUEOUS -> CHOL, AQUEOUS -> ESM, CHOL -> ESM | similarity_score: 1.0000 | LL: -751.93 | AIC: 1601.87 | BIC: 1783.84
+24.8: ESM -> AQUEOUS, ESM -> CHOL | similarity_score: 0.6120 | LL: -794.03 | AIC: 1646.06 | BIC: 1753.76
+24.9: ESM -> AQUEOUS, AQUEOUS -> CHOL | similarity_score: 0.3445 | LL: -918.88 | AIC: 1871.76 | BIC: 1934.90
+24.10: ESM -> AQUEOUS, ESM -> CHOL, AQUEOUS -> CHOL | similarity_score: 1.0000 | LL: -751.93 | AIC: 1601.87 | BIC: 1783.84
+24.11: ESM -> CHOL, CHOL -> AQUEOUS | similarity_score: 0.0611 | LL: -796.83 | AIC: 1651.65 | BIC: 1759.35
+24.12: ESM -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 0.6998 | LL: -884.56 | AIC: 1835.12 | BIC: 1957.68
+24.13: ESM -> CHOL, ESM -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 1.0000 | LL: -751.93 | AIC: 1601.87 | BIC: 1783.84
+24.14: CHOL -> AQUEOUS, CHOL -> ESM | similarity_score: 0.6124 | LL: -796.83 | AIC: 1651.65 | BIC: 1759.35
+24.15: CHOL -> AQUEOUS, AQUEOUS -> ESM | similarity_score: 0.3445 | LL: -918.88 | AIC: 1871.76 | BIC: 1934.90
+24.16: CHOL -> AQUEOUS, CHOL -> ESM, AQUEOUS -> ESM | similarity_score: 1.0000 | LL: -751.93 | AIC: 1601.87 | BIC: 1783.84
+24.17: CHOL -> ESM, ESM -> AQUEOUS | similarity_score: 0.6120 | LL: -794.03 | AIC: 1646.06 | BIC: 1753.76
+24.18: CHOL -> ESM, CHOL -> AQUEOUS, ESM -> AQUEOUS | similarity_score: 1.0000 | LL: -751.93 | AIC: 1601.87 | BIC: 1783.84
+25.1: AQUEOUS -> ESM, AQUEOUS -> PEG | similarity_score: 0.3482 | LL: -822.75 | AIC: 1679.51 | BIC: 1742.64
+25.9: ESM -> AQUEOUS, AQUEOUS -> PEG | similarity_score: 0.3482 | LL: -822.75 | AIC: 1679.51 | BIC: 1742.64
+25.12: ESM -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 0.6482 | LL: -798.10 | AIC: 1662.21 | BIC: 1784.76
+25.15: PEG -> AQUEOUS, AQUEOUS -> ESM | similarity_score: 0.3482 | LL: -822.75 | AIC: 1679.51 | BIC: 1742.64
+26.1: AQUEOUS -> HSPC, AQUEOUS -> CHOL | similarity_score: 0.2591 | LL: -903.39 | AIC: 1848.78 | BIC: 1926.77
+26.2: AQUEOUS -> HSPC, HSPC -> CHOL | similarity_score: 0.7239 | LL: -800.33 | AIC: 1682.66 | BIC: 1834.92
+26.3: AQUEOUS -> CHOL, HSPC -> CHOL | similarity_score: 0.3429 | LL: -817.85 | AIC: 1761.71 | BIC: 1995.67
+26.4: AQUEOUS -> HSPC, AQUEOUS -> CHOL, HSPC -> CHOL | similarity_score: 1.0000 | LL: -781.50 | AIC: 1701.01 | BIC: 1957.26
+26.5: AQUEOUS -> CHOL, CHOL -> HSPC | similarity_score: 0.0382 | LL: -828.90 | AIC: 1735.80 | BIC: 1880.63
+26.6: AQUEOUS -> HSPC, CHOL -> HSPC | similarity_score: 0.8538 | LL: -789.28 | AIC: 1708.56 | BIC: 1949.96
+26.7: AQUEOUS -> CHOL, AQUEOUS -> HSPC, CHOL -> HSPC | similarity_score: 1.0000 | LL: -781.50 | AIC: 1701.01 | BIC: 1957.26
+26.8: HSPC -> AQUEOUS, HSPC -> CHOL | similarity_score: 0.7239 | LL: -800.33 | AIC: 1682.66 | BIC: 1834.92
+26.9: HSPC -> AQUEOUS, AQUEOUS -> CHOL | similarity_score: 0.2591 | LL: -903.39 | AIC: 1848.78 | BIC: 1926.77
+26.10: HSPC -> AQUEOUS, HSPC -> CHOL, AQUEOUS -> CHOL | similarity_score: 1.0000 | LL: -781.50 | AIC: 1701.01 | BIC: 1957.26
+26.11: HSPC -> CHOL, CHOL -> AQUEOUS | similarity_score: 0.0918 | LL: -828.90 | AIC: 1735.80 | BIC: 1880.63
+26.12: HSPC -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 0.7104 | LL: -892.35 | AIC: 1874.69 | BIC: 2041.81
+26.13: HSPC -> CHOL, HSPC -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 1.0000 | LL: -781.50 | AIC: 1701.01 | BIC: 1957.26
+26.14: CHOL -> AQUEOUS, CHOL -> HSPC | similarity_score: 0.6282 | LL: -828.90 | AIC: 1735.80 | BIC: 1880.63
+26.15: CHOL -> AQUEOUS, AQUEOUS -> HSPC | similarity_score: 0.2591 | LL: -903.39 | AIC: 1848.78 | BIC: 1926.77
+26.16: CHOL -> AQUEOUS, CHOL -> HSPC, AQUEOUS -> HSPC | similarity_score: 1.0000 | LL: -781.50 | AIC: 1701.01 | BIC: 1957.26
+26.17: CHOL -> HSPC, HSPC -> AQUEOUS | similarity_score: 0.7239 | LL: -800.33 | AIC: 1682.66 | BIC: 1834.92
+26.18: CHOL -> HSPC, CHOL -> AQUEOUS, HSPC -> AQUEOUS | similarity_score: 1.0000 | LL: -781.50 | AIC: 1701.01 | BIC: 1957.26
+27.1: AQUEOUS -> HSPC, AQUEOUS -> PEG | similarity_score: 0.2464 | LL: -807.26 | AIC: 1656.53 | BIC: 1734.52
+27.9: HSPC -> AQUEOUS, AQUEOUS -> PEG | similarity_score: 0.2464 | LL: -807.26 | AIC: 1656.53 | BIC: 1734.52
+27.12: HSPC -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 0.6146 | LL: -820.08 | AIC: 1730.16 | BIC: 1897.28
+27.15: PEG -> AQUEOUS, AQUEOUS -> HSPC | similarity_score: 0.2464 | LL: -807.26 | AIC: 1656.53 | BIC: 1734.52
+28.1: AQUEOUS -> CHOL, AQUEOUS -> PEG | similarity_score: 0.3411 | LL: -833.72 | AIC: 1701.43 | BIC: 1764.56
+28.2: AQUEOUS -> CHOL, CHOL -> PEG | similarity_score: 0.4873 | LL: -806.12 | AIC: 1670.24 | BIC: 1777.94
+28.3: AQUEOUS -> PEG, CHOL -> PEG | similarity_score: 0.3025 | LL: -722.23 | AIC: 1534.45 | BIC: 1701.57
+28.4: AQUEOUS -> CHOL, AQUEOUS -> PEG, CHOL -> PEG | similarity_score: 1.0000 | LL: -714.45 | AIC: 1526.90 | BIC: 1708.87
+28.5: AQUEOUS -> PEG, PEG -> CHOL | similarity_score: 0.0414 | LL: -741.33 | AIC: 1540.65 | BIC: 1648.35
+28.6: AQUEOUS -> CHOL, PEG -> CHOL | similarity_score: 0.6876 | LL: -787.02 | AIC: 1664.04 | BIC: 1831.16
+28.7: AQUEOUS -> PEG, AQUEOUS -> CHOL, PEG -> CHOL | similarity_score: 1.0000 | LL: -714.45 | AIC: 1526.90 | BIC: 1708.87
+28.8: CHOL -> AQUEOUS, CHOL -> PEG | similarity_score: 0.4873 | LL: -806.12 | AIC: 1670.24 | BIC: 1777.94
+28.9: CHOL -> AQUEOUS, AQUEOUS -> PEG | similarity_score: 0.3411 | LL: -833.72 | AIC: 1701.43 | BIC: 1764.56
+28.10: CHOL -> AQUEOUS, CHOL -> PEG, AQUEOUS -> PEG | similarity_score: 1.0000 | LL: -714.45 | AIC: 1526.90 | BIC: 1708.87
+28.11: CHOL -> PEG, PEG -> AQUEOUS | similarity_score: 0.0426 | LL: -741.33 | AIC: 1540.65 | BIC: 1648.35
+28.12: CHOL -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 0.7222 | LL: -814.62 | AIC: 1695.23 | BIC: 1817.78
+28.13: CHOL -> PEG, CHOL -> AQUEOUS, PEG -> AQUEOUS | similarity_score: 1.0000 | LL: -714.45 | AIC: 1526.90 | BIC: 1708.87
+28.14: PEG -> AQUEOUS, PEG -> CHOL | similarity_score: 0.6925 | LL: -741.33 | AIC: 1540.65 | BIC: 1648.35
+28.15: PEG -> AQUEOUS, AQUEOUS -> CHOL | similarity_score: 0.3411 | LL: -833.72 | AIC: 1701.43 | BIC: 1764.56
+28.16: PEG -> AQUEOUS, PEG -> CHOL, AQUEOUS -> CHOL | similarity_score: 1.0000 | LL: -714.45 | AIC: 1526.90 | BIC: 1708.87
+28.17: PEG -> CHOL, CHOL -> AQUEOUS | similarity_score: 0.4873 | LL: -806.12 | AIC: 1670.24 | BIC: 1777.94
+28.18: PEG -> CHOL, PEG -> AQUEOUS, CHOL -> AQUEOUS | similarity_score: 1.0000 | LL: -714.45 | AIC: 1526.90 | BIC: 1708.87
+29.1: FRR -> SIZE, FRR -> PDI | similarity_score: 0.5850 | LL: -876.02 | AIC: 1792.03 | BIC: 1866.31
+29.2: FRR -> SIZE, SIZE -> PDI | similarity_score: 0.6303 | LL: -825.12 | AIC: 1696.23 | BIC: 1781.65
+29.3: FRR -> PDI, SIZE -> PDI | similarity_score: 0.2985 | LL: -811.13 | AIC: 1704.26 | BIC: 1856.52
+29.4: FRR -> SIZE, FRR -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -802.94 | AIC: 1699.87 | BIC: 1874.42
+29.5: FRR -> PDI, PDI -> SIZE | similarity_score: 0.0195 | LL: -816.63 | AIC: 1679.27 | BIC: 1764.68
+29.6: FRR -> SIZE, PDI -> SIZE | similarity_score: 0.7810 | LL: -819.61 | AIC: 1721.23 | BIC: 1873.49
+29.7: FRR -> PDI, FRR -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -802.94 | AIC: 1699.87 | BIC: 1874.42
+30.1: FRR -> SIZE, FRR -> TFR | similarity_score: 0.6201 | LL: -947.70 | AIC: 1953.40 | BIC: 2061.10
+30.2: FRR -> TFR, TFR -> SIZE | similarity_score: 0.0273 | LL: -913.82 | AIC: 1909.63 | BIC: 2061.90
+30.3: FRR -> SIZE, TFR -> SIZE | similarity_score: 0.7983 | LL: -937.05 | AIC: 2016.11 | BIC: 2279.78
+30.4: FRR -> TFR, FRR -> SIZE, TFR -> SIZE | similarity_score: 1.0000 | LL: -902.01 | AIC: 1970.03 | BIC: 2278.27
+30.5: TFR -> FRR, TFR -> SIZE | similarity_score: 0.6933 | LL: -913.82 | AIC: 1909.63 | BIC: 2061.90
+30.6: TFR -> FRR, FRR -> SIZE | similarity_score: 0.6201 | LL: -947.70 | AIC: 1953.40 | BIC: 2061.10
+30.7: TFR -> FRR, TFR -> SIZE, FRR -> SIZE | similarity_score: 1.0000 | LL: -902.01 | AIC: 1970.03 | BIC: 2278.27
+31.1: FRR -> SIZE, FRR -> ESM | similarity_score: 0.6787 | LL: -847.19 | AIC: 1740.38 | BIC: 1825.80
+31.2: FRR -> ESM, ESM -> SIZE | similarity_score: 0.0387 | LL: -775.98 | AIC: 1609.95 | BIC: 1717.65
+31.3: FRR -> SIZE, ESM -> SIZE | similarity_score: 0.8484 | LL: -783.07 | AIC: 1668.14 | BIC: 1857.54
+31.4: FRR -> ESM, FRR -> SIZE, ESM -> SIZE | similarity_score: 1.0000 | LL: -767.85 | AIC: 1653.70 | BIC: 1872.81
+31.5: ESM -> FRR, ESM -> SIZE | similarity_score: 0.7383 | LL: -775.98 | AIC: 1609.95 | BIC: 1717.65
+31.6: ESM -> FRR, FRR -> SIZE | similarity_score: 0.6787 | LL: -847.19 | AIC: 1740.38 | BIC: 1825.80
+31.7: ESM -> FRR, ESM -> SIZE, FRR -> SIZE | similarity_score: 1.0000 | LL: -767.85 | AIC: 1653.70 | BIC: 1872.81
+32.1: FRR -> SIZE, FRR -> HSPC | similarity_score: 0.4922 | LL: -852.73 | AIC: 1763.47 | BIC: 1871.17
+32.2: FRR -> HSPC, HSPC -> SIZE | similarity_score: 0.0183 | LL: -791.19 | AIC: 1664.37 | BIC: 1816.64
+32.3: FRR -> SIZE, HSPC -> SIZE | similarity_score: 0.8645 | LL: -803.91 | AIC: 1749.83 | BIC: 2013.50
+32.4: FRR -> HSPC, FRR -> SIZE, HSPC -> SIZE | similarity_score: 1.0000 | LL: -783.95 | AIC: 1733.90 | BIC: 2042.14
+32.5: HSPC -> FRR, HSPC -> SIZE | similarity_score: 0.6718 | LL: -791.19 | AIC: 1664.37 | BIC: 1816.64
+32.6: HSPC -> FRR, FRR -> SIZE | similarity_score: 0.4922 | LL: -852.73 | AIC: 1763.47 | BIC: 1871.17
+32.7: HSPC -> FRR, HSPC -> SIZE, FRR -> SIZE | similarity_score: 1.0000 | LL: -783.95 | AIC: 1733.90 | BIC: 2042.14
+33.1: FRR -> SIZE, FRR -> CHOL | similarity_score: 0.5444 | LL: -853.56 | AIC: 1753.12 | BIC: 1838.54
+33.2: FRR -> CHOL, CHOL -> SIZE | similarity_score: 0.0397 | LL: -809.40 | AIC: 1676.81 | BIC: 1784.50
+33.3: FRR -> SIZE, CHOL -> SIZE | similarity_score: 0.8025 | LL: -812.28 | AIC: 1726.57 | BIC: 1915.97
+33.4: FRR -> CHOL, FRR -> SIZE, CHOL -> SIZE | similarity_score: 1.0000 | LL: -795.27 | AIC: 1708.54 | BIC: 1927.65
+33.5: CHOL -> FRR, CHOL -> SIZE | similarity_score: 0.6570 | LL: -809.40 | AIC: 1676.81 | BIC: 1784.50
+33.6: CHOL -> FRR, FRR -> SIZE | similarity_score: 0.5444 | LL: -853.56 | AIC: 1753.12 | BIC: 1838.54
+33.7: CHOL -> FRR, CHOL -> SIZE, FRR -> SIZE | similarity_score: 1.0000 | LL: -795.27 | AIC: 1708.54 | BIC: 1927.65
+34.1: FRR -> SIZE, FRR -> PEG | similarity_score: 0.6342 | LL: -824.34 | AIC: 1694.68 | BIC: 1780.09
+34.2: FRR -> PEG, PEG -> SIZE | similarity_score: 0.0222 | LL: -759.82 | AIC: 1577.64 | BIC: 1685.34
+34.3: FRR -> SIZE, PEG -> SIZE | similarity_score: 0.9155 | LL: -769.41 | AIC: 1640.82 | BIC: 1830.22
+34.4: FRR -> PEG, FRR -> SIZE, PEG -> SIZE | similarity_score: 1.0000 | LL: -754.50 | AIC: 1627.01 | BIC: 1846.12
+34.5: PEG -> FRR, PEG -> SIZE | similarity_score: 0.7732 | LL: -759.82 | AIC: 1577.64 | BIC: 1685.34
+34.6: PEG -> FRR, FRR -> SIZE | similarity_score: 0.6342 | LL: -824.34 | AIC: 1694.68 | BIC: 1780.09
+34.7: PEG -> FRR, PEG -> SIZE, FRR -> SIZE | similarity_score: 1.0000 | LL: -754.50 | AIC: 1627.01 | BIC: 1846.12
+35.1: FRR -> PDI, FRR -> TFR | similarity_score: 0.7020 | LL: -971.41 | AIC: 2000.82 | BIC: 2108.52
+35.2: FRR -> TFR, TFR -> PDI | similarity_score: 0.0218 | LL: -971.71 | AIC: 2025.43 | BIC: 2177.69
+35.3: FRR -> PDI, TFR -> PDI | similarity_score: 0.7556 | LL: -989.42 | AIC: 2120.85 | BIC: 2384.52
+35.4: FRR -> TFR, FRR -> PDI, TFR -> PDI | similarity_score: 1.0000 | LL: -954.38 | AIC: 2074.77 | BIC: 2383.01
+35.5: TFR -> FRR, TFR -> PDI | similarity_score: 0.7515 | LL: -971.71 | AIC: 2025.43 | BIC: 2177.69
+35.6: TFR -> FRR, FRR -> PDI | similarity_score: 0.7020 | LL: -971.41 | AIC: 2000.82 | BIC: 2108.52
+35.7: TFR -> FRR, TFR -> PDI, FRR -> PDI | similarity_score: 1.0000 | LL: -954.38 | AIC: 2074.77 | BIC: 2383.01
+36.1: FRR -> PDI, FRR -> ESM | similarity_score: 0.6215 | LL: -870.90 | AIC: 1787.80 | BIC: 1873.22
+36.2: FRR -> ESM, ESM -> PDI | similarity_score: 0.0375 | LL: -811.57 | AIC: 1681.13 | BIC: 1788.83
+36.3: FRR -> PDI, ESM -> PDI | similarity_score: 0.8493 | LL: -805.77 | AIC: 1713.55 | BIC: 1902.95
+36.4: FRR -> ESM, FRR -> PDI, ESM -> PDI | similarity_score: 1.0000 | LL: -790.56 | AIC: 1699.11 | BIC: 1918.22
+36.5: ESM -> FRR, ESM -> PDI | similarity_score: 0.6968 | LL: -811.57 | AIC: 1681.13 | BIC: 1788.83
+36.6: ESM -> FRR, FRR -> PDI | similarity_score: 0.6215 | LL: -870.90 | AIC: 1787.80 | BIC: 1873.22
+36.7: ESM -> FRR, ESM -> PDI, FRR -> PDI | similarity_score: 1.0000 | LL: -790.56 | AIC: 1699.11 | BIC: 1918.22
+37.1: FRR -> PDI, FRR -> HSPC | similarity_score: 0.5133 | LL: -876.44 | AIC: 1810.89 | BIC: 1918.59
+37.2: FRR -> HSPC, HSPC -> PDI | similarity_score: 0.0303 | LL: -805.25 | AIC: 1692.50 | BIC: 1844.76
+37.3: FRR -> PDI, HSPC -> PDI | similarity_score: 0.8363 | LL: -804.22 | AIC: 1750.43 | BIC: 2014.11
+37.4: FRR -> HSPC, FRR -> PDI, HSPC -> PDI | similarity_score: 1.0000 | LL: -784.25 | AIC: 1734.51 | BIC: 2042.75
+37.5: HSPC -> FRR, HSPC -> PDI | similarity_score: 0.7213 | LL: -805.25 | AIC: 1692.50 | BIC: 1844.76
+37.6: HSPC -> FRR, FRR -> PDI | similarity_score: 0.5133 | LL: -876.44 | AIC: 1810.89 | BIC: 1918.59
+37.7: HSPC -> FRR, HSPC -> PDI, FRR -> PDI | similarity_score: 1.0000 | LL: -784.25 | AIC: 1734.51 | BIC: 2042.75
+38.1: FRR -> PDI, FRR -> CHOL | similarity_score: 0.4780 | LL: -877.27 | AIC: 1800.54 | BIC: 1885.96
+38.2: FRR -> CHOL, CHOL -> PDI | similarity_score: 0.0374 | LL: -827.43 | AIC: 1712.87 | BIC: 1820.57
+38.3: FRR -> PDI, CHOL -> PDI | similarity_score: 0.8523 | LL: -826.55 | AIC: 1755.10 | BIC: 1944.50
+38.4: FRR -> CHOL, FRR -> PDI, CHOL -> PDI | similarity_score: 1.0000 | LL: -809.53 | AIC: 1737.07 | BIC: 1956.18
+38.5: CHOL -> FRR, CHOL -> PDI | similarity_score: 0.6335 | LL: -827.43 | AIC: 1712.87 | BIC: 1820.57
+38.6: CHOL -> FRR, FRR -> PDI | similarity_score: 0.4780 | LL: -877.27 | AIC: 1800.54 | BIC: 1885.96
+38.7: CHOL -> FRR, CHOL -> PDI, FRR -> PDI | similarity_score: 1.0000 | LL: -809.53 | AIC: 1737.07 | BIC: 1956.18
+39.1: FRR -> PDI, FRR -> PEG | similarity_score: 0.6548 | LL: -848.05 | AIC: 1742.10 | BIC: 1827.51
+39.2: FRR -> PEG, PEG -> PDI | similarity_score: 0.0329 | LL: -782.00 | AIC: 1622.01 | BIC: 1729.70
+39.3: FRR -> PDI, PEG -> PDI | similarity_score: 0.9026 | LL: -780.63 | AIC: 1663.27 | BIC: 1852.67
+39.4: FRR -> PEG, FRR -> PDI, PEG -> PDI | similarity_score: 1.0000 | LL: -765.73 | AIC: 1649.46 | BIC: 1868.57
+39.5: PEG -> FRR, PEG -> PDI | similarity_score: 0.7540 | LL: -782.00 | AIC: 1622.01 | BIC: 1729.70
+39.6: PEG -> FRR, FRR -> PDI | similarity_score: 0.6548 | LL: -848.05 | AIC: 1742.10 | BIC: 1827.51
+39.7: PEG -> FRR, PEG -> PDI, FRR -> PDI | similarity_score: 1.0000 | LL: -765.73 | AIC: 1649.46 | BIC: 1868.57
+40.1: FRR -> TFR, FRR -> ESM | similarity_score: 0.6274 | LL: -942.59 | AIC: 1949.17 | BIC: 2068.01
+40.2: FRR -> TFR, TFR -> ESM | similarity_score: 0.6692 | LL: -929.45 | AIC: 1954.89 | BIC: 2133.15
+40.3: FRR -> ESM, TFR -> ESM | similarity_score: 0.2857 | LL: -950.20 | AIC: 2084.40 | BIC: 2426.07
+40.4: FRR -> TFR, FRR -> ESM, TFR -> ESM | similarity_score: 1.0000 | LL: -915.16 | AIC: 2038.32 | BIC: 2424.55
+40.5: FRR -> ESM, ESM -> TFR | similarity_score: 0.0278 | LL: -949.27 | AIC: 1986.53 | BIC: 2149.94
+40.6: FRR -> TFR, ESM -> TFR | similarity_score: 0.8980 | LL: -930.38 | AIC: 2052.76 | BIC: 2409.28
+40.7: FRR -> ESM, FRR -> TFR, ESM -> TFR | similarity_score: 1.0000 | LL: -915.16 | AIC: 2038.32 | BIC: 2424.55
+40.8: TFR -> FRR, TFR -> ESM | similarity_score: 0.6692 | LL: -929.45 | AIC: 1954.89 | BIC: 2133.15
+40.9: TFR -> FRR, FRR -> ESM | similarity_score: 0.6274 | LL: -942.59 | AIC: 1949.17 | BIC: 2068.01
+40.10: TFR -> FRR, TFR -> ESM, FRR -> ESM | similarity_score: 1.0000 | LL: -915.16 | AIC: 2038.32 | BIC: 2424.55
+40.11: TFR -> ESM, ESM -> FRR | similarity_score: 0.0630 | LL: -949.27 | AIC: 1986.53 | BIC: 2149.94
+40.12: TFR -> FRR, ESM -> FRR | similarity_score: 0.8107 | LL: -943.52 | AIC: 2047.04 | BIC: 2344.14
+40.13: TFR -> ESM, TFR -> FRR, ESM -> FRR | similarity_score: 1.0000 | LL: -915.16 | AIC: 2038.32 | BIC: 2424.55
+40.14: ESM -> FRR, ESM -> TFR | similarity_score: 0.5915 | LL: -949.27 | AIC: 1986.53 | BIC: 2149.94
+40.15: ESM -> FRR, FRR -> TFR | similarity_score: 0.6274 | LL: -942.59 | AIC: 1949.17 | BIC: 2068.01
+40.16: ESM -> FRR, ESM -> TFR, FRR -> TFR | similarity_score: 1.0000 | LL: -915.16 | AIC: 2038.32 | BIC: 2424.55
+40.17: ESM -> TFR, TFR -> FRR | similarity_score: 0.6692 | LL: -929.45 | AIC: 1954.89 | BIC: 2133.15
+40.18: ESM -> TFR, ESM -> FRR, TFR -> FRR | similarity_score: 1.0000 | LL: -915.16 | AIC: 2038.32 | BIC: 2424.55
+41.1: FRR -> TFR, FRR -> HSPC | similarity_score: 0.4826 | LL: -948.13 | AIC: 1972.26 | BIC: 2113.38
+41.2: FRR -> TFR, TFR -> HSPC | similarity_score: 0.7285 | LL: -919.11 | AIC: 1962.21 | BIC: 2192.47
+41.3: FRR -> HSPC, TFR -> HSPC | similarity_score: 0.2905 | LL: -937.77 | AIC: 2143.53 | BIC: 2641.17
+41.4: FRR -> TFR, FRR -> HSPC, TFR -> HSPC | similarity_score: 1.0000 | LL: -902.73 | AIC: 2097.45 | BIC: 2639.66
+41.5: FRR -> HSPC, HSPC -> TFR | similarity_score: 0.0170 | LL: -934.19 | AIC: 1992.37 | BIC: 2222.62
+41.6: FRR -> TFR, HSPC -> TFR | similarity_score: 0.8548 | LL: -922.69 | AIC: 2113.38 | BIC: 2611.02
+41.7: FRR -> HSPC, FRR -> TFR, HSPC -> TFR | similarity_score: 1.0000 | LL: -902.73 | AIC: 2097.45 | BIC: 2639.66
+41.8: TFR -> FRR, TFR -> HSPC | similarity_score: 0.7285 | LL: -919.11 | AIC: 1962.21 | BIC: 2192.47
+41.9: TFR -> FRR, FRR -> HSPC | similarity_score: 0.4826 | LL: -948.13 | AIC: 1972.26 | BIC: 2113.38
+41.10: TFR -> FRR, TFR -> HSPC, FRR -> HSPC | similarity_score: 1.0000 | LL: -902.73 | AIC: 2097.45 | BIC: 2639.66
+41.11: TFR -> HSPC, HSPC -> FRR | similarity_score: 0.0503 | LL: -934.19 | AIC: 1992.37 | BIC: 2222.62
+41.12: TFR -> FRR, HSPC -> FRR | similarity_score: 0.7601 | LL: -951.71 | AIC: 2123.42 | BIC: 2531.93
+41.13: TFR -> HSPC, TFR -> FRR, HSPC -> FRR | similarity_score: 1.0000 | LL: -902.73 | AIC: 2097.45 | BIC: 2639.66
+41.14: HSPC -> FRR, HSPC -> TFR | similarity_score: 0.5500 | LL: -934.19 | AIC: 1992.37 | BIC: 2222.62
+41.15: HSPC -> FRR, FRR -> TFR | similarity_score: 0.4826 | LL: -948.13 | AIC: 1972.26 | BIC: 2113.38
+41.16: HSPC -> FRR, HSPC -> TFR, FRR -> TFR | similarity_score: 1.0000 | LL: -902.73 | AIC: 2097.45 | BIC: 2639.66
+41.17: HSPC -> TFR, TFR -> FRR | similarity_score: 0.7285 | LL: -919.11 | AIC: 1962.21 | BIC: 2192.47
+41.18: HSPC -> TFR, HSPC -> FRR, TFR -> FRR | similarity_score: 1.0000 | LL: -902.73 | AIC: 2097.45 | BIC: 2639.66
+42.1: FRR -> TFR, FRR -> CHOL | similarity_score: 0.5611 | LL: -948.96 | AIC: 1961.91 | BIC: 2080.75
+42.2: FRR -> TFR, TFR -> CHOL | similarity_score: 0.6856 | LL: -917.74 | AIC: 1931.48 | BIC: 2109.74
+42.3: FRR -> CHOL, TFR -> CHOL | similarity_score: 0.2877 | LL: -940.09 | AIC: 2064.17 | BIC: 2405.84
+42.4: FRR -> TFR, FRR -> CHOL, TFR -> CHOL | similarity_score: 1.0000 | LL: -905.05 | AIC: 2018.09 | BIC: 2404.32
+42.5: FRR -> CHOL, CHOL -> TFR | similarity_score: 0.0315 | LL: -935.77 | AIC: 1959.53 | BIC: 2122.94
+42.6: FRR -> TFR, CHOL -> TFR | similarity_score: 0.8527 | LL: -922.06 | AIC: 2036.12 | BIC: 2392.64
+42.7: FRR -> CHOL, FRR -> TFR, CHOL -> TFR | similarity_score: 1.0000 | LL: -905.05 | AIC: 2018.09 | BIC: 2404.32
+42.8: TFR -> FRR, TFR -> CHOL | similarity_score: 0.6856 | LL: -917.74 | AIC: 1931.48 | BIC: 2109.74
+42.9: TFR -> FRR, FRR -> CHOL | similarity_score: 0.5611 | LL: -948.96 | AIC: 1961.91 | BIC: 2080.75
+42.10: TFR -> FRR, TFR -> CHOL, FRR -> CHOL | similarity_score: 1.0000 | LL: -905.05 | AIC: 2018.09 | BIC: 2404.32
+42.11: TFR -> CHOL, CHOL -> FRR | similarity_score: 0.0690 | LL: -935.77 | AIC: 1959.53 | BIC: 2122.94
+42.12: TFR -> FRR, CHOL -> FRR | similarity_score: 0.7444 | LL: -953.28 | AIC: 2066.55 | BIC: 2363.65
+42.13: TFR -> CHOL, TFR -> FRR, CHOL -> FRR | similarity_score: 1.0000 | LL: -905.05 | AIC: 2018.09 | BIC: 2404.32
+42.14: CHOL -> FRR, CHOL -> TFR | similarity_score: 0.5414 | LL: -935.77 | AIC: 1959.53 | BIC: 2122.94
+42.15: CHOL -> FRR, FRR -> TFR | similarity_score: 0.5611 | LL: -948.96 | AIC: 1961.91 | BIC: 2080.75
+42.16: CHOL -> FRR, CHOL -> TFR, FRR -> TFR | similarity_score: 1.0000 | LL: -905.05 | AIC: 2018.09 | BIC: 2404.32
+42.17: CHOL -> TFR, TFR -> FRR | similarity_score: 0.6856 | LL: -917.74 | AIC: 1931.48 | BIC: 2109.74
+42.18: CHOL -> TFR, CHOL -> FRR, TFR -> FRR | similarity_score: 1.0000 | LL: -905.05 | AIC: 2018.09 | BIC: 2404.32
+43.1: FRR -> TFR, FRR -> PEG | similarity_score: 0.4713 | LL: -919.73 | AIC: 1903.47 | BIC: 2022.31
+43.2: FRR -> TFR, TFR -> PEG | similarity_score: 0.7212 | LL: -854.91 | AIC: 1805.83 | BIC: 1984.09
+43.3: FRR -> PEG, TFR -> PEG | similarity_score: 0.2554 | LL: -875.73 | AIC: 1935.47 | BIC: 2277.13
+43.4: FRR -> TFR, FRR -> PEG, TFR -> PEG | similarity_score: 1.0000 | LL: -840.69 | AIC: 1889.39 | BIC: 2275.61
+43.5: FRR -> PEG, PEG -> TFR | similarity_score: 0.0252 | LL: -875.05 | AIC: 1838.09 | BIC: 2001.50
+43.6: FRR -> TFR, PEG -> TFR | similarity_score: 0.9298 | LL: -855.60 | AIC: 1903.20 | BIC: 2259.72
+43.7: FRR -> PEG, FRR -> TFR, PEG -> TFR | similarity_score: 1.0000 | LL: -840.69 | AIC: 1889.39 | BIC: 2275.61
+43.8: TFR -> FRR, TFR -> PEG | similarity_score: 0.7212 | LL: -854.91 | AIC: 1805.83 | BIC: 1984.09
+43.9: TFR -> FRR, FRR -> PEG | similarity_score: 0.4713 | LL: -919.73 | AIC: 1903.47 | BIC: 2022.31
+43.10: TFR -> FRR, TFR -> PEG, FRR -> PEG | similarity_score: 1.0000 | LL: -840.69 | AIC: 1889.39 | BIC: 2275.61
+43.11: TFR -> PEG, PEG -> FRR | similarity_score: 0.0879 | LL: -875.05 | AIC: 1838.09 | BIC: 2001.50
+43.12: TFR -> FRR, PEG -> FRR | similarity_score: 0.7858 | LL: -920.42 | AIC: 2000.84 | BIC: 2297.94
+43.13: TFR -> PEG, TFR -> FRR, PEG -> FRR | similarity_score: 1.0000 | LL: -840.69 | AIC: 1889.39 | BIC: 2275.61
+43.14: PEG -> FRR, PEG -> TFR | similarity_score: 0.5685 | LL: -875.05 | AIC: 1838.09 | BIC: 2001.50
+43.15: PEG -> FRR, FRR -> TFR | similarity_score: 0.4713 | LL: -919.73 | AIC: 1903.47 | BIC: 2022.31
+43.16: PEG -> FRR, PEG -> TFR, FRR -> TFR | similarity_score: 1.0000 | LL: -840.69 | AIC: 1889.39 | BIC: 2275.61
+43.17: PEG -> TFR, TFR -> FRR | similarity_score: 0.7212 | LL: -854.91 | AIC: 1805.83 | BIC: 1984.09
+43.18: PEG -> TFR, PEG -> FRR, TFR -> FRR | similarity_score: 1.0000 | LL: -840.69 | AIC: 1889.39 | BIC: 2275.61
+44.1: FRR -> ESM, FRR -> HSPC | similarity_score: 0.2573 | LL: -847.62 | AIC: 1759.24 | BIC: 1878.08
+44.2: FRR -> ESM, ESM -> HSPC | similarity_score: 0.5624 | LL: -705.48 | AIC: 1498.97 | BIC: 1662.37
+44.3: FRR -> HSPC, ESM -> HSPC | similarity_score: 0.3773 | LL: -707.82 | AIC: 1607.65 | BIC: 1964.17
+44.4: FRR -> ESM, FRR -> HSPC, ESM -> HSPC | similarity_score: 1.0000 | LL: -692.61 | AIC: 1593.21 | BIC: 1979.44
+44.5: FRR -> HSPC, HSPC -> ESM | similarity_score: 0.0265 | LL: -700.74 | AIC: 1497.48 | BIC: 1675.74
+44.6: FRR -> ESM, HSPC -> ESM | similarity_score: 0.8500 | LL: -712.57 | AIC: 1609.13 | BIC: 1950.80
+44.7: FRR -> HSPC, FRR -> ESM, HSPC -> ESM | similarity_score: 1.0000 | LL: -692.61 | AIC: 1593.21 | BIC: 1979.44
+44.8: ESM -> FRR, ESM -> HSPC | similarity_score: 0.5624 | LL: -705.48 | AIC: 1498.97 | BIC: 1662.37
+44.9: ESM -> FRR, FRR -> HSPC | similarity_score: 0.2573 | LL: -847.62 | AIC: 1759.24 | BIC: 1878.08
+44.10: ESM -> FRR, ESM -> HSPC, FRR -> HSPC | similarity_score: 1.0000 | LL: -692.61 | AIC: 1593.21 | BIC: 1979.44
+44.11: ESM -> HSPC, HSPC -> FRR | similarity_score: 0.0331 | LL: -700.74 | AIC: 1497.48 | BIC: 1675.74
+44.12: ESM -> FRR, HSPC -> FRR | similarity_score: 0.6676 | LL: -854.70 | AIC: 1869.41 | BIC: 2166.50
+44.13: ESM -> HSPC, ESM -> FRR, HSPC -> FRR | similarity_score: 1.0000 | LL: -692.61 | AIC: 1593.21 | BIC: 1979.44
+44.14: HSPC -> FRR, HSPC -> ESM | similarity_score: 0.7882 | LL: -700.74 | AIC: 1497.48 | BIC: 1675.74
+44.15: HSPC -> FRR, FRR -> ESM | similarity_score: 0.2573 | LL: -847.62 | AIC: 1759.24 | BIC: 1878.08
+44.16: HSPC -> FRR, HSPC -> ESM, FRR -> ESM | similarity_score: 1.0000 | LL: -692.61 | AIC: 1593.21 | BIC: 1979.44
+44.17: HSPC -> ESM, ESM -> FRR | similarity_score: 0.5624 | LL: -705.48 | AIC: 1498.97 | BIC: 1662.37
+44.18: HSPC -> ESM, HSPC -> FRR, ESM -> FRR | similarity_score: 1.0000 | LL: -692.61 | AIC: 1593.21 | BIC: 1979.44
+45.1: FRR -> ESM, FRR -> CHOL | similarity_score: 0.4715 | LL: -848.45 | AIC: 1748.89 | BIC: 1845.45
+45.2: FRR -> ESM, ESM -> CHOL | similarity_score: 0.6778 | LL: -732.83 | AIC: 1533.67 | BIC: 1659.93
+45.3: FRR -> CHOL, ESM -> CHOL | similarity_score: 0.2416 | LL: -735.21 | AIC: 1602.42 | BIC: 1847.53
+45.4: FRR -> ESM, FRR -> CHOL, ESM -> CHOL | similarity_score: 1.0000 | LL: -719.99 | AIC: 1587.98 | BIC: 1862.80
+45.5: FRR -> CHOL, CHOL -> ESM | similarity_score: 0.0222 | LL: -731.04 | AIC: 1530.07 | BIC: 1656.34
+45.6: FRR -> ESM, CHOL -> ESM | similarity_score: 0.8383 | LL: -737.01 | AIC: 1606.01 | BIC: 1851.12
+45.7: FRR -> CHOL, FRR -> ESM, CHOL -> ESM | similarity_score: 1.0000 | LL: -719.99 | AIC: 1587.98 | BIC: 1862.80
+45.8: ESM -> FRR, ESM -> CHOL | similarity_score: 0.6778 | LL: -732.83 | AIC: 1533.67 | BIC: 1659.93
+45.9: ESM -> FRR, FRR -> CHOL | similarity_score: 0.4715 | LL: -848.45 | AIC: 1748.89 | BIC: 1845.45
+45.10: ESM -> FRR, ESM -> CHOL, FRR -> CHOL | similarity_score: 1.0000 | LL: -719.99 | AIC: 1587.98 | BIC: 1862.80
+45.11: ESM -> CHOL, CHOL -> FRR | similarity_score: 0.0460 | LL: -731.04 | AIC: 1530.07 | BIC: 1656.34
+45.12: ESM -> FRR, CHOL -> FRR | similarity_score: 0.7064 | LL: -852.62 | AIC: 1821.24 | BIC: 2036.64
+45.13: ESM -> CHOL, ESM -> FRR, CHOL -> FRR | similarity_score: 1.0000 | LL: -719.99 | AIC: 1587.98 | BIC: 1862.80
+45.14: CHOL -> FRR, CHOL -> ESM | similarity_score: 0.6311 | LL: -731.04 | AIC: 1530.07 | BIC: 1656.34
+45.15: CHOL -> FRR, FRR -> ESM | similarity_score: 0.4715 | LL: -848.45 | AIC: 1748.89 | BIC: 1845.45
+45.16: CHOL -> FRR, CHOL -> ESM, FRR -> ESM | similarity_score: 1.0000 | LL: -719.99 | AIC: 1587.98 | BIC: 1862.80
+45.17: CHOL -> ESM, ESM -> FRR | similarity_score: 0.6778 | LL: -732.83 | AIC: 1533.67 | BIC: 1659.93
+45.18: CHOL -> ESM, CHOL -> FRR, ESM -> FRR | similarity_score: 1.0000 | LL: -719.99 | AIC: 1587.98 | BIC: 1862.80
+46.1: FRR -> ESM, FRR -> PEG | similarity_score: 0.4417 | LL: -819.22 | AIC: 1690.45 | BIC: 1787.00
+46.9: ESM -> FRR, FRR -> PEG | similarity_score: 0.4417 | LL: -819.22 | AIC: 1690.45 | BIC: 1787.00
+46.12: ESM -> FRR, PEG -> FRR | similarity_score: 0.6488 | LL: -824.43 | AIC: 1764.86 | BIC: 1980.25
+46.15: PEG -> FRR, FRR -> ESM | similarity_score: 0.4417 | LL: -819.22 | AIC: 1690.45 | BIC: 1787.00
+47.1: FRR -> HSPC, FRR -> CHOL | similarity_score: 0.3044 | LL: -853.99 | AIC: 1771.98 | BIC: 1890.82
+47.2: FRR -> HSPC, HSPC -> CHOL | similarity_score: 0.7162 | LL: -760.16 | AIC: 1616.33 | BIC: 1794.59
+47.3: FRR -> CHOL, HSPC -> CHOL | similarity_score: 0.2323 | LL: -758.74 | AIC: 1701.49 | BIC: 2043.15
+47.4: FRR -> HSPC, FRR -> CHOL, HSPC -> CHOL | similarity_score: 1.0000 | LL: -738.78 | AIC: 1685.57 | BIC: 2071.79
+47.5: FRR -> CHOL, CHOL -> HSPC | similarity_score: 0.0390 | LL: -763.11 | AIC: 1614.22 | BIC: 1777.62
+47.6: FRR -> HSPC, CHOL -> HSPC | similarity_score: 0.8360 | LL: -755.80 | AIC: 1703.60 | BIC: 2060.11
+47.7: FRR -> CHOL, FRR -> HSPC, CHOL -> HSPC | similarity_score: 1.0000 | LL: -738.78 | AIC: 1685.57 | BIC: 2071.79
+47.8: HSPC -> FRR, HSPC -> CHOL | similarity_score: 0.7162 | LL: -760.16 | AIC: 1616.33 | BIC: 1794.59
+47.9: HSPC -> FRR, FRR -> CHOL | similarity_score: 0.3044 | LL: -853.99 | AIC: 1771.98 | BIC: 1890.82
+47.10: HSPC -> FRR, HSPC -> CHOL, FRR -> CHOL | similarity_score: 1.0000 | LL: -738.78 | AIC: 1685.57 | BIC: 2071.79
+47.11: HSPC -> CHOL, CHOL -> FRR | similarity_score: 0.0469 | LL: -763.11 | AIC: 1614.22 | BIC: 1777.62
+47.12: HSPC -> FRR, CHOL -> FRR | similarity_score: 0.7124 | LL: -849.62 | AIC: 1859.25 | BIC: 2156.35
+47.13: HSPC -> CHOL, HSPC -> FRR, CHOL -> FRR | similarity_score: 1.0000 | LL: -738.78 | AIC: 1685.57 | BIC: 2071.79
+47.14: CHOL -> FRR, CHOL -> HSPC | similarity_score: 0.6018 | LL: -763.11 | AIC: 1614.22 | BIC: 1777.62
+47.15: CHOL -> FRR, FRR -> HSPC | similarity_score: 0.3044 | LL: -853.99 | AIC: 1771.98 | BIC: 1890.82
+47.16: CHOL -> FRR, CHOL -> HSPC, FRR -> HSPC | similarity_score: 1.0000 | LL: -738.78 | AIC: 1685.57 | BIC: 2071.79
+47.17: CHOL -> HSPC, HSPC -> FRR | similarity_score: 0.7162 | LL: -760.16 | AIC: 1616.33 | BIC: 1794.59
+47.18: CHOL -> HSPC, CHOL -> FRR, HSPC -> FRR | similarity_score: 1.0000 | LL: -738.78 | AIC: 1685.57 | BIC: 2071.79
+48.1: FRR -> HSPC, FRR -> PEG | similarity_score: 0.3155 | LL: -824.77 | AIC: 1713.53 | BIC: 1832.37
+48.9: HSPC -> FRR, FRR -> PEG | similarity_score: 0.3155 | LL: -824.77 | AIC: 1713.53 | BIC: 1832.37
+48.12: HSPC -> FRR, PEG -> FRR | similarity_score: 0.6123 | LL: -835.48 | AIC: 1830.95 | BIC: 2128.05
+48.15: PEG -> FRR, FRR -> HSPC | similarity_score: 0.3155 | LL: -824.77 | AIC: 1713.53 | BIC: 1832.37
+49.1: FRR -> CHOL, FRR -> PEG | similarity_score: 0.4552 | LL: -825.59 | AIC: 1703.19 | BIC: 1799.74
+49.2: FRR -> CHOL, CHOL -> PEG | similarity_score: 0.6105 | LL: -740.33 | AIC: 1548.67 | BIC: 1674.93
+49.3: FRR -> PEG, CHOL -> PEG | similarity_score: 0.3582 | LL: -744.50 | AIC: 1621.01 | BIC: 1866.12
+49.4: FRR -> CHOL, FRR -> PEG, CHOL -> PEG | similarity_score: 1.0000 | LL: -727.49 | AIC: 1602.98 | BIC: 1877.80
+49.5: FRR -> PEG, PEG -> CHOL | similarity_score: 0.0234 | LL: -742.44 | AIC: 1552.88 | BIC: 1679.15
+49.6: FRR -> CHOL, PEG -> CHOL | similarity_score: 0.9126 | LL: -742.40 | AIC: 1616.79 | BIC: 1861.90
+49.7: FRR -> PEG, FRR -> CHOL, PEG -> CHOL | similarity_score: 1.0000 | LL: -727.49 | AIC: 1602.98 | BIC: 1877.80
+49.8: CHOL -> FRR, CHOL -> PEG | similarity_score: 0.6105 | LL: -740.33 | AIC: 1548.67 | BIC: 1674.93
+49.9: CHOL -> FRR, FRR -> PEG | similarity_score: 0.4552 | LL: -825.59 | AIC: 1703.19 | BIC: 1799.74
+49.10: CHOL -> FRR, CHOL -> PEG, FRR -> PEG | similarity_score: 1.0000 | LL: -727.49 | AIC: 1602.98 | BIC: 1877.80
+49.11: CHOL -> PEG, PEG -> FRR | similarity_score: 0.0691 | LL: -742.44 | AIC: 1552.88 | BIC: 1679.15
+49.12: CHOL -> FRR, PEG -> FRR | similarity_score: 0.7311 | LL: -827.66 | AIC: 1771.31 | BIC: 1986.71
+49.13: CHOL -> PEG, CHOL -> FRR, PEG -> FRR | similarity_score: 1.0000 | LL: -727.49 | AIC: 1602.98 | BIC: 1877.80
+49.14: PEG -> FRR, PEG -> CHOL | similarity_score: 0.7743 | LL: -742.44 | AIC: 1552.88 | BIC: 1679.15
+49.15: PEG -> FRR, FRR -> CHOL | similarity_score: 0.4552 | LL: -825.59 | AIC: 1703.19 | BIC: 1799.74
+49.16: PEG -> FRR, PEG -> CHOL, FRR -> CHOL | similarity_score: 1.0000 | LL: -727.49 | AIC: 1602.98 | BIC: 1877.80
+49.17: PEG -> CHOL, CHOL -> FRR | similarity_score: 0.6105 | LL: -740.33 | AIC: 1548.67 | BIC: 1674.93
+49.18: PEG -> CHOL, PEG -> FRR, CHOL -> FRR | similarity_score: 1.0000 | LL: -727.49 | AIC: 1602.98 | BIC: 1877.80
+50.1: SIZE -> PDI, TFR -> PDI | similarity_score: 0.7824 | LL: -1174.80 | AIC: 2535.60 | BIC: 2880.98
+50.2: PDI -> SIZE, TFR -> SIZE | similarity_score: 0.8352 | LL: -1149.10 | AIC: 2484.20 | BIC: 2829.57
+50.3: TFR -> SIZE, TFR -> PDI | similarity_score: 0.4811 | LL: -1234.64 | AIC: 2565.27 | BIC: 2743.53
+50.4: TFR -> SIZE, SIZE -> PDI | similarity_score: 0.5372 | LL: -1183.43 | AIC: 2444.87 | BIC: 2589.70
+50.5: TFR -> SIZE, TFR -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -1132.72 | AIC: 2487.44 | BIC: 2899.67
+50.6: TFR -> PDI, PDI -> SIZE | similarity_score: 0.5045 | LL: -1209.14 | AIC: 2496.27 | BIC: 2641.11
+50.7: TFR -> PDI, TFR -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -1132.72 | AIC: 2487.44 | BIC: 2899.67
+51.1: SIZE -> PDI, ESM -> PDI | similarity_score: 0.7155 | LL: -1004.30 | AIC: 2142.60 | BIC: 2391.42
+51.2: PDI -> SIZE, ESM -> SIZE | similarity_score: 0.7081 | LL: -1000.91 | AIC: 2135.81 | BIC: 2384.63
+51.3: ESM -> SIZE, ESM -> PDI | similarity_score: 0.4125 | LL: -1017.34 | AIC: 2102.67 | BIC: 2228.94
+51.4: ESM -> SIZE, SIZE -> PDI | similarity_score: 0.4200 | LL: -1025.77 | AIC: 2113.54 | BIC: 2228.67
+51.5: ESM -> SIZE, ESM -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -924.89 | AIC: 2007.79 | BIC: 2301.17
+51.6: ESM -> PDI, PDI -> SIZE | similarity_score: 0.3823 | LL: -1029.17 | AIC: 2120.34 | BIC: 2235.46
+51.7: ESM -> PDI, ESM -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -924.89 | AIC: 2007.79 | BIC: 2301.17
+52.1: SIZE -> PDI, HSPC -> PDI | similarity_score: 0.7168 | LL: -1017.93 | AIC: 2221.86 | BIC: 2567.24
+52.2: PDI -> SIZE, HSPC -> SIZE | similarity_score: 0.7458 | LL: -1036.06 | AIC: 2258.13 | BIC: 2603.51
+52.3: HSPC -> SIZE, HSPC -> PDI | similarity_score: 0.5487 | LL: -1025.43 | AIC: 2146.86 | BIC: 2325.11
+52.4: HSPC -> SIZE, SIZE -> PDI | similarity_score: 0.3929 | LL: -1045.73 | AIC: 2169.45 | BIC: 2314.29
+52.5: HSPC -> SIZE, HSPC -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -948.19 | AIC: 2118.38 | BIC: 2530.60
+52.6: HSPC -> PDI, PDI -> SIZE | similarity_score: 0.3613 | LL: -1027.59 | AIC: 2133.18 | BIC: 2278.02
+52.7: HSPC -> PDI, HSPC -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -948.19 | AIC: 2118.38 | BIC: 2530.60
+53.1: SIZE -> PDI, CHOL -> PDI | similarity_score: 0.8111 | LL: -1040.64 | AIC: 2215.27 | BIC: 2464.09
+53.2: PDI -> SIZE, CHOL -> SIZE | similarity_score: 0.7301 | LL: -1054.80 | AIC: 2243.60 | BIC: 2492.42
+53.3: CHOL -> SIZE, CHOL -> PDI | similarity_score: 0.5670 | LL: -1062.06 | AIC: 2192.12 | BIC: 2318.38
+53.4: CHOL -> SIZE, SIZE -> PDI | similarity_score: 0.5241 | LL: -1061.00 | AIC: 2183.99 | BIC: 2299.12
+53.5: CHOL -> SIZE, CHOL -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -988.28 | AIC: 2134.57 | BIC: 2427.95
+53.6: CHOL -> PDI, PDI -> SIZE | similarity_score: 0.5093 | LL: -1046.83 | AIC: 2155.67 | BIC: 2270.79
+53.7: CHOL -> PDI, CHOL -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -988.28 | AIC: 2134.57 | BIC: 2427.95
+54.1: SIZE -> PDI, PEG -> PDI | similarity_score: 0.7582 | LL: -988.97 | AIC: 2111.95 | BIC: 2360.77
+54.2: PDI -> SIZE, PEG -> SIZE | similarity_score: 0.6954 | LL: -998.99 | AIC: 2131.97 | BIC: 2380.79
+54.3: PEG -> SIZE, PEG -> PDI | similarity_score: 0.4912 | LL: -994.16 | AIC: 2056.32 | BIC: 2182.59
+54.4: PEG -> SIZE, SIZE -> PDI | similarity_score: 0.4446 | LL: -1009.31 | AIC: 2080.61 | BIC: 2195.74
+54.5: PEG -> SIZE, PEG -> PDI, SIZE -> PDI | similarity_score: 1.0000 | LL: -916.26 | AIC: 1990.53 | BIC: 2283.91
+54.6: PEG -> PDI, PDI -> SIZE | similarity_score: 0.4182 | LL: -999.29 | AIC: 2060.59 | BIC: 2175.71
+54.7: PEG -> PDI, PEG -> SIZE, PDI -> SIZE | similarity_score: 1.0000 | LL: -916.26 | AIC: 1990.53 | BIC: 2283.91
+55.1: TFR -> SIZE, TFR -> ESM | similarity_score: 0.4032 | LL: -1192.37 | AIC: 2494.74 | BIC: 2698.99
+55.2: TFR -> ESM, ESM -> SIZE | similarity_score: 0.0120 | LL: -1155.04 | AIC: 2408.07 | BIC: 2590.05
+55.3: TFR -> SIZE, ESM -> SIZE | similarity_score: 0.8284 | LL: -1088.49 | AIC: 2406.98 | BIC: 2834.06
+55.4: TFR -> ESM, TFR -> SIZE, ESM -> SIZE | similarity_score: 1.0000 | LL: -1060.13 | AIC: 2398.27 | BIC: 2914.48
+55.5: ESM -> SIZE, ESM -> TFR | similarity_score: 0.4202 | LL: -1155.04 | AIC: 2408.07 | BIC: 2590.05
+55.6: ESM -> TFR, TFR -> SIZE | similarity_score: 0.4032 | LL: -1192.37 | AIC: 2494.74 | BIC: 2698.99
+55.7: ESM -> TFR, ESM -> SIZE, TFR -> SIZE | similarity_score: 1.0000 | LL: -1060.13 | AIC: 2398.27 | BIC: 2914.48
+56.1: TFR -> SIZE, TFR -> HSPC | similarity_score: 0.4117 | LL: -1182.03 | AIC: 2502.06 | BIC: 2758.30
+56.2: TFR -> HSPC, HSPC -> SIZE | similarity_score: 0.0213 | LL: -1154.37 | AIC: 2446.73 | BIC: 2702.98
+56.3: TFR -> SIZE, HSPC -> SIZE | similarity_score: 0.8014 | LL: -1128.13 | AIC: 2574.25 | BIC: 3164.74
+56.4: TFR -> HSPC, TFR -> SIZE, HSPC -> SIZE | similarity_score: 1.0000 | LL: -1079.14 | AIC: 2548.29 | BIC: 3272.46
+56.5: HSPC -> SIZE, HSPC -> TFR | similarity_score: 0.4954 | LL: -1154.37 | AIC: 2446.73 | BIC: 2702.98
+56.6: HSPC -> TFR, TFR -> SIZE | similarity_score: 0.4117 | LL: -1182.03 | AIC: 2502.06 | BIC: 2758.30
+56.7: HSPC -> TFR, HSPC -> SIZE, TFR -> SIZE | similarity_score: 1.0000 | LL: -1079.14 | AIC: 2548.29 | BIC: 3272.46
+57.1: TFR -> SIZE, TFR -> CHOL | similarity_score: 0.4566 | LL: -1180.66 | AIC: 2471.33 | BIC: 2675.58
+57.2: TFR -> CHOL, CHOL -> SIZE | similarity_score: 0.0426 | LL: -1170.39 | AIC: 2438.78 | BIC: 2620.75
+57.3: TFR -> SIZE, CHOL -> SIZE | similarity_score: 0.7733 | LL: -1144.61 | AIC: 2519.22 | BIC: 2946.30
+57.4: TFR -> CHOL, TFR -> SIZE, CHOL -> SIZE | similarity_score: 1.0000 | LL: -1096.38 | AIC: 2470.77 | BIC: 2986.98
+57.5: CHOL -> SIZE, CHOL -> TFR | similarity_score: 0.5321 | LL: -1170.39 | AIC: 2438.78 | BIC: 2620.75
+57.6: CHOL -> TFR, TFR -> SIZE | similarity_score: 0.4566 | LL: -1180.66 | AIC: 2471.33 | BIC: 2675.58
+57.7: CHOL -> TFR, CHOL -> SIZE, TFR -> SIZE | similarity_score: 1.0000 | LL: -1096.38 | AIC: 2470.77 | BIC: 2986.98
+58.1: TFR -> SIZE, TFR -> PEG | similarity_score: 0.4922 | LL: -1117.83 | AIC: 2345.67 | BIC: 2549.92
+58.2: TFR -> PEG, PEG -> SIZE | similarity_score: 0.0378 | LL: -1087.20 | AIC: 2272.40 | BIC: 2454.38
+58.3: TFR -> SIZE, PEG -> SIZE | similarity_score: 0.7738 | LL: -1104.50 | AIC: 2439.01 | BIC: 2866.09
+58.4: TFR -> PEG, TFR -> SIZE, PEG -> SIZE | similarity_score: 1.0000 | LL: -1024.78 | AIC: 2327.55 | BIC: 2843.76
+58.5: PEG -> SIZE, PEG -> TFR | similarity_score: 0.5039 | LL: -1087.20 | AIC: 2272.40 | BIC: 2454.38
+58.6: PEG -> TFR, TFR -> SIZE | similarity_score: 0.4922 | LL: -1117.83 | AIC: 2345.67 | BIC: 2549.92
+58.7: PEG -> TFR, PEG -> SIZE, TFR -> SIZE | similarity_score: 1.0000 | LL: -1024.78 | AIC: 2327.55 | BIC: 2843.76
+59.1: ESM -> SIZE, ESM -> HSPC | similarity_score: 0.6290 | LL: -911.25 | AIC: 1920.51 | BIC: 2102.48
+59.2: ESM -> HSPC, HSPC -> SIZE | similarity_score: 0.0435 | LL: -920.92 | AIC: 1951.84 | BIC: 2156.10
+59.3: ESM -> SIZE, HSPC -> SIZE | similarity_score: 0.6370 | LL: -1047.45 | AIC: 2324.90 | BIC: 2751.97
+59.4: ESM -> HSPC, ESM -> SIZE, HSPC -> SIZE | similarity_score: 1.0000 | LL: -885.35 | AIC: 2048.70 | BIC: 2564.91
+59.5: HSPC -> SIZE, HSPC -> ESM | similarity_score: 0.8027 | LL: -920.92 | AIC: 1951.84 | BIC: 2156.10
+59.6: HSPC -> ESM, ESM -> SIZE | similarity_score: 0.6290 | LL: -911.25 | AIC: 1920.51 | BIC: 2102.48
+59.7: HSPC -> ESM, HSPC -> SIZE, ESM -> SIZE | similarity_score: 1.0000 | LL: -885.35 | AIC: 2048.70 | BIC: 2564.91
+60.1: ESM -> SIZE, ESM -> CHOL | similarity_score: 0.4200 | LL: -938.60 | AIC: 1955.21 | BIC: 2100.04
+60.2: ESM -> CHOL, CHOL -> SIZE | similarity_score: 0.0439 | LL: -965.66 | AIC: 2009.32 | BIC: 2154.16
+60.3: ESM -> SIZE, CHOL -> SIZE | similarity_score: 0.7007 | LL: -1007.72 | AIC: 2181.44 | BIC: 2489.68
+60.4: ESM -> CHOL, ESM -> SIZE, CHOL -> SIZE | similarity_score: 1.0000 | LL: -875.09 | AIC: 1948.18 | BIC: 2315.84
+60.5: CHOL -> SIZE, CHOL -> ESM | similarity_score: 0.4688 | LL: -965.66 | AIC: 2009.32 | BIC: 2154.16
+60.6: CHOL -> ESM, ESM -> SIZE | similarity_score: 0.4200 | LL: -938.60 | AIC: 1955.21 | BIC: 2100.04
+60.7: CHOL -> ESM, CHOL -> SIZE, ESM -> SIZE | similarity_score: 1.0000 | LL: -875.09 | AIC: 1948.18 | BIC: 2315.84
+61.3: ESM -> SIZE, PEG -> SIZE | similarity_score: 0.6706 | LL: -993.61 | AIC: 2153.23 | BIC: 2461.47
+62.1: HSPC -> SIZE, HSPC -> CHOL | similarity_score: 0.6683 | LL: -980.34 | AIC: 2070.69 | BIC: 2274.94
+62.2: HSPC -> CHOL, CHOL -> SIZE | similarity_score: 0.0301 | LL: -997.73 | AIC: 2093.47 | BIC: 2275.44
+62.3: HSPC -> SIZE, CHOL -> SIZE | similarity_score: 0.6984 | LL: -1038.60 | AIC: 2307.19 | BIC: 2734.27
+62.4: HSPC -> CHOL, HSPC -> SIZE, CHOL -> SIZE | similarity_score: 1.0000 | LL: -927.76 | AIC: 2133.51 | BIC: 2649.72
+62.5: CHOL -> SIZE, CHOL -> HSPC | similarity_score: 0.5423 | LL: -997.73 | AIC: 2093.47 | BIC: 2275.44
+62.6: CHOL -> HSPC, HSPC -> SIZE | similarity_score: 0.6683 | LL: -980.34 | AIC: 2070.69 | BIC: 2274.94
+62.7: CHOL -> HSPC, CHOL -> SIZE, HSPC -> SIZE | similarity_score: 1.0000 | LL: -927.76 | AIC: 2133.51 | BIC: 2649.72
+63.3: HSPC -> SIZE, PEG -> SIZE | similarity_score: 0.6289 | LL: -1029.40 | AIC: 2288.80 | BIC: 2715.88
+64.1: CHOL -> SIZE, CHOL -> PEG | similarity_score: 0.5688 | LL: -974.96 | AIC: 2027.91 | BIC: 2172.75
+64.2: CHOL -> PEG, PEG -> SIZE | similarity_score: 0.0471 | LL: -954.60 | AIC: 1987.20 | BIC: 2132.03
+64.3: CHOL -> SIZE, PEG -> SIZE | similarity_score: 0.7291 | LL: -1002.73 | AIC: 2171.47 | BIC: 2479.71
+64.4: CHOL -> PEG, CHOL -> SIZE, PEG -> SIZE | similarity_score: 1.0000 | LL: -902.57 | AIC: 2003.13 | BIC: 2370.79
+64.5: PEG -> SIZE, PEG -> CHOL | similarity_score: 0.5664 | LL: -954.60 | AIC: 1987.20 | BIC: 2132.03
+64.6: PEG -> CHOL, CHOL -> SIZE | similarity_score: 0.5688 | LL: -974.96 | AIC: 2027.91 | BIC: 2172.75
+64.7: PEG -> CHOL, PEG -> SIZE, CHOL -> SIZE | similarity_score: 1.0000 | LL: -902.57 | AIC: 2003.13 | BIC: 2370.79
+65.1: TFR -> PDI, TFR -> ESM | similarity_score: 0.4585 | LL: -1250.27 | AIC: 2610.53 | BIC: 2814.79
+65.2: TFR -> ESM, ESM -> PDI | similarity_score: 0.0356 | LL: -1190.63 | AIC: 2479.26 | BIC: 2661.23
+65.3: TFR -> PDI, ESM -> PDI | similarity_score: 0.8382 | LL: -1147.37 | AIC: 2524.74 | BIC: 2951.82
+65.4: TFR -> ESM, TFR -> PDI, ESM -> PDI | similarity_score: 1.0000 | LL: -1119.01 | AIC: 2516.03 | BIC: 3032.23
+65.5: ESM -> PDI, ESM -> TFR | similarity_score: 0.4324 | LL: -1190.63 | AIC: 2479.26 | BIC: 2661.23
+65.6: ESM -> TFR, TFR -> PDI | similarity_score: 0.4585 | LL: -1250.27 | AIC: 2610.53 | BIC: 2814.79
+65.7: ESM -> TFR, ESM -> PDI, TFR -> PDI | similarity_score: 1.0000 | LL: -1119.01 | AIC: 2516.03 | BIC: 3032.23
+66.1: TFR -> PDI, TFR -> HSPC | similarity_score: 0.4698 | LL: -1239.93 | AIC: 2617.85 | BIC: 2874.10
+66.2: TFR -> HSPC, HSPC -> PDI | similarity_score: 0.0346 | LL: -1168.43 | AIC: 2474.85 | BIC: 2731.10
+66.3: TFR -> PDI, HSPC -> PDI | similarity_score: 0.7918 | LL: -1175.12 | AIC: 2668.24 | BIC: 3258.72
+66.4: TFR -> HSPC, TFR -> PDI, HSPC -> PDI | similarity_score: 1.0000 | LL: -1126.14 | AIC: 2642.27 | BIC: 3366.45
+66.5: HSPC -> PDI, HSPC -> TFR | similarity_score: 0.6294 | LL: -1168.43 | AIC: 2474.85 | BIC: 2731.10
+66.6: HSPC -> TFR, TFR -> PDI | similarity_score: 0.4698 | LL: -1239.93 | AIC: 2617.85 | BIC: 2874.10
+66.7: HSPC -> TFR, HSPC -> PDI, TFR -> PDI | similarity_score: 1.0000 | LL: -1126.14 | AIC: 2642.27 | BIC: 3366.45
+67.1: TFR -> PDI, TFR -> CHOL | similarity_score: 0.4769 | LL: -1238.56 | AIC: 2587.12 | BIC: 2791.38
+67.2: TFR -> CHOL, CHOL -> PDI | similarity_score: 0.0394 | LL: -1188.42 | AIC: 2474.84 | BIC: 2656.82
+67.3: TFR -> PDI, CHOL -> PDI | similarity_score: 0.7650 | LL: -1180.09 | AIC: 2590.19 | BIC: 3017.26
+67.4: TFR -> CHOL, TFR -> PDI, CHOL -> PDI | similarity_score: 1.0000 | LL: -1131.86 | AIC: 2541.73 | BIC: 3057.94
+67.5: CHOL -> PDI, CHOL -> TFR | similarity_score: 0.5337 | LL: -1188.42 | AIC: 2474.84 | BIC: 2656.82
+67.6: CHOL -> TFR, TFR -> PDI | similarity_score: 0.4769 | LL: -1238.56 | AIC: 2587.12 | BIC: 2791.38
+67.7: CHOL -> TFR, CHOL -> PDI, TFR -> PDI | similarity_score: 1.0000 | LL: -1131.86 | AIC: 2541.73 | BIC: 3057.94
+68.1: TFR -> PDI, TFR -> PEG | similarity_score: 0.5770 | LL: -1175.73 | AIC: 2461.46 | BIC: 2665.72
+68.2: TFR -> PEG, PEG -> PDI | similarity_score: 0.0305 | LL: -1109.38 | AIC: 2316.77 | BIC: 2498.74
+68.3: TFR -> PDI, PEG -> PDI | similarity_score: 0.7945 | LL: -1153.62 | AIC: 2537.24 | BIC: 2964.32
+68.4: TFR -> PEG, TFR -> PDI, PEG -> PDI | similarity_score: 1.0000 | LL: -1073.89 | AIC: 2425.79 | BIC: 2942.00
+68.5: PEG -> PDI, PEG -> TFR | similarity_score: 0.6110 | LL: -1109.38 | AIC: 2316.77 | BIC: 2498.74
+68.6: PEG -> TFR, TFR -> PDI | similarity_score: 0.5770 | LL: -1175.73 | AIC: 2461.46 | BIC: 2665.72
+68.7: PEG -> TFR, PEG -> PDI, TFR -> PDI | similarity_score: 1.0000 | LL: -1073.89 | AIC: 2425.79 | BIC: 2942.00
+69.1: ESM -> PDI, ESM -> HSPC | similarity_score: 0.6998 | LL: -946.84 | AIC: 1991.69 | BIC: 2173.66
+69.2: ESM -> HSPC, HSPC -> PDI | similarity_score: 0.0508 | LL: -934.98 | AIC: 1979.96 | BIC: 2184.22
+69.3: ESM -> PDI, HSPC -> PDI | similarity_score: 0.6425 | LL: -1081.56 | AIC: 2393.13 | BIC: 2820.21
+69.4: ESM -> HSPC, ESM -> PDI, HSPC -> PDI | similarity_score: 1.0000 | LL: -919.47 | AIC: 2116.93 | BIC: 2633.14
+69.5: HSPC -> PDI, HSPC -> ESM | similarity_score: 0.8781 | LL: -934.98 | AIC: 1979.96 | BIC: 2184.22
+69.6: HSPC -> ESM, ESM -> PDI | similarity_score: 0.6998 | LL: -946.84 | AIC: 1991.69 | BIC: 2173.66
+69.7: HSPC -> ESM, HSPC -> PDI, ESM -> PDI | similarity_score: 1.0000 | LL: -919.47 | AIC: 2116.93 | BIC: 2633.14
+70.1: ESM -> PDI, ESM -> CHOL | similarity_score: 0.4577 | LL: -974.19 | AIC: 2026.39 | BIC: 2171.22
+70.2: ESM -> CHOL, CHOL -> PDI | similarity_score: 0.0252 | LL: -983.69 | AIC: 2045.38 | BIC: 2190.22
+70.3: ESM -> PDI, CHOL -> PDI | similarity_score: 0.6950 | LL: -1035.82 | AIC: 2237.63 | BIC: 2545.87
+70.4: ESM -> CHOL, ESM -> PDI, CHOL -> PDI | similarity_score: 1.0000 | LL: -903.19 | AIC: 2004.38 | BIC: 2372.04
+70.5: CHOL -> PDI, CHOL -> ESM | similarity_score: 0.4960 | LL: -983.69 | AIC: 2045.38 | BIC: 2190.22
+70.6: CHOL -> ESM, ESM -> PDI | similarity_score: 0.4577 | LL: -974.19 | AIC: 2026.39 | BIC: 2171.22
+70.7: CHOL -> ESM, CHOL -> PDI, ESM -> PDI | similarity_score: 1.0000 | LL: -903.19 | AIC: 2004.38 | BIC: 2372.04
+71.3: ESM -> PDI, PEG -> PDI | similarity_score: 0.6831 | LL: -1032.94 | AIC: 2231.89 | BIC: 2540.13
+72.1: HSPC -> PDI, HSPC -> CHOL | similarity_score: 0.6879 | LL: -994.40 | AIC: 2098.81 | BIC: 2303.06
+72.2: HSPC -> CHOL, CHOL -> PDI | similarity_score: 0.0533 | LL: -1015.76 | AIC: 2129.53 | BIC: 2311.50
+72.3: HSPC -> PDI, CHOL -> PDI | similarity_score: 0.6905 | LL: -1046.91 | AIC: 2323.82 | BIC: 2750.90
+72.4: HSPC -> CHOL, HSPC -> PDI, CHOL -> PDI | similarity_score: 1.0000 | LL: -936.07 | AIC: 2150.14 | BIC: 2666.35
+72.5: CHOL -> PDI, CHOL -> HSPC | similarity_score: 0.5558 | LL: -1015.76 | AIC: 2129.53 | BIC: 2311.50
+72.6: CHOL -> HSPC, HSPC -> PDI | similarity_score: 0.6879 | LL: -994.40 | AIC: 2098.81 | BIC: 2303.06
+72.7: CHOL -> HSPC, CHOL -> PDI, HSPC -> PDI | similarity_score: 1.0000 | LL: -936.07 | AIC: 2150.14 | BIC: 2666.35
+73.3: HSPC -> PDI, PEG -> PDI | similarity_score: 0.5871 | LL: -1046.61 | AIC: 2323.23 | BIC: 2750.31
+74.1: CHOL -> PDI, CHOL -> PEG | similarity_score: 0.5309 | LL: -992.99 | AIC: 2063.98 | BIC: 2208.81
+74.2: CHOL -> PEG, PEG -> PDI | similarity_score: 0.0139 | LL: -976.78 | AIC: 2031.56 | BIC: 2176.39
+74.3: CHOL -> PDI, PEG -> PDI | similarity_score: 0.7058 | LL: -1007.45 | AIC: 2180.91 | BIC: 2489.15
+74.4: CHOL -> PEG, CHOL -> PDI, PEG -> PDI | similarity_score: 1.0000 | LL: -907.29 | AIC: 2012.57 | BIC: 2380.23
+74.5: PEG -> PDI, PEG -> CHOL | similarity_score: 0.5531 | LL: -976.78 | AIC: 2031.56 | BIC: 2176.39
+74.6: PEG -> CHOL, CHOL -> PDI | similarity_score: 0.5309 | LL: -992.99 | AIC: 2063.98 | BIC: 2208.81
+74.7: PEG -> CHOL, PEG -> PDI, CHOL -> PDI | similarity_score: 1.0000 | LL: -907.29 | AIC: 2012.57 | BIC: 2380.23
+75.1: TFR -> ESM, TFR -> HSPC | similarity_score: 0.2653 | LL: -1197.66 | AIC: 2547.32 | BIC: 2829.56
+75.2: TFR -> ESM, ESM -> HSPC | similarity_score: 0.5089 | LL: -1084.54 | AIC: 2297.09 | BIC: 2534.77
+75.3: TFR -> HSPC, ESM -> HSPC | similarity_score: 0.1908 | LL: -1052.09 | AIC: 2544.18 | BIC: 3361.20
+75.4: TFR -> ESM, TFR -> HSPC, ESM -> HSPC | similarity_score: 1.0000 | LL: -1023.73 | AIC: 2535.47 | BIC: 3441.62
+75.5: TFR -> HSPC, HSPC -> ESM | similarity_score: 0.0331 | LL: -1063.92 | AIC: 2279.84 | BIC: 2562.08
+75.6: TFR -> ESM, HSPC -> ESM | similarity_score: 0.8428 | LL: -1072.72 | AIC: 2561.43 | BIC: 3333.89
+75.7: TFR -> HSPC, TFR -> ESM, HSPC -> ESM | similarity_score: 1.0000 | LL: -1023.73 | AIC: 2535.47 | BIC: 3441.62
+75.8: ESM -> TFR, ESM -> HSPC | similarity_score: 0.5089 | LL: -1084.54 | AIC: 2297.09 | BIC: 2534.77
+75.9: ESM -> TFR, TFR -> HSPC | similarity_score: 0.2653 | LL: -1197.66 | AIC: 2547.32 | BIC: 2829.56
+75.10: ESM -> TFR, ESM -> HSPC, TFR -> HSPC | similarity_score: 1.0000 | LL: -1023.73 | AIC: 2535.47 | BIC: 3441.62
+75.11: ESM -> HSPC, HSPC -> TFR | similarity_score: 0.0185 | LL: -1063.92 | AIC: 2279.84 | BIC: 2562.08
+75.12: ESM -> TFR, HSPC -> TFR | similarity_score: 0.6404 | LL: -1185.83 | AIC: 2811.66 | BIC: 3628.68
+75.13: ESM -> HSPC, ESM -> TFR, HSPC -> TFR | similarity_score: 1.0000 | LL: -1023.73 | AIC: 2535.47 | BIC: 3441.62
+75.14: HSPC -> TFR, HSPC -> ESM | similarity_score: 0.6641 | LL: -1063.92 | AIC: 2279.84 | BIC: 2562.08
+75.15: HSPC -> TFR, TFR -> ESM | similarity_score: 0.2653 | LL: -1197.66 | AIC: 2547.32 | BIC: 2829.56
+75.16: HSPC -> TFR, HSPC -> ESM, TFR -> ESM | similarity_score: 1.0000 | LL: -1023.73 | AIC: 2535.47 | BIC: 3441.62
+75.17: HSPC -> ESM, ESM -> TFR | similarity_score: 0.5089 | LL: -1084.54 | AIC: 2297.09 | BIC: 2534.77
+75.18: HSPC -> ESM, HSPC -> TFR, ESM -> TFR | similarity_score: 1.0000 | LL: -1023.73 | AIC: 2535.47 | BIC: 3441.62
+76.1: TFR -> ESM, TFR -> CHOL | similarity_score: 0.3124 | LL: -1196.29 | AIC: 2516.59 | BIC: 2746.84
+76.2: TFR -> ESM, ESM -> CHOL | similarity_score: 0.3830 | LL: -1111.90 | AIC: 2331.79 | BIC: 2532.33
+76.3: TFR -> CHOL, ESM -> CHOL | similarity_score: 0.1476 | LL: -1045.25 | AIC: 2390.50 | BIC: 2947.56
+76.4: TFR -> ESM, TFR -> CHOL, ESM -> CHOL | similarity_score: 1.0000 | LL: -1016.89 | AIC: 2381.79 | BIC: 3027.98
+76.5: TFR -> CHOL, CHOL -> ESM | similarity_score: 0.0500 | LL: -1092.02 | AIC: 2292.05 | BIC: 2492.59
+76.6: TFR -> ESM, CHOL -> ESM | similarity_score: 0.7512 | LL: -1065.12 | AIC: 2430.24 | BIC: 2987.30
+76.7: TFR -> CHOL, TFR -> ESM, CHOL -> ESM | similarity_score: 1.0000 | LL: -1016.89 | AIC: 2381.79 | BIC: 3027.98
+76.8: ESM -> TFR, ESM -> CHOL | similarity_score: 0.3830 | LL: -1111.90 | AIC: 2331.79 | BIC: 2532.33
+76.9: ESM -> TFR, TFR -> CHOL | similarity_score: 0.3124 | LL: -1196.29 | AIC: 2516.59 | BIC: 2746.84
+76.10: ESM -> TFR, ESM -> CHOL, TFR -> CHOL | similarity_score: 1.0000 | LL: -1016.89 | AIC: 2381.79 | BIC: 3027.98
+76.11: ESM -> CHOL, CHOL -> TFR | similarity_score: 0.0238 | LL: -1092.02 | AIC: 2292.05 | BIC: 2492.59
+76.12: ESM -> TFR, CHOL -> TFR | similarity_score: 0.6964 | LL: -1149.52 | AIC: 2615.04 | BIC: 3201.81
+76.13: ESM -> CHOL, ESM -> TFR, CHOL -> TFR | similarity_score: 1.0000 | LL: -1016.89 | AIC: 2381.79 | BIC: 3027.98
+76.14: CHOL -> TFR, CHOL -> ESM | similarity_score: 0.4189 | LL: -1092.02 | AIC: 2292.05 | BIC: 2492.59
+76.15: CHOL -> TFR, TFR -> ESM | similarity_score: 0.3124 | LL: -1196.29 | AIC: 2516.59 | BIC: 2746.84
+76.16: CHOL -> TFR, CHOL -> ESM, TFR -> ESM | similarity_score: 1.0000 | LL: -1016.89 | AIC: 2381.79 | BIC: 3027.98
+76.17: CHOL -> ESM, ESM -> TFR | similarity_score: 0.3830 | LL: -1111.90 | AIC: 2331.79 | BIC: 2532.33
+76.18: CHOL -> ESM, CHOL -> TFR, ESM -> TFR | similarity_score: 1.0000 | LL: -1016.89 | AIC: 2381.79 | BIC: 3027.98
+77.1: TFR -> ESM, TFR -> PEG | similarity_score: 0.3820 | LL: -1133.46 | AIC: 2390.93 | BIC: 2621.18
+77.9: ESM -> TFR, TFR -> PEG | similarity_score: 0.3820 | LL: -1133.46 | AIC: 2390.93 | BIC: 2621.18
+77.12: ESM -> TFR, PEG -> TFR | similarity_score: 0.6464 | LL: -1115.06 | AIC: 2546.13 | BIC: 3132.90
+77.15: PEG -> TFR, TFR -> ESM | similarity_score: 0.3820 | LL: -1133.46 | AIC: 2390.93 | BIC: 2621.18
+78.1: TFR -> HSPC, TFR -> CHOL | similarity_score: 0.3489 | LL: -1185.95 | AIC: 2523.91 | BIC: 2806.15
+78.2: TFR -> HSPC, HSPC -> CHOL | similarity_score: 0.5459 | LL: -1123.34 | AIC: 2398.68 | BIC: 2680.93
+78.3: TFR -> CHOL, HSPC -> CHOL | similarity_score: 0.1937 | LL: -1099.89 | AIC: 2615.78 | BIC: 3388.24
+78.4: TFR -> HSPC, TFR -> CHOL, HSPC -> CHOL | similarity_score: 1.0000 | LL: -1050.91 | AIC: 2589.81 | BIC: 3495.96
+78.5: TFR -> CHOL, CHOL -> HSPC | similarity_score: 0.0398 | LL: -1124.10 | AIC: 2376.19 | BIC: 2613.87
+78.6: TFR -> HSPC, CHOL -> HSPC | similarity_score: 0.7677 | LL: -1099.14 | AIC: 2638.27 | BIC: 3455.29
+78.7: TFR -> CHOL, TFR -> HSPC, CHOL -> HSPC | similarity_score: 1.0000 | LL: -1050.91 | AIC: 2589.81 | BIC: 3495.96
+78.8: HSPC -> TFR, HSPC -> CHOL | similarity_score: 0.5459 | LL: -1123.34 | AIC: 2398.68 | BIC: 2680.93
+78.9: HSPC -> TFR, TFR -> CHOL | similarity_score: 0.3489 | LL: -1185.95 | AIC: 2523.91 | BIC: 2806.15
+78.10: HSPC -> TFR, HSPC -> CHOL, TFR -> CHOL | similarity_score: 1.0000 | LL: -1050.91 | AIC: 2589.81 | BIC: 3495.96
+78.11: HSPC -> CHOL, CHOL -> TFR | similarity_score: 0.0110 | LL: -1124.10 | AIC: 2376.19 | BIC: 2613.87
+78.12: HSPC -> TFR, CHOL -> TFR | similarity_score: 0.7615 | LL: -1161.75 | AIC: 2763.49 | BIC: 3580.52
+78.13: HSPC -> CHOL, HSPC -> TFR, CHOL -> TFR | similarity_score: 1.0000 | LL: -1050.91 | AIC: 2589.81 | BIC: 3495.96
+78.14: CHOL -> TFR, CHOL -> HSPC | similarity_score: 0.4848 | LL: -1124.10 | AIC: 2376.19 | BIC: 2613.87
+78.15: CHOL -> TFR, TFR -> HSPC | similarity_score: 0.3489 | LL: -1185.95 | AIC: 2523.91 | BIC: 2806.15
+78.16: CHOL -> TFR, CHOL -> HSPC, TFR -> HSPC | similarity_score: 1.0000 | LL: -1050.91 | AIC: 2589.81 | BIC: 3495.96
+78.17: CHOL -> HSPC, HSPC -> TFR | similarity_score: 0.5459 | LL: -1123.34 | AIC: 2398.68 | BIC: 2680.93
+78.18: CHOL -> HSPC, CHOL -> TFR, HSPC -> TFR | similarity_score: 1.0000 | LL: -1050.91 | AIC: 2589.81 | BIC: 3495.96
+79.1: TFR -> HSPC, TFR -> PEG | similarity_score: 0.2885 | LL: -1123.13 | AIC: 2398.25 | BIC: 2680.49
+79.9: HSPC -> TFR, TFR -> PEG | similarity_score: 0.2885 | LL: -1123.13 | AIC: 2398.25 | BIC: 2680.49
+79.12: HSPC -> TFR, PEG -> TFR | similarity_score: 0.6331 | LL: -1137.67 | AIC: 2715.34 | BIC: 3532.36
+79.15: PEG -> TFR, TFR -> HSPC | similarity_score: 0.2885 | LL: -1123.13 | AIC: 2398.25 | BIC: 2680.49
+80.1: TFR -> CHOL, TFR -> PEG | similarity_score: 0.4837 | LL: -1121.76 | AIC: 2367.52 | BIC: 2597.77
+80.2: TFR -> CHOL, CHOL -> PEG | similarity_score: 0.4283 | LL: -1101.32 | AIC: 2310.64 | BIC: 2511.18
+80.3: TFR -> PEG, CHOL -> PEG | similarity_score: 0.1441 | LL: -1061.19 | AIC: 2422.38 | BIC: 2979.44
+80.4: TFR -> CHOL, TFR -> PEG, CHOL -> PEG | similarity_score: 1.0000 | LL: -1012.96 | AIC: 2373.93 | BIC: 3020.11
+80.5: TFR -> PEG, PEG -> CHOL | similarity_score: 0.0345 | LL: -1069.82 | AIC: 2247.64 | BIC: 2448.19
+80.6: TFR -> CHOL, PEG -> CHOL | similarity_score: 0.7766 | LL: -1092.69 | AIC: 2485.38 | BIC: 3042.44
+80.7: TFR -> PEG, TFR -> CHOL, PEG -> CHOL | similarity_score: 1.0000 | LL: -1012.96 | AIC: 2373.93 | BIC: 3020.11
+80.8: CHOL -> TFR, CHOL -> PEG | similarity_score: 0.4283 | LL: -1101.32 | AIC: 2310.64 | BIC: 2511.18
+80.9: CHOL -> TFR, TFR -> PEG | similarity_score: 0.4837 | LL: -1121.76 | AIC: 2367.52 | BIC: 2597.77
+80.10: CHOL -> TFR, CHOL -> PEG, TFR -> PEG | similarity_score: 1.0000 | LL: -1012.96 | AIC: 2373.93 | BIC: 3020.11
+80.11: CHOL -> PEG, PEG -> TFR | similarity_score: 0.0228 | LL: -1069.82 | AIC: 2247.64 | BIC: 2448.19
+80.12: CHOL -> TFR, PEG -> TFR | similarity_score: 0.7545 | LL: -1113.13 | AIC: 2542.26 | BIC: 3129.03
+80.13: CHOL -> PEG, CHOL -> TFR, PEG -> TFR | similarity_score: 1.0000 | LL: -1012.96 | AIC: 2373.93 | BIC: 3020.11
+80.14: PEG -> TFR, PEG -> CHOL | similarity_score: 0.5689 | LL: -1069.82 | AIC: 2247.64 | BIC: 2448.19
+80.15: PEG -> TFR, TFR -> CHOL | similarity_score: 0.4837 | LL: -1121.76 | AIC: 2367.52 | BIC: 2597.77
+80.16: PEG -> TFR, PEG -> CHOL, TFR -> CHOL | similarity_score: 1.0000 | LL: -1012.96 | AIC: 2373.93 | BIC: 3020.11
+80.17: PEG -> CHOL, CHOL -> TFR | similarity_score: 0.4283 | LL: -1101.32 | AIC: 2310.64 | BIC: 2511.18
+80.18: PEG -> CHOL, PEG -> TFR, CHOL -> TFR | similarity_score: 1.0000 | LL: -1012.96 | AIC: 2373.93 | BIC: 3020.11
+81.1: ESM -> HSPC, ESM -> CHOL | similarity_score: 0.4466 | LL: -868.11 | AIC: 1844.22 | BIC: 2044.76
+81.2: ESM -> HSPC, HSPC -> CHOL | similarity_score: 0.5201 | LL: -889.90 | AIC: 1903.79 | BIC: 2134.05
+81.3: ESM -> CHOL, HSPC -> CHOL | similarity_score: 0.1590 | LL: -947.19 | AIC: 2194.37 | BIC: 2751.43
+81.4: ESM -> HSPC, ESM -> CHOL, HSPC -> CHOL | similarity_score: 1.0000 | LL: -785.09 | AIC: 1918.18 | BIC: 2564.37
+81.5: ESM -> CHOL, CHOL -> HSPC | similarity_score: 0.0147 | LL: -919.37 | AIC: 1946.73 | BIC: 2147.27
+81.6: ESM -> HSPC, CHOL -> HSPC | similarity_score: 0.7389 | LL: -917.72 | AIC: 2151.43 | BIC: 2738.20
+81.7: ESM -> CHOL, ESM -> HSPC, CHOL -> HSPC | similarity_score: 1.0000 | LL: -785.09 | AIC: 1918.18 | BIC: 2564.37
+81.8: HSPC -> ESM, HSPC -> CHOL | similarity_score: 0.5201 | LL: -889.90 | AIC: 1903.79 | BIC: 2134.05
+81.9: HSPC -> ESM, ESM -> CHOL | similarity_score: 0.4466 | LL: -868.11 | AIC: 1844.22 | BIC: 2044.76
+81.10: HSPC -> ESM, HSPC -> CHOL, ESM -> CHOL | similarity_score: 1.0000 | LL: -785.09 | AIC: 1918.18 | BIC: 2564.37
+81.11: HSPC -> CHOL, CHOL -> ESM | similarity_score: 0.0151 | LL: -919.37 | AIC: 1946.73 | BIC: 2147.27
+81.12: HSPC -> ESM, CHOL -> ESM | similarity_score: 0.7507 | LL: -895.93 | AIC: 2091.86 | BIC: 2648.92
+81.13: HSPC -> CHOL, HSPC -> ESM, CHOL -> ESM | similarity_score: 1.0000 | LL: -785.09 | AIC: 1918.18 | BIC: 2564.37
+81.14: CHOL -> ESM, CHOL -> HSPC | similarity_score: 0.3151 | LL: -919.37 | AIC: 1946.73 | BIC: 2147.27
+81.15: CHOL -> ESM, ESM -> HSPC | similarity_score: 0.4466 | LL: -868.11 | AIC: 1844.22 | BIC: 2044.76
+81.16: CHOL -> ESM, CHOL -> HSPC, ESM -> HSPC | similarity_score: 1.0000 | LL: -785.09 | AIC: 1918.18 | BIC: 2564.37
+81.17: CHOL -> HSPC, HSPC -> ESM | similarity_score: 0.5201 | LL: -889.90 | AIC: 1903.79 | BIC: 2134.05
+81.18: CHOL -> HSPC, CHOL -> ESM, HSPC -> ESM | similarity_score: 1.0000 | LL: -785.09 | AIC: 1918.18 | BIC: 2564.37
+83.2: ESM -> CHOL, CHOL -> PEG | similarity_score: 0.3697 | LL: -896.59 | AIC: 1881.18 | BIC: 2044.59
+83.6: ESM -> CHOL, PEG -> CHOL | similarity_score: 0.6933 | LL: -904.81 | AIC: 2025.61 | BIC: 2426.70
+83.8: CHOL -> ESM, CHOL -> PEG | similarity_score: 0.3697 | LL: -896.59 | AIC: 1881.18 | BIC: 2044.59
+83.17: PEG -> CHOL, CHOL -> ESM | similarity_score: 0.3697 | LL: -896.59 | AIC: 1881.18 | BIC: 2044.59
+84.2: HSPC -> CHOL, CHOL -> PEG | similarity_score: 0.3411 | LL: -928.66 | AIC: 1965.33 | BIC: 2165.87
+84.6: HSPC -> CHOL, PEG -> CHOL | similarity_score: 0.6404 | LL: -987.16 | AIC: 2274.32 | BIC: 2831.38
+84.8: CHOL -> HSPC, CHOL -> PEG | similarity_score: 0.3411 | LL: -928.66 | AIC: 1965.33 | BIC: 2165.87
+84.17: PEG -> CHOL, CHOL -> HSPC | similarity_score: 0.3411 | LL: -928.66 | AIC: 1965.33 | BIC: 2165.87

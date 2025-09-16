@@ -1,0 +1,11 @@
+=== Top 3 DAG migliori (numero + edges) ===
+
+DAG 2:
+Edges: [('FRR', 'AQUEOUS'), ('AQUEOUS', 'PEG'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE'), ('ESM', 'PDI'), ('TFR', 'PDI'), ('FRR', 'PDI'), ('TFR', 'SIZE'), ('FRR', 'SIZE')]
+
+DAG 3:
+Edges: [('PEG', 'AQUEOUS'), ('AQUEOUS', 'FRR'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('AQUEOUS', 'TFR'), ('PEG', 'PDI'), ('CHOL', 'PEG'), ('ESM', 'SIZE'), ('ESM', 'PDI'), ('TFR', 'PDI'), ('FRR', 'PDI'), ('TFR', 'SIZE'), ('FRR', 'SIZE')]
+
+DAG 5:
+Edges: [('AQUEOUS', 'PEG'), ('PEG', 'FRR'), ('CHOL', 'ESM'), ('ESM', 'HSPC'), ('TFR', 'AQUEOUS'), ('PEG', 'PDI'), ('PEG', 'CHOL'), ('ESM', 'SIZE'), ('ESM', 'PDI'), ('TFR', 'PDI'), ('FRR', 'PDI'), ('TFR', 'SIZE'), ('FRR', 'SIZE')]
+

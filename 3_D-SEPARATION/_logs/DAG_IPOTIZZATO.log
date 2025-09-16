@@ -1,2 +1,0 @@
-[('ESM','ML'), ('HSPC','ML'), ('PEG','SIZE'), ('PEG','PDI'), ('CHOL','SIZE'), ('CHOL','PDI'), ('AQUOUS','SIZE'), ('AQUEOUS','PDI'), ('CHIP','SIZE'), ('CHIP','PDI'),
-('ML','CHIP'), ('ML','TFR'), ('TFR','CHIP'), ('FRR','TFR'), ('FRR','CHIP'), ('AQUEOUS','CHIP')]

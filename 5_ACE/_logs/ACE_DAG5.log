@@ -1,0 +1,597 @@
+
+Genitori diretti di AQUEOUS: ['TFR']
+
+--- Calcolo P(AQUEOUS | do(TFR)) e ACE generale ---
+Formula: P(AQUEOUS=0 | do(TFR=6)) = P(AQUEOUS=0 | TFR=6)
+Valore: 0.6617647058823529
+Formula: P(AQUEOUS=1 | do(TFR=6)) = P(AQUEOUS=1 | TFR=6)
+Valore: 0.3382352941176471
+Formula: P(AQUEOUS=0 | do(TFR=2)) = P(AQUEOUS=0 | TFR=2)
+Valore: 0.7307692307692307
+Formula: P(AQUEOUS=1 | do(TFR=2)) = P(AQUEOUS=1 | TFR=2)
+Valore: 0.2692307692307692
+Formula: P(AQUEOUS=0 | do(TFR=0)) = P(AQUEOUS=0 | TFR=0)
+Valore: 0.23076923076923078
+Formula: P(AQUEOUS=1 | do(TFR=0)) = P(AQUEOUS=1 | TFR=0)
+Valore: 0.7692307692307693
+Formula: P(AQUEOUS=0 | do(TFR=1)) = P(AQUEOUS=0 | TFR=1)
+Valore: 0.0
+Formula: P(AQUEOUS=1 | do(TFR=1)) = P(AQUEOUS=1 | TFR=1)
+Valore: 1.0
+Formula: P(AQUEOUS=0 | do(TFR=5)) = P(AQUEOUS=0 | TFR=5)
+Valore: 0.025
+Formula: P(AQUEOUS=1 | do(TFR=5)) = P(AQUEOUS=1 | TFR=5)
+Valore: 0.975
+Formula: P(AQUEOUS=0 | do(TFR=3)) = P(AQUEOUS=0 | TFR=3)
+Valore: 0.009259259259259259
+Formula: P(AQUEOUS=1 | do(TFR=3)) = P(AQUEOUS=1 | TFR=3)
+Valore: 0.9907407407407407
+Formula: P(AQUEOUS=0 | do(TFR=4)) = P(AQUEOUS=0 | TFR=4)
+Valore: 0.0
+Formula: P(AQUEOUS=1 | do(TFR=4)) = P(AQUEOUS=1 | TFR=4)
+Valore: 1.0
+
+ACE generale(TFR -> AQUEOUS) con riferimento = -0.007029635215909769
+
+Genitori diretti di PEG: ['AQUEOUS']
+
+--- Calcolo P(PEG | do(AQUEOUS)) e ACE generale ---
+Formula: P(PEG=0 | do(AQUEOUS=0)) = P(PEG=0 | AQUEOUS=0, TFR=6) * P(TFR=6) + P(PEG=0 | AQUEOUS=0, TFR=2) * P(TFR=2) + P(PEG=0 | AQUEOUS=0, TFR=0) * P(TFR=0) + P(PEG=0 | AQUEOUS=0, TFR=5) * P(TFR=5) + P(PEG=0 | AQUEOUS=0, TFR=3) * P(TFR=3)
+Valore: 0.6007913072008955
+Formula: P(PEG=1 | do(AQUEOUS=0)) = P(PEG=1 | AQUEOUS=0, TFR=6) * P(TFR=6) + P(PEG=1 | AQUEOUS=0, TFR=2) * P(TFR=2) + P(PEG=1 | AQUEOUS=0, TFR=0) * P(TFR=0) + P(PEG=1 | AQUEOUS=0, TFR=5) * P(TFR=5) + P(PEG=1 | AQUEOUS=0, TFR=3) * P(TFR=3)
+Valore: 0.028981143728407925
+Formula: P(PEG=4 | do(AQUEOUS=0)) = P(PEG=4 | AQUEOUS=0, TFR=6) * P(TFR=6) + P(PEG=4 | AQUEOUS=0, TFR=2) * P(TFR=2) + P(PEG=4 | AQUEOUS=0, TFR=0) * P(TFR=0) + P(PEG=4 | AQUEOUS=0, TFR=5) * P(TFR=5) + P(PEG=4 | AQUEOUS=0, TFR=3) * P(TFR=3)
+Valore: 0.028039295157585933
+Formula: P(PEG=2 | do(AQUEOUS=0)) = P(PEG=2 | AQUEOUS=0, TFR=6) * P(TFR=6) + P(PEG=2 | AQUEOUS=0, TFR=2) * P(TFR=2) + P(PEG=2 | AQUEOUS=0, TFR=0) * P(TFR=0) + P(PEG=2 | AQUEOUS=0, TFR=5) * P(TFR=5) + P(PEG=2 | AQUEOUS=0, TFR=3) * P(TFR=3)
+Valore: 0.062100245112230515
+Formula: P(PEG=8 | do(AQUEOUS=0)) = P(PEG=8 | AQUEOUS=0, TFR=6) * P(TFR=6) + P(PEG=8 | AQUEOUS=0, TFR=2) * P(TFR=2) + P(PEG=8 | AQUEOUS=0, TFR=0) * P(TFR=0) + P(PEG=8 | AQUEOUS=0, TFR=5) * P(TFR=5) + P(PEG=8 | AQUEOUS=0, TFR=3) * P(TFR=3)
+Valore: 0.16457645764576456
+Formula: P(PEG=0 | do(AQUEOUS=1)) = P(PEG=0 | AQUEOUS=1, TFR=6) * P(TFR=6) + P(PEG=0 | AQUEOUS=1, TFR=2) * P(TFR=2) + P(PEG=0 | AQUEOUS=1, TFR=0) * P(TFR=0) + P(PEG=0 | AQUEOUS=1, TFR=1) * P(TFR=1) + P(PEG=0 | AQUEOUS=1, TFR=5) * P(TFR=5) + P(PEG=0 | AQUEOUS=1, TFR=3) * P(TFR=3) + P(PEG=0 | AQUEOUS=1, TFR=4) * P(TFR=4)
+Valore: 0.5255898711223561
+Formula: P(PEG=1 | do(AQUEOUS=1)) = P(PEG=1 | AQUEOUS=1, TFR=6) * P(TFR=6) + P(PEG=1 | AQUEOUS=1, TFR=2) * P(TFR=2) + P(PEG=1 | AQUEOUS=1, TFR=0) * P(TFR=0) + P(PEG=1 | AQUEOUS=1, TFR=1) * P(TFR=1) + P(PEG=1 | AQUEOUS=1, TFR=5) * P(TFR=5) + P(PEG=1 | AQUEOUS=1, TFR=3) * P(TFR=3) + P(PEG=1 | AQUEOUS=1, TFR=4) * P(TFR=4)
+Valore: 0.03617086617235474
+Formula: P(PEG=4 | do(AQUEOUS=1)) = P(PEG=4 | AQUEOUS=1, TFR=6) * P(TFR=6) + P(PEG=4 | AQUEOUS=1, TFR=2) * P(TFR=2) + P(PEG=4 | AQUEOUS=1, TFR=0) * P(TFR=0) + P(PEG=4 | AQUEOUS=1, TFR=1) * P(TFR=1) + P(PEG=4 | AQUEOUS=1, TFR=5) * P(TFR=5) + P(PEG=4 | AQUEOUS=1, TFR=3) * P(TFR=3) + P(PEG=4 | AQUEOUS=1, TFR=4) * P(TFR=4)
+Valore: 0.0
+Formula: P(PEG=2 | do(AQUEOUS=1)) = P(PEG=2 | AQUEOUS=1, TFR=6) * P(TFR=6) + P(PEG=2 | AQUEOUS=1, TFR=2) * P(TFR=2) + P(PEG=2 | AQUEOUS=1, TFR=0) * P(TFR=0) + P(PEG=2 | AQUEOUS=1, TFR=1) * P(TFR=1) + P(PEG=2 | AQUEOUS=1, TFR=5) * P(TFR=5) + P(PEG=2 | AQUEOUS=1, TFR=3) * P(TFR=3) + P(PEG=2 | AQUEOUS=1, TFR=4) * P(TFR=4)
+Valore: 0.4382392627052891
+Formula: P(PEG=8 | do(AQUEOUS=1)) = P(PEG=8 | AQUEOUS=1, TFR=6) * P(TFR=6) + P(PEG=8 | AQUEOUS=1, TFR=2) * P(TFR=2) + P(PEG=8 | AQUEOUS=1, TFR=0) * P(TFR=0) + P(PEG=8 | AQUEOUS=1, TFR=1) * P(TFR=1) + P(PEG=8 | AQUEOUS=1, TFR=5) * P(TFR=5) + P(PEG=8 | AQUEOUS=1, TFR=3) * P(TFR=3) + P(PEG=8 | AQUEOUS=1, TFR=4) * P(TFR=4)
+Valore: 0.0
+
+ACE generale(AQUEOUS -> PEG) con riferimento = -0.6693010841663962
+
+Genitori diretti di FRR: ['PEG']
+
+--- Calcolo P(FRR | do(PEG)) e ACE generale ---
+Formula: P(FRR=0 | do(PEG=0)) = P(FRR=0 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=0 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.9143336747467851
+Formula: P(FRR=3 | do(PEG=0)) = P(FRR=3 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=3 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.08566632525321496
+Formula: P(FRR=1 | do(PEG=0)) = P(FRR=1 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=1 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(FRR=0 | do(PEG=1)) = P(FRR=0 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=0 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 1.0
+Formula: P(FRR=3 | do(PEG=1)) = P(FRR=3 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=3 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(FRR=1 | do(PEG=1)) = P(FRR=1 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=1 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(FRR=0 | do(PEG=4)) = P(FRR=0 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.2376237623762376
+Formula: P(FRR=3 | do(PEG=4)) = P(FRR=3 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(FRR=1 | do(PEG=4)) = P(FRR=1 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(FRR=0 | do(PEG=2)) = P(FRR=0 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=0 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.8342500916758343
+Formula: P(FRR=3 | do(PEG=2)) = P(FRR=3 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=3 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.08104143747708104
+Formula: P(FRR=1 | do(PEG=2)) = P(FRR=1 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(FRR=1 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0847084708470847
+Formula: P(FRR=0 | do(PEG=8)) = P(FRR=0 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.2376237623762376
+Formula: P(FRR=3 | do(PEG=8)) = P(FRR=3 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(FRR=1 | do(PEG=8)) = P(FRR=1 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+
+ACE generale(PEG -> FRR) con riferimento = -0.17504077994006295
+
+Genitori diretti di CHOL: ['PEG']
+
+--- Calcolo P(CHOL | do(PEG)) e ACE generale ---
+Formula: P(CHOL=0 | do(PEG=0)) = P(CHOL=0 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=0 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.2964322294298395
+Formula: P(CHOL=1 | do(PEG=0)) = P(CHOL=1 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=1 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.2433993399339934
+Formula: P(CHOL=3 | do(PEG=0)) = P(CHOL=3 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=3 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.3220382383065893
+Formula: P(CHOL=2 | do(PEG=0)) = P(CHOL=2 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=2 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.10515534312051895
+Formula: P(CHOL=6 | do(PEG=0)) = P(CHOL=6 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=6 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.03297484920905883
+Formula: P(CHOL=0 | do(PEG=1)) = P(CHOL=0 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=0 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.2376237623762376
+Formula: P(CHOL=1 | do(PEG=1)) = P(CHOL=1 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=1 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(CHOL=3 | do(PEG=1)) = P(CHOL=3 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=3 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(CHOL=2 | do(PEG=1)) = P(CHOL=2 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=2 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.7623762376237624
+Formula: P(CHOL=6 | do(PEG=1)) = P(CHOL=6 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=6 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(CHOL=0 | do(PEG=4)) = P(CHOL=0 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.1584158415841584
+Formula: P(CHOL=1 | do(PEG=4)) = P(CHOL=1 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0792079207920792
+Formula: P(CHOL=3 | do(PEG=4)) = P(CHOL=3 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(CHOL=2 | do(PEG=4)) = P(CHOL=2 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(CHOL=6 | do(PEG=4)) = P(CHOL=6 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(CHOL=0 | do(PEG=2)) = P(CHOL=0 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=0 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.1992115878254492
+Formula: P(CHOL=1 | do(PEG=2)) = P(CHOL=1 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=1 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.8007884121745508
+Formula: P(CHOL=3 | do(PEG=2)) = P(CHOL=3 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=3 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(CHOL=2 | do(PEG=2)) = P(CHOL=2 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=2 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(CHOL=6 | do(PEG=2)) = P(CHOL=6 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(CHOL=6 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0
+Formula: P(CHOL=0 | do(PEG=8)) = P(CHOL=0 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(CHOL=1 | do(PEG=8)) = P(CHOL=1 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.08640864086408641
+Formula: P(CHOL=3 | do(PEG=8)) = P(CHOL=3 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.08640864086408641
+Formula: P(CHOL=2 | do(PEG=8)) = P(CHOL=2 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0648064806480648
+Formula: P(CHOL=6 | do(PEG=8)) = P(CHOL=6 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+
+ACE generale(PEG -> CHOL) con riferimento = -0.8976747531074947
+
+Genitori diretti di ESM: ['CHOL']
+
+--- Calcolo P(ESM | do(CHOL)) e ACE generale ---
+Formula: P(ESM=0 | do(CHOL=0)) = P(ESM=0 | CHOL=0, PEG=0) * P(PEG=0) + P(ESM=0 | CHOL=0, PEG=1) * P(PEG=1) + P(ESM=0 | CHOL=0, PEG=4) * P(PEG=4) + P(ESM=0 | CHOL=0, PEG=2) * P(PEG=2)
+Valore: 0.6072557255725572
+Formula: P(ESM=2 | do(CHOL=0)) = P(ESM=2 | CHOL=0, PEG=0) * P(PEG=0) + P(ESM=2 | CHOL=0, PEG=1) * P(PEG=1) + P(ESM=2 | CHOL=0, PEG=4) * P(PEG=4) + P(ESM=2 | CHOL=0, PEG=2) * P(PEG=2)
+Valore: 0.029207920792079213
+Formula: P(ESM=1 | do(CHOL=0)) = P(ESM=1 | CHOL=0, PEG=0) * P(PEG=0) + P(ESM=1 | CHOL=0, PEG=1) * P(PEG=1) + P(ESM=1 | CHOL=0, PEG=4) * P(PEG=4) + P(ESM=1 | CHOL=0, PEG=2) * P(PEG=2)
+Valore: 0.04020402040204021
+Formula: P(ESM=3 | do(CHOL=0)) = P(ESM=3 | CHOL=0, PEG=0) * P(PEG=0) + P(ESM=3 | CHOL=0, PEG=1) * P(PEG=1) + P(ESM=3 | CHOL=0, PEG=4) * P(PEG=4) + P(ESM=3 | CHOL=0, PEG=2) * P(PEG=2)
+Valore: 0.13401340134013404
+Formula: P(ESM=4 | do(CHOL=0)) = P(ESM=4 | CHOL=0, PEG=0) * P(PEG=0) + P(ESM=4 | CHOL=0, PEG=1) * P(PEG=1) + P(ESM=4 | CHOL=0, PEG=4) * P(PEG=4) + P(ESM=4 | CHOL=0, PEG=2) * P(PEG=2)
+Valore: 0.08040804080408041
+Formula: P(ESM=0 | do(CHOL=1)) = P(ESM=0 | CHOL=1, PEG=0) * P(PEG=0) + P(ESM=0 | CHOL=1, PEG=4) * P(PEG=4) + P(ESM=0 | CHOL=1, PEG=2) * P(PEG=2) + P(ESM=0 | CHOL=1, PEG=8) * P(PEG=8)
+Valore: 0.4827374490026322
+Formula: P(ESM=2 | do(CHOL=1)) = P(ESM=2 | CHOL=1, PEG=0) * P(PEG=0) + P(ESM=2 | CHOL=1, PEG=4) * P(PEG=4) + P(ESM=2 | CHOL=1, PEG=2) * P(PEG=2) + P(ESM=2 | CHOL=1, PEG=8) * P(PEG=8)
+Valore: 0.0
+Formula: P(ESM=1 | do(CHOL=1)) = P(ESM=1 | CHOL=1, PEG=0) * P(PEG=0) + P(ESM=1 | CHOL=1, PEG=4) * P(PEG=4) + P(ESM=1 | CHOL=1, PEG=2) * P(PEG=2) + P(ESM=1 | CHOL=1, PEG=8) * P(PEG=8)
+Valore: 0.05806663140540859
+Formula: P(ESM=3 | do(CHOL=1)) = P(ESM=3 | CHOL=1, PEG=0) * P(PEG=0) + P(ESM=3 | CHOL=1, PEG=4) * P(PEG=4) + P(ESM=3 | CHOL=1, PEG=2) * P(PEG=2) + P(ESM=3 | CHOL=1, PEG=8) * P(PEG=8)
+Valore: 0.41629162916291634
+Formula: P(ESM=4 | do(CHOL=1)) = P(ESM=4 | CHOL=1, PEG=0) * P(PEG=0) + P(ESM=4 | CHOL=1, PEG=4) * P(PEG=4) + P(ESM=4 | CHOL=1, PEG=2) * P(PEG=2) + P(ESM=4 | CHOL=1, PEG=8) * P(PEG=8)
+Valore: 0.0
+Formula: P(ESM=0 | do(CHOL=3)) = P(ESM=0 | CHOL=3, PEG=0) * P(PEG=0) + P(ESM=0 | CHOL=3, PEG=8) * P(PEG=8)
+Valore: 0.054455445544554455
+Formula: P(ESM=2 | do(CHOL=3)) = P(ESM=2 | CHOL=3, PEG=0) * P(PEG=0) + P(ESM=2 | CHOL=3, PEG=8) * P(PEG=8)
+Valore: 0.11763319189061763
+Formula: P(ESM=1 | do(CHOL=3)) = P(ESM=1 | CHOL=3, PEG=0) * P(PEG=0) + P(ESM=1 | CHOL=3, PEG=8) * P(PEG=8)
+Valore: 0.0
+Formula: P(ESM=3 | do(CHOL=3)) = P(ESM=3 | CHOL=3, PEG=0) * P(PEG=0) + P(ESM=3 | CHOL=3, PEG=8) * P(PEG=8)
+Valore: 0.0
+Formula: P(ESM=4 | do(CHOL=3)) = P(ESM=4 | CHOL=3, PEG=0) * P(PEG=0) + P(ESM=4 | CHOL=3, PEG=8) * P(PEG=8)
+Valore: 0.37906647807637905
+Formula: P(ESM=0 | do(CHOL=2)) = P(ESM=0 | CHOL=2, PEG=0) * P(PEG=0) + P(ESM=0 | CHOL=2, PEG=1) * P(PEG=1) + P(ESM=0 | CHOL=2, PEG=8) * P(PEG=8)
+Valore: 0.1155115511551155
+Formula: P(ESM=2 | do(CHOL=2)) = P(ESM=2 | CHOL=2, PEG=0) * P(PEG=0) + P(ESM=2 | CHOL=2, PEG=1) * P(PEG=1) + P(ESM=2 | CHOL=2, PEG=8) * P(PEG=8)
+Valore: 0.44224422442244227
+Formula: P(ESM=1 | do(CHOL=2)) = P(ESM=1 | CHOL=2, PEG=0) * P(PEG=0) + P(ESM=1 | CHOL=2, PEG=1) * P(PEG=1) + P(ESM=1 | CHOL=2, PEG=8) * P(PEG=8)
+Valore: 0.0
+Formula: P(ESM=3 | do(CHOL=2)) = P(ESM=3 | CHOL=2, PEG=0) * P(PEG=0) + P(ESM=3 | CHOL=2, PEG=1) * P(PEG=1) + P(ESM=3 | CHOL=2, PEG=8) * P(PEG=8)
+Valore: 0.0363036303630363
+Formula: P(ESM=4 | do(CHOL=2)) = P(ESM=4 | CHOL=2, PEG=0) * P(PEG=0) + P(ESM=4 | CHOL=2, PEG=1) * P(PEG=1) + P(ESM=4 | CHOL=2, PEG=8) * P(PEG=8)
+Valore: 0.0
+Formula: P(ESM=0 | do(CHOL=6)) = P(ESM=0 | CHOL=6, PEG=0) * P(PEG=0)
+Valore: 0.0
+Formula: P(ESM=2 | do(CHOL=6)) = P(ESM=2 | CHOL=6, PEG=0) * P(PEG=0)
+Valore: 0.0
+Formula: P(ESM=1 | do(CHOL=6)) = P(ESM=1 | CHOL=6, PEG=0) * P(PEG=0)
+Valore: 0.0
+Formula: P(ESM=3 | do(CHOL=6)) = P(ESM=3 | CHOL=6, PEG=0) * P(PEG=0)
+Valore: 0.0
+Formula: P(ESM=4 | do(CHOL=6)) = P(ESM=4 | CHOL=6, PEG=0) * P(PEG=0)
+Valore: 0.44224422442244227
+
+ACE generale(CHOL -> ESM) con riferimento = 0.6329202839282454
+
+Genitori diretti di HSPC: ['ESM']
+
+--- Calcolo P(HSPC | do(ESM)) e ACE generale ---
+Formula: P(HSPC=0 | do(ESM=0)) = P(HSPC=0 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=0 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=0 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=0 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.0693621278504157
+Formula: P(HSPC=3 | do(ESM=0)) = P(HSPC=3 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=3 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=3 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=3 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.430744816641943
+Formula: P(HSPC=2 | do(ESM=0)) = P(HSPC=2 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=2 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=2 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=2 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.15191673013455192
+Formula: P(HSPC=1 | do(ESM=0)) = P(HSPC=1 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=1 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=1 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=1 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.04564114948080174
+Formula: P(HSPC=6 | do(ESM=0)) = P(HSPC=6 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=6 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=6 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=6 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.027157001414427156
+Formula: P(HSPC=4 | do(ESM=0)) = P(HSPC=4 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=4 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=4 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=4 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.21653384850680188
+Formula: P(HSPC=5 | do(ESM=0)) = P(HSPC=5 | ESM=0, CHOL=0) * P(CHOL=0) + P(HSPC=5 | ESM=0, CHOL=1) * P(CHOL=1) + P(HSPC=5 | ESM=0, CHOL=3) * P(CHOL=3) + P(HSPC=5 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.048743335872048744
+Formula: P(HSPC=0 | do(ESM=2)) = P(HSPC=0 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=0 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=0 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.5148514851485149
+Formula: P(HSPC=3 | do(ESM=2)) = P(HSPC=3 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=3 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=3 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=2 | do(ESM=2)) = P(HSPC=2 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=2 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=2 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=1 | do(ESM=2)) = P(HSPC=1 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=1 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=1 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=6 | do(ESM=2)) = P(HSPC=6 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=6 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=6 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=4 | do(ESM=2)) = P(HSPC=4 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=4 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=4 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=5 | do(ESM=2)) = P(HSPC=5 | ESM=2, CHOL=0) * P(CHOL=0) + P(HSPC=5 | ESM=2, CHOL=3) * P(CHOL=3) + P(HSPC=5 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=0 | do(ESM=1)) = P(HSPC=0 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=0 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.6831683168316831
+Formula: P(HSPC=3 | do(ESM=1)) = P(HSPC=3 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=3 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(HSPC=2 | do(ESM=1)) = P(HSPC=2 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=2 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(HSPC=1 | do(ESM=1)) = P(HSPC=1 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=1 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(HSPC=6 | do(ESM=1)) = P(HSPC=6 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=6 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(HSPC=4 | do(ESM=1)) = P(HSPC=4 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=4 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(HSPC=5 | do(ESM=1)) = P(HSPC=5 | ESM=1, CHOL=0) * P(CHOL=0) + P(HSPC=5 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(HSPC=0 | do(ESM=3)) = P(HSPC=0 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=0 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=0 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.7887788778877887
+Formula: P(HSPC=3 | do(ESM=3)) = P(HSPC=3 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=3 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=3 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=2 | do(ESM=3)) = P(HSPC=2 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=2 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=2 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=1 | do(ESM=3)) = P(HSPC=1 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=1 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=1 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=6 | do(ESM=3)) = P(HSPC=6 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=6 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=6 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=4 | do(ESM=3)) = P(HSPC=4 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=4 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=4 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=5 | do(ESM=3)) = P(HSPC=5 | ESM=3, CHOL=0) * P(CHOL=0) + P(HSPC=5 | ESM=3, CHOL=1) * P(CHOL=1) + P(HSPC=5 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(HSPC=0 | do(ESM=4)) = P(HSPC=0 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=0 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=0 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.4191419141914191
+Formula: P(HSPC=3 | do(ESM=4)) = P(HSPC=3 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=3 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=3 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0
+Formula: P(HSPC=2 | do(ESM=4)) = P(HSPC=2 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=2 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=2 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0
+Formula: P(HSPC=1 | do(ESM=4)) = P(HSPC=1 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=1 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=1 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0
+Formula: P(HSPC=6 | do(ESM=4)) = P(HSPC=6 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=6 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=6 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0
+Formula: P(HSPC=4 | do(ESM=4)) = P(HSPC=4 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=4 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=4 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0
+Formula: P(HSPC=5 | do(ESM=4)) = P(HSPC=5 | ESM=4, CHOL=0) * P(CHOL=0) + P(HSPC=5 | ESM=4, CHOL=3) * P(CHOL=3) + P(HSPC=5 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0
+
+ACE generale(ESM -> HSPC) con riferimento = -2.9145031415497487
+
+Genitori diretti di PDI: ['PEG', 'ESM', 'TFR', 'FRR']
+
+--- Calcolo P(PDI | do(PEG)) e ACE generale ---
+Formula: P(PDI=1 | do(PEG=0)) = P(PDI=1 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=1 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.1911061795834756
+Formula: P(PDI=2 | do(PEG=0)) = P(PDI=2 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=2 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.10526914760441561
+Formula: P(PDI=3 | do(PEG=0)) = P(PDI=3 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=3 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.16464663707750082
+Formula: P(PDI=0 | do(PEG=0)) = P(PDI=0 | PEG=0, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=0 | PEG=0, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.538978035734608
+Formula: P(PDI=1 | do(PEG=1)) = P(PDI=1 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=1 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.5544554455445545
+Formula: P(PDI=2 | do(PEG=1)) = P(PDI=2 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=2 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.25742574257425743
+Formula: P(PDI=3 | do(PEG=1)) = P(PDI=3 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=3 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.0792079207920792
+Formula: P(PDI=0 | do(PEG=1)) = P(PDI=0 | PEG=1, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=0 | PEG=1, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.10891089108910891
+Formula: P(PDI=1 | do(PEG=4)) = P(PDI=1 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.19801980198019803
+Formula: P(PDI=2 | do(PEG=4)) = P(PDI=2 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0396039603960396
+Formula: P(PDI=3 | do(PEG=4)) = P(PDI=3 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(PDI=0 | do(PEG=4)) = P(PDI=0 | PEG=4, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0
+Formula: P(PDI=1 | do(PEG=2)) = P(PDI=1 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=1 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.3262742940960762
+Formula: P(PDI=2 | do(PEG=2)) = P(PDI=2 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=2 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.40053171983865055
+Formula: P(PDI=3 | do(PEG=2)) = P(PDI=3 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=3 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.23973230656398975
+Formula: P(PDI=0 | do(PEG=2)) = P(PDI=0 | PEG=2, AQUEOUS=0) * P(AQUEOUS=0) + P(PDI=0 | PEG=2, AQUEOUS=1) * P(AQUEOUS=1)
+Valore: 0.03346167950128346
+Formula: P(PDI=1 | do(PEG=8)) = P(PDI=1 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0792079207920792
+Formula: P(PDI=2 | do(PEG=8)) = P(PDI=2 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.1296129612961296
+Formula: P(PDI=3 | do(PEG=8)) = P(PDI=3 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.021602160216021602
+Formula: P(PDI=0 | do(PEG=8)) = P(PDI=0 | PEG=8, AQUEOUS=0) * P(AQUEOUS=0)
+Valore: 0.0072007200720072
+
+ACE generale(PEG -> PDI) con riferimento = 0.06289896231002423
+
+--- Calcolo P(PDI | do(ESM)) e ACE generale ---
+Formula: P(PDI=1 | do(ESM=0)) = P(PDI=1 | ESM=0, CHOL=0) * P(CHOL=0) + P(PDI=1 | ESM=0, CHOL=1) * P(CHOL=1) + P(PDI=1 | ESM=0, CHOL=3) * P(CHOL=3) + P(PDI=1 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.3095295887133607
+Formula: P(PDI=2 | do(ESM=0)) = P(PDI=2 | ESM=0, CHOL=0) * P(CHOL=0) + P(PDI=2 | ESM=0, CHOL=1) * P(CHOL=1) + P(PDI=2 | ESM=0, CHOL=3) * P(CHOL=3) + P(PDI=2 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.480262445971212
+Formula: P(PDI=3 | do(ESM=0)) = P(PDI=3 | ESM=0, CHOL=0) * P(CHOL=0) + P(PDI=3 | ESM=0, CHOL=1) * P(CHOL=1) + P(PDI=3 | ESM=0, CHOL=3) * P(CHOL=3) + P(PDI=3 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.17298827443719983
+Formula: P(PDI=0 | do(ESM=0)) = P(PDI=0 | ESM=0, CHOL=0) * P(CHOL=0) + P(PDI=0 | ESM=0, CHOL=1) * P(CHOL=1) + P(PDI=0 | ESM=0, CHOL=3) * P(CHOL=3) + P(PDI=0 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.02731870077921756
+Formula: P(PDI=1 | do(ESM=2)) = P(PDI=1 | ESM=2, CHOL=0) * P(CHOL=0) + P(PDI=1 | ESM=2, CHOL=3) * P(CHOL=3) + P(PDI=1 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.16958618938816958
+Formula: P(PDI=2 | do(ESM=2)) = P(PDI=2 | ESM=2, CHOL=0) * P(CHOL=0) + P(PDI=2 | ESM=2, CHOL=3) * P(CHOL=3) + P(PDI=2 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.030972328002030973
+Formula: P(PDI=3 | do(ESM=2)) = P(PDI=3 | ESM=2, CHOL=0) * P(CHOL=0) + P(PDI=3 | ESM=2, CHOL=3) * P(CHOL=3) + P(PDI=3 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.08479309469408479
+Formula: P(PDI=0 | do(ESM=2)) = P(PDI=0 | ESM=2, CHOL=0) * P(CHOL=0) + P(PDI=0 | ESM=2, CHOL=3) * P(CHOL=3) + P(PDI=0 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.2294998730642295
+Formula: P(PDI=1 | do(ESM=1)) = P(PDI=1 | ESM=1, CHOL=0) * P(CHOL=0) + P(PDI=1 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.1584158415841584
+Formula: P(PDI=2 | do(ESM=1)) = P(PDI=2 | ESM=1, CHOL=0) * P(CHOL=0) + P(PDI=2 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.14851485148514848
+Formula: P(PDI=3 | do(ESM=1)) = P(PDI=3 | ESM=1, CHOL=0) * P(CHOL=0) + P(PDI=3 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.1386138613861386
+Formula: P(PDI=0 | do(ESM=1)) = P(PDI=0 | ESM=1, CHOL=0) * P(CHOL=0) + P(PDI=0 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.2376237623762376
+Formula: P(PDI=1 | do(ESM=3)) = P(PDI=1 | ESM=3, CHOL=0) * P(CHOL=0) + P(PDI=1 | ESM=3, CHOL=1) * P(CHOL=1) + P(PDI=1 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.2351935193519352
+Formula: P(PDI=2 | do(ESM=3)) = P(PDI=2 | ESM=3, CHOL=0) * P(CHOL=0) + P(PDI=2 | ESM=3, CHOL=1) * P(CHOL=1) + P(PDI=2 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.12001200120012001
+Formula: P(PDI=3 | do(ESM=3)) = P(PDI=3 | ESM=3, CHOL=0) * P(CHOL=0) + P(PDI=3 | ESM=3, CHOL=1) * P(CHOL=1) + P(PDI=3 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.14554455445544554
+Formula: P(PDI=0 | do(ESM=3)) = P(PDI=0 | ESM=3, CHOL=0) * P(CHOL=0) + P(PDI=0 | ESM=3, CHOL=1) * P(CHOL=1) + P(PDI=0 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.28802880288028804
+Formula: P(PDI=1 | do(ESM=4)) = P(PDI=1 | ESM=4, CHOL=0) * P(CHOL=0) + P(PDI=1 | ESM=4, CHOL=3) * P(CHOL=3) + P(PDI=1 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.016187333019016186
+Formula: P(PDI=2 | do(ESM=4)) = P(PDI=2 | ESM=4, CHOL=0) * P(CHOL=0) + P(PDI=2 | ESM=4, CHOL=3) * P(CHOL=3) + P(PDI=2 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.03834669181203834
+Formula: P(PDI=3 | do(ESM=4)) = P(PDI=3 | ESM=4, CHOL=0) * P(CHOL=0) + P(PDI=3 | ESM=4, CHOL=3) * P(CHOL=3) + P(PDI=3 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.2079207920792079
+Formula: P(PDI=0 | do(ESM=4)) = P(PDI=0 | ESM=4, CHOL=0) * P(CHOL=0) + P(PDI=0 | ESM=4, CHOL=3) * P(CHOL=3) + P(PDI=0 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.15668709728115668
+
+ACE generale(ESM -> PDI) con riferimento = -1.0425964199207378
+
+--- Calcolo P(PDI | do(TFR)) e ACE generale ---
+Formula: P(PDI=1 | do(TFR=6)) = P(PDI=1 | TFR=6)
+Valore: 0.3088235294117647
+Formula: P(PDI=2 | do(TFR=6)) = P(PDI=2 | TFR=6)
+Valore: 0.36764705882352944
+Formula: P(PDI=3 | do(TFR=6)) = P(PDI=3 | TFR=6)
+Valore: 0.08823529411764706
+Formula: P(PDI=0 | do(TFR=6)) = P(PDI=0 | TFR=6)
+Valore: 0.23529411764705882
+Formula: P(PDI=1 | do(TFR=2)) = P(PDI=1 | TFR=2)
+Valore: 0.4230769230769231
+Formula: P(PDI=2 | do(TFR=2)) = P(PDI=2 | TFR=2)
+Valore: 0.15384615384615385
+Formula: P(PDI=3 | do(TFR=2)) = P(PDI=3 | TFR=2)
+Valore: 0.3076923076923077
+Formula: P(PDI=0 | do(TFR=2)) = P(PDI=0 | TFR=2)
+Valore: 0.11538461538461539
+Formula: P(PDI=1 | do(TFR=0)) = P(PDI=1 | TFR=0)
+Valore: 0.15384615384615385
+Formula: P(PDI=2 | do(TFR=0)) = P(PDI=2 | TFR=0)
+Valore: 0.3076923076923077
+Formula: P(PDI=3 | do(TFR=0)) = P(PDI=3 | TFR=0)
+Valore: 0.3076923076923077
+Formula: P(PDI=0 | do(TFR=0)) = P(PDI=0 | TFR=0)
+Valore: 0.23076923076923078
+Formula: P(PDI=1 | do(TFR=1)) = P(PDI=1 | TFR=1)
+Valore: 0.17647058823529413
+Formula: P(PDI=2 | do(TFR=1)) = P(PDI=2 | TFR=1)
+Valore: 0.3235294117647059
+Formula: P(PDI=3 | do(TFR=1)) = P(PDI=3 | TFR=1)
+Valore: 0.23529411764705882
+Formula: P(PDI=0 | do(TFR=1)) = P(PDI=0 | TFR=1)
+Valore: 0.2647058823529412
+Formula: P(PDI=1 | do(TFR=5)) = P(PDI=1 | TFR=5)
+Valore: 0.375
+Formula: P(PDI=2 | do(TFR=5)) = P(PDI=2 | TFR=5)
+Valore: 0.275
+Formula: P(PDI=3 | do(TFR=5)) = P(PDI=3 | TFR=5)
+Valore: 0.125
+Formula: P(PDI=0 | do(TFR=5)) = P(PDI=0 | TFR=5)
+Valore: 0.225
+Formula: P(PDI=1 | do(TFR=3)) = P(PDI=1 | TFR=3)
+Valore: 0.2222222222222222
+Formula: P(PDI=2 | do(TFR=3)) = P(PDI=2 | TFR=3)
+Valore: 0.28703703703703703
+Formula: P(PDI=3 | do(TFR=3)) = P(PDI=3 | TFR=3)
+Valore: 0.1111111111111111
+Formula: P(PDI=0 | do(TFR=3)) = P(PDI=0 | TFR=3)
+Valore: 0.37962962962962965
+Formula: P(PDI=1 | do(TFR=4)) = P(PDI=1 | TFR=4)
+Valore: 0.0
+Formula: P(PDI=2 | do(TFR=4)) = P(PDI=2 | TFR=4)
+Valore: 0.0
+Formula: P(PDI=3 | do(TFR=4)) = P(PDI=3 | TFR=4)
+Valore: 0.0
+Formula: P(PDI=0 | do(TFR=4)) = P(PDI=0 | TFR=4)
+Valore: 1.0
+
+ACE generale(TFR -> PDI) con riferimento = -0.5386891793754541
+
+--- Calcolo P(PDI | do(FRR)) e ACE generale ---
+Formula: P(PDI=1 | do(FRR=0)) = P(PDI=1 | FRR=0, PEG=0) * P(PEG=0) + P(PDI=1 | FRR=0, PEG=1) * P(PEG=1) + P(PDI=1 | FRR=0, PEG=4) * P(PEG=4) + P(PDI=1 | FRR=0, PEG=2) * P(PEG=2) + P(PDI=1 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.28390519051905194
+Formula: P(PDI=2 | do(FRR=0)) = P(PDI=2 | FRR=0, PEG=0) * P(PEG=0) + P(PDI=2 | FRR=0, PEG=1) * P(PEG=1) + P(PDI=2 | FRR=0, PEG=4) * P(PEG=4) + P(PDI=2 | FRR=0, PEG=2) * P(PEG=2) + P(PDI=2 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.2983810381038104
+Formula: P(PDI=3 | do(FRR=0)) = P(PDI=3 | FRR=0, PEG=0) * P(PEG=0) + P(PDI=3 | FRR=0, PEG=1) * P(PEG=1) + P(PDI=3 | FRR=0, PEG=4) * P(PEG=4) + P(PDI=3 | FRR=0, PEG=2) * P(PEG=2) + P(PDI=3 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.12027602760276028
+Formula: P(PDI=0 | do(FRR=0)) = P(PDI=0 | FRR=0, PEG=0) * P(PEG=0) + P(PDI=0 | FRR=0, PEG=1) * P(PEG=1) + P(PDI=0 | FRR=0, PEG=4) * P(PEG=4) + P(PDI=0 | FRR=0, PEG=2) * P(PEG=2) + P(PDI=0 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.2974377437743774
+Formula: P(PDI=1 | do(FRR=3)) = P(PDI=1 | FRR=3, PEG=0) * P(PEG=0) + P(PDI=1 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.09827649431609828
+Formula: P(PDI=2 | do(FRR=3)) = P(PDI=2 | FRR=3, PEG=0) * P(PEG=0) + P(PDI=2 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.16263292995966264
+Formula: P(PDI=3 | do(FRR=3)) = P(PDI=3 | FRR=3, PEG=0) * P(PEG=0) + P(PDI=3 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.5183351668500183
+Formula: P(PDI=0 | do(FRR=3)) = P(PDI=0 | FRR=3, PEG=0) * P(PEG=0) + P(PDI=0 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.04913824715804914
+Formula: P(PDI=1 | do(FRR=1)) = P(PDI=1 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.03217821782178218
+Formula: P(PDI=2 | do(FRR=1)) = P(PDI=2 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.19306930693069307
+Formula: P(PDI=3 | do(FRR=1)) = P(PDI=3 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.1608910891089109
+Formula: P(PDI=0 | do(FRR=1)) = P(PDI=0 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.0
+
+ACE generale(FRR -> PDI) con riferimento = 0.1982736273627364
+
+Genitori diretti di SIZE: ['ESM', 'TFR', 'FRR']
+
+--- Calcolo P(SIZE | do(ESM)) e ACE generale ---
+Formula: P(SIZE=3 | do(ESM=0)) = P(SIZE=3 | ESM=0, CHOL=0) * P(CHOL=0) + P(SIZE=3 | ESM=0, CHOL=1) * P(CHOL=1) + P(SIZE=3 | ESM=0, CHOL=3) * P(CHOL=3) + P(SIZE=3 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.030427432987201155
+Formula: P(SIZE=0 | do(ESM=0)) = P(SIZE=0 | ESM=0, CHOL=0) * P(CHOL=0) + P(SIZE=0 | ESM=0, CHOL=1) * P(CHOL=1) + P(SIZE=0 | ESM=0, CHOL=3) * P(CHOL=3) + P(SIZE=0 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.6973233801536144
+Formula: P(SIZE=1 | do(ESM=0)) = P(SIZE=1 | ESM=0, CHOL=0) * P(CHOL=0) + P(SIZE=1 | ESM=0, CHOL=1) * P(CHOL=1) + P(SIZE=1 | ESM=0, CHOL=3) * P(CHOL=3) + P(SIZE=1 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.23917229031935625
+Formula: P(SIZE=2 | do(ESM=0)) = P(SIZE=2 | ESM=0, CHOL=0) * P(CHOL=0) + P(SIZE=2 | ESM=0, CHOL=1) * P(CHOL=1) + P(SIZE=2 | ESM=0, CHOL=3) * P(CHOL=3) + P(SIZE=2 | ESM=0, CHOL=2) * P(CHOL=2)
+Valore: 0.023175906440818298
+Formula: P(SIZE=3 | do(ESM=2)) = P(SIZE=3 | ESM=2, CHOL=0) * P(CHOL=0) + P(SIZE=3 | ESM=2, CHOL=3) * P(CHOL=3) + P(SIZE=3 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.2079207920792079
+Formula: P(SIZE=0 | do(ESM=2)) = P(SIZE=0 | ESM=2, CHOL=0) * P(CHOL=0) + P(SIZE=0 | ESM=2, CHOL=3) * P(CHOL=3) + P(SIZE=0 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.17237877633917237
+Formula: P(SIZE=1 | do(ESM=2)) = P(SIZE=1 | ESM=2, CHOL=0) * P(CHOL=0) + P(SIZE=1 | ESM=2, CHOL=3) * P(CHOL=3) + P(SIZE=1 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.13455191673013456
+Formula: P(SIZE=2 | do(ESM=2)) = P(SIZE=2 | ESM=2, CHOL=0) * P(CHOL=0) + P(SIZE=2 | ESM=2, CHOL=3) * P(CHOL=3) + P(SIZE=2 | ESM=2, CHOL=2) * P(CHOL=2)
+Valore: 0.0
+Formula: P(SIZE=3 | do(ESM=1)) = P(SIZE=3 | ESM=1, CHOL=0) * P(CHOL=0) + P(SIZE=3 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.1386138613861386
+Formula: P(SIZE=0 | do(ESM=1)) = P(SIZE=0 | ESM=1, CHOL=0) * P(CHOL=0) + P(SIZE=0 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.2376237623762376
+Formula: P(SIZE=1 | do(ESM=1)) = P(SIZE=1 | ESM=1, CHOL=0) * P(CHOL=0) + P(SIZE=1 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.3069306930693069
+Formula: P(SIZE=2 | do(ESM=1)) = P(SIZE=2 | ESM=1, CHOL=0) * P(CHOL=0) + P(SIZE=2 | ESM=1, CHOL=1) * P(CHOL=1)
+Valore: 0.0
+Formula: P(SIZE=3 | do(ESM=3)) = P(SIZE=3 | ESM=3, CHOL=0) * P(CHOL=0) + P(SIZE=3 | ESM=3, CHOL=1) * P(CHOL=1) + P(SIZE=3 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.14554455445544554
+Formula: P(SIZE=0 | do(ESM=3)) = P(SIZE=0 | ESM=3, CHOL=0) * P(CHOL=0) + P(SIZE=0 | ESM=3, CHOL=1) * P(CHOL=1) + P(SIZE=0 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.1568156815681568
+Formula: P(SIZE=1 | do(ESM=3)) = P(SIZE=1 | ESM=3, CHOL=0) * P(CHOL=0) + P(SIZE=1 | ESM=3, CHOL=1) * P(CHOL=1) + P(SIZE=1 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.12161216121612162
+Formula: P(SIZE=2 | do(ESM=3)) = P(SIZE=2 | ESM=3, CHOL=0) * P(CHOL=0) + P(SIZE=2 | ESM=3, CHOL=1) * P(CHOL=1) + P(SIZE=2 | ESM=3, CHOL=2) * P(CHOL=2)
+Valore: 0.3648064806480648
+Formula: P(SIZE=3 | do(ESM=4)) = P(SIZE=3 | ESM=4, CHOL=0) * P(CHOL=0) + P(SIZE=3 | ESM=4, CHOL=3) * P(CHOL=3) + P(SIZE=3 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.24626748389124625
+Formula: P(SIZE=0 | do(ESM=4)) = P(SIZE=0 | ESM=4, CHOL=0) * P(CHOL=0) + P(SIZE=0 | ESM=4, CHOL=3) * P(CHOL=3) + P(SIZE=0 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.0033003300330033004
+Formula: P(SIZE=1 | do(ESM=4)) = P(SIZE=1 | ESM=4, CHOL=0) * P(CHOL=0) + P(SIZE=1 | ESM=4, CHOL=3) * P(CHOL=3) + P(SIZE=1 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.08329404369008328
+Formula: P(SIZE=2 | do(ESM=4)) = P(SIZE=2 | ESM=4, CHOL=0) * P(CHOL=0) + P(SIZE=2 | ESM=4, CHOL=3) * P(CHOL=3) + P(SIZE=2 | ESM=4, CHOL=6) * P(CHOL=6)
+Valore: 0.08628005657708628
+
+ACE generale(ESM -> SIZE) con riferimento = 0.5640940889854196
+
+--- Calcolo P(SIZE | do(TFR)) e ACE generale ---
+Formula: P(SIZE=3 | do(TFR=6)) = P(SIZE=3 | TFR=6)
+Valore: 0.058823529411764705
+Formula: P(SIZE=0 | do(TFR=6)) = P(SIZE=0 | TFR=6)
+Valore: 0.5294117647058824
+Formula: P(SIZE=1 | do(TFR=6)) = P(SIZE=1 | TFR=6)
+Valore: 0.36764705882352944
+Formula: P(SIZE=2 | do(TFR=6)) = P(SIZE=2 | TFR=6)
+Valore: 0.04411764705882353
+Formula: P(SIZE=3 | do(TFR=2)) = P(SIZE=3 | TFR=2)
+Valore: 0.2692307692307692
+Formula: P(SIZE=0 | do(TFR=2)) = P(SIZE=0 | TFR=2)
+Valore: 0.38461538461538464
+Formula: P(SIZE=1 | do(TFR=2)) = P(SIZE=1 | TFR=2)
+Valore: 0.2692307692307692
+Formula: P(SIZE=2 | do(TFR=2)) = P(SIZE=2 | TFR=2)
+Valore: 0.07692307692307693
+Formula: P(SIZE=3 | do(TFR=0)) = P(SIZE=3 | TFR=0)
+Valore: 0.11538461538461539
+Formula: P(SIZE=0 | do(TFR=0)) = P(SIZE=0 | TFR=0)
+Valore: 0.0
+Formula: P(SIZE=1 | do(TFR=0)) = P(SIZE=1 | TFR=0)
+Valore: 0.6538461538461539
+Formula: P(SIZE=2 | do(TFR=0)) = P(SIZE=2 | TFR=0)
+Valore: 0.23076923076923078
+Formula: P(SIZE=3 | do(TFR=1)) = P(SIZE=3 | TFR=1)
+Valore: 0.17647058823529413
+Formula: P(SIZE=0 | do(TFR=1)) = P(SIZE=0 | TFR=1)
+Valore: 0.23529411764705882
+Formula: P(SIZE=1 | do(TFR=1)) = P(SIZE=1 | TFR=1)
+Valore: 0.5
+Formula: P(SIZE=2 | do(TFR=1)) = P(SIZE=2 | TFR=1)
+Valore: 0.08823529411764706
+Formula: P(SIZE=3 | do(TFR=5)) = P(SIZE=3 | TFR=5)
+Valore: 0.15
+Formula: P(SIZE=0 | do(TFR=5)) = P(SIZE=0 | TFR=5)
+Valore: 0.575
+Formula: P(SIZE=1 | do(TFR=5)) = P(SIZE=1 | TFR=5)
+Valore: 0.2
+Formula: P(SIZE=2 | do(TFR=5)) = P(SIZE=2 | TFR=5)
+Valore: 0.075
+Formula: P(SIZE=3 | do(TFR=3)) = P(SIZE=3 | TFR=3)
+Valore: 0.05555555555555555
+Formula: P(SIZE=0 | do(TFR=3)) = P(SIZE=0 | TFR=3)
+Valore: 0.48148148148148145
+Formula: P(SIZE=1 | do(TFR=3)) = P(SIZE=1 | TFR=3)
+Valore: 0.18518518518518517
+Formula: P(SIZE=2 | do(TFR=3)) = P(SIZE=2 | TFR=3)
+Valore: 0.2777777777777778
+Formula: P(SIZE=3 | do(TFR=4)) = P(SIZE=3 | TFR=4)
+Valore: 0.0
+Formula: P(SIZE=0 | do(TFR=4)) = P(SIZE=0 | TFR=4)
+Valore: 1.0
+Formula: P(SIZE=1 | do(TFR=4)) = P(SIZE=1 | TFR=4)
+Valore: 0.0
+Formula: P(SIZE=2 | do(TFR=4)) = P(SIZE=2 | TFR=4)
+Valore: 0.0
+
+ACE generale(TFR -> SIZE) con riferimento = -0.6654698061560808
+
+--- Calcolo P(SIZE | do(FRR)) e ACE generale ---
+Formula: P(SIZE=3 | do(FRR=0)) = P(SIZE=3 | FRR=0, PEG=0) * P(PEG=0) + P(SIZE=3 | FRR=0, PEG=1) * P(PEG=1) + P(SIZE=3 | FRR=0, PEG=4) * P(PEG=4) + P(SIZE=3 | FRR=0, PEG=2) * P(PEG=2) + P(SIZE=3 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.10615061506150615
+Formula: P(SIZE=0 | do(FRR=0)) = P(SIZE=0 | FRR=0, PEG=0) * P(PEG=0) + P(SIZE=0 | FRR=0, PEG=1) * P(PEG=1) + P(SIZE=0 | FRR=0, PEG=4) * P(PEG=4) + P(SIZE=0 | FRR=0, PEG=2) * P(PEG=2) + P(SIZE=0 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.4256441644164417
+Formula: P(SIZE=1 | do(FRR=0)) = P(SIZE=1 | FRR=0, PEG=0) * P(PEG=0) + P(SIZE=1 | FRR=0, PEG=1) * P(PEG=1) + P(SIZE=1 | FRR=0, PEG=4) * P(PEG=4) + P(SIZE=1 | FRR=0, PEG=2) * P(PEG=2) + P(SIZE=1 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.3008340834083409
+Formula: P(SIZE=2 | do(FRR=0)) = P(SIZE=2 | FRR=0, PEG=0) * P(PEG=0) + P(SIZE=2 | FRR=0, PEG=1) * P(PEG=1) + P(SIZE=2 | FRR=0, PEG=4) * P(PEG=4) + P(SIZE=2 | FRR=0, PEG=2) * P(PEG=2) + P(SIZE=2 | FRR=0, PEG=8) * P(PEG=8)
+Valore: 0.16737113711371135
+Formula: P(SIZE=3 | do(FRR=3)) = P(SIZE=3 | FRR=3, PEG=0) * P(PEG=0) + P(SIZE=3 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.09827649431609828
+Formula: P(SIZE=0 | do(FRR=3)) = P(SIZE=0 | FRR=3, PEG=0) * P(PEG=0) + P(SIZE=0 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.2913458012467913
+Formula: P(SIZE=1 | do(FRR=3)) = P(SIZE=1 | FRR=3, PEG=0) * P(PEG=0) + P(SIZE=1 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.4387605427209388
+Formula: P(SIZE=2 | do(FRR=3)) = P(SIZE=2 | FRR=3, PEG=0) * P(PEG=0) + P(SIZE=2 | FRR=3, PEG=2) * P(PEG=2)
+Valore: 0.0
+Formula: P(SIZE=3 | do(FRR=1)) = P(SIZE=3 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.0
+Formula: P(SIZE=0 | do(FRR=1)) = P(SIZE=0 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.28960396039603964
+Formula: P(SIZE=1 | do(FRR=1)) = P(SIZE=1 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.09653465346534654
+Formula: P(SIZE=2 | do(FRR=1)) = P(SIZE=2 | FRR=1, PEG=2) * P(PEG=2)
+Valore: 0.0
+
+ACE generale(FRR -> SIZE) con riferimento = -0.5389658632529919
+Plot salvato: 5_ACE\_plots\DAG5.png

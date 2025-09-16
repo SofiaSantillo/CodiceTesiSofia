@@ -43,7 +43,7 @@ def bin_variable_by_k(data, column, k):
 
 
 if __name__ == "__main__":
-    file_path = "Data_Droplet/seed.csv"
+    file_path = "_Data/data_1.csv"
 
     # Carica il dataset
     if file_path.endswith('.csv'):

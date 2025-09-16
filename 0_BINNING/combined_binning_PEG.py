@@ -43,7 +43,7 @@ def bin_variable_by_k(data, column, k):
 
 
 if __name__ == "__main__":
-    file_path = "Data_Droplet/seed.csv"
+    file_path = "_Data/data_1.csv"
 
     # Carica il dataset
     if file_path.endswith('.csv'):
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     df['PEG_binned_sqrt'] = bin_variable_by_k(df, 'PEG', k_bins_sqrt)
 
 
-    k_bins_distribution = binning_max_min(df, 'PEG', h=1)
+    k_bins_distribution = binning_max_min(df, 'PEG', h=1.5)
     df['PEG_binned_distribution'] = bin_variable_by_k(df, 'PEG', k_bins_distribution)
 
   

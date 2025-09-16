@@ -2,7 +2,7 @@ import pandas as pd
 from itertools import combinations
 import json
 
-df = pd.read_csv("2_DAG/seed_Binn.csv") 
+df = pd.read_csv("_Data/data_1_Binning.csv") 
 nodes = list(df.columns)
 
 all_combinations = list(combinations(nodes, 3))

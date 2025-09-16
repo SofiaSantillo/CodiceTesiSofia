@@ -1,0 +1,19 @@
+### SHAP Summary Combined - SIZE & PDI ###
+Target | Feature                        |  MeanAbsSHAP
+-------|--------------------------------|-------------
+SIZE   | AQUEOUS_PBS                    |    10.841979
+SIZE   | ESM                            |   190.960729
+SIZE   | HSPC                           |     3.343370
+SIZE   | CHOL                           |   129.062740
+SIZE   | PEG                            |    10.990461
+SIZE   | TFR                            |    83.021131
+SIZE   | FRR                            |    17.856134
+SIZE   | PDI                            |   319.150073
+PDI    | AQUEOUS_PBS                    |     0.001595
+PDI    | ESM                            |     0.011653
+PDI    | HSPC                           |     0.012151
+PDI    | CHOL                           |     0.020473
+PDI    | PEG                            |     0.054111
+PDI    | TFR                            |     0.005665
+PDI    | FRR                            |     0.023758
+PDI    | SIZE                           |     0.065385

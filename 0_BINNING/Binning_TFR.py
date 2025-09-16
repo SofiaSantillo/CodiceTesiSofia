@@ -20,7 +20,7 @@ def bin_variable_by_k(data, column, k):
 def bin_TFR(df_cleaned, logger):
 
     # Binning TFR con metodo max-min
-    k_TFR = binning_max_min(df_cleaned, 'TFR', h=0.5)
+    k_TFR = binning_max_min(df_cleaned, 'TFR', h=0.35)
     bins_TFR = bin_variable_by_k(df_cleaned, 'TFR', k_TFR)
     df_cleaned['TFR_CAT'] = pd.cut(df_cleaned['TFR'], bins=bins_TFR, labels=False, include_lowest=True)
 

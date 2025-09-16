@@ -1,6 +1,0 @@
-ML - PEG 
-Percorso: ['ML', 'ESM', 'PDI', 'CHOL', 'FRR', 'PEG'] -> Struttura piu' lunga
-Percorso: ['ML', 'ESM', 'SIZE', 'AQUEOUS', 'PEG'] -> Struttura piu' lunga
-Percorso: ['ML', 'ESM', 'AQUEOUS', 'PEG'] -> Struttura piu' lunga
-Percorso: ['ML', 'ESM', 'CHOL', 'FRR', 'PEG'] -> Struttura piu' lunga
-Percorso: ['ML', 'PEG'] -> Arco diretto

@@ -1,9 +1,18 @@
-2025-08-14 09:55:04,981 - INFO - Numero di bin per 'HSPC': 3
-2025-08-14 09:55:04,981 - INFO - Conteggio degli elementi in ciascun bin di 'HSPC_CAT':
-2025-08-14 09:55:04,982 - INFO - 0    146
-2    117
-1      7
-Name: HSPC_CAT, dtype: int64
-2025-08-14 09:55:04,982 - INFO - Bin 0: da 0.0000 a 4.1900
-2025-08-14 09:55:04,982 - INFO - Bin 1: da 4.1900 a 8.3800
-2025-08-14 09:55:04,982 - INFO - Bin 2: da 8.3800 a 12.5700
+2025-09-13 12:34:36,803 - INFO - Numero di bin per 'HSPC': 7
+2025-09-13 12:34:36,803 - INFO - Conteggio degli elementi in ciascun bin di 'HSPC_CAT':
+2025-09-13 12:34:36,803 - INFO - HSPC_CAT
+0    152
+3     93
+2     28
+1      9
+6      6
+4      9
+5      6
+Name: count, dtype: int64
+2025-09-13 12:34:36,803 - INFO - Bin 0: da 0.0000 a 2.9879
+2025-09-13 12:34:36,803 - INFO - Bin 1: da 2.9879 a 5.9758
+2025-09-13 12:34:36,803 - INFO - Bin 2: da 5.9758 a 8.9637
+2025-09-13 12:34:36,803 - INFO - Bin 3: da 8.9637 a 11.9516
+2025-09-13 12:34:36,803 - INFO - Bin 4: da 11.9516 a 14.9395
+2025-09-13 12:34:36,803 - INFO - Bin 5: da 14.9395 a 17.9274
+2025-09-13 12:34:36,803 - INFO - Bin 6: da 17.9274 a 20.9153

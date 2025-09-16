@@ -1,0 +1,17 @@
+### ACE + SHAP COMBINATI ###
+X            | Y            |          ACE |  MeanAbsSHAP | Spurious
+-------------|--------------|--------------|--------------|---------
+ESM          | SIZE         |   747.255483 |   190.960729 |    False
+CHOL         | SIZE         |  -849.672518 |   129.062740 |    False
+TFR          | SIZE         |    -0.883151 |    83.021131 |    False
+FRR          | SIZE         |  -184.285836 |    17.856134 |    False
+PEG          | SIZE         |  -585.937398 |    10.990461 |    False
+HSPC         | SIZE         |  -420.280578 |     3.343370 |    False
+PEG          | PDI          |     0.016247 |     0.054111 |    False
+FRR          | PDI          |     0.088738 |     0.023758 |    False
+CHOL         | PDI          |    -0.301379 |     0.020473 |    False
+HSPC         | PDI          |     0.055019 |     0.012151 |    False
+ESM          | PDI          |     0.048299 |     0.011653 |    False
+TFR          | PDI          |    -0.060378 |     0.005665 |    False
+AQUEOUS      | PDI          |     0.052625 |     0.000000 |    False
+AQUEOUS      | SIZE         |   251.917904 |     0.000000 |    False
