@@ -18,7 +18,8 @@ dataset_file = os.path.join(data_path, "data_1.csv")
 with open(model_file, "rb") as f:
     models_dict = pickle.load(f)
 
-model = models_dict['xgb_size']
+# Modello che predice solo PDI
+model = models_dict['xgb_pdi']
 
 data = pd.read_csv(dataset_file).dropna()
 X_raw = data.copy()
@@ -26,12 +27,14 @@ X_raw = data.copy()
 log_path = "6_VALIDAZIONE_INTERVENTISTA/_log/"
 plot_path = "6_VALIDAZIONE_INTERVENTISTA/_plot/"
 
-
+# -----------------------------------------------------------------------------------
 # 4. Analisi SHAP
 # -----------------------------------------------------------------------------------
 X_preprocessed = model.named_steps['preprocessor'].transform(X_raw)
+
 def rf_predict_wrapper(X):
     return model.named_steps['regressor'].predict(X)
+
 explainer = shap.Explainer(rf_predict_wrapper, X_preprocessed)
 shap_values = explainer(X_preprocessed)
 
@@ -39,18 +42,14 @@ shap_values = explainer(X_preprocessed)
 # 5. Creazione log SHAP - versione nuova
 # -----------------------------------------------------------------------------------
 
-# Calcolo mean absolute SHAP per ogni target
-# ---------------- Calcolo SHAP ----------------
-# Assumendo che shap_values sia già calcolato come prima
-out_folder ="6_VALIDAZIONE_INTERVENTISTA/_log"
+out_folder = "6_VALIDAZIONE_INTERVENTISTA/_log"
 log_ref_path = f"{out_folder}/sensitivity_shuffle.log"
 df_log = pd.read_csv(log_ref_path, sep="|")
 df_log.columns = [c.strip() for c in df_log.columns]  # pulizia spazi
 df_log['SHAP'] = np.nan 
 
-
-mean_abs_shap_size = np.abs(shap_values.values[:, :, 0]).mean(axis=0)
-mean_abs_shap_pdi  = np.abs(shap_values.values[:, :, 1]).mean(axis=0)
+# Calcolo mean absolute SHAP solo per SIZE
+mean_abs_shap_pdi = np.abs(shap_values.values).mean(axis=0)
 
 # Nome delle feature preprocessate
 if hasattr(model.named_steps['preprocessor'], 'get_feature_names_out'):
@@ -58,11 +57,11 @@ if hasattr(model.named_steps['preprocessor'], 'get_feature_names_out'):
 else:
     feature_names = X_raw.columns.tolist()
 
-# Creazione dataframe SHAP
+# Creazione dataframe SHAP (solo SIZE)
 df_shap = pd.DataFrame({
-    'Target': ['SIZE']*len(feature_names) + ['PDI']*len(feature_names),
-    'Feature': list(feature_names)*2,
-    'SHAP_Value': np.concatenate([mean_abs_shap_size, mean_abs_shap_pdi])
+    'Target': ['PDI']*len(feature_names),
+    'Feature': list(feature_names),
+    'SHAP_Value': mean_abs_shap_pdi
 })
 
 df_shap['Feature'] = df_shap['Feature'] \
@@ -73,7 +72,6 @@ df_shap['Feature'] = df_shap['Feature'] \
 # ---------------- Aggiornamento df_log con SHAP ----------------
 df_log['SHAP'] = np.nan
 
-# ---------------- Aggiornamento df_log con SHAP ----------------
 for idx, row in df_log.iterrows():
     target = row['Target'].strip()
     feature = row['Feature'].strip()

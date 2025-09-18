@@ -12,8 +12,7 @@ xgb_size = models["xgb_size"]
 xgb_pdi = models["xgb_pdi"]
 
 # --- Caricamento dei dataset ---
-train_df = pd.read_csv("_Data/data_1.csv").dropna()
-val_df = pd.read_csv("_Data/dataset_ScaleUp_mixed_validation.csv").dropna()
+val_df = pd.read_csv("dataset_controfattuale_gan.csv").dropna()
 
 # --- Separazione features e target ---
 X_val = val_df.drop(columns=["SIZE", "PDI"])

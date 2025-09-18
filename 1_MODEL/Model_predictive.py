@@ -45,7 +45,7 @@ xgb_pdi = load(xgb_path_pdi)
 ######################################################################################################
 # 2. Mixture of Experts (Iterative Refinement)
 ######################################################################################################
-def iterative_refinement(X_raw, num_epochs=2):
+def iterative_refinement(X_raw, num_epochs=5):
     logging.info(f"Starting iterative refinement with {num_epochs} epochs.")
     X = X_raw.copy()
     # Initial predictions using weak model
@@ -55,15 +55,18 @@ def iterative_refinement(X_raw, num_epochs=2):
     pdi_pred = initial_preds[:, 1].ravel() 
     # Iterative refinement
     for epoch in range(num_epochs):
-        logging.info(f"Epoch {epoch+1}/{num_epochs}")
+        logging.info(f"Epoch {epoch+1}/{num_epochs}") 
+
         # Predict SIZE using PDI
         X_with_pdi = X.copy()
         X_with_pdi['PDI'] = pdi_pred
         size_pred = xgb_size.predict(X_with_pdi).ravel() 
+
         # Predict PDI using new SIZE
         X_with_size = X.copy()
         X_with_size['SIZE'] = size_pred
-        pdi_pred = xgb_pdi.predict(X_with_size).ravel()  
+        pdi_pred = xgb_pdi.predict(X_with_size).ravel() 
+       
 
     logging.info("Completed iterative refinement.")
     return pd.DataFrame({

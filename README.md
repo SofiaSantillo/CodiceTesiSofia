@@ -26,4 +26,6 @@ PIPELINE: per favorire la leggibilità dell'intero progetto, le cartelle sono st
 
     - 5_ACE: confronto dei 3 dag selezionati dal sampling per scelta DAG ottimo. Il calcolo dell'ACE mi permette di decifrare edge migliori a discapito di altri e quindi scartare DAG meno potenti dal punto di vista causale. Eseguire "ACE" modificando la variabile DAG.
 
+    - 6_VALIDAZIONE_INTERVENTISTA: Ricerca delle correlazioni spurie per i modelli rf, xgb_size, xgb_pdi. Eseguire solo "Research_spurious_correlations.py" modificando le flag a seconda di quello che ci serve (modificare in "Sensitivity_Shuffle.py" e "Shap_analysis.py" o "Shap_analysis_xgb.py" a seconda del modello che stiamo studiando). I risultati sono rispettivamente in "MASTER_LOG_rf.log" ".._xg_size.log", ".._xgb_pdi.log"
+
     

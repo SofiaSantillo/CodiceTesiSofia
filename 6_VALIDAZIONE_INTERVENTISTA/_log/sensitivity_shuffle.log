@@ -1,0 +1,20 @@
+Target       | Feature           | DAG_Category  | TCE_Value    | Percentuale  | Sensitivity | Shuffle     
+-------------|  -----------------|  -------------|              |              |             |             
+SIZE         |   FRR             |   direct      |  -117.466277 |  -1.174663   | 0.078283    | 0.035673    
+SIZE         |   AQUEOUS         |   indirect    |  -505.173743 |  -5.051737   | 0.003556    | 0.002319    
+SIZE         |   PEG             |   indirect    |  -594.082958 |  -5.940830   | 0.104175    | 0.073650    
+SIZE         |   CHOL            |   indirect    |  293.591745  |  2.935917    | 0.102608    | 0.027603    
+SIZE         |   ESM             |   direct      |  738.369125  |  7.383691    | 0.035674    | 0.016168    
+SIZE         |   HSPC            |   independent |  -407.912322 |  -4.079123   | 0.026229    | 0.014894    
+SIZE         |   TFR             |   direct      |  135.304672  |  1.353047    | 0.019529    | 0.010924    
+SIZE         |   SIZE            |   target      |              |              |             |             
+SIZE         |   PDI             |   independent |  -145.837127 |  -1.458371   | 0.000000    | 0.000000    
+PDI          |   FRR             |   direct      |  0.000504    |  0.050375    | 0.078283    | 0.032833    
+PDI          |   AQUEOUS         |   indirect    |  -0.112514   |  -11.251369  | 0.003556    | 0.002819    
+PDI          |   PEG             |   direct      |  -0.021770   |  -2.177047   | 0.104175    | 0.076134    
+PDI          |   CHOL            |   indirect    |  0.050411    |  5.041053    | 0.102608    | 0.030352    
+PDI          |   ESM             |   direct      |  0.020890    |  2.089042    | 0.035674    | 0.015861    
+PDI          |   HSPC            |   independent |  0.081111    |  8.111052    | 0.026229    | 0.014781    
+PDI          |   TFR             |   direct      |  0.086610    |  8.660968    | 0.019529    | 0.010468    
+PDI          |   SIZE            |   independent |  0.002768    |  0.276846    | 0.506240    | 0.098782    
+PDI          |   PDI             |   target      |              |              |             |             

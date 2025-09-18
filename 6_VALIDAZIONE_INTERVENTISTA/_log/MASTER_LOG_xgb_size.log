@@ -1,0 +1,20 @@
+Target      | Feature          | DAG_Category | TCE_Value   | Percentuale | Sensitivity| ShuffleDelta| SHAP       | Spurious_Flag 
+----------------------------------------------------------------------------------------------------------------------------------
+SIZE        | FRR              | direct       | -117.466277 | -1.174663   | 81.919769  | 31.222038   | 17.856123  | False        
+SIZE        | AQUEOUS          | indirect     | -505.173743 | -5.051737   | 35.117096  | 12.883157   | 10.841970  | True         
+SIZE        | PEG              | indirect     | -594.082958 | -5.940830   | 26.402466  | 23.763912   | 10.990458  | True         
+SIZE        | CHOL             | indirect     | 293.591745  | 2.935917    | 537.248779 | 128.336227  | 129.062726 | False        
+SIZE        | ESM              | direct       | 738.369125  | 7.383691    | 456.205078 | 232.983398  | 190.960724 | False        
+SIZE        | HSPC             | independent  | -407.912322 | -4.079123   | 24.750702  | 6.421670    | 3.343370   | False        
+SIZE        | TFR              | direct       | 135.304672  | 1.353047    | 198.033539 | 114.546127  | 83.021135  | False        
+SIZE        | SIZE             | target       |             |             |            |             |            | False        
+SIZE        | PDI              | independent  | -145.837127 | -1.458371   | 3138.066650| 438.183014  | 319.150063 | True         
+PDI         | FRR              | direct       | 0.000504    | 0.050375    | 81.919769  | 30.393820   |            | False        
+PDI         | AQUEOUS          | indirect     | -0.112514   | -11.251369  | 35.117096  | 19.624952   |            | False        
+PDI         | PEG              | direct       | -0.021770   | -2.177047   | 26.402466  | 23.094793   |            | False        
+PDI         | CHOL             | indirect     | 0.050411    | 5.041053    | 537.248779 | 132.158386  |            | True         
+PDI         | ESM              | direct       | 0.020890    | 2.089042    | 456.205078 | 243.000488  |            | True         
+PDI         | HSPC             | independent  | 0.081111    | 8.111052    | 24.750702  | 6.879811    |            | False        
+PDI         | TFR              | direct       | 0.086610    | 8.660968    | 198.033539 | 114.015808  |            | True         
+PDI         | SIZE             | independent  | 0.002768    | 0.276846    | 0.000000   | 0.000000    |            | False        
+PDI         | PDI              | target       |             |             |            |             |            | False        

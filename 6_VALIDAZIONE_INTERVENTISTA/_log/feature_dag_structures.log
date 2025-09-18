@@ -1,0 +1,20 @@
+Target       | Feature         | DAG_Category
+-------------|-----------------|-------------
+SIZE         | FRR             | direct      
+SIZE         | AQUEOUS         | indirect    
+SIZE         | PEG             | indirect    
+SIZE         | CHOL            | indirect    
+SIZE         | ESM             | direct      
+SIZE         | HSPC            | independent 
+SIZE         | TFR             | direct      
+SIZE         | SIZE            | target      
+SIZE         | PDI             | independent 
+PDI          | FRR             | direct      
+PDI          | AQUEOUS         | indirect    
+PDI          | PEG             | direct      
+PDI          | CHOL            | indirect    
+PDI          | ESM             | direct      
+PDI          | HSPC            | independent 
+PDI          | TFR             | direct      
+PDI          | SIZE            | independent 
+PDI          | PDI             | target      
