@@ -50,7 +50,6 @@ def filter_colliders(colliders, edges):
         center = right_part[0].strip()
         right = right_part[1].strip()
 
-        # i genitori sono left e right, non devono essere adiacenti
         if frozenset((left, right)) not in edge_set:
             valid_colliders.add((left, center, right))
 

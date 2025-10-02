@@ -18,7 +18,6 @@ def generate_dags(nodes, forbidden_edges):
                     involved_nodes.update(edge)
                 if involved_nodes == set(nodes):
                     if all([list(edge) not in forbidden_edges for edge in subset]):
-                        # usa frozenset per evitare duplicati
                         dag_key = frozenset(subset)
                         if dag_key not in seen_dags:
                             seen_dags.add(dag_key)

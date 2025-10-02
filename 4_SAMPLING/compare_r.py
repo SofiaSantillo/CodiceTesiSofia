@@ -22,7 +22,6 @@ def compute_metrics(sim_file, real_file, outcome_name):
     df_sim = df_sim.rename(columns={outcome_name: f"{outcome_name}_sim"})
     df_real = df_real.rename(columns={outcome_name: f"{outcome_name}_real"})
     
-    # Merge sulle feature comuni se ci sono
     X_cols = [c for c in df_real.columns if c != f"{outcome_name}_real"]
     if X_cols:
         df_merged = pd.merge(df_real, df_sim, on=X_cols, how='inner')

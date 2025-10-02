@@ -4,7 +4,7 @@ import networkx as nx
 def parse_log_line(line):
     match = re.match(r"^([\d\.]+): (.+?) \|", line)
     if not match:
-        return None, [], line  # ritorna la riga intera se non matcha
+        return None, [], line  
     dag_id = match.group(1)
     edges_str = match.group(2)
     edges = [tuple(edge.strip().split(" -> ")) for edge in edges_str.split(",")]

@@ -87,7 +87,6 @@ def load_allowed_edges(log_path):
     return allowed_edges
 
 def violates_constraints(candidate_edges, allowed_edges):
-    # Tutti gli archi devono essere presenti nel log
     return any(edge not in allowed_edges for edge in candidate_edges)
 
 # ------------------------------

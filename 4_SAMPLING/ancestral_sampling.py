@@ -19,7 +19,6 @@ def parse_dags_from_log(log_file):
     with open(log_file, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Regex per estrarre DAG e edges
     dag_blocks = re.findall(r"DAG (\d+):\s*Edges: (\[.*?\])\s*Score: .*?\n", content, re.DOTALL)
     
     for dag_id, edges_str in dag_blocks:
@@ -102,7 +101,6 @@ data_file = "_Data/data_1.csv"
 output_folder = "4_SAMPLING/_csv"
 os.makedirs(output_folder, exist_ok=True)
 
-# Parsing DAG
 dags_dict = parse_dags_from_log(log_file)
 df = pd.read_csv(data_file).dropna()
 

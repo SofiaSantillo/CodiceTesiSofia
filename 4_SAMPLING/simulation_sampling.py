@@ -6,7 +6,7 @@ from collections import Counter
 
 # ----------------------- Setup -----------------------
 log_folder = "4_SAMPLING/_logs"
-best3_file = os.path.join(log_folder, "comparison_sampling.log")  # log generato da compare_r.py
+best3_file = os.path.join(log_folder, "comparison_sampling.log")  
 run_log_file = os.path.join(log_folder, "run_iterations.log")
 
 os.makedirs(log_folder, exist_ok=True)
@@ -28,7 +28,7 @@ SCRIPTS = [
 with open(run_log_file, "w") as log:
     log.write("=== Avvio nuovo run completo ===\n\n")
 
-all_top3_dags = []  # Lista per salvare i top3 di ogni iterazione
+all_top3_dags = [] 
 
 # ----------------------- Esecuzione iterazioni -----------------------
 
@@ -60,14 +60,13 @@ if os.path.exists(best3_file):
             try:
                 mae_line = lines[i + 1].strip()
                 ks_line = lines[i + 2].strip()
-                # Estrazione MAE medio
                 mae_match = re.search(r"media\s*=\s*([\d\.]+)", mae_line)
                 ks_match = re.search(r"SIZE=([\d\.]+).*PDI=([\d\.]+)", ks_line)
                 if mae_match and ks_match:
                     mae_value = float(mae_match.group(1))
                     ks_size = float(ks_match.group(1))
                     ks_pdi = float(ks_match.group(2))
-                    ks_value = (ks_size + ks_pdi) / 2  # KS medio
+                    ks_value = (ks_size + ks_pdi) / 2 
                     dag_metrics.append((dag_number, mae_value, ks_value))
             except IndexError:
                 continue
@@ -75,14 +74,11 @@ if os.path.exists(best3_file):
     # ----------------------- Calcolo tradeoff -----------------------
     if dag_metrics:
         df = pd.DataFrame(dag_metrics, columns=["DAG", "MAE", "KS"])
-        # Normalizzazione MAE e KS
         df["MAE_norm"] = (df["MAE"] - df["MAE"].min()) / (df["MAE"].max() - df["MAE"].min())
         df["KS_norm"] = (df["KS"] - df["KS"].min()) / (df["KS"].max() - df["KS"].min())
-        # Tradeoff
         df["Tradeoff"] = df["MAE_norm"] + df["KS_norm"]
         top3_tradeoff = df.sort_values("Tradeoff").head(3)
 
-        # Salvataggio top3 dell'iterazione
         with open(run_log_file, "a") as log:
             log.write(f"\n--- TOP 3 DAG con miglior tradeoff ---\n")
             for _, row in top3_tradeoff.iterrows():
@@ -97,17 +93,12 @@ if os.path.exists(best3_file):
 best_dags_file = "5_ACE/_logs/best_dags.log"
 os.makedirs(os.path.dirname(best_dags_file), exist_ok=True)
 
-# Calcolo dei 3 DAG più frequenti tra i top3 delle iterazioni
 top3_frequent = Counter(all_top3_dags).most_common(3)
-
-# File sorgente contenente tutti i DAG con edges
 source_file = "3_D-SEPARATION/_logs/expanded_Dags_clean.log"
 
-# Lettura del file sorgente
 with open(source_file, "r") as f:
     content = f.read()
 
-# Separazione in blocchi di DAG tramite linee di separazione
 dag_blocks = re.split(r'-{30,}', content)
 
 best_dags_info = []
@@ -117,11 +108,10 @@ for block in dag_blocks:
     edges_match = re.search(r"Edges:\s*(\[[^\]]*\])", block, re.DOTALL)
     if dag_match and edges_match:
         dag_number = dag_match.group(1)
-        if dag_number in [dag for dag, _ in top3_frequent]:  # solo top 3 frequenti
+        if dag_number in [dag for dag, _ in top3_frequent]: 
             edges = edges_match.group(1)
             best_dags_info.append((dag_number, edges))
 
-# Scrittura sul nuovo file log
 with open(best_dags_file, "w") as f:
     f.write("=== Top 3 DAG migliori (numero + edges) ===\n\n")
     for dag_number, edges in best_dags_info:

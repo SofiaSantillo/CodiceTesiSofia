@@ -1,0 +1,63 @@
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[!] Nessun fattore valido per cluster 0-3 in ESM, scelto migliore disponibile: 0.01
+[!] Nessun fattore valido per cluster 15-25 in ESM, scelto migliore disponibile: 0.79
+[+] Feature ESM: cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[!] Nessun fattore valido per cluster 0-3 in PEG, scelto migliore disponibile: 0.01
+[!] Nessun fattore valido per cluster 3-6 in PEG, scelto migliore disponibile: 0.95
+[+] Feature PEG: cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[!] Nessun fattore valido per cluster 0-3 in TFR, scelto migliore disponibile: 1.16
+[!] Nessun fattore valido per cluster 3-25 in TFR, scelto migliore disponibile: 0.1
+[!] Nessun fattore valido per cluster 25-55 in TFR, scelto migliore disponibile: 0.072
+[+] Feature TFR: cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+[!] Nessun fattore valido per cluster 0-3 in ESM, scelto migliore disponibile: 0.01
+[!] Nessun fattore valido per cluster 15-25 in ESM, scelto migliore disponibile: 0.79
+[!] Nessun fattore valido per cluster 0-3 in PEG, scelto migliore disponibile: 0.01
+[!] Nessun fattore valido per cluster 3-6 in PEG, scelto migliore disponibile: 0.95
+[!] Nessun fattore valido per cluster 0-3 in TFR, scelto migliore disponibile: 1.16
+[!] Nessun fattore valido per cluster 3-25 in TFR, scelto migliore disponibile: 0.1
+[!] Nessun fattore valido per cluster 25-55 in TFR, scelto migliore disponibile: 0.072
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+[!] Nessun peso valido trovato per ESM, scelto migliore disponibile: 0.6199999999999998
+Peso ottimale ESM: 0.620 -> MSE medio: 73.4207
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+[!] Nessun peso valido trovato per TFR, scelto migliore disponibile: 1.1599999999999995
+Peso ottimale TFR: 1.160 -> MSE medio: 73.4206
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+[!] Nessun peso valido trovato per PEG, scelto migliore disponibile: 1.1099999999999997
+Peso ottimale PEG: 1.110 -> MSE medio: 60.5014
+
+📊 Metriche finali sulle predizioni con pesi globali ottimizzati:
+  R2_SIZE: 0.4195
+  R2_PDI: 0.7302
+  MSE_SIZE: 60.4980
+  MSE_PDI: 0.0034
+  MAE_SIZE: 7.3885
+  MAE_PDI: 0.0417
+
+✅ Dataset scalato e salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'

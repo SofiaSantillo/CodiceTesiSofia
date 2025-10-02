@@ -55,10 +55,10 @@ def functionalize_xgboost_gridsearch_size(seed, best_model_info):
     ])
     # Grid search
     param_grid = {
-        'regressor__estimator__n_estimators': [50, 100, 200, 400, 800],
-        'regressor__estimator__max_depth': [3, 5, 7, 9],
-        'regressor__estimator__learning_rate': [0.01, 0.05, 0.1, 0.2],
-        'regressor__estimator__subsample': [0.6, 0.8, 1.0]
+        'regressor__estimator__n_estimators': [50, 100, 200],
+        'regressor__estimator__max_depth': [2, 3, 4, 5],
+        'regressor__estimator__learning_rate': [0.01, 0.1, 0.2],
+        'regressor__estimator__subsample': [0.8, 1.0]
     }
     grid_search = GridSearchCV(pipeline, param_grid, cv=5, scoring='neg_mean_squared_error', n_jobs=-1)
     # Cross Validation

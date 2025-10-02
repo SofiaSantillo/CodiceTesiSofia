@@ -1,9 +1,9 @@
 import subprocess
 
 # Flag: True per eseguire, False per saltare
-RUN_SCRIPT_1 = False
-RUN_SCRIPT_2 = False
-RUN_SCRIPT_3 = False
+RUN_SCRIPT_1 = True
+RUN_SCRIPT_2 = True
+RUN_SCRIPT_3 = True
 RUN_SCRIPT_4 = True
 RUN_SCRIPT_5 = True
 

@@ -3,7 +3,7 @@ L'intero progetto si struttura nelle seguenti cartelle:
     - seed_completo.csv contiene circa 300 formulazioni e rappresenta il dataset iniziale, fungendo da punto di partenza per l’addestramento dei modelli;
     - extension.csv, costituito da circa 50 formulazioni aggiuntive, che può essere impiegato sia per ampliare il numero di campioni di training sia come primo benchmark di validazione preliminare;
     - validation.csv rappresenta il vero set di validazione, il quale non deve mai essere utilizzato durante la fase di addestramento, garantendo così una stima imparziale delle prestazioni del modello sui dati non osservati;
-    - data_1.csv, ottenuto unendo seed\_completo.csv ed extension.csv. Questo file rappresenta il dataset principale utilizzato nel progetto, contenente l’intera gamma di formulazioni disponibili per l’addestramento e la sperimentazione dei modelli;
+    - data_1.csv, ottenuto unendo seed_completo.csv ed extension.csv. Questo file rappresenta il dataset principale utilizzato nel progetto, contenente l’intera gamma di formulazioni disponibili per l’addestramento e la sperimentazione dei modelli;
     - data_1_Binning è il dataset binnato secondo quanto effettuato nella cartella 0_BINNING, utilizzato poi in fase di modellazione causale per il calcolo delle probabilità frequentiste;
     - dataset_ScaleUp.csv è il dataset fornito delle formulazione in fase di Scale Up industriale. Viene utilizzato in fase di check tra modello predittivo di machine learning puro e modello di ScaleUp creato tramite analisi causale, come validation set
     - dataset_ScaleUp_mixed_train.csv è il dataset composto unendo randomicamente formulazioni provenienti da data_1 e dataset_ScaleUp per il ri-allenamento del modello predittivo puro per confrontarne le prestazioni rispetto al modello di ScaleUp; rappresenta il training set
@@ -26,6 +26,12 @@ PIPELINE: per favorire la leggibilità dell'intero progetto, le cartelle sono st
 
     - 5_ACE: confronto dei 3 dag selezionati dal sampling per scelta DAG ottimo. Il calcolo dell'ACE mi permette di decifrare edge migliori a discapito di altri e quindi scartare DAG meno potenti dal punto di vista causale. Eseguire "ACE" modificando la variabile DAG.
 
-    - 6_VALIDAZIONE_INTERVENTISTA: Ricerca delle correlazioni spurie per i modelli rf, xgb_size, xgb_pdi. Eseguire solo "Research_spurious_correlations.py" modificando le flag a seconda di quello che ci serve (modificare in "Sensitivity_Shuffle.py" e "Shap_analysis.py" o "Shap_analysis_xgb.py" a seconda del modello che stiamo studiando). I risultati sono rispettivamente in "MASTER_LOG_rf.log" ".._xg_size.log", ".._xgb_pdi.log"
+    - 6_VALIDAZIONE_INTERVENTISTA: Ricerca delle correlazioni spurie per i modelli rf, xgb_size, xgb_pdi. Eseguire "Analisi_causale.py", "Analisi_correlativa.py" e "Spurious_correlations.py" in questo ordine
+
+    -7_PREDIZIONI_SCALEUP: predizioni del modello refined_model al dataset di scaleUp (con la funzione di iterative refinement e con la classe RefinedModel)
+
+    -8_MODELLO_SCALE_UP: Il modello migliore è "Model_scalarization_greedySearch_range_weights_Correction.py"
+
+    
 
     

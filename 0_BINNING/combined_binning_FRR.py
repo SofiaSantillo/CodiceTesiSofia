@@ -12,24 +12,24 @@ def binning_sqrt(data, column):
 def binning_max_min(data, column, h):
     max_val = data[column].max()  
     min_val = data[column].min()  
-    k = math.ceil((max_val - min_val) / h)  # Calcolo di k come il modulo superiore
+    k = math.ceil((max_val - min_val) / h)  
     return k
 
 def binning_rice_rule(data, column):
     n = data[column].shape[0] 
-    k = math.ceil(2 * (n ** (1/3)))  # 2 * radice cubica di n, arrotondata per eccesso
+    k = math.ceil(2 * (n ** (1/3)))  
     return k
 
 def binning_terrel_scott(data, column):
     n = data[column].shape[0]  
-    k = math.ceil((2 * n) ** (1/3))  # Calcolo di k come la radice cubica di 2n
+    k = math.ceil((2 * n) ** (1/3)) 
     return k
 
 # Funzione per calcolare h = 2 * (IQR(x) / n^(1/3))
 def binning_freedman_diaconis(data, column):
     n = data[column].shape[0]  
     iqr = data[column].quantile(0.75) - data[column].quantile(0.25)  
-    h = 2 * (iqr / (n ** (1/3)))  # Calcolo di h come 2 * (IQR / radice cubica di n)
+    h = 2 * (iqr / (n ** (1/3)))  
     max_val = data[column].max()  
     min_val = data[column].min() 
     k = math.ceil((max_val - min_val) / h)
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     df['FRR_binned_fd'] = bin_variable_by_k(df, 'FRR', k_bins_fd)
     
 
-    fig, axes = plt.subplots(2, 3, figsize=(18, 12))  # Due righe, tre colonne
+    fig, axes = plt.subplots(2, 3, figsize=(18, 12))
 
     # Primo istogramma (basato su √n)
     df['FRR_binned_sqrt'].value_counts().sort_index().plot(kind='bar', ax=axes[0, 0], color='orange', edgecolor='black')
@@ -108,7 +108,6 @@ if __name__ == "__main__":
     axes[1, 1].set_ylabel("Frequenza")
     axes[1, 1].tick_params(axis='x', rotation=45)
 
-    # colonna vuota
     axes[1, 2].axis('off')
 
     plt.tight_layout()

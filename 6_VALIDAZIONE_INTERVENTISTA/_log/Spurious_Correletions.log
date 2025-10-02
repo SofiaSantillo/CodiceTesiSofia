@@ -1,0 +1,18 @@
+Target     | Feature    | DAG_Category  | Covariates | Adj_Effect (DAG)       | Sensitivity (ML)   | Permutation Importance (ML)  | Spurious_Flag| Coerenza causale
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+PDI        | AQUEOUS    | indiretta     | FRR        | 0.0526252471165638     | 0.034616023        | 0.0142901477452237           | False        | True        
+PDI        | CHOL       | indiretta     | PEG        | -0.02712410925839      | -0.035157364       | 1.48600201549851             | False        | True        
+PDI        | ESM        | diretta       | CHOL       | 0.0035085774254512     | 0.008703893        | 0.1686535584793066           | False        | True        
+PDI        | FRR        | diretta       | nan        | 0.0032597453027117     | -0.012593947       | 0.1350352298163501           | False        | False       
+PDI        | HSPC       | non collegata | ESM        | 0.0047349712418225     | -0.006543476       | 0.0180107584975534           | False        | False       
+PDI        | PEG        | diretta       | AQUEOUS    | 0.0022846732018142     | 0.027691208        | 0.5123244984926503           | True         | True        
+PDI        | SIZE       | non collegata | nan        | 0.0001098313515779     | nan                | nan                          | False        | False       
+PDI        | TFR        | diretta       | AQUEOUS    | -0.0483026528307076    | -0.00592214        | 0.040181517947184            | False        | True        
+SIZE       | AQUEOUS    | indiretta     | FRR        | 251.91790431501244     | 44.576935          | 0.0097018872557017           | False        | True        
+SIZE       | CHOL       | indiretta     | AQUEOUS    | -72.8428409915301      | -56.440968         | 0.657431133100316            | False        | True        
+SIZE       | ESM        | diretta       | AQUEOUS    | 20.937981817036672     | 14.469381          | 0.2606280998471504           | True         | True        
+SIZE       | FRR        | diretta       | nan        | -6.769683757560251     | -29.155058         | 0.059868021031648            | False        | True        
+SIZE       | HSPC       | non collegata | ESM        | -36.16989812610172     | -0.7972716         | 0.0007612174445738           | False        | True        
+SIZE       | PDI        | non collegata | nan        | 4255.38118822492       | nan                | nan                          | False        | False       
+SIZE       | PEG        | indiretta     | AQUEOUS    | -82.39744658595605     | -34.825024         | 0.0685678479503548           | False        | True        
+SIZE       | TFR        | diretta       | AQUEOUS    | -0.7065209713214499    | -9.298008          | 0.0726169858324536           | True         | True        

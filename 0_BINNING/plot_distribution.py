@@ -11,7 +11,6 @@ def plot_distributions(df, output_folder="0_BINNING/Plot_binning"):
         df (pd.DataFrame): Dataset
         output_folder (str): Cartella dove salvare i grafici
     """
-    # Crea la cartella se non esiste
     os.makedirs(output_folder, exist_ok=True)
 
     for col in df.columns:

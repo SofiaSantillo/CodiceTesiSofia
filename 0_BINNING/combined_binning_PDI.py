@@ -29,7 +29,7 @@ def binning_terrel_scott(data, column):
 def binning_freedman_diaconis(data, column):
     n = data[column].shape[0] 
     iqr = data[column].quantile(0.75) - data[column].quantile(0.25)  
-    h = 2 * (iqr / (n ** (1/3)))  # Calcolo di h come 2 * (IQR / radice cubica di n)
+    h = 2 * (iqr / (n ** (1/3))) 
     max_val = data[column].max()  
     min_val = data[column].min() 
     k = math.ceil((max_val - min_val) / h)
@@ -42,7 +42,7 @@ def bin_variable_by_k(data, column, k):
     bins = np.linspace(min_val, max_val, k + 1)
     return pd.cut(data[column], bins=bins, include_lowest=True)
 
-# Esegui la funzione main solo se il file viene eseguito direttamente
+
 if __name__ == "__main__":
     file_path = "_Data/data_1.csv"
 
@@ -75,7 +75,7 @@ if __name__ == "__main__":
     df['PDI_binned_fd'] = bin_variable_by_k(df, 'PDI', k_bins_fd)
     
 
-    fig, axes = plt.subplots(2, 3, figsize=(18, 12))  # Due righe, tre colonne
+    fig, axes = plt.subplots(2, 3, figsize=(18, 12))  
 
     # Primo istogramma (basato su √n)
     df['PDI_binned_sqrt'].value_counts().sort_index().plot(kind='bar', ax=axes[0, 0], color='orange', edgecolor='black')
@@ -114,7 +114,6 @@ if __name__ == "__main__":
 
     axes[1, 2].axis('off')
 
-    # Salva la figura combinata in un file PNG
     plt.tight_layout()
     plt.savefig("0_BINNING/Plot_binning/combined_histogram_PDI.png")
     plt.close()

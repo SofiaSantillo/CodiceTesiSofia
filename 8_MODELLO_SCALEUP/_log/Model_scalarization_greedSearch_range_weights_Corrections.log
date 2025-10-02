@@ -1,0 +1,56 @@
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati :
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+Polynomial Calibrated R² SIZE: 0.7914431144036131
+Quantile Calibrated R² SIZE: 0.8030930894426446
+Polynomial Calibrated R² PDI: 0.976687649287887
+Quantile Calibrated R² PDI: 0.976463107033013

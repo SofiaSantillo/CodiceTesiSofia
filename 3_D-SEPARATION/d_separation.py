@@ -202,16 +202,10 @@ if __name__ == "__main__":
 
         dag = DAG(edges)
 
-        # Cicla su tutte le coppie di variabili distinte
         for start, end in combinations(variables, 2):
-            # Trova percorsi
             results = dag.find_and_classify_paths(start, end)
 
-            if not results:  # se non ci sono percorsi, salta
+            if not results: 
                 continue
-
-            # Calcola CMI
             cmi_df = compute_cmi_paths([p for p, _ in results], df, x_col=start, y_col=end)
-
-            # Scrivi su log
             write_paths_and_cmi_to_log(results, cmi_df, log_file_path, dag_id, start, end)

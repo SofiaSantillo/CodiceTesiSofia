@@ -7,15 +7,12 @@ import os
 import matplotlib.pyplot as plt
 import re
 
-# File di log contenente i top DAG
-log_best_dags = "5_ACE/_logs/best_DAGs.log"  # sostituire con il percorso corretto
+log_best_dags = "5_ACE/_logs/best_DAGs.log"  
 
-# Legge i DAG migliori dal file di log
 dag_dict = {}
 with open(log_best_dags, "r") as f:
     content = f.read()
 
-# Pattern per trovare "DAG <numero>:\nEdges: [...]"
 pattern = r"DAG (\d+):\s+Edges:\s+(\[.*?\])"
 matches = re.findall(pattern, content, re.DOTALL)
 
@@ -23,7 +20,6 @@ for dag_num, edges_str in matches:
     edges = ast.literal_eval(edges_str)
     dag_dict[f"DAG{dag_num}"] = edges
 
-# Carica i dati
 data = pd.read_csv('_Data/data_1_Binning.csv')
 
 def compute_ACE_general_reference(P_do):
@@ -44,7 +40,6 @@ log_folder = os.path.join(out_folder, "_logs")
 output_folder = os.path.join(out_folder, "_plots")
 os.makedirs(output_folder, exist_ok=True)
 
-# Itera su tutti i DAG trovati
 for DAG_name, edges in dag_dict.items():
     sys.stdout = open(f"{log_folder}/ACE_{DAG_name}.log", "w")
     
@@ -109,7 +104,6 @@ for DAG_name, edges in dag_dict.items():
             ace_ref = compute_ACE_general_reference(P_do)
             print(f"\nACE generale({X} -> {Y}) con riferimento = {ace_ref}")
 
-    # Plot del DAG
     plt.figure(figsize=(20, 15))
     pos = nx.spring_layout(G, seed=2)
     nx.draw(G, pos, with_labels=True, node_size=2500, node_color="lightblue",

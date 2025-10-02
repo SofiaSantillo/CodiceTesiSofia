@@ -1,0 +1,86 @@
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors) - mse ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors) - mse ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396

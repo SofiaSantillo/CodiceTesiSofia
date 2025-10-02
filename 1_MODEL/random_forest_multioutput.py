@@ -54,9 +54,9 @@ def random_forest_size_pdi(seed, best_model_info):
         ("regressor", MultiOutputRegressor(RandomForestRegressor(random_state=seed)))
     ])
     param_grid = {
-        'regressor__estimator__n_estimators': [100, 200],
-        'regressor__estimator__max_depth': [5, 10],
-        'regressor__estimator__min_samples_split': [2, 5],
+        'regressor__estimator__n_estimators': [100, 200, 300, 500],
+        'regressor__estimator__max_depth': [ 3, 5, 7],
+        'regressor__estimator__min_samples_split': [5, 10, 20],
         'regressor__estimator__min_samples_leaf': [1, 2]
     }
     

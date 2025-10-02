@@ -1,0 +1,17 @@
+Target,Feature,DAG_Category,Minimal Covariates,Adj?,Est_Effect,Method,Causal_Effect
+SIZE,FRR,diretta,[],No,-6.769683757560251,statsmodels_ols,
+SIZE,AQUEOUS,indiretta,['FRR'],Yes,251.91790431501244,sklearn_ols,error: Found unknown categories [1] in column 0 during transform
+SIZE,PEG,indiretta,['AQUEOUS'],Yes,-82.39744658595605,sklearn_ols,-82.397446585956
+SIZE,CHOL,indiretta,['AQUEOUS'],Yes,-72.8428409915301,sklearn_ols,-72.84284099153001
+SIZE,ESM,diretta,['AQUEOUS'],Yes,20.937981817036672,sklearn_ols,20.937981817036643
+SIZE,HSPC,non collegata,['ESM'],Yes,-36.16989812610172,statsmodels_ols,-36.16989812610177
+SIZE,TFR,diretta,['AQUEOUS'],Yes,-0.7065209713214499,sklearn_ols,-0.7065209713215381
+SIZE,PDI,non collegata,"['ESM', 'FRR', 'TFR']",Yes,4255.38118822492,statsmodels_ols,4255.381188224935
+PDI,FRR,diretta,[],No,0.0032597453027117963,statsmodels_ols,
+PDI,AQUEOUS,indiretta,['FRR'],Yes,0.0526252471165638,sklearn_ols,error: Found unknown categories [1] in column 0 during transform
+PDI,PEG,diretta,['AQUEOUS'],Yes,0.0022846732018142095,sklearn_ols,0.0022846732018142746
+PDI,CHOL,indiretta,['PEG'],Yes,-0.02712410925839003,statsmodels_ols,-0.02712410925839004
+PDI,ESM,diretta,['CHOL'],Yes,0.003508577425451268,statsmodels_ols,0.003508577425451187
+PDI,HSPC,non collegata,['ESM'],Yes,0.0047349712418225855,statsmodels_ols,0.0047349712418225665
+PDI,TFR,diretta,['AQUEOUS'],Yes,-0.0483026528307076,sklearn_ols,-0.048302652830707615
+PDI,SIZE,non collegata,"['ESM', 'FRR', 'TFR']",Yes,0.00010983135157791117,statsmodels_ols,0.00010983135157793811

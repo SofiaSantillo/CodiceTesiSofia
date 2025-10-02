@@ -1,0 +1,380 @@
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature PEG: miglior fattore 1.8 -> R2 medio 0.2896
+[+] Feature TFR: miglior fattore 0.4 -> R2 medio 0.3952
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.0
+  CHOL: 1.0
+  PEG: 1.8
+  TFR: 0.4
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2329
+  R2_PDI: 0.5576
+  R2_mean: 0.3952
+  MSE_SIZE: 79.9403
+  MSE_PDI: 0.0055
+  MAE_SIZE: 7.5698
+  MAE_PDI: 0.0521
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature PEG: miglior fattore 1.8 -> R2 medio 0.2896
+[+] Feature TFR: miglior fattore 0.4 -> R2 medio 0.3952
+[+] Feature FRR: miglior fattore 1.0 -> R2 medio 0.3952
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.0
+  CHOL: 1.0
+  PEG: 1.8
+  TFR: 0.4
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2329
+  R2_PDI: 0.5576
+  R2_mean: 0.3952
+  MSE_SIZE: 79.9403
+  MSE_PDI: 0.0055
+  MAE_SIZE: 7.5698
+  MAE_PDI: 0.0521
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'CHOL', 'PEG', 'TFR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature CHOL: miglior fattore 6.3 -> R2 medio 0.1766
+[+] Feature PEG: miglior fattore 4.0 -> R2 medio 0.2833
+[+] Feature TFR: miglior fattore 0.4 -> R2 medio 0.3499
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.0
+  CHOL: 6.3
+  PEG: 4.0
+  TFR: 0.4
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1538
+  R2_PDI: 0.5460
+  R2_mean: 0.3499
+  MSE_SIZE: 88.1820
+  MSE_PDI: 0.0057
+  MAE_SIZE: 7.3409
+  MAE_PDI: 0.0555
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'PEG', 'TFR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature HSPC: miglior fattore 1.9 -> R2 medio 0.2595
+[+] Feature PEG: miglior fattore 1.2 -> R2 medio 0.2859
+[+] Feature TFR: miglior fattore 0.5 -> R2 medio 0.3780
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.9
+  CHOL: 1.0
+  PEG: 1.2
+  TFR: 0.5
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1852
+  R2_PDI: 0.5708
+  R2_mean: 0.3780
+  MSE_SIZE: 84.9112
+  MSE_PDI: 0.0054
+  MAE_SIZE: 8.0602
+  MAE_PDI: 0.0491
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'CHOL', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature CHOL: miglior fattore 6.3 -> R2 medio 0.1766
+[+] Feature PEG: miglior fattore 4.0 -> R2 medio 0.2833
+[+] Feature TFR: miglior fattore 0.4 -> R2 medio 0.3499
+[+] Feature FRR: miglior fattore 1.0 -> R2 medio 0.3499
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.0
+  CHOL: 6.3
+  PEG: 4.0
+  TFR: 0.4
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1538
+  R2_PDI: 0.5460
+  R2_mean: 0.3499
+  MSE_SIZE: 88.1820
+  MSE_PDI: 0.0057
+  MAE_SIZE: 7.3409
+  MAE_PDI: 0.0555
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature HSPC: miglior fattore 1.9 -> R2 medio 0.2595
+[+] Feature PEG: miglior fattore 1.2 -> R2 medio 0.2859
+[+] Feature TFR: miglior fattore 0.5 -> R2 medio 0.3780
+[+] Feature FRR: miglior fattore 0.8 -> R2 medio 0.3874
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.9
+  CHOL: 1.0
+  PEG: 1.2
+  TFR: 0.5
+  FRR: 0.8
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1910
+  R2_PDI: 0.5838
+  R2_mean: 0.3874
+  MSE_SIZE: 84.3012
+  MSE_PDI: 0.0052
+  MAE_SIZE: 7.7231
+  MAE_PDI: 0.0464
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'CHOL', 'PEG', 'TFR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature HSPC: miglior fattore 1.9 -> R2 medio 0.2595
+[+] Feature CHOL: miglior fattore 1.1 -> R2 medio 0.2822
+[+] Feature PEG: miglior fattore 1.0 -> R2 medio 0.2822
+[+] Feature TFR: miglior fattore 1.0 -> R2 medio 0.2822
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.9
+  CHOL: 1.1
+  PEG: 1.0
+  TFR: 1.0
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: -0.0000
+  R2_PDI: 0.5643
+  R2_mean: 0.2822
+  MSE_SIZE: 104.2147
+  MSE_PDI: 0.0055
+  MAE_SIZE: 9.2889
+  MAE_PDI: 0.0463
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors (no range)) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'CHOL', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche iniziali (RF baseline con iterative_refinement_predict, 0 epoche):
+  R2_SIZE: -0.8136
+  R2_PDI: 0.5865
+  R2_mean: -0.1136
+  MSE_SIZE: 188.9988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 11.5214
+  MAE_PDI: 0.0445
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: miglior fattore 0.5 -> R2 medio 0.1693
+[+] Feature HSPC: miglior fattore 1.9 -> R2 medio 0.2595
+[+] Feature CHOL: miglior fattore 1.1 -> R2 medio 0.2822
+[+] Feature PEG: miglior fattore 1.0 -> R2 medio 0.2822
+[+] Feature TFR: miglior fattore 1.0 -> R2 medio 0.2822
+[+] Feature FRR: miglior fattore 1.0 -> R2 medio 0.2822
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ID: 1.0
+  ML: 1.0
+  CHIP: 1.0
+  ESM: 0.5
+  HSPC: 1.9
+  CHOL: 1.1
+  PEG: 1.0
+  TFR: 1.0
+  FRR: 1.0
+  AQUEOUS: 1.0
+  OUTPUT: 1.0
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: -0.0000
+  R2_PDI: 0.5643
+  R2_mean: 0.2822
+  MSE_SIZE: 104.2147
+  MSE_PDI: 0.0055
+  MAE_SIZE: 9.2889
+  MAE_PDI: 0.0463

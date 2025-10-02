@@ -345,3 +345,555 @@
 2025-09-18 10:26:22 - INFO - Validation MAE for PDI: 0.06254304004708926
 2025-09-18 10:26:22 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
 2025-09-18 10:26:22 - INFO - Refined model saved successfully.
+2025-09-19 15:53:11 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-19 15:53:11 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-19 15:53:11 - INFO - ---> Loading validation dataset from dataset_scaled_rf.csv
+2025-09-19 15:53:11 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-19 15:53:11 - INFO - Starting iterative refinement for validation dataset.
+2025-09-19 15:53:11 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-19 15:53:11 - INFO - Making initial predictions using Random Forest model.
+2025-09-19 15:53:11 - INFO - Epoch 1/5
+2025-09-19 15:53:11 - INFO - Epoch 2/5
+2025-09-19 15:53:11 - INFO - Epoch 3/5
+2025-09-19 15:53:11 - INFO - Epoch 4/5
+2025-09-19 15:53:11 - INFO - Epoch 5/5
+2025-09-19 15:53:11 - INFO - Completed iterative refinement.
+2025-09-19 15:53:11 - INFO - Validation completed successfully.
+2025-09-19 15:53:11 - INFO - Validation R² for SIZE: -4.861031152500429
+2025-09-19 15:53:11 - INFO - Validation R² for PDI: 0.29423125027141017
+2025-09-19 15:53:11 - INFO - Validation MSE for SIZE: 610.7791920354657
+2025-09-19 15:53:11 - INFO - Validation MSE for PDI: 0.008844430484598789
+2025-09-19 15:53:11 - INFO - Validation MAE for SIZE: 21.607785758463542
+2025-09-19 15:53:11 - INFO - Validation MAE for PDI: 0.07286964803536733
+2025-09-19 15:53:11 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-19 15:53:11 - INFO - Refined model saved successfully.
+2025-09-19 15:53:56 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-19 15:53:56 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-19 15:53:56 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-19 15:53:56 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-19 15:53:56 - INFO - Starting iterative refinement for validation dataset.
+2025-09-19 15:53:56 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-19 15:53:56 - INFO - Making initial predictions using Random Forest model.
+2025-09-19 15:53:56 - INFO - Epoch 1/5
+2025-09-19 15:53:56 - INFO - Epoch 2/5
+2025-09-19 15:53:56 - INFO - Epoch 3/5
+2025-09-19 15:53:56 - INFO - Epoch 4/5
+2025-09-19 15:53:56 - INFO - Epoch 5/5
+2025-09-19 15:53:56 - INFO - Completed iterative refinement.
+2025-09-19 15:53:56 - INFO - Validation completed successfully.
+2025-09-19 15:53:56 - INFO - Validation R² for SIZE: 0.8079903721809387
+2025-09-19 15:53:56 - INFO - Validation R² for PDI: 0.8314844350579882
+2025-09-19 15:53:56 - INFO - Validation MSE for SIZE: 48249.359375
+2025-09-19 15:53:56 - INFO - Validation MSE for PDI: 0.008026970949454594
+2025-09-19 15:53:56 - INFO - Validation MAE for SIZE: 92.78711700439453
+2025-09-19 15:53:56 - INFO - Validation MAE for PDI: 0.06254304004708926
+2025-09-19 15:53:56 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-19 15:53:56 - INFO - Refined model saved successfully.
+2025-09-21 08:55:44 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 08:55:44 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 08:55:44 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 08:55:44 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 08:55:44 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 08:55:44 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 08:55:44 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 08:55:44 - INFO - Epoch 1/5
+2025-09-21 08:55:44 - INFO - Epoch 2/5
+2025-09-21 08:55:44 - INFO - Epoch 3/5
+2025-09-21 08:55:44 - INFO - Epoch 4/5
+2025-09-21 08:55:44 - INFO - Epoch 5/5
+2025-09-21 08:55:44 - INFO - Completed iterative refinement.
+2025-09-21 08:55:44 - INFO - Validation completed successfully.
+2025-09-21 08:55:44 - INFO - Validation R² for SIZE: 0.8080085515975952
+2025-09-21 08:55:44 - INFO - Validation R² for PDI: 0.8305102575552381
+2025-09-21 08:55:44 - INFO - Validation MSE for SIZE: 48244.78125
+2025-09-21 08:55:44 - INFO - Validation MSE for PDI: 0.008073374345585265
+2025-09-21 08:55:44 - INFO - Validation MAE for SIZE: 92.86592864990234
+2025-09-21 08:55:44 - INFO - Validation MAE for PDI: 0.06302377013365427
+2025-09-21 08:55:44 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 08:55:44 - INFO - Refined model saved successfully.
+2025-09-21 09:17:09 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 09:17:09 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 09:17:09 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 09:17:09 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 09:17:09 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 09:17:09 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 09:17:09 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 09:17:09 - INFO - Epoch 1/5
+2025-09-21 09:17:09 - INFO - Epoch 2/5
+2025-09-21 09:17:09 - INFO - Epoch 3/5
+2025-09-21 09:17:09 - INFO - Epoch 4/5
+2025-09-21 09:17:09 - INFO - Epoch 5/5
+2025-09-21 09:17:09 - INFO - Completed iterative refinement.
+2025-09-21 09:17:09 - INFO - Validation completed successfully.
+2025-09-21 09:17:09 - INFO - Validation R² for SIZE: 0.8079847097396851
+2025-09-21 09:17:09 - INFO - Validation R² for PDI: 0.8311461656056529
+2025-09-21 09:17:09 - INFO - Validation MSE for SIZE: 48250.78515625
+2025-09-21 09:17:09 - INFO - Validation MSE for PDI: 0.008043083876874193
+2025-09-21 09:17:09 - INFO - Validation MAE for SIZE: 93.187255859375
+2025-09-21 09:17:09 - INFO - Validation MAE for PDI: 0.06278047514955203
+2025-09-21 09:17:09 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 09:17:09 - INFO - Refined model saved successfully.
+2025-09-21 09:58:59 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 09:58:59 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 09:58:59 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 09:58:59 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 09:58:59 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 09:58:59 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 09:58:59 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 09:58:59 - INFO - Epoch 1/5
+2025-09-21 09:58:59 - INFO - Epoch 2/5
+2025-09-21 09:58:59 - INFO - Epoch 3/5
+2025-09-21 09:58:59 - INFO - Epoch 4/5
+2025-09-21 09:59:00 - INFO - Epoch 5/5
+2025-09-21 09:59:00 - INFO - Completed iterative refinement.
+2025-09-21 09:59:00 - INFO - Validation completed successfully.
+2025-09-21 09:59:00 - INFO - Validation R² for SIZE: 0.8079847097396851
+2025-09-21 09:59:00 - INFO - Validation R² for PDI: 0.8311461656056529
+2025-09-21 09:59:00 - INFO - Validation MSE for SIZE: 48250.78515625
+2025-09-21 09:59:00 - INFO - Validation MSE for PDI: 0.008043083876874193
+2025-09-21 09:59:00 - INFO - Validation MAE for SIZE: 93.187255859375
+2025-09-21 09:59:00 - INFO - Validation MAE for PDI: 0.06278047514955203
+2025-09-21 09:59:00 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 09:59:00 - INFO - Refined model saved successfully.
+2025-09-21 10:17:16 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 10:17:16 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 10:17:16 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 10:17:16 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 10:17:17 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 10:17:17 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 10:17:17 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 10:17:17 - INFO - Epoch 1/5
+2025-09-21 10:17:17 - INFO - Epoch 2/5
+2025-09-21 10:17:17 - INFO - Epoch 3/5
+2025-09-21 10:17:17 - INFO - Epoch 4/5
+2025-09-21 10:17:17 - INFO - Epoch 5/5
+2025-09-21 10:17:17 - INFO - Completed iterative refinement.
+2025-09-21 10:17:17 - INFO - Validation completed successfully.
+2025-09-21 10:17:17 - INFO - Validation R² for SIZE: 0.8079854249954224
+2025-09-21 10:17:17 - INFO - Validation R² for PDI: 0.8300741131630383
+2025-09-21 10:17:17 - INFO - Validation MSE for SIZE: 48250.60546875
+2025-09-21 10:17:17 - INFO - Validation MSE for PDI: 0.008094149390116972
+2025-09-21 10:17:17 - INFO - Validation MAE for SIZE: 93.17777252197266
+2025-09-21 10:17:17 - INFO - Validation MAE for PDI: 0.06323882990082104
+2025-09-21 10:17:17 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 10:17:17 - INFO - Refined model saved successfully.
+2025-09-21 10:27:37 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 10:27:37 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 10:27:37 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 10:27:37 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 10:27:37 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 10:27:37 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 10:27:37 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 10:27:37 - INFO - Epoch 1/5
+2025-09-21 10:27:37 - INFO - Epoch 2/5
+2025-09-21 10:27:37 - INFO - Epoch 3/5
+2025-09-21 10:27:37 - INFO - Epoch 4/5
+2025-09-21 10:27:37 - INFO - Epoch 5/5
+2025-09-21 10:27:37 - INFO - Completed iterative refinement.
+2025-09-21 10:27:37 - INFO - Validation completed successfully.
+2025-09-21 10:27:37 - INFO - Validation R² for SIZE: 0.8079847097396851
+2025-09-21 10:27:37 - INFO - Validation R² for PDI: 0.8311461656056529
+2025-09-21 10:27:37 - INFO - Validation MSE for SIZE: 48250.78515625
+2025-09-21 10:27:37 - INFO - Validation MSE for PDI: 0.008043083876874193
+2025-09-21 10:27:37 - INFO - Validation MAE for SIZE: 93.187255859375
+2025-09-21 10:27:37 - INFO - Validation MAE for PDI: 0.06278047514955203
+2025-09-21 10:27:37 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 10:27:37 - INFO - Refined model saved successfully.
+2025-09-21 10:39:41 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 10:39:41 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 10:39:41 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 10:39:41 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 10:39:42 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 10:39:42 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 10:39:42 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 10:39:42 - INFO - Epoch 1/5
+2025-09-21 10:39:42 - INFO - Epoch 2/5
+2025-09-21 10:39:42 - INFO - Epoch 3/5
+2025-09-21 10:39:42 - INFO - Epoch 4/5
+2025-09-21 10:39:42 - INFO - Epoch 5/5
+2025-09-21 10:39:42 - INFO - Completed iterative refinement.
+2025-09-21 10:39:42 - INFO - Validation completed successfully.
+2025-09-21 10:39:42 - INFO - Validation R² for SIZE: 0.7130770683288574
+2025-09-21 10:39:42 - INFO - Validation R² for PDI: 0.7732515788681517
+2025-09-21 10:39:42 - INFO - Validation MSE for SIZE: 72099.7578125
+2025-09-21 10:39:42 - INFO - Validation MSE for PDI: 0.010800800447640327
+2025-09-21 10:39:42 - INFO - Validation MAE for SIZE: 104.73263549804688
+2025-09-21 10:39:42 - INFO - Validation MAE for PDI: 0.07823830771446227
+2025-09-21 10:39:42 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 10:39:42 - INFO - Refined model saved successfully.
+2025-09-21 10:58:19 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 10:58:19 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 10:58:19 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 10:58:19 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 10:58:21 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 10:58:21 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 10:58:21 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 10:58:21 - INFO - Epoch 1/5
+2025-09-21 10:58:21 - INFO - Epoch 2/5
+2025-09-21 10:58:21 - INFO - Epoch 3/5
+2025-09-21 10:58:21 - INFO - Epoch 4/5
+2025-09-21 10:58:21 - INFO - Epoch 5/5
+2025-09-21 10:58:21 - INFO - Completed iterative refinement.
+2025-09-21 10:58:21 - INFO - Validation completed successfully.
+2025-09-21 10:58:21 - INFO - Validation R² for SIZE: 0.7931673526763916
+2025-09-21 10:58:21 - INFO - Validation R² for PDI: 0.7493339416875109
+2025-09-21 10:58:21 - INFO - Validation MSE for SIZE: 51974.16796875
+2025-09-21 10:58:21 - INFO - Validation MSE for PDI: 0.011940079059053248
+2025-09-21 10:58:21 - INFO - Validation MAE for SIZE: 103.66140747070312
+2025-09-21 10:58:21 - INFO - Validation MAE for PDI: 0.07574360425770282
+2025-09-21 10:58:21 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 10:58:21 - INFO - Refined model saved successfully.
+2025-09-21 11:24:46 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-21 11:24:46 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-21 11:24:46 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-21 11:24:46 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-21 11:24:46 - INFO - Starting iterative refinement for validation dataset.
+2025-09-21 11:24:46 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-21 11:24:46 - INFO - Making initial predictions using Random Forest model.
+2025-09-21 11:24:46 - INFO - Epoch 1/5
+2025-09-21 11:24:46 - INFO - Epoch 2/5
+2025-09-21 11:24:46 - INFO - Epoch 3/5
+2025-09-21 11:24:47 - INFO - Epoch 4/5
+2025-09-21 11:24:47 - INFO - Epoch 5/5
+2025-09-21 11:24:47 - INFO - Completed iterative refinement.
+2025-09-21 11:24:47 - INFO - Validation completed successfully.
+2025-09-21 11:24:47 - INFO - Validation R² for SIZE: 0.8079847097396851
+2025-09-21 11:24:47 - INFO - Validation R² for PDI: 0.8311461656056529
+2025-09-21 11:24:47 - INFO - Validation MSE for SIZE: 48250.78515625
+2025-09-21 11:24:47 - INFO - Validation MSE for PDI: 0.008043083876874193
+2025-09-21 11:24:47 - INFO - Validation MAE for SIZE: 93.187255859375
+2025-09-21 11:24:47 - INFO - Validation MAE for PDI: 0.06278047514955203
+2025-09-21 11:24:47 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-21 11:24:47 - INFO - Refined model saved successfully.
+2025-09-22 16:39:00 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-22 16:39:00 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-22 16:39:00 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-22 16:39:00 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-22 16:39:01 - INFO - Starting iterative refinement for validation dataset.
+2025-09-22 16:39:01 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-22 16:39:01 - INFO - Making initial predictions using Random Forest model.
+2025-09-22 16:39:01 - INFO - Epoch 1/5
+2025-09-22 16:39:01 - INFO - Epoch 2/5
+2025-09-22 16:39:01 - INFO - Epoch 3/5
+2025-09-22 16:39:01 - INFO - Epoch 4/5
+2025-09-22 16:39:01 - INFO - Epoch 5/5
+2025-09-22 16:39:01 - INFO - Completed iterative refinement.
+2025-09-22 16:39:01 - INFO - Validation completed successfully.
+2025-09-22 16:39:01 - INFO - Validation R² for SIZE: 0.8079847097396851
+2025-09-22 16:39:01 - INFO - Validation R² for PDI: 0.8311461656056529
+2025-09-22 16:39:01 - INFO - Validation MSE for SIZE: 48250.78515625
+2025-09-22 16:39:01 - INFO - Validation MSE for PDI: 0.008043083876874193
+2025-09-22 16:39:01 - INFO - Validation MAE for SIZE: 93.187255859375
+2025-09-22 16:39:01 - INFO - Validation MAE for PDI: 0.06278047514955203
+2025-09-22 16:39:01 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-22 16:39:01 - INFO - Refined model saved successfully.
+2025-09-23 13:04:56 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-23 13:04:56 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-23 13:04:56 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-23 13:04:56 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-23 13:04:56 - INFO - Starting iterative refinement for validation dataset.
+2025-09-23 13:04:56 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-23 13:04:56 - INFO - Making initial predictions using Random Forest model.
+2025-09-23 13:04:56 - INFO - Epoch 1/5
+2025-09-23 13:04:56 - INFO - Epoch 2/5
+2025-09-23 13:04:56 - INFO - Epoch 3/5
+2025-09-23 13:04:56 - INFO - Epoch 4/5
+2025-09-23 13:04:56 - INFO - Epoch 5/5
+2025-09-23 13:04:56 - INFO - Completed iterative refinement.
+2025-09-23 13:04:56 - INFO - Validation completed successfully.
+2025-09-23 13:04:56 - INFO - Validation R² for SIZE: -13.465174674987793
+2025-09-23 13:04:56 - INFO - Validation R² for PDI: 0.3021650162601063
+2025-09-23 13:04:56 - INFO - Validation MSE for SIZE: 3634897.75
+2025-09-23 13:04:56 - INFO - Validation MSE for PDI: 0.03324025969898265
+2025-09-23 13:04:56 - INFO - Validation MAE for SIZE: 692.6426391601562
+2025-09-23 13:04:56 - INFO - Validation MAE for PDI: 0.09481967779994012
+2025-09-23 13:04:56 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-23 13:04:56 - INFO - Refined model saved successfully.
+2025-09-23 13:06:50 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-23 13:06:50 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-23 13:06:50 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-23 13:06:50 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-23 13:06:50 - INFO - Starting iterative refinement for validation dataset.
+2025-09-23 13:06:50 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-23 13:06:50 - INFO - Making initial predictions using Random Forest model.
+2025-09-23 13:06:50 - INFO - Epoch 1/5
+2025-09-23 13:06:50 - INFO - Epoch 2/5
+2025-09-23 13:06:50 - INFO - Epoch 3/5
+2025-09-23 13:06:50 - INFO - Epoch 4/5
+2025-09-23 13:06:51 - INFO - Epoch 5/5
+2025-09-23 13:06:51 - INFO - Completed iterative refinement.
+2025-09-23 13:06:51 - INFO - Validation completed successfully.
+2025-09-23 13:06:51 - INFO - Validation R² for SIZE: -13.465174674987793
+2025-09-23 13:06:51 - INFO - Validation R² for PDI: 0.3021650162601063
+2025-09-23 13:06:51 - INFO - Validation MSE for SIZE: 3634897.75
+2025-09-23 13:06:51 - INFO - Validation MSE for PDI: 0.03324025969898265
+2025-09-23 13:06:51 - INFO - Validation MAE for SIZE: 692.6426391601562
+2025-09-23 13:06:51 - INFO - Validation MAE for PDI: 0.09481967779994012
+2025-09-23 13:06:51 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-23 13:06:51 - INFO - Refined model saved successfully.
+2025-09-23 13:15:20 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-23 13:15:20 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-23 13:15:20 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-23 13:15:20 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-23 13:15:21 - INFO - Starting iterative refinement for validation dataset.
+2025-09-23 13:15:21 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-23 13:15:21 - INFO - Making initial predictions using Random Forest model.
+2025-09-23 13:15:21 - INFO - Epoch 1/5
+2025-09-23 13:15:21 - INFO - Epoch 2/5
+2025-09-23 13:15:21 - INFO - Epoch 3/5
+2025-09-23 13:15:21 - INFO - Epoch 4/5
+2025-09-23 13:15:21 - INFO - Epoch 5/5
+2025-09-23 13:15:21 - INFO - Completed iterative refinement.
+2025-09-23 13:15:21 - INFO - Validation completed successfully.
+2025-09-23 13:15:21 - INFO - Validation R² for SIZE: 0.8443207740783691
+2025-09-23 13:15:21 - INFO - Validation R² for PDI: 0.6114889936810726
+2025-09-23 13:15:21 - INFO - Validation MSE for SIZE: 39120.02734375
+2025-09-23 13:15:21 - INFO - Validation MSE for PDI: 0.018506103945582345
+2025-09-23 13:15:21 - INFO - Validation MAE for SIZE: 97.05545806884766
+2025-09-23 13:15:21 - INFO - Validation MAE for PDI: 0.09240638517340023
+2025-09-23 13:15:21 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-23 13:15:21 - INFO - Refined model saved successfully.
+2025-09-23 13:27:39 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-23 13:27:39 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-23 13:27:39 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-23 13:27:39 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-23 13:27:40 - INFO - Starting iterative refinement for validation dataset.
+2025-09-23 13:27:40 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-23 13:27:40 - INFO - Making initial predictions using Random Forest model.
+2025-09-23 13:27:40 - INFO - Epoch 1/5
+2025-09-23 13:27:40 - INFO - Epoch 2/5
+2025-09-23 13:27:41 - INFO - Epoch 3/5
+2025-09-23 13:27:41 - INFO - Epoch 4/5
+2025-09-23 13:27:41 - INFO - Epoch 5/5
+2025-09-23 13:27:41 - INFO - Completed iterative refinement.
+2025-09-23 13:27:41 - INFO - Validation completed successfully.
+2025-09-23 13:27:41 - INFO - Validation R² for SIZE: 0.9777880311012268
+2025-09-23 13:27:41 - INFO - Validation R² for PDI: 0.7808586926610697
+2025-09-23 13:27:41 - INFO - Validation MSE for SIZE: 5581.55908203125
+2025-09-23 13:27:41 - INFO - Validation MSE for PDI: 0.010438447679538693
+2025-09-23 13:27:41 - INFO - Validation MAE for SIZE: 49.92607116699219
+2025-09-23 13:27:41 - INFO - Validation MAE for PDI: 0.0685243199666341
+2025-09-23 13:27:41 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-23 13:27:41 - INFO - Refined model saved successfully.
+2025-09-24 16:10:56 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:10:56 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:10:56 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:10:56 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:10:56 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:10:56 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 16:10:56 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:10:56 - INFO - Epoch 1/5
+2025-09-24 16:10:57 - INFO - Epoch 2/5
+2025-09-24 16:10:57 - INFO - Epoch 3/5
+2025-09-24 16:10:57 - INFO - Epoch 4/5
+2025-09-24 16:10:57 - INFO - Epoch 5/5
+2025-09-24 16:10:57 - INFO - Completed iterative refinement.
+2025-09-24 16:10:57 - INFO - Validation completed successfully.
+2025-09-24 16:10:57 - INFO - Validation R² for SIZE: 0.9777880311012268
+2025-09-24 16:10:57 - INFO - Validation R² for PDI: 0.7808586926610697
+2025-09-24 16:10:57 - INFO - Validation MSE for SIZE: 5581.55908203125
+2025-09-24 16:10:57 - INFO - Validation MSE for PDI: 0.010438447679538693
+2025-09-24 16:10:57 - INFO - Validation MAE for SIZE: 49.92607116699219
+2025-09-24 16:10:57 - INFO - Validation MAE for PDI: 0.0685243199666341
+2025-09-24 16:10:57 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:10:57 - INFO - Refined model saved successfully.
+2025-09-24 16:20:15 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:20:15 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:20:15 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:20:15 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:20:15 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:20:15 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 16:20:15 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:20:15 - INFO - Epoch 1/5
+2025-09-24 16:20:15 - INFO - Epoch 2/5
+2025-09-24 16:20:15 - INFO - Epoch 3/5
+2025-09-24 16:20:15 - INFO - Epoch 4/5
+2025-09-24 16:20:15 - INFO - Epoch 5/5
+2025-09-24 16:20:15 - INFO - Completed iterative refinement.
+2025-09-24 16:20:15 - INFO - Validation completed successfully.
+2025-09-24 16:20:15 - INFO - Validation R² for SIZE: 0.922903299331665
+2025-09-24 16:20:15 - INFO - Validation R² for PDI: 0.6441355265953005
+2025-09-24 16:20:15 - INFO - Validation MSE for SIZE: 19373.328125
+2025-09-24 16:20:15 - INFO - Validation MSE for PDI: 0.01695103826726891
+2025-09-24 16:20:15 - INFO - Validation MAE for SIZE: 75.31886291503906
+2025-09-24 16:20:15 - INFO - Validation MAE for PDI: 0.0797342896858851
+2025-09-24 16:20:15 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:20:15 - INFO - Refined model saved successfully.
+2025-09-24 16:29:30 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:29:30 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:29:31 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:29:31 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:29:31 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:29:31 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 16:29:31 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:29:31 - INFO - Epoch 1/5
+2025-09-24 16:29:31 - INFO - Epoch 2/5
+2025-09-24 16:29:31 - INFO - Epoch 3/5
+2025-09-24 16:29:31 - INFO - Epoch 4/5
+2025-09-24 16:29:31 - INFO - Epoch 5/5
+2025-09-24 16:29:31 - INFO - Completed iterative refinement.
+2025-09-24 16:29:31 - INFO - Validation completed successfully.
+2025-09-24 16:29:31 - INFO - Validation R² for SIZE: 0.922903299331665
+2025-09-24 16:29:31 - INFO - Validation R² for PDI: 0.6441355265953005
+2025-09-24 16:29:31 - INFO - Validation MSE for SIZE: 19373.328125
+2025-09-24 16:29:31 - INFO - Validation MSE for PDI: 0.01695103826726891
+2025-09-24 16:29:31 - INFO - Validation MAE for SIZE: 75.31886291503906
+2025-09-24 16:29:31 - INFO - Validation MAE for PDI: 0.0797342896858851
+2025-09-24 16:29:31 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:29:31 - INFO - Refined model saved successfully.
+2025-09-24 16:30:03 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:30:03 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:30:03 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:30:03 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:30:03 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:30:03 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 16:30:03 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:30:03 - INFO - Epoch 1/5
+2025-09-24 16:30:03 - INFO - Epoch 2/5
+2025-09-24 16:30:03 - INFO - Epoch 3/5
+2025-09-24 16:30:03 - INFO - Epoch 4/5
+2025-09-24 16:30:03 - INFO - Epoch 5/5
+2025-09-24 16:30:03 - INFO - Completed iterative refinement.
+2025-09-24 16:30:03 - INFO - Validation completed successfully.
+2025-09-24 16:30:03 - INFO - Validation R² for SIZE: 0.922903299331665
+2025-09-24 16:30:03 - INFO - Validation R² for PDI: 0.6441355265953005
+2025-09-24 16:30:03 - INFO - Validation MSE for SIZE: 19373.328125
+2025-09-24 16:30:03 - INFO - Validation MSE for PDI: 0.01695103826726891
+2025-09-24 16:30:03 - INFO - Validation MAE for SIZE: 75.31886291503906
+2025-09-24 16:30:03 - INFO - Validation MAE for PDI: 0.0797342896858851
+2025-09-24 16:30:03 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:30:03 - INFO - Refined model saved successfully.
+2025-09-24 16:30:17 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:30:17 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:30:17 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:30:17 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:30:18 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:30:18 - INFO - Starting iterative refinement with 7 epochs.
+2025-09-24 16:30:18 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:30:18 - INFO - Epoch 1/7
+2025-09-24 16:30:18 - INFO - Epoch 2/7
+2025-09-24 16:30:18 - INFO - Epoch 3/7
+2025-09-24 16:30:18 - INFO - Epoch 4/7
+2025-09-24 16:30:18 - INFO - Epoch 5/7
+2025-09-24 16:30:18 - INFO - Epoch 6/7
+2025-09-24 16:30:18 - INFO - Epoch 7/7
+2025-09-24 16:30:18 - INFO - Completed iterative refinement.
+2025-09-24 16:30:18 - INFO - Validation completed successfully.
+2025-09-24 16:30:18 - INFO - Validation R² for SIZE: 0.922903299331665
+2025-09-24 16:30:18 - INFO - Validation R² for PDI: 0.6441355265953005
+2025-09-24 16:30:18 - INFO - Validation MSE for SIZE: 19373.328125
+2025-09-24 16:30:18 - INFO - Validation MSE for PDI: 0.01695103826726891
+2025-09-24 16:30:18 - INFO - Validation MAE for SIZE: 75.31886291503906
+2025-09-24 16:30:18 - INFO - Validation MAE for PDI: 0.0797342896858851
+2025-09-24 16:30:18 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:30:18 - INFO - Refined model saved successfully.
+2025-09-24 16:43:33 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:43:33 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:43:33 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:43:33 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:43:33 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:43:33 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 16:43:33 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:43:34 - INFO - Epoch 1/5
+2025-09-24 16:43:34 - INFO - Epoch 2/5
+2025-09-24 16:43:34 - INFO - Epoch 3/5
+2025-09-24 16:43:34 - INFO - Epoch 4/5
+2025-09-24 16:43:34 - INFO - Epoch 5/5
+2025-09-24 16:43:34 - INFO - Completed iterative refinement.
+2025-09-24 16:43:34 - INFO - Validation completed successfully.
+2025-09-24 16:43:34 - INFO - Validation R² for SIZE: 0.922903299331665
+2025-09-24 16:43:34 - INFO - Validation R² for PDI: 0.6441355265953005
+2025-09-24 16:43:34 - INFO - Validation MSE for SIZE: 19373.328125
+2025-09-24 16:43:34 - INFO - Validation MSE for PDI: 0.01695103826726891
+2025-09-24 16:43:34 - INFO - Validation MAE for SIZE: 75.31886291503906
+2025-09-24 16:43:34 - INFO - Validation MAE for PDI: 0.0797342896858851
+2025-09-24 16:43:34 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:43:34 - INFO - Refined model saved successfully.
+2025-09-24 16:52:17 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 16:52:17 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 16:52:17 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 16:52:17 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 16:52:18 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 16:52:18 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 16:52:18 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 16:52:18 - INFO - Epoch 1/5
+2025-09-24 16:52:18 - INFO - Epoch 2/5
+2025-09-24 16:52:18 - INFO - Epoch 3/5
+2025-09-24 16:52:18 - INFO - Epoch 4/5
+2025-09-24 16:52:18 - INFO - Epoch 5/5
+2025-09-24 16:52:18 - INFO - Completed iterative refinement.
+2025-09-24 16:52:18 - INFO - Validation completed successfully.
+2025-09-24 16:52:18 - INFO - Validation R² for SIZE: 0.9777880311012268
+2025-09-24 16:52:18 - INFO - Validation R² for PDI: 0.7808586926610697
+2025-09-24 16:52:18 - INFO - Validation MSE for SIZE: 5581.55908203125
+2025-09-24 16:52:18 - INFO - Validation MSE for PDI: 0.010438447679538693
+2025-09-24 16:52:18 - INFO - Validation MAE for SIZE: 49.92607116699219
+2025-09-24 16:52:18 - INFO - Validation MAE for PDI: 0.0685243199666341
+2025-09-24 16:52:18 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 16:52:18 - INFO - Refined model saved successfully.
+2025-09-24 18:49:12 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-24 18:49:12 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-24 18:49:12 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-24 18:49:12 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-24 18:49:13 - INFO - Starting iterative refinement for validation dataset.
+2025-09-24 18:49:13 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-24 18:49:13 - INFO - Making initial predictions using Random Forest model.
+2025-09-24 18:49:13 - INFO - Epoch 1/5
+2025-09-24 18:49:13 - INFO - Epoch 2/5
+2025-09-24 18:49:13 - INFO - Epoch 3/5
+2025-09-24 18:49:13 - INFO - Epoch 4/5
+2025-09-24 18:49:13 - INFO - Epoch 5/5
+2025-09-24 18:49:13 - INFO - Completed iterative refinement.
+2025-09-24 18:49:13 - INFO - Validation completed successfully.
+2025-09-24 18:49:13 - INFO - Validation R² for SIZE: 0.9777880311012268
+2025-09-24 18:49:13 - INFO - Validation R² for PDI: 0.7808586926610697
+2025-09-24 18:49:13 - INFO - Validation MSE for SIZE: 5581.55908203125
+2025-09-24 18:49:13 - INFO - Validation MSE for PDI: 0.010438447679538693
+2025-09-24 18:49:13 - INFO - Validation MAE for SIZE: 49.92607116699219
+2025-09-24 18:49:13 - INFO - Validation MAE for PDI: 0.0685243199666341
+2025-09-24 18:49:13 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-24 18:49:13 - INFO - Refined model saved successfully.
+2025-09-26 10:31:24 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-26 10:31:24 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-26 10:31:24 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-26 10:31:24 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-26 10:31:25 - INFO - Starting iterative refinement for validation dataset.
+2025-09-26 10:31:25 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-26 10:31:25 - INFO - Making initial predictions using Random Forest model.
+2025-09-26 10:31:25 - INFO - Epoch 1/5
+2025-09-26 10:31:25 - INFO - Epoch 2/5
+2025-09-26 10:31:25 - INFO - Epoch 3/5
+2025-09-26 10:31:25 - INFO - Epoch 4/5
+2025-09-26 10:31:25 - INFO - Epoch 5/5
+2025-09-26 10:31:25 - INFO - Completed iterative refinement.
+2025-09-26 10:31:25 - INFO - Validation completed successfully.
+2025-09-26 10:31:25 - INFO - Validation R² for SIZE: 0.9777880311012268
+2025-09-26 10:31:25 - INFO - Validation R² for PDI: 0.7808586926610697
+2025-09-26 10:31:25 - INFO - Validation MSE for SIZE: 5581.55908203125
+2025-09-26 10:31:25 - INFO - Validation MSE for PDI: 0.010438447679538693
+2025-09-26 10:31:25 - INFO - Validation MAE for SIZE: 49.92607116699219
+2025-09-26 10:31:25 - INFO - Validation MAE for PDI: 0.0685243199666341
+2025-09-26 10:31:25 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-26 10:31:25 - INFO - Refined model saved successfully.
+2025-09-28 06:56:47 - INFO - STARTING THE ITERATIVE REFINEMENT MODEL TRAINING AND EVALUATION PROCESS...
+2025-09-28 06:56:47 - INFO - ---> Loading training dataset from _Data/data_1.csv
+2025-09-28 06:56:47 - INFO - ---> Loading validation dataset from _Data/validation.csv
+2025-09-28 06:56:47 - INFO - ---> Loading pre-trained models from _Model/best_random_forest_size_pdi_data_1.pkl, _Model/best_xgboost_model__data_1_size.pkl, _Model/best_xgboost_model__data_1_pdi.pkl
+2025-09-28 06:56:47 - INFO - Starting iterative refinement for validation dataset.
+2025-09-28 06:56:47 - INFO - Starting iterative refinement with 5 epochs.
+2025-09-28 06:56:47 - INFO - Making initial predictions using Random Forest model.
+2025-09-28 06:56:47 - INFO - Epoch 1/5
+2025-09-28 06:56:47 - INFO - Epoch 2/5
+2025-09-28 06:56:47 - INFO - Epoch 3/5
+2025-09-28 06:56:47 - INFO - Epoch 4/5
+2025-09-28 06:56:47 - INFO - Epoch 5/5
+2025-09-28 06:56:47 - INFO - Completed iterative refinement.
+2025-09-28 06:56:47 - INFO - Validation completed successfully.
+2025-09-28 06:56:47 - INFO - Validation R² for SIZE: 0.9746309518814087
+2025-09-28 06:56:47 - INFO - Validation R² for PDI: 0.8152333835238409
+2025-09-28 06:56:47 - INFO - Validation MSE for SIZE: 6374.892578125
+2025-09-28 06:56:47 - INFO - Validation MSE for PDI: 0.008801063945597584
+2025-09-28 06:56:47 - INFO - Validation MAE for SIZE: 49.71098709106445
+2025-09-28 06:56:47 - INFO - Validation MAE for PDI: 0.07094483034312725
+2025-09-28 06:56:47 - INFO - Saving the refined model at _Model\refined_model_size_pdi.pkl
+2025-09-28 06:56:47 - INFO - Refined model saved successfully.

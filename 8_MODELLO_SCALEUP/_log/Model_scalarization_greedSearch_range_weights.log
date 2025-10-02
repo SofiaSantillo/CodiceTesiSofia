@@ -1,0 +1,3348 @@
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.5013
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5204
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.110 -> R2 medio: 0.5749
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4195
+  R2_PDI: 0.7302
+  R2_mean: 0.5749
+  MSE_SIZE: 60.4980
+  MSE_PDI: 0.0034
+  MAE_SIZE: 7.3885
+  MAE_PDI: 0.0417
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.110 -> R2 medio: 0.5572
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5763
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5763
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.000 -> R2 medio: 0.5763
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4195
+  R2_PDI: 0.7332
+  R2_mean: 0.5763
+  MSE_SIZE: 60.4980
+  MSE_PDI: 0.0033
+  MAE_SIZE: 7.3885
+  MAE_PDI: 0.0410
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'CHOL', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature CHOL: applicato cluster-specific scaling -> {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  CHOL: {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2272
+  R2_PDI: 0.6653
+  R2_mean: 0.4463
+  MSE_SIZE: 80.5314
+  MSE_PDI: 0.0042
+  MAE_SIZE: 7.5934
+  MAE_PDI: 0.0521
+
+🔹 Ottimizzazione peso globale per CHOL dopo cluster-specific scaling...
+Peso ottimale CHOL: 1.050 -> R2 medio: 0.5015
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.5028
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5226
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.110 -> R2 medio: 0.5771
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4195
+  R2_PDI: 0.7347
+  R2_mean: 0.5771
+  MSE_SIZE: 60.4980
+  MSE_PDI: 0.0033
+  MAE_SIZE: 7.3885
+  MAE_PDI: 0.0408
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature HSPC: applicato cluster-specific scaling -> {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  HSPC: {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1634
+  R2_PDI: 0.6723
+  R2_mean: 0.4179
+  MSE_SIZE: 87.1830
+  MSE_PDI: 0.0041
+  MAE_SIZE: 8.0039
+  MAE_PDI: 0.0459
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.120 -> R2 medio: 0.4706
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4897
+
+🔹 Ottimizzazione peso globale per HSPC dopo cluster-specific scaling...
+Peso ottimale HSPC: 0.790 -> R2 medio: 0.5778
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5778
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3764
+  R2_PDI: 0.7792
+  R2_mean: 0.5778
+  MSE_SIZE: 64.9874
+  MSE_PDI: 0.0028
+  MAE_SIZE: 7.6217
+  MAE_PDI: 0.0393
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+🔹 Ottimizzazione peso globale per AQUEOUS dopo cluster-specific scaling...
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'CHOL', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature CHOL: applicato cluster-specific scaling -> {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  CHOL: {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2282
+  R2_PDI: 0.6654
+  R2_mean: 0.4468
+  MSE_SIZE: 80.4330
+  MSE_PDI: 0.0042
+  MAE_SIZE: 7.5934
+  MAE_PDI: 0.0542
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.000 -> R2 medio: 0.4468
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.4548
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4748
+
+🔹 Ottimizzazione peso globale per CHOL dopo cluster-specific scaling...
+Peso ottimale CHOL: 1.100 -> R2 medio: 0.4970
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.930 -> R2 medio: 0.5451
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3249
+  R2_PDI: 0.7653
+  R2_mean: 0.5451
+  MSE_SIZE: 70.3516
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.8011
+  MAE_PDI: 0.0354
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature HSPC: applicato cluster-specific scaling -> {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  HSPC: {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.0414
+  R2_PDI: 0.5829
+  R2_mean: 0.3121
+  MSE_SIZE: 99.8988
+  MSE_PDI: 0.0052
+  MAE_SIZE: 8.3905
+  MAE_PDI: 0.0570
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.3314
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.470 -> R2 medio: 0.3900
+
+🔹 Ottimizzazione peso globale per HSPC dopo cluster-specific scaling...
+Peso ottimale HSPC: 0.720 -> R2 medio: 0.4404
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.000 -> R2 medio: 0.4404
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.4595
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.2433
+  R2_PDI: 0.6757
+  R2_mean: 0.4595
+  MSE_SIZE: 78.8539
+  MSE_PDI: 0.0041
+  MAE_SIZE: 7.9986
+  MAE_PDI: 0.0400
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'CHOL', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'CHOL', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature HSPC: applicato cluster-specific scaling -> {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+[+] Feature CHOL: applicato cluster-specific scaling -> {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  HSPC: {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+  CHOL: {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: -33.6530
+  R2_PDI: -0.1551
+  R2_mean: -16.9040
+  MSE_SIZE: 3611.1917
+  MSE_PDI: 0.0145
+  MAE_SIZE: 30.6911
+  MAE_PDI: 0.0938
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: -16.8843
+
+🔹 Ottimizzazione peso globale per HSPC dopo cluster-specific scaling...
+Peso ottimale HSPC: 0.790 -> R2 medio: 0.5200
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5362
+
+🔹 Ottimizzazione peso globale per CHOL dopo cluster-specific scaling...
+Peso ottimale CHOL: 1.050 -> R2 medio: 0.5370
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.5390
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3365
+  R2_PDI: 0.7415
+  R2_mean: 0.5390
+  MSE_SIZE: 69.1476
+  MSE_PDI: 0.0032
+  MAE_SIZE: 7.5361
+  MAE_PDI: 0.0367
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'HSPC', 'CHOL', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature HSPC: applicato cluster-specific scaling -> {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+[+] Feature CHOL: applicato cluster-specific scaling -> {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  HSPC: {'0-5': np.float64(0.01), '5-10': np.float64(1.15), '10-15': np.float64(0.8), '15-25': np.float64(0.9)}
+  CHOL: {'0-5': np.float64(0.95), '5-15': np.float64(0.86)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: -91.6133
+  R2_PDI: -0.9327
+  R2_mean: -46.2730
+  MSE_SIZE: 9651.2541
+  MSE_PDI: 0.0242
+  MAE_SIZE: 57.7707
+  MAE_PDI: 0.1151
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.490 -> R2 medio: -0.1815
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.130 -> R2 medio: 0.1154
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 0.990 -> R2 medio: 0.3109
+
+🔹 Ottimizzazione peso globale per CHOL dopo cluster-specific scaling...
+Peso ottimale CHOL: 1.000 -> R2 medio: 0.3109
+
+🔹 Ottimizzazione peso globale per HSPC dopo cluster-specific scaling...
+Peso ottimale HSPC: 0.270 -> R2 medio: 0.3471
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.3942
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.1587
+  R2_PDI: 0.6296
+  R2_mean: 0.3942
+  MSE_SIZE: 87.6677
+  MSE_PDI: 0.0046
+  MAE_SIZE: 8.1282
+  MAE_PDI: 0.0478
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.5013
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5204
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.110 -> R2 medio: 0.5749
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4195
+  R2_PDI: 0.7302
+  R2_mean: 0.5749
+  MSE_SIZE: 60.4980
+  MSE_PDI: 0.0034
+  MAE_SIZE: 7.3885
+  MAE_PDI: 0.0417
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -73.5535
+  R2_PDI: 0.1729
+  R2_mean: -36.6903
+  MSE_SIZE: 7927.0230
+  MSE_PDI: 0.0103
+  MAE_SIZE: 29.1225
+  MAE_PDI: 0.0653
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(12.51), '15-25': np.float64(0.8)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.01)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.09), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(12.51), '15-25': np.float64(0.8)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.01)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.09), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: -0.8628
+  R2_PDI: -0.9029
+  R2_mean: -0.8829
+  MSE_SIZE: 198.0645
+  MSE_PDI: 0.0236
+  MAE_SIZE: 10.9101
+  MAE_PDI: 0.1203
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 0.100 -> R2 medio: -0.8829
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.060 -> R2 medio: -0.7147
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: -0.6893
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: -0.7674
+  R2_PDI: -0.6111
+  R2_mean: -0.6893
+  MSE_SIZE: 187.9228
+  MSE_PDI: 0.0200
+  MAE_SIZE: 10.6588
+  MAE_PDI: 0.1104
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.7230
+  R2_PDI: 0.3688
+  R2_mean: -0.1771
+  MSE_SIZE: 179.5515
+  MSE_PDI: 0.0079
+  MAE_SIZE: 10.9183
+  MAE_PDI: 0.0589
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.062)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.062)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2041
+  R2_PDI: 0.7197
+  R2_mean: 0.4619
+  MSE_SIZE: 82.9425
+  MSE_PDI: 0.0035
+  MAE_SIZE: 7.7993
+  MAE_PDI: 0.0435
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.4801
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.4801
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4992
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.2866
+  R2_PDI: 0.7119
+  R2_mean: 0.4992
+  MSE_SIZE: 74.3477
+  MSE_PDI: 0.0036
+  MAE_SIZE: 7.7597
+  MAE_PDI: 0.0452
+
+✅ Dataset scalato con PEG ottimizzato salvato in '_Data/dataset_ScaleUp_scaled_peg.csv'
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.7230
+  R2_PDI: 0.3688
+  R2_mean: -0.1771
+  MSE_SIZE: 179.5515
+  MSE_PDI: 0.0079
+  MAE_SIZE: 10.9183
+  MAE_PDI: 0.0589
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.062)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.062)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2041
+  R2_PDI: 0.7197
+  R2_mean: 0.4619
+  MSE_SIZE: 82.9425
+  MSE_PDI: 0.0035
+  MAE_SIZE: 7.7993
+  MAE_PDI: 0.0435
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.4801
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.4801
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4992
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.2866
+  R2_PDI: 0.7119
+  R2_mean: 0.4992
+  MSE_SIZE: 74.3477
+  MSE_PDI: 0.0036
+  MAE_SIZE: 7.7597
+  MAE_PDI: 0.0452
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5137
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5328
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5685
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7684
+  R2_mean: 0.5685
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0366
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.2511
+  R2_PDI: 0.7487
+  R2_mean: 0.4999
+  MSE_SIZE: 78.0408
+  MSE_PDI: 0.0031
+  MAE_SIZE: 7.4528
+  MAE_PDI: 0.0396
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.110 -> R2 medio: 0.5572
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5572
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5763
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4195
+  R2_PDI: 0.7332
+  R2_mean: 0.5763
+  MSE_SIZE: 60.4980
+  MSE_PDI: 0.0033
+  MAE_SIZE: 7.3885
+  MAE_PDI: 0.0410
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.116), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.116), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6789
+  R2_mean: 0.4252
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0389
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4445
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5328
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5685
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7684
+  R2_mean: 0.5685
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0366
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per CHOL dopo cluster-specific scaling...
+Peso ottimale CHOL: 1.000 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per HSPC dopo cluster-specific scaling...
+Peso ottimale HSPC: 0.320 -> R2 medio: 0.5441
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5450
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.2709
+  R2_PDI: 0.7376
+  R2_mean: 0.5043
+  MSE_SIZE: 75.9756
+  MSE_PDI: 0.0033
+  MAE_SIZE: 8.0914
+  MAE_PDI: 0.0415
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5509
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5700
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5456
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.030 -> R2 medio: 0.5491
+
+📊 Metriche finali sulle predizioni con PEG ottimizzato:
+  R2_SIZE: 0.3174
+  R2_PDI: 0.7737
+  R2_mean: 0.5456
+  MSE_SIZE: 71.1311
+  MSE_PDI: 0.0028
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0386
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento: ('TFR', 'PEG', 'ESM', 'FRR') ===
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento: ('TFR', 'PEG', 'ESM', 'FRR') ===
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento: ('TFR', 'PEG', 'ESM', 'FRR') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1942)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3003)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('TFR', 'PEG', 'ESM', 'FRR'): R2 medio = 0.3165
+
+=== Test ordinamento: ('TFR', 'PEG', 'FRR', 'ESM') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1942)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.2103)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('TFR', 'PEG', 'FRR', 'ESM'): R2 medio = 0.3165
+
+=== Test ordinamento: ('TFR', 'ESM', 'PEG', 'FRR') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1895)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3003)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('TFR', 'ESM', 'PEG', 'FRR'): R2 medio = 0.3165
+
+=== Test ordinamento: ('TFR', 'ESM', 'FRR', 'PEG') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1895)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('TFR', 'ESM', 'FRR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento: ('TFR', 'FRR', 'PEG', 'ESM') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1500)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.2067)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('TFR', 'FRR', 'PEG', 'ESM'): R2 medio = 0.3128
+
+=== Test ordinamento: ('TFR', 'FRR', 'ESM', 'PEG') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1500)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('TFR', 'FRR', 'ESM', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento: ('PEG', 'TFR', 'ESM', 'FRR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale TFR: 0.870 (R2 medio locale 0.2669)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3833)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.3833)
+📊 Risultato finale ordinamento ('PEG', 'TFR', 'ESM', 'FRR'): R2 medio = 0.3339
+
+=== Test ordinamento: ('PEG', 'TFR', 'FRR', 'ESM') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale TFR: 0.870 (R2 medio locale 0.2669)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.2669)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3833)
+📊 Risultato finale ordinamento ('PEG', 'TFR', 'FRR', 'ESM'): R2 medio = 0.3339
+
+=== Test ordinamento: ('PEG', 'ESM', 'TFR', 'FRR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('PEG', 'ESM', 'TFR', 'FRR'): R2 medio = 0.3458
+
+=== Test ordinamento: ('PEG', 'ESM', 'FRR', 'TFR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2896)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('PEG', 'ESM', 'FRR', 'TFR'): R2 medio = 0.3458
+
+=== Test ordinamento: ('PEG', 'FRR', 'TFR', 'ESM') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.1836)
+  -> Peso ottimale TFR: 0.870 (R2 medio locale 0.2669)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3833)
+📊 Risultato finale ordinamento ('PEG', 'FRR', 'TFR', 'ESM'): R2 medio = 0.3339
+
+=== Test ordinamento: ('PEG', 'FRR', 'ESM', 'TFR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.1836)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('PEG', 'FRR', 'ESM', 'TFR'): R2 medio = 0.3458
+
+=== Test ordinamento: ('ESM', 'TFR', 'PEG', 'FRR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.1895)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3003)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('ESM', 'TFR', 'PEG', 'FRR'): R2 medio = 0.3165
+
+=== Test ordinamento: ('ESM', 'TFR', 'FRR', 'PEG') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.1895)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('ESM', 'TFR', 'FRR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento: ('ESM', 'PEG', 'TFR', 'FRR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('ESM', 'PEG', 'TFR', 'FRR'): R2 medio = 0.3458
+
+=== Test ordinamento: ('ESM', 'PEG', 'FRR', 'TFR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.2896)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('ESM', 'PEG', 'FRR', 'TFR'): R2 medio = 0.3458
+
+=== Test ordinamento: ('ESM', 'FRR', 'TFR', 'PEG') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2403)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('ESM', 'FRR', 'TFR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento: ('ESM', 'FRR', 'PEG', 'TFR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2403)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.2987)
+  -> Peso ottimale TFR: 0.330 (R2 medio locale 0.3783)
+📊 Risultato finale ordinamento ('ESM', 'FRR', 'PEG', 'TFR'): R2 medio = 0.3783
+
+=== Test ordinamento: ('FRR', 'TFR', 'PEG', 'ESM') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1342)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.1500)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.2067)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('FRR', 'TFR', 'PEG', 'ESM'): R2 medio = 0.3128
+
+=== Test ordinamento: ('FRR', 'TFR', 'ESM', 'PEG') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1342)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.1500)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('FRR', 'TFR', 'ESM', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento: ('FRR', 'PEG', 'TFR', 'ESM') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1342)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1926)
+  -> Peso ottimale TFR: 0.950 (R2 medio locale 0.2540)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3704)
+📊 Risultato finale ordinamento ('FRR', 'PEG', 'TFR', 'ESM'): R2 medio = 0.3704
+
+=== Test ordinamento: ('FRR', 'PEG', 'ESM', 'TFR') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1342)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1926)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2987)
+  -> Peso ottimale TFR: 0.330 (R2 medio locale 0.3783)
+📊 Risultato finale ordinamento ('FRR', 'PEG', 'ESM', 'TFR'): R2 medio = 0.3783
+
+=== Test ordinamento: ('FRR', 'ESM', 'TFR', 'PEG') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1342)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2403)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('FRR', 'ESM', 'TFR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento: ('FRR', 'ESM', 'PEG', 'TFR') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1342)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2403)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.2987)
+  -> Peso ottimale TFR: 0.330 (R2 medio locale 0.3783)
+📊 Risultato finale ordinamento ('FRR', 'ESM', 'PEG', 'TFR'): R2 medio = 0.3783
+
+✅ Miglior ordinamento trovato: ('ESM', 'FRR', 'PEG', 'TFR')
+  R2_SIZE: 0.1957
+  R2_PDI: 0.5610
+  R2_mean: 0.3783
+  MSE_SIZE: 83.8161
+  MSE_PDI: 0.0055
+  MAE_SIZE: 6.8996
+  MAE_PDI: 0.0493
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+Polynomial Calibrated R² SIZE: 0.7914431144036131
+Quantile Calibrated R² SIZE: 0.8030930894426446
+Polynomial Calibrated R² PDI: 0.976687649287887
+Quantile Calibrated R² PDI: 0.976463107033013
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+Polynomial Calibrated R² SIZE: 0.7914431144036131
+Quantile Calibrated R² SIZE: 0.8030930894426446
+Polynomial Calibrated R² PDI: 0.976687649287887
+Quantile Calibrated R² PDI: 0.976463107033013
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+Polynomial Calibrated R² SIZE: 0.7914431144036131
+Quantile Calibrated R² SIZE: 0.8030930894426446
+Polynomial Calibrated R² PDI: 0.976687649287887
+Quantile Calibrated R² PDI: 0.976463107033013
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento 0: ('TFR', 'PEG', 'ESM', 'FRR') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1942)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3003)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('TFR', 'PEG', 'ESM', 'FRR'): R2 medio = 0.3165
+
+=== Test ordinamento 1: ('TFR', 'PEG', 'FRR', 'ESM') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1942)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.2103)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('TFR', 'PEG', 'FRR', 'ESM'): R2 medio = 0.3165
+
+=== Test ordinamento 2: ('TFR', 'ESM', 'PEG', 'FRR') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1895)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3003)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('TFR', 'ESM', 'PEG', 'FRR'): R2 medio = 0.3165
+
+=== Test ordinamento 3: ('TFR', 'ESM', 'FRR', 'PEG') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1895)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('TFR', 'ESM', 'FRR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento 4: ('TFR', 'FRR', 'PEG', 'ESM') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1500)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.2067)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('TFR', 'FRR', 'PEG', 'ESM'): R2 medio = 0.3128
+
+=== Test ordinamento 5: ('TFR', 'FRR', 'ESM', 'PEG') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.1500)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('TFR', 'FRR', 'ESM', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento 6: ('PEG', 'TFR', 'ESM', 'FRR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale TFR: 0.870 (R2 medio locale 0.2669)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3833)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.3833)
+📊 Risultato finale ordinamento ('PEG', 'TFR', 'ESM', 'FRR'): R2 medio = 0.3833
+
+=== Test ordinamento 7: ('PEG', 'TFR', 'FRR', 'ESM') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale TFR: 0.870 (R2 medio locale 0.2669)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.2669)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3833)
+📊 Risultato finale ordinamento ('PEG', 'TFR', 'FRR', 'ESM'): R2 medio = 0.3833
+
+=== Test ordinamento 8: ('PEG', 'ESM', 'TFR', 'FRR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('PEG', 'ESM', 'TFR', 'FRR'): R2 medio = 0.3952
+
+=== Test ordinamento 9: ('PEG', 'ESM', 'FRR', 'TFR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2896)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('PEG', 'ESM', 'FRR', 'TFR'): R2 medio = 0.3952
+
+=== Test ordinamento 10: ('PEG', 'FRR', 'TFR', 'ESM') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.1836)
+  -> Peso ottimale TFR: 0.870 (R2 medio locale 0.2669)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.3833)
+📊 Risultato finale ordinamento ('PEG', 'FRR', 'TFR', 'ESM'): R2 medio = 0.3833
+
+=== Test ordinamento 11: ('PEG', 'FRR', 'ESM', 'TFR') ===
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.1836)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.1836)
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('PEG', 'FRR', 'ESM', 'TFR'): R2 medio = 0.3952
+
+=== Test ordinamento 12: ('ESM', 'TFR', 'PEG', 'FRR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.1895)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3003)
+  -> Peso ottimale FRR: 0.940 (R2 medio locale 0.3165)
+📊 Risultato finale ordinamento ('ESM', 'TFR', 'PEG', 'FRR'): R2 medio = 0.3165
+
+=== Test ordinamento 13: ('ESM', 'TFR', 'FRR', 'PEG') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.1895)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('ESM', 'TFR', 'FRR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento 14: ('ESM', 'PEG', 'TFR', 'FRR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('ESM', 'PEG', 'TFR', 'FRR'): R2 medio = 0.3952
+
+=== Test ordinamento 15: ('ESM', 'PEG', 'FRR', 'TFR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale PEG: 1.800 (R2 medio locale 0.2896)
+  -> Peso ottimale FRR: 1.000 (R2 medio locale 0.2896)
+  -> Peso ottimale TFR: 0.400 (R2 medio locale 0.3952)
+📊 Risultato finale ordinamento ('ESM', 'PEG', 'FRR', 'TFR'): R2 medio = 0.3952
+
+=== Test ordinamento 16: ('ESM', 'FRR', 'TFR', 'PEG') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2403)
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.2561)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.3128)
+📊 Risultato finale ordinamento ('ESM', 'FRR', 'TFR', 'PEG'): R2 medio = 0.3128
+
+=== Test ordinamento 17: ('ESM', 'FRR', 'PEG', 'TFR') ===
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  -> Peso ottimale ESM: 0.490 (R2 medio locale 0.1693)
+  -> Peso ottimale FRR: 0.840 (R2 medio locale 0.2403)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.2987)
+  -> Peso ottimale TFR: 0.330 (R2 medio locale 0.3783)
+📊 Risultato finale ordinamento ('ESM', 'FRR', 'PEG', 'TFR'): R2 medio = 0.3783
+
+=== Test ordinamento 18: ('FRR', 'TFR', 'PEG', 'ESM') ===
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento 0: ('TFR', 'PEG', 'ESM', 'FRR') ===
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento 0: ('TFR', 'PEG', 'ESM', 'FRR') ===
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4866
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5058
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5446
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3174
+  R2_PDI: 0.7717
+  R2_mean: 0.5446
+  MSE_SIZE: 71.1311
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0393
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+
+🔄 Numero di ordinamenti da testare: 24
+
+=== Test ordinamento 0: ('TFR', 'PEG', 'ESM', 'FRR') ===
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+  -> Peso ottimale TFR: 1.160 (R2 medio locale 0.0835)
+  -> Peso ottimale PEG: 1.310 (R2 medio locale 0.1942)
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5509
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5509
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5509
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5509
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5700
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5137
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5328
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5685
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7684
+  R2_mean: 0.5685
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0366
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5137
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5494
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5685
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7684
+  R2_mean: 0.5685
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0366
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4445
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5328
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5685
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7684
+  R2_mean: 0.5685
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0366
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4445
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5058
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5446
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3174
+  R2_PDI: 0.7717
+  R2_mean: 0.5446
+  MSE_SIZE: 71.1311
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0393
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4866
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5255
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5446
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3174
+  R2_PDI: 0.7717
+  R2_mean: 0.5446
+  MSE_SIZE: 71.1311
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0393
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4252
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4866
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5058
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5446
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3174
+  R2_PDI: 0.7717
+  R2_mean: 0.5446
+  MSE_SIZE: 71.1311
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0393
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5700
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4445
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5328
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5685
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7684
+  R2_mean: 0.5685
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0366
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.160 -> R2 medio: 0.4445
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5058
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5446
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3174
+  R2_PDI: 0.7717
+  R2_mean: 0.5446
+  MSE_SIZE: 71.1311
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0393
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5456
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.030 -> R2 medio: 0.5491
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3370
+  R2_PDI: 0.7612
+  R2_mean: 0.5491
+  MSE_SIZE: 69.0943
+  MSE_PDI: 0.0030
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0420
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5264
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.030 -> R2 medio: 0.5300
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5491
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3370
+  R2_PDI: 0.7612
+  R2_mean: 0.5491
+  MSE_SIZE: 69.0943
+  MSE_PDI: 0.0030
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0420
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5264
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5456
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.030 -> R2 medio: 0.5491
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3370
+  R2_PDI: 0.7612
+  R2_mean: 0.5491
+  MSE_SIZE: 69.0943
+  MSE_PDI: 0.0030
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0420
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5003
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6464
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5003
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.200 -> R2 medio: 0.5456
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.030 -> R2 medio: 0.5491
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3370
+  R2_PDI: 0.7612
+  R2_mean: 0.5491
+  MSE_SIZE: 69.0943
+  MSE_PDI: 0.0030
+  MAE_SIZE: 7.8358
+  MAE_PDI: 0.0420
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.4854
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati (AQUEOUS esclusa):
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 1.210 -> R2 medio: 0.5152
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.5343
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.050 -> R2 medio: 0.5700
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 1.000 -> R2 medio: 0.5700
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.3686
+  R2_PDI: 0.7713
+  R2_mean: 0.5700
+  MSE_SIZE: 65.7940
+  MSE_PDI: 0.0029
+  MAE_SIZE: 7.4491
+  MAE_PDI: 0.0358
+
+-------------  START MODEL SCALARIZATION GREED SEARCH (scale factors + weights) ------------------
+Colonne numeriche su cui fare scaling: ['ESM', 'PEG', 'TFR', 'FRR']
+
+📊 Metriche dopo iterative refinement (senza scaling):
+  R2_SIZE: -0.2865
+  R2_PDI: 0.4131
+  R2_mean: 0.0633
+  MSE_SIZE: 134.0664
+  MSE_PDI: 0.0074
+  MAE_SIZE: 9.4974
+  MAE_PDI: 0.0523
+[+] Feature ESM: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+[+] Feature PEG: applicato cluster-specific scaling -> {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+[+] Feature TFR: applicato cluster-specific scaling -> {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+[+] Feature FRR: applicato cluster-specific scaling -> {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+Migliori fattori di scala trovati :
+  ESM: {'0-3': np.float64(0.01), '15-25': np.float64(0.79)}
+  PEG: {'0-3': np.float64(0.01), '3-6': np.float64(0.95)}
+  TFR: {'0-3': np.float64(1.16), '3-25': np.float64(0.1), '25-55': np.float64(0.072)}
+  FRR: {'0-5': np.float64(0.84), '5-10': np.float64(0.94)}
+
+📊 Metriche finali con greedy scaling:
+  R2_SIZE: 0.1716
+  R2_PDI: 0.6786
+  R2_mean: 0.4251
+  MSE_SIZE: 86.3301
+  MSE_PDI: 0.0040
+  MAE_SIZE: 7.7898
+  MAE_PDI: 0.0390
+
+🔹 Ottimizzazione peso globale per ESM dopo cluster-specific scaling...
+Peso ottimale ESM: 0.620 -> R2 medio: 0.4443
+
+🔹 Ottimizzazione peso globale per PEG dopo cluster-specific scaling...
+Peso ottimale PEG: 1.240 -> R2 medio: 0.5047
+
+🔹 Ottimizzazione peso globale per TFR dopo cluster-specific scaling...
+Peso ottimale TFR: 0.870 -> R2 medio: 0.5197
+
+🔹 Ottimizzazione peso globale per FRR dopo cluster-specific scaling...
+Peso ottimale FRR: 0.750 -> R2 medio: 0.6638
+
+📊 Metriche finali sulle predizioni:
+  R2_SIZE: 0.4412
+  R2_PDI: 0.8864
+  R2_mean: 0.6638
+  MSE_SIZE: 58.2359
+  MSE_PDI: 0.0014
+  MAE_SIZE: 6.8146
+  MAE_PDI: 0.0305
+Polynomial Calibrated R² SIZE: 0.7914431144036131
+Quantile Calibrated R² SIZE: 0.8030930894426446
+Polynomial Calibrated R² PDI: 0.976687649287887
+Quantile Calibrated R² PDI: 0.976463107033013

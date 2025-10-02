@@ -1,0 +1,16 @@
+Target   | Feature    | Covariates      | Permutation Importance (ML)| Sensitivity (ML)
+--------------------------------------------------------------------------------
+SIZE     | FRR        | []              | 0.059868                   | -29.155058
+SIZE     | AQUEOUS    | ['FRR']         | 0.009702                   | 44.576935 
+SIZE     | PEG        | ['AQUEOUS']     | 0.068568                   | -34.825024
+SIZE     | CHOL       | ['AQUEOUS']     | 0.657431                   | -56.440968
+SIZE     | ESM        | ['AQUEOUS']     | 0.260628                   | 14.469381 
+SIZE     | HSPC       | ['ESM']         | 0.000761                   | -0.797272 
+SIZE     | TFR        | ['AQUEOUS']     | 0.072617                   | -9.298008 
+PDI      | FRR        | []              | 0.135035                   | -0.012594 
+PDI      | AQUEOUS    | ['FRR']         | 0.014290                   | 0.034616  
+PDI      | PEG        | ['AQUEOUS']     | 0.512324                   | 0.027691  
+PDI      | CHOL       | ['PEG']         | 1.486002                   | -0.035157 
+PDI      | ESM        | ['CHOL']        | 0.168654                   | 0.008704  
+PDI      | HSPC       | ['ESM']         | 0.018011                   | -0.006543 
+PDI      | TFR        | ['AQUEOUS']     | 0.040182                   | -0.005922 
